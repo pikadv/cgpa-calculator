@@ -5,7 +5,7 @@
 body {
   font-family: "Courier New", Courier, monospace;
   margin: 0;
-  padding: 1rem 2px;
+  padding: 1rem .5rem;
 }
 
 h1 {
