@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+#form {
+  width: 600px;
+  margin: auto;
+  background-color: rgb(222, 222, 222);
+  padding: 2rem;
+  border-radius: 20px;
+  user-select: none;
+}
+
+.tap-body {
+  cursor: pointer;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 2px solid gray;
+}
+
+label:focus-within {
+  color: red;
+  border-color: red;
+}
+
+.li {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  outline: none;
+  margin-bottom: 0.2rem;
+}
+
+button {
+  display: block;
+}
+
+#calc {
+  margin: 3rem auto 1rem;
+  padding: 0.5rem 2rem;
+  font-family: inherit;
+  font-size: inherit;
+  border-color: gray;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.a-btn {
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  appearance: "";
+  -moz-appearance: textfield;
+}
