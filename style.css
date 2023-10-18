@@ -24,6 +24,8 @@ h1 {
 
 .tap-body {
   cursor: pointer;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 label {
