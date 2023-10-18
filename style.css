@@ -91,7 +91,7 @@ input[type="number"] {
 
 @media (max-width: 700px) {
   body {
-    min-width: 510px;
+    min-width: 410px;
   }
 
   input {
