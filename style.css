@@ -4,8 +4,8 @@
 
 body {
   font-family: "Courier New", Courier, monospace;
-  margin: 0;
   padding: 1rem;
+  margin: auto;
 }
 
 h1 {
@@ -14,7 +14,8 @@ h1 {
 }
 
 #form {
-  width: 600px;
+  width: 80%;
+  max-width: 600px;
   margin: auto;
   background-color: rgb(222, 222, 222);
   padding: 2rem;
@@ -30,7 +31,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  border-bottom: 2px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 label:focus-within {
@@ -84,4 +85,17 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   appearance: "";
   -moz-appearance: textfield;
+}
+
+
+
+
+@media (max-width: 700px) {
+  body {
+    min-width: 510px;
+  }
+
+  input {
+  width: 120px;
+  }
 }
