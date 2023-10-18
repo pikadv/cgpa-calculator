@@ -87,7 +87,7 @@ function showResult() {
         sum += 3.75
       } else if (grade.value == "A-" || grade.value == "a-") {
         sum += 3.5
-      } else if (grade.value == "B++" || grade.value == "b+") {
+      } else if (grade.value == "B+" || grade.value == "b+") {
         sum += 3.25
       } else if (grade.value == "B" || grade.value == "b") {
         sum += 3.0
