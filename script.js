@@ -13,9 +13,9 @@ Grade:
 `
 
 const APP_BODY = document.getElementById("app-body")
-const TAP_BODY = document.querySelector(".tap-body")
+const TAP_BODY = document.getElementById("tap-body")
 const FORM = document.getElementById("form")
-const RESULT = document.querySelector(".result")
+const RESULT = document.getElementById("result")
 const CALC_BTN = document.getElementById("calc-btn")
 
 subjectCount()

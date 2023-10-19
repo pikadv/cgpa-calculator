@@ -54,7 +54,7 @@ h1 {
   user-select: none;
 }
 
-.tap-body {
+#tap-body {
   cursor: pointer;
   padding: .5rem;
   color: var(--accent-color-two);
@@ -68,35 +68,20 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-
-button {
+.calc-btn {
   display: block;
-}
-
-#calc-btn {
   margin: 3rem auto 1rem;
   padding: 0.5rem 2rem;
   font-family: inherit;
   font-size: inherit;
   border-color: gray;
   border-radius: 25px;
+}
+
+.a-btn, .calc-btn {
   cursor: pointer;
 }
 
 .hidden {
   display: none;
-}
-
-.a-btn {
-  cursor: pointer;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-input[type="number"] {
-  appearance: "";
-  -moz-appearance: textfield;
 }
