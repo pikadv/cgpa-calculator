@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+.green {
+  color: var(--accent-color-two);
+}
+
+.red {
+  color: var(--accent-color);
+}
+
 body {
   min-width: 350px;
   font-family: "Courier New", Courier, monospace;
@@ -71,7 +79,6 @@ h1 {
   gap: 1rem;
   justify-content: space-around;
   align-items: flex-end;
-  margin-bottom: 1.5rem;
 }
 
 .calc-btn {
@@ -91,4 +98,22 @@ h1 {
 
 .hidden {
   display: none;
+}
+
+#result {
+  max-width: 100%;
+  font-size: .9rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+  width: fit-content;
+  margin: auto;
+  padding: .5rem;
+  margin-bottom: .5rem ;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#app-body {
+  display: grid;
+  gap: 1rem;
 }

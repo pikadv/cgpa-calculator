@@ -31,6 +31,10 @@ FORM.addEventListener("submit", (e) => {
   showResult()
 })
 
+RESULT.addEventListener("click", () => {
+  RESULT.classList.add("hidden")
+})
+
 // Functions ----------------------------------------------
 function hideBtn() {
   if (APP_BODY.children.length == 2) {
@@ -67,20 +71,26 @@ function showResult() {
   const grades = APP_BODY.querySelectorAll(".subj-grade")
 
   let sum = 0
+  let errSum = ""
   getGrade()
+  getGradeErr()
   let gpa = 0
   gpa = (sum / grades.length).toFixed(2)
 
-  if (isNaN(gpa) || gpa > 4) {
-    RESULT.textContent = "Please add your grades properly"
+  if (isNaN(gpa)) {
+    RESULT.textContent = `Can't compute with ${errSum}`
+    removeSuccessColor()
+  } else if (gpa > 4) {
+    RESULT.textContent = "GPA cant be over 4.00"
+    removeSuccessColor()
   } else {
     RESULT.textContent = `Your CGPA: ${gpa}`
+    addSuccessColor()
   }
   RESULT.classList.remove("hidden")
 
   function getGrade() {
     grades.forEach((grade) => {
-      console.log(grade.value)
       if (grade.value == "A+" || grade.value == "a+") return (sum += 4.0)
       if (grade.value == "A" || grade.value == "a") return (sum += 3.75)
       if (grade.value == "A-" || grade.value == "a-") return (sum += 3.5)
@@ -94,4 +104,26 @@ function showResult() {
       return (sum += parseFloat(grade.value))
     })
   }
+
+  function getGradeErr() {
+    grades.forEach((errGrade) => {
+      if (errGrade.value == "") return (errSum = "empty slots")
+      if (isNaN(sum)) return (errSum += " - " + errGrade.value)
+    })
+  }
+
+  function addSuccessColor() {
+    RESULT.classList.add("green")
+    RESULT.classList.remove("red")
+  }
+
+  function removeSuccessColor() {
+    RESULT.classList.add("red")
+    RESULT.classList.remove("green")
+  }
+
+  function showClass() {
+    
+  }
+
 }
