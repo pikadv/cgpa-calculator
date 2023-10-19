@@ -1,11 +1,19 @@
+
+:root {
+  --background-color: rgb(222, 222, 222);
+  --accent-color: red;
+  --accent-color-two: rgb(0, 132, 0);
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  min-width: 350px;
   font-family: "Courier New", Courier, monospace;
-  margin: 0;
   padding: 1rem .5rem;
+  margin: 0;
 }
 
 h1 {
@@ -13,10 +21,34 @@ h1 {
   font-size: 1.5rem;
 }
 
+.subj-input, .subj-grade {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+
+.subj-label {
+  --accent-color: gray;
+
+  color: var(--accent-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.subj-label:focus-within {
+  --accent-color: revert;
+}
+
 #form {
   max-width: 600px;
   margin: auto;
-  background-color: rgb(222, 222, 222);
+  background-color: var(--background-color);
   padding: 2rem;
   border-radius: 20px;
   user-select: none;
@@ -24,43 +56,24 @@ h1 {
 
 .tap-body {
   cursor: pointer;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding: .5rem;
+  color: var(--accent-color-two);
 }
 
-label {
+.list {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  border-bottom: 1px solid gray;
-}
-
-label:focus-within {
-  color: red;
-  border-color: red;
-}
-
-.li {
-  display: flex;
+  gap: 1rem;
   justify-content: space-around;
   align-items: flex-end;
   margin-bottom: 1.5rem;
 }
 
-input {
-  border: none;
-  background-color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  outline: none;
-  margin-bottom: 0.2rem;
-}
 
 button {
   display: block;
 }
 
-#calc {
+#calc-btn {
   margin: 3rem auto 1rem;
   padding: 0.5rem 2rem;
   font-family: inherit;
@@ -86,17 +99,4 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   appearance: "";
   -moz-appearance: textfield;
-}
-
-
-
-
-@media (max-width: 700px) {
-  body {
-    min-width: 410px;
-  }
-
-  input {
-  width: 120px;
-  }
 }
