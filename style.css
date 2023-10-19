@@ -104,6 +104,8 @@ h1 {
   max-width: 100%;
   font-size: .9rem;
   border: 1px solid gray;
+  border-top: none;
+  border-bottom: none;
   border-radius: 20px;
   width: fit-content;
   margin: auto;
