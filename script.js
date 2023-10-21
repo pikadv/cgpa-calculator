@@ -72,22 +72,25 @@ function showResult() {
 
   let sum = 0
   let errSum = ""
+  let overFive = false
+  let failed = false
   getGrade()
   getGradeErr()
   let gpa = 0
   gpa = (sum / grades.length).toFixed(2)
 
+  RESULT.classList.remove("hidden")
+
   if (isNaN(gpa)) {
     RESULT.textContent = `Can't compute with ${errSum}`
     removeSuccessColor()
-  } else if (gpa > 4) {
-    RESULT.textContent = "GPA cant be over 4.00"
+  } else if (overFive) {
+    RESULT.textContent = `How are you getting GPA over 4 in nubd breh?`
     removeSuccessColor()
   } else {
     RESULT.textContent = `Your CGPA: ${gpa}`
     addSuccessColor()
   }
-  RESULT.classList.remove("hidden")
 
   function getGrade() {
     grades.forEach((grade) => {
@@ -101,6 +104,7 @@ function showResult() {
       if (grade.value == "C" || grade.value == "c") return (sum += 2.25)
       if (grade.value == "D" || grade.value == "d") return (sum += 2.0)
       if (grade.value == "F" || grade.value == "f") return (sum += 0.0)
+      if (parseFloat(grade.value) > 4) return (overFive = true)
       return (sum += parseFloat(grade.value))
     })
   }
@@ -121,9 +125,4 @@ function showResult() {
     RESULT.classList.add("red")
     RESULT.classList.remove("green")
   }
-
-  function showClass() {
-    
-  }
-
 }
