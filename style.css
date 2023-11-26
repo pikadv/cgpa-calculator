@@ -10,6 +10,12 @@
 body {
   background-color: var(--header-body-color);
   user-select: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 /* main layout container */
