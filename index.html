@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CGPA Calculator</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
-</head>
-<body>
-  <form id="form">
-    <h1>CGPA Calculator (nubd)</h1>
-    <div id="app-body">
-      <div id="tap-body" class="list">Tap here to add new subjects & grades :)</div>
-      <div id="result" class="list hidden"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="cgpa-calculator">
+      <header id="header-container">
+        <h1 id="title">CGPA Calculator</h1>
+        <h2 id="sub-title">Made for National University of Bangladesh.</h2>
+      </header>
+      <main id="main-container">
+        <form data-form id="form-container">
+          <section id="add-subject-buttons">
+            <a data-add-one href="#" class="btn">Add +1 Subject</a>
+            <a data-add-five href="#" class="btn">Add +5 Subjects</a>
+          </section>
+          <section data-subjects-container id="subjects-container"></section>
+          <section id="result-container">
+            <label class="result-container-sub" for="result">
+              Result
+              <p data-calculated-result id="result">Not Calculated yet</p>
+            </label>
+            <label class="grade-container" for="grade">
+              Calculated CGPA
+              <p data-calculated-grade id="grade">🤔</p>
+            </label>
+          </section>
+          <button data-calculate-button class="hidden" id="calculate">
+            Calculate
+          </button>
+        </form>
+      </main>
     </div>
-    <button class="calc-btn" id="calc-btn" type="submit">Calculate</button>
-  </form>
-</body>
+
+    <template id="subject-template">
+      <div data-subject class="subject">
+        <label class="subject-name-container" for="subject-name">
+          Subject Name
+          <input
+            data-subject-name
+            id="subject-name"
+            type="text"
+            placeholder="" />
+        </label>
+        <label class="subject-grade-container" for="subject-grade">
+          Grade
+          <input
+            data-subject-grade
+            maxlength="2"
+            id="subject-grade"
+            type="text"
+            placeholder="-----"
+            max="5"
+            required />
+        </label>
+        <div data-delete-button class="dlt-btn">❌</div>
+      </div>
+    </template>
+  </body>
 </html>

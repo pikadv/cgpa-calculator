@@ -1,128 +1,110 @@
-let innerList = `
-<label class="subj-label">
-Subject Name:
-<input class="subj-input" type="text" value="Subject " name="SubjectName">
-</label>
+// template from dom
+const subjectTemplate = document.getElementById("subject-template")
 
-<label class="subj-label">
-Grade:
-<input class="subj-grade" placeholder="Your grade" type="text" name="Grade">
-</label>
+// dom grabs
+const subjectsContainer = document.querySelector("[data-subjects-container]")
+const calculatedGrade = document.querySelector("[data-calculated-grade]")
+const calculatedResult = document.querySelector("[data-calculated-result]")
+const dataForm = document.querySelector("[data-form]")
 
-<a src="#" class="a-btn">❌</a>
-`
+// buttons
+const addOne = document.querySelector("[data-add-one]")
+const addFive = document.querySelector("[data-add-five]")
+const calculateButton = document.querySelector("[data-calculate-button]")
 
-const APP_BODY = document.getElementById("app-body")
-const TAP_BODY = document.getElementById("tap-body")
-const FORM = document.getElementById("form")
-const RESULT = document.getElementById("result")
-const CALC_BTN = document.getElementById("calc-btn")
-
-subjectCount()
-
-// EventListeners ----------------------------------------
-TAP_BODY.addEventListener("click", () => {
-  clickToAdd()
-  subjectCount()
+addEventListener("click", () => {
+  const totalSubjects = document.querySelectorAll("[data-subject]")
+  if (totalSubjects.length < 1) {
+    calculateButton.classList.add("hidden")
+  } else {
+    calculateButton.classList.remove("hidden")
+  }
 })
 
-FORM.addEventListener("submit", (e) => {
+addOne.addEventListener("click", (e) => {
   e.preventDefault()
-  showResult()
+  addSubjects(1)
 })
 
-RESULT.addEventListener("click", () => {
-  RESULT.classList.add("hidden")
+addFive.addEventListener("click", (e) => {
+  e.preventDefault()
+  addSubjects(5)
 })
 
-// Functions ----------------------------------------------
-function hideBtn() {
-  if (APP_BODY.children.length == 2) {
-    CALC_BTN.classList.add("hidden")
-    RESULT.classList.add("hidden")
-  } else {
-    CALC_BTN.classList.remove("hidden")
+function addSubjects(subjectNumber) {
+  for (i = 0; i < subjectNumber; i++) {
+    const subjectItem = subjectTemplate.content.cloneNode(true)
+    const subject = subjectItem.querySelector("[data-subject]")
+    const subjectName = subjectItem.querySelector("[data-subject-name]")
+    const deleteButton = subjectItem.querySelector("[data-delete-button]")
+    subjectName.placeholder = `Subject ${subjectsContainer.children.length + 1}`
+    subjectsContainer.appendChild(subject)
+    deleteButton.addEventListener("click", () => {
+      subject.remove()
+    })
   }
 }
 
-function subjectCount() {
-  newCount = APP_BODY.childElementCount
-  count = newCount - 2
-  hideBtn()
-}
+dataForm.addEventListener("submit", (e) => {
+  e.preventDefault()
+  const subjectGrades = document.querySelectorAll("[data-subject-grade]")
 
-function clickToAdd() {
-  const newList = document.createElement("div")
-  newList.classList.add("list")
-  newList.innerHTML = innerList
-  APP_BODY.appendChild(newList)
-
-  count++
-  newList.querySelector(".subj-input").value += count
-
-  newList.querySelector(".a-btn").addEventListener("click", (e) => {
-    e.preventDefault
-    newList.remove()
-    subjectCount()
-  })
-}
-
-function showResult() {
-  const grades = APP_BODY.querySelectorAll(".subj-grade")
-
-  let sum = 0
-  let errSum = ""
+  let totalGrade = 0
+  let result = ""
+  let passed = true
   let overFive = false
-  let failed = false
+
   getGrade()
-  getGradeErr()
-  let gpa = 0
-  gpa = (sum / grades.length).toFixed(2)
+  let CGPA = totalGrade / subjectGrades.length
+  if (isNaN(CGPA)) return
 
-  RESULT.classList.remove("hidden")
-
-  if (isNaN(gpa)) {
-    RESULT.textContent = `Can't compute with ${errSum}`
-    removeSuccessColor()
-  } else if (overFive) {
-    RESULT.textContent = `How are you getting GPA over 4 in nubd breh?`
-    removeSuccessColor()
-  } else {
-    RESULT.textContent = `Your CGPA: ${gpa}`
-    addSuccessColor()
-  }
+  calculatedGrade.textContent = CGPA
+  getResult()
+  calculatedResult.textContent = result
 
   function getGrade() {
-    grades.forEach((grade) => {
-      if (grade.value == "A+" || grade.value == "a+") return (sum += 4.0)
-      if (grade.value == "A" || grade.value == "a") return (sum += 3.75)
-      if (grade.value == "A-" || grade.value == "a-") return (sum += 3.5)
-      if (grade.value == "B+" || grade.value == "b+") return (sum += 3.25)
-      if (grade.value == "B" || grade.value == "b") return (sum += 3.0)
-      if (grade.value == "B-" || grade.value == "b-") return (sum += 2.75)
-      if (grade.value == "C+" || grade.value == "c+") return (sum += 2.5)
-      if (grade.value == "C" || grade.value == "c") return (sum += 2.25)
-      if (grade.value == "D" || grade.value == "d") return (sum += 2.0)
-      if (grade.value == "F" || grade.value == "f") return (sum += 0.0)
-      if (parseFloat(grade.value) > 4) return (overFive = true)
-      return (sum += parseFloat(grade.value))
+    subjectGrades.forEach((grade) => {
+      if (grade.value == "A+" || grade.value == "a+") {
+        totalGrade += 4.0
+      } else if (grade.value == "A" || grade.value == "a") {
+        totalGrade += 3.75
+      } else if (grade.value == "A-" || grade.value == "a-") {
+        totalGrade += 3.5
+      } else if (grade.value == "B+" || grade.value == "b+") {
+        totalGrade += 3.25
+      } else if (grade.value == "B" || grade.value == "b") {
+        totalGrade += 3.0
+      } else if (grade.value == "B-" || grade.value == "b-") {
+        totalGrade += 2.75
+      } else if (grade.value == "C+" || grade.value == "c+") {
+        totalGrade += 2.5
+      } else if (grade.value == "C" || grade.value == "c") {
+        totalGrade += 2.25
+      } else if (grade.value == "D" || grade.value == "d") {
+        totalGrade += 2.0
+      } else if (grade.value == "F" || grade.value == "f") {
+        totalGrade += 0.0
+        passed = false
+      } else if (grade.value > 4) {
+        overFive = true
+      } else {
+        totalGrade += parseFloat(grade.value)
+      }
     })
   }
 
-  function getGradeErr() {
-    grades.forEach((errGrade) => {
-      if (errGrade.value == "") return (errSum = "empty slots")
-      if (isNaN(sum)) return (errSum += " - " + errGrade.value)
-    })
-  }
+  function getResult() {
+    if (overFive)
+      return (result = `How are you getting GPA over 5 in National University breh?`)
 
-  function addSuccessColor() {
-    RESULT.classList.add("green")
-    RESULT.classList.remove("red")
+    if (CGPA >= 3.0 && passed) {
+      result = "Wooohoo!! 1st Class!!"
+    } else if (CGPA >= 2.25 && passed) {
+      result = "You passed! 2nd Class!"
+    } else if (CGPA >= 2.0 && passed) {
+      result = "You did it! You passed with 3rd Class."
+    } else {
+      result = "Sorry :( you Failed."
+    }
   }
-
-  function removeSuccessColor() {
-    RESULT.classList.add("red")
-    RESULT.classList.remove("green")
-  }
-}
+})
