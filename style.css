@@ -14,7 +14,6 @@ body {
 
 /* main layout container */
 #cgpa-calculator {
-  --header-body-color: var(--header-body-color);
   --body-color: #fff;
   --main-text-color: #918e9b;
   --header-text-color: #2b283a;
