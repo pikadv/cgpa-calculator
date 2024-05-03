@@ -58,8 +58,13 @@ dataForm.addEventListener("submit", (e) => {
   let CGPA = totalGrade / subjectGrades.length
   if (isNaN(CGPA)) return
 
-  calculatedGrade.textContent = CGPA.toFixed(2)
+  if (CGPA > 5) {
+    calculatedGrade.textContent = Not Possible
+  } else {
+    calculatedGrade.textContent = CGPA.toFixed(2)
   getResult()
+  }
+  
   calculatedResult.textContent = result
 
   function getGrade() {
