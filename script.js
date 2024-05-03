@@ -52,17 +52,17 @@ dataForm.addEventListener("submit", (e) => {
   let totalGrade = 0
   let result = ""
   let passed = true
-  let overFive = false
+  let overFour = false
 
   getGrade()
   let CGPA = totalGrade / subjectGrades.length
   if (isNaN(CGPA)) return
 
-  if (CGPA > 5) {
+  getResult()
+  if (overFour) {
     calculatedGrade.textContent = Not Possible
   } else {
     calculatedGrade.textContent = CGPA.toFixed(2)
-  getResult()
   }
   
   calculatedResult.textContent = result
@@ -91,7 +91,7 @@ dataForm.addEventListener("submit", (e) => {
         totalGrade += 0.0
         passed = false
       } else if (grade.value > 4) {
-        overFive = true
+        overFour = true
       } else {
         totalGrade += parseFloat(grade.value)
       }
@@ -99,8 +99,8 @@ dataForm.addEventListener("submit", (e) => {
   }
 
   function getResult() {
-    if (overFive)
-      return (result = `How are you getting GPA over 5 in National University breh?`)
+    if (overFour)
+      return (result = `How are you getting GPA over 4 in National University breh?`)
 
     if (CGPA >= 3.0 && passed) {
       result = "Wooohoo!! 1st Class!!"
