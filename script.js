@@ -60,7 +60,7 @@ dataForm.addEventListener("submit", (e) => {
 
   getResult()
   if (overFour) {
-    calculatedGrade.textContent = "Not Possible"
+    calculatedGrade.textContent = "eh?"
   } else {
     calculatedGrade.textContent = CGPA.toFixed(2)
   }
