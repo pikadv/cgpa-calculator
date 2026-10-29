@@ -108,7 +108,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   .delete-button { width: 26px; }
 }
   
-.selection-grid { display:grid; grid-template-columns:minmax(0, 1.4fr) repeat(3, minmax(125px, 1fr)); gap:12px; margin-top:18px; }
+.selection-grid { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:12px; margin-top:18px; }
 .selection-grid input, .selection-grid select { width:100%; border:1px solid #d8e2de; background:#fff; color:var(--ink); border-radius:9px; padding:11px 10px; outline:none; }
 .selection-grid input:focus, .selection-grid select:focus { border-color:var(--green); box-shadow:0 0 0 3px rgba(23,107,85,.12); }
 .selection-status { font-size:12px; color:var(--muted); margin:10px 0 0 !important; }
@@ -144,18 +144,12 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
           <datalist id="department-options"></datalist>
         </div>
         <div>
-          <label class="field-label" for="syllabus-version">Syllabus version</label>
-          <select id="syllabus-version">
-            <option value="2024-2025">2024–2025 (new)</option>
-            <option value="2013-2014">2013–2014 (older)</option>
-            <option value="2025-2026-degree">2025–2026 (Degree Pass)</option>
-          </select>
+          <label class="field-label" for="academic-year">Academic year</label>
+          <select id="academic-year"></select>
         </div>
         <div>
-          <label class="field-label" for="academic-year">Academic year</label>
-          <select id="academic-year">
-            <option value="1">1st Year</option><option value="2">2nd Year</option><option value="3">3rd Year</option><option value="4">4th Year</option>
-          </select>
+          <label class="field-label" for="syllabus-version">Syllabus version</label>
+          <select id="syllabus-version"></select>
         </div>
       </div>
       <p id="selection-status" class="selection-status" aria-live="polite">Choose a department and year to load the available subject list below. You can still add or edit courses manually.</p>
@@ -262,25 +256,39 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   const qualityPointsOutput = document.getElementById("quality-points");
   const courseCountOutput = document.getElementById("course-count");
 
-  // Department names are searchable suggestions. Only course lists with a verified
-  // syllabus dataset are auto-loaded; never fabricate a course list for a programme.
-  const departments = [
-    "Accounting","Accounting and Information Systems","Bangla","Bengali","Biochemistry and Molecular Biology",
-    "Botany","Chemistry","Computer Science and Engineering","Economics","English","Finance and Banking",
-    "Geography and Environment","Geography and Environmental Studies","History","Islamic History and Culture",
-    "Islamic Studies","Management","Marketing","Mathematics","Philosophy","Physics","Political Science",
-    "Psychology","Public Administration","Sociology","Social Work","Statistics","Zoology",
-    "BBA","Business Administration","Degree Pass","Honours","LLB","Tourism and Hospitality Management"
-  ];
-  departments.forEach(name => {
-    const option = document.createElement("option");
-    option.value = name;
-    departmentOptions.appendChild(option);
-  });
+  function fillSelect(select, options) {
+    select.replaceChildren();
+    options.forEach(item => {
+      const option = document.createElement("option");
+      option.value = String(item.value);
+      option.textContent = item.label;
+      select.appendChild(option);
+    });
+  }
+
+  function configureProgrammeOptions() {
+    const config = catalogue.programmes && catalogue.programmes[programmeSelect.value];
+    if (!config) return;
+    departments = config.departments || [];
+    departmentOptions.replaceChildren();
+    departments.forEach(name => {
+      const option = document.createElement("option");
+      option.value = name;
+      departmentOptions.appendChild(option);
+    });
+    fillSelect(yearSelect, config.yearOptions || []);
+    fillSelect(syllabusSelect, config.syllabusVersions || []);
+    departmentInput.value = "";
+    courses.replaceChildren();
+    resetResults();
+    selectionStatus.textContent = `Choose a department for ${config.label}, then select the syllabus version. Only available course lists will auto-load; other departments remain available for manual entry.`;
+  }
 
   // The course catalogue lives in syllabus.json so it can be updated without editing the UI.
   // The JSON is loaded once from the same GitHub Pages origin.
   let syllabus = {};
+  let catalogue = {};
+  let departments = [];
   let syllabusLoadError = false;
   const syllabusReady = fetch("./syllabus.json", { cache: "no-cache" })
     .then(response => {
@@ -288,7 +296,9 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
       return response.json();
     })
     .then(data => {
+      catalogue = data;
       syllabus = data.syllabuses || {};
+      configureProgrammeOptions();
       return true;
     })
     .catch(err => {
@@ -342,12 +352,13 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     const year = yearSelect.value;
     const version = syllabusSelect.value;
     const programme = programmeSelect.value;
-    const programmeLabel = programmeSelect.options[programmeSelect.selectedIndex].text;
-    const versionLabel = syllabusSelect.options[syllabusSelect.selectedIndex].text;
+    const programmeConfig = catalogue.programmes && catalogue.programmes[programme];
+    const programmeLabel = programmeConfig ? programmeConfig.label : programme;
+    const versionLabel = syllabusSelect.options[syllabusSelect.selectedIndex]?.text || version;
     courses.replaceChildren();
     resetResults();
     if (!department) {
-      selectionStatus.textContent = "Choose a programme, department, syllabus version, and academic year to load an available subject list. You can also add courses manually.";
+      selectionStatus.textContent = `Choose a department for ${programmeLabel}, then choose the academic year and syllabus version.`;
       return;
     }
     selectionStatus.textContent = "Loading the syllabus catalogue…";
@@ -357,50 +368,30 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
       return;
     }
     const normalizedDepartment = department.toLowerCase().replace(/\\s+/g, " ").trim();
-    const key = version + "|" + normalizedDepartment + "|" + year;
-    const programmeKey = version + "|" + programme + "|" + normalizedDepartment + "|" + year;
-    const entry = syllabus[programmeKey] || syllabus[key];
+    const key = programme + "|" + version + "|" + normalizedDepartment + "|" + year;
+    const entry = syllabus[key];
     const list = entry && entry.courses;
     if (Array.isArray(list) && list.length) {
       list.forEach(course => addCourse(course));
-      selectionStatus.textContent = `Loaded ${list.length} courses for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. Verify elective choices against your official syllabus.`;
+      selectionStatus.textContent = `Loaded ${list.length} courses for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. Verification: ${entry.verified ? "verified" : "not verified"}; check electives against the official document.`;
     } else {
-      selectionStatus.textContent = `No verified course list is connected for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text} yet. Add subjects manually below. Unknown course lists are not fabricated.`;
+      selectionStatus.textContent = `Department listed for ${programmeLabel}, but no course list has been extracted for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Add subjects manually; no courses or credits have been invented.`;
     }
   }
 
-  // Datalist choices and typed department names both trigger the loader.
+  // Selector order: programme -> department -> academic year -> syllabus version -> subjects.
+  programmeSelect.addEventListener("change", configureProgrammeOptions);
   departmentInput.addEventListener("change", loadSelectedSyllabus);
   departmentInput.addEventListener("input", () => {
     const normalized = departmentInput.value.trim().toLowerCase();
-    const match = departments.some(name => name.toLowerCase() === normalized);
-    if (match) loadSelectedSyllabus();
+    if (departments.some(name => name.toLowerCase() === normalized)) loadSelectedSyllabus();
   });
   departmentInput.addEventListener("keydown", event => {
     if (event.key === "Enter") { event.preventDefault(); loadSelectedSyllabus(); }
   });
   yearSelect.addEventListener("change", loadSelectedSyllabus);
   syllabusSelect.addEventListener("change", loadSelectedSyllabus);
-  programmeSelect.addEventListener("change", () => {
-    // Pass and Masters programmes do not use Honours year labels.
-    const yearOptions = programmeSelect.value === "pass"
-      ? [["1", "1st Year"], ["2", "2nd Year"], ["3", "3rd Year"]]
-      : programmeSelect.value === "masters-preliminary"
-        ? [["1", "Preliminary"], ["2", "Preliminary (if applicable)"]]
-        : programmeSelect.value === "masters-final"
-          ? [["1", "Final Year"]]
-          : [["1", "1st Year"], ["2", "2nd Year"], ["3", "3rd Year"], ["4", "4th Year"]];
-    const previousYear = yearSelect.value;
-    yearSelect.replaceChildren();
-    yearOptions.forEach(([value, label]) => {
-      const option = document.createElement("option");
-      option.value = value;
-      option.textContent = label;
-      yearSelect.appendChild(option);
-    });
-    if (yearOptions.some(([value]) => value === previousYear)) yearSelect.value = previousYear;
-    loadSelectedSyllabus();
-  });
+
   addOne.addEventListener("click", () => addCourse());
   reset.addEventListener("click", () => {
     courses.replaceChildren(); resetResults(); clearError();
@@ -439,8 +430,8 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
       : "Your estimated GPA / CGPA is shown above. Check your programme's pass and improvement rules.";
   });
 
-  // Start with an empty course list. Courses appear only after syllabus selection
-  // or when the user explicitly presses “Add course”.
+  // Start with no course rows. The JSON catalogue configures year/version choices
+  // for the default programme when it finishes loading.
 })();
 </script>
 </body>
