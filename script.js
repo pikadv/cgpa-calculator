@@ -64,11 +64,21 @@
   let catalogue = {};
   let departments = [];
   let syllabusLoadError = false;
-  const syllabusReady = fetch("./syllabus.json", { cache: "no-cache" })
-    .then(response => {
-      if (!response.ok) throw new Error("HTTP " + response.status);
-      return response.json();
-    })
+  const loadSyllabusCatalogue = async () => {
+    let lastError;
+    // Try the page-relative path first, then the site-root path for custom-domain deployments.
+    for (const path of ["./syllabus.json", "/syllabus.json"]) {
+      try {
+        const response = await fetch(path, { cache: "no-cache" });
+        if (!response.ok) throw new Error("HTTP " + response.status + " for " + path);
+        return await response.json();
+      } catch (err) {
+        lastError = err;
+      }
+    }
+    throw lastError || new Error("Unable to fetch syllabus.json");
+  };
+  const syllabusReady = loadSyllabusCatalogue()
     .then(data => {
       catalogue = data;
       syllabus = data.syllabuses || {};
