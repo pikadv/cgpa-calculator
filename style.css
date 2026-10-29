@@ -108,6 +108,6 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
 
 .add-course-actions { display: flex; justify-content: flex-start; margin-top: 12px; }
 
-/* Add clear separation between the result cards and grading scale. */
-.results-grid { margin-bottom: 18px; }
-.grading { margin-top: 18px; }
+/* Keep a visible gap between the result cards and the grading scale on all screen sizes. */
+.results-grid { margin-bottom: 24px; }
+.grading { margin-top: 0; }
