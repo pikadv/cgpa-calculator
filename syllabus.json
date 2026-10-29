@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-29",
+  "description": "NU Bangladesh syllabus catalogue. Entries are keyed as syllabusVersion|normalized department|academic year. Only entries with a source and reviewed course rows should be treated as verified.",
+  "syllabuses": {
+    "2024-2025|english|1": {
+      "syllabusVersion": "2024-2025",
+      "programme": "Honours",
+      "department": "English",
+      "year": 1,
+      "sourceLabel": "NU official English Honours 1st Year syllabus PDF",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BA_Honours/English_First_Year_Pub_Date_12112025.pdf",
+      "verified": true,
+      "verificationNote": "Course codes, names, and credit values transcribed from the official syllabus listing; check elective choice against the PDF.",
+      "courses": [
+        {
+          "code": "211101",
+          "name": "English Reading Skills",
+          "credits": 4
+        },
+        {
+          "code": "211103",
+          "name": "English Writing Skills",
+          "credits": 4
+        },
+        {
+          "code": "211105",
+          "name": "Introduction to Poetry",
+          "credits": 4
+        },
+        {
+          "code": "211107",
+          "name": "Introduction to Prose: Fiction and Non-Fiction",
+          "credits": 4
+        },
+        {
+          "code": "211009",
+          "name": "Optional course (choose the course code/title listed on your syllabus)",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "status": "partial",
+    "note": "This initial catalogue is not yet a complete scrape of all NU syllabus documents. Add only course lists extracted from source documents and checked for accuracy."
+  }
+}
