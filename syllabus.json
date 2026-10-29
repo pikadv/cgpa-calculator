@@ -92,38 +92,38 @@
           "History",
           "Islamic History and Culture",
           "Islamic Studies",
-          "Music",
-          "Pali",
+          "Library and Information Science",
           "Philosophy",
           "Sanskrit"
         ],
         "Science": [
-          "Biochemistry and Molecular Biology",
-          "Botany",
-          "Chemistry",
-          "Computer Science and Engineering",
-          "Mathematics",
+          "Zoology",
           "Physics",
+          "Botany",
+          "Biochemistry and Molecular Biology",
+          "Chemistry",
+          "Environment Science",
+          "Geography and Environment",
+          "Home Economics",
+          "Mathematics",
+          "Soil Science",
           "Statistics",
-          "Zoology"
+          "Psychology"
         ],
         "Social Science": [
           "Anthropology",
           "Economics",
+          "Sociology",
           "Political Science",
-          "Psychology",
+          "Social Work"
+        ],
+        "Life & Earth Science": [],
+        "Library & Information Science": [],
+        "Other / Interdisciplinary": [
+          "Computer Science and Engineering",
           "Public Administration",
-          "Social Work",
-          "Sociology"
-        ],
-        "Life & Earth Science": [
-          "Geography and Environment",
-          "Home Economics",
-          "Soil Science",
-          "Environment Science"
-        ],
-        "Library & Information Science": [
-          "Library and Information Science"
+          "Music",
+          "Pali"
         ]
       }
     },
