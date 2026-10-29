@@ -246,14 +246,20 @@
     );
     if (artsDepartments.includes(normalizedDepartment)) {
       const sharedCourseKeys = {
-        "2013-2014|2": "pass|2013-2014|english (compulsory)|2",
-        "2013-2014|3": "pass|2013-2014|bangla national language (compulsory)|3",
-        "2025-2026-degree|1": "pass|2025-2026-degree|english (compulsory)|1"
+        "2013-2014|1": [
+          "pass|2013-2014|english (compulsory)|2",
+          "pass|2013-2014|bangla national language (compulsory)|3"
+        ],
+        "2025-2026-degree|1": [
+          "pass|2025-2026-degree|english (compulsory)|1"
+        ]
       };
-      const sharedEntry = syllabus[sharedCourseKeys[`${version}|${year}`]];
-      if (sharedEntry && Array.isArray(sharedEntry.courses)) {
-        list = list.concat(sharedEntry.courses);
-      }
+      (sharedCourseKeys[`${version}|${year}`] || []).forEach(sharedKey => {
+        const sharedEntry = syllabus[sharedKey];
+        if (sharedEntry && Array.isArray(sharedEntry.courses)) {
+          list = list.concat(sharedEntry.courses);
+        }
+      });
     }
     if (list.length) {
       list.forEach(course => addCourse(course));
