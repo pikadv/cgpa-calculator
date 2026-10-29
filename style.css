@@ -107,3 +107,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
 @media (max-width:520px) { .selection-grid { grid-template-columns:1fr; } }
 
 .add-course-actions { display: flex; justify-content: flex-start; margin-top: 12px; }
+
+/* Add clear separation between the result cards and grading scale. */
+.results-grid { margin-bottom: 18px; }
+.grading { margin-top: 18px; }
