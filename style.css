@@ -144,4 +144,5 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
 .semester-panel .section-heading { margin-bottom: 14px; }
 .semester-description { margin: 4px 0 0; }
 .add-semester-actions { display: flex; justify-content: center; margin-top: 16px; }
-.remove-semester { flex-shrink: 0; }
+.remove-semester { flex-shrink: 0; color: var(--danger); background: #fff0ee; }
+.remove-semester:hover { color: #8f1d14; background: #ffe0dc; }
