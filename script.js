@@ -148,7 +148,7 @@
     const list = entry && entry.courses;
     if (Array.isArray(list) && list.length) {
       list.forEach(course => addCourse(course));
-      selectionStatus.textContent = `Loaded ${list.length} courses for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. Verification: ${entry.verified ? "verified" : "not verified"}; check electives against the official document.`;
+      selectionStatus.textContent = `Loaded ${list.length} course entries for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. ${entry.verificationNote || "Check the official syllabus before calculating."}`;
     } else {
       selectionStatus.textContent = `Department listed for ${programmeLabel}, but no course list has been extracted for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Add subjects manually; no courses or credits have been invented.`;
     }
