@@ -228,7 +228,7 @@
 
   function clearError() { error.hidden = true; error.textContent = ""; }
   function resetResults() {
-    grade.textContent = "—";
+    grade.textContent = "-";
     result.textContent = "Add your course grades to get started.";
     totalCreditsOutput.textContent = "0";
     courseCountOutput.textContent = "0";
@@ -257,7 +257,7 @@
       gradeSelect.setAttribute("aria-label", "Non-credit course, not included in GPA");
     }
     if (course.code) {
-      name.value = course.code + " — " + displayName;
+      name.value = course.code + " - " + displayName;
       name.title = "Course code: " + course.code;
     }
     remove.addEventListener("click", () => {
