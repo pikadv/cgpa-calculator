@@ -1249,10 +1249,10 @@
       "yearLabel": "2nd Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
+      "sourceLabel": "Official NU History Honours Second Year syllabus PDF (2024–2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/honours-second-year-2024%E2%80%932025/Second-Year-Syllabus_History_Session-2024%E2%80%932025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|history|3": {
