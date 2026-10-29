@@ -18948,32 +18948,38 @@
         {
           "code": "223007",
           "name": "Botany-II",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "botany"
         },
         {
           "code": "223008",
           "name": "Botany Practical-II",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "botany"
         },
         {
           "code": "222807",
           "name": "General Chemistry-II",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "chemistry"
         },
         {
           "code": "222809",
           "name": "Environmental Chemistry",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "chemistry"
         },
         {
           "code": "222909",
           "name": "Biochemistry-II",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "biochemistry"
         },
         {
           "code": "222910",
           "name": "Biochemistry Practical –II",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "biochemistry"
         },
         {
           "code": "221109",
@@ -18982,7 +18988,27 @@
           "nonCredit": true
         }
       ],
-      "verificationNote": "Course rows follow the user-selected workers.dev source. English (Compulsory) is shown as non-credit and excluded from GPA totals."
+      "verificationNote": "Choose exactly two non-major packages: Botany, Chemistry, and Biochemistry. Only the two selected packages are included in GPA. English (Compulsory) is non-credit and shown for reference only.",
+      "optionGroups": [
+        {
+          "label": "Choose your non-major subjects",
+          "selectionLimit": 2,
+          "options": [
+            {
+              "id": "botany",
+              "label": "Botany"
+            },
+            {
+              "id": "chemistry",
+              "label": "Chemistry"
+            },
+            {
+              "id": "biochemistry",
+              "label": "Biochemistry"
+            }
+          ]
+        }
+      ]
     },
     "honours|2024-2025|zoology|3": {
       "syllabusVersion": "2024-2025",
