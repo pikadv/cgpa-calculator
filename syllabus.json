@@ -8,7 +8,8 @@
     "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
     "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
     "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-    "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php"
+    "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
+    "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip"
   ],
   "programmes": {
     "honours": {
@@ -342,7 +343,17 @@
         "Social Work",
         "Sociology",
         "Statistics",
-        "Zoology"
+        "Zoology",
+        "Arabic",
+        "Library and Information Science",
+        "Pali",
+        "Sanskrit",
+        "Biochemistry and Molecular Biology",
+        "Computer Science",
+        "Environmental Science",
+        "Home Economics",
+        "Soil Science",
+        "Anthropology"
       ],
       "departmentGroups": {
         "Business Administration": [
@@ -357,7 +368,10 @@
           "History",
           "Islamic History and Culture",
           "Islamic Studies",
-          "Philosophy"
+          "Philosophy",
+          "Arabic",
+          "Pali",
+          "Sanskrit"
         ],
         "Science": [
           "Botany",
@@ -365,17 +379,26 @@
           "Mathematics",
           "Physics",
           "Statistics",
-          "Zoology"
+          "Zoology",
+          "Biochemistry and Molecular Biology",
+          "Computer Science",
+          "Environmental Science",
+          "Soil Science"
         ],
         "Social Science": [
           "Economics",
           "Political Science",
           "Psychology",
           "Social Work",
-          "Sociology"
+          "Sociology",
+          "Anthropology"
         ],
         "Life & Earth Science": [
-          "Geography and Environment"
+          "Geography and Environment",
+          "Home Economics"
+        ],
+        "Library & Information Science": [
+          "Library and Information Science"
         ]
       }
     }
@@ -13873,12 +13896,58 @@
       "department": "Accounting",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312501",
+          "name": "Applied Accounting Theory: 6201",
+          "credits": 4
+        },
+        {
+          "code": "312503",
+          "name": "Advanced Cost Accounting",
+          "credits": 4
+        },
+        {
+          "code": "312505",
+          "name": "Strategic Management Accounting",
+          "credits": 4
+        },
+        {
+          "code": "312507",
+          "name": "Strategic Management",
+          "credits": 4
+        },
+        {
+          "code": "312509",
+          "name": "Corporate Governance",
+          "credits": 4
+        },
+        {
+          "code": "312511",
+          "name": "Corporate Financial Reporting",
+          "credits": 4
+        },
+        {
+          "code": "312513",
+          "name": "Corporate Tax Planning",
+          "credits": 4
+        },
+        {
+          "code": "312514",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "312516",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Business Administration"
     },
     "masters-final|2013-2014|bangla|1": {
@@ -13887,12 +13956,58 @@
       "department": "Bangla",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311001",
+          "name": "Bangla Poetry",
+          "credits": 4
+        },
+        {
+          "code": "311003",
+          "name": "Bangla Novel",
+          "credits": 4
+        },
+        {
+          "code": "311005",
+          "name": "Bangla Short Story",
+          "credits": 4
+        },
+        {
+          "code": "311007",
+          "name": "Bangla Drama",
+          "credits": 4
+        },
+        {
+          "code": "311009",
+          "name": "Bangla Essay",
+          "credits": 4
+        },
+        {
+          "code": "311011",
+          "name": "The Literature of Bangladesh: Poetry, Story, Novel and Essay",
+          "credits": 4
+        },
+        {
+          "code": "311013",
+          "name": "Language Movement and the Literature on Liberation war",
+          "credits": 4
+        },
+        {
+          "code": "311014",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311016",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Arts"
     },
     "masters-final|2013-2014|botany|1": {
@@ -13901,12 +14016,98 @@
       "department": "Botany",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313001",
+          "name": "Taxonomy of Angiosperms",
+          "credits": 4
+        },
+        {
+          "code": "313003",
+          "name": "Advanced Plant Physiology",
+          "credits": 4
+        },
+        {
+          "code": "313005",
+          "name": "Plant Ecology and Environment",
+          "credits": 4
+        },
+        {
+          "code": "313007",
+          "name": "Molecular Genetics",
+          "credits": 4
+        },
+        {
+          "code": "313009",
+          "name": "Microbiology and Microbial Biotechnology",
+          "credits": 4
+        },
+        {
+          "code": "313011",
+          "name": "Applied Mycology",
+          "credits": 4
+        },
+        {
+          "code": "313013",
+          "name": "Advanced Phycology",
+          "credits": 4
+        },
+        {
+          "code": "313015",
+          "name": "Higher Cryptogams",
+          "credits": 4
+        },
+        {
+          "code": "313017",
+          "name": "Hydrobiology and Limnology",
+          "credits": 4
+        },
+        {
+          "code": "313019",
+          "name": "Plant Pathology and Crop Protection",
+          "credits": 4
+        },
+        {
+          "code": "313021",
+          "name": "Cytogenetics",
+          "credits": 4
+        },
+        {
+          "code": "313023",
+          "name": "Plant Breeding and Biometry",
+          "credits": 4
+        },
+        {
+          "code": "313025",
+          "name": "Plant Biotechnology",
+          "credits": 4
+        },
+        {
+          "code": "313027",
+          "name": "Medicinal Plants and Herbal Medicines",
+          "credits": 4
+        },
+        {
+          "code": "313028",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313030",
+          "name": "Thesis",
+          "credits": 6
+        },
+        {
+          "code": "313032",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Science"
     },
     "masters-final|2013-2014|chemistry|1": {
@@ -13915,12 +14116,68 @@
       "department": "Chemistry",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312801",
+          "name": "Special Topics in Physical Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "312803",
+          "name": "Organic Synthesis and Reaction Mechanism",
+          "credits": 4
+        },
+        {
+          "code": "312805",
+          "name": "Advanced Co-ordination Chemistry and Group Theory",
+          "credits": 4
+        },
+        {
+          "code": "312807",
+          "name": "Inorganic Polymers and Macromolecules",
+          "credits": 4
+        },
+        {
+          "code": "312809",
+          "name": "Environmental Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "312811",
+          "name": "Spectroscopy and Its Application",
+          "credits": 4
+        },
+        {
+          "code": "312813",
+          "name": "Food Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "312814",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "312816",
+          "name": "Viva-Voce (Course)",
+          "credits": 2
+        },
+        {
+          "code": "312818",
+          "name": "Thesis",
+          "credits": 8
+        },
+        {
+          "code": "312820",
+          "name": "Viva-Voce (Thesis)",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Science"
     },
     "masters-final|2013-2014|economics|1": {
@@ -13929,12 +14186,68 @@
       "department": "Economics",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312201",
+          "name": "Microeconomics",
+          "credits": 4
+        },
+        {
+          "code": "312203",
+          "name": "Macroeconomics",
+          "credits": 4
+        },
+        {
+          "code": "312205",
+          "name": "Development Economics",
+          "credits": 4
+        },
+        {
+          "code": "312207",
+          "name": "Banking Institutions and Policies",
+          "credits": 4
+        },
+        {
+          "code": "312209",
+          "name": "Population Economics",
+          "credits": 4
+        },
+        {
+          "code": "312211",
+          "name": "International Economics",
+          "credits": 4
+        },
+        {
+          "code": "312213",
+          "name": "Rural Economics",
+          "credits": 4
+        },
+        {
+          "code": "312215",
+          "name": "Industrial Economics",
+          "credits": 4
+        },
+        {
+          "code": "312217",
+          "name": "Labor Economics",
+          "credits": 4
+        },
+        {
+          "code": "312218",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "312220",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Social Science"
     },
     "masters-final|2013-2014|english|1": {
@@ -13943,12 +14256,58 @@
       "department": "English",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311101",
+          "name": "Chaucer",
+          "credits": 4
+        },
+        {
+          "code": "311103",
+          "name": "W. Shakespeare",
+          "credits": 4
+        },
+        {
+          "code": "311105",
+          "name": "Modern Poetry",
+          "credits": 4
+        },
+        {
+          "code": "311107",
+          "name": "Modern Drama",
+          "credits": 4
+        },
+        {
+          "code": "311109",
+          "name": "Modern Novel",
+          "credits": 4
+        },
+        {
+          "code": "311111",
+          "name": "Prose",
+          "credits": 4
+        },
+        {
+          "code": "311113",
+          "name": "South Asian and African Literature",
+          "credits": 4
+        },
+        {
+          "code": "311114",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311116",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Arts"
     },
     "masters-final|2013-2014|finance and banking|1": {
@@ -13957,12 +14316,63 @@
       "department": "Finance and Banking",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312401",
+          "name": "Investment Banking and Lease Finance",
+          "credits": 4
+        },
+        {
+          "code": "312403",
+          "name": "Corporate Governance",
+          "credits": 4
+        },
+        {
+          "code": "312405",
+          "name": "International Financial Management",
+          "credits": 4
+        },
+        {
+          "code": "312407",
+          "name": "Corporate Finance",
+          "credits": 4
+        },
+        {
+          "code": "312409",
+          "name": "Monetary and Fiscal Policy",
+          "credits": 4
+        },
+        {
+          "code": "312411",
+          "name": "Financial Derivatives",
+          "credits": 4
+        },
+        {
+          "code": "312413",
+          "name": "Project Appraisal and Management",
+          "credits": 4
+        },
+        {
+          "code": "312415",
+          "name": "Retail and E-Banking",
+          "credits": 4
+        },
+        {
+          "code": "312416",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "312418",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Business Administration"
     },
     "masters-final|2013-2014|geography and environment|1": {
@@ -13971,12 +14381,103 @@
       "department": "Geography and Environment",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313201",
+          "name": "Hydrology and River Morphology",
+          "credits": 4
+        },
+        {
+          "code": "313203",
+          "name": "Urban and Regional Planning",
+          "credits": 4
+        },
+        {
+          "code": "313205",
+          "name": "Disaster Management",
+          "credits": 4
+        },
+        {
+          "code": "313207",
+          "name": "World Regional Geography",
+          "credits": 4
+        },
+        {
+          "code": "313209",
+          "name": "Climate Change-Mitigation and Adaptation",
+          "credits": 4
+        },
+        {
+          "code": "313211",
+          "name": "Coastal and Marine Studies",
+          "credits": 4
+        },
+        {
+          "code": "313213",
+          "name": "Medical Geography",
+          "credits": 4
+        },
+        {
+          "code": "313215",
+          "name": "Transportation Geography",
+          "credits": 4
+        },
+        {
+          "code": "313217",
+          "name": "Migration and Refugee Studies",
+          "credits": 4
+        },
+        {
+          "code": "313219",
+          "name": "Gender, Development and Environment",
+          "credits": 4
+        },
+        {
+          "code": "313221",
+          "name": "Agriculture Dynamics and Food Security",
+          "credits": 4
+        },
+        {
+          "code": "313223",
+          "name": "Geography of Settlement and Housing",
+          "credits": 4
+        },
+        {
+          "code": "313225",
+          "name": "Rural Development",
+          "credits": 4
+        },
+        {
+          "code": "313226",
+          "name": "Research Project",
+          "credits": 2
+        },
+        {
+          "code": "313228",
+          "name": "Practical",
+          "credits": 4
+        },
+        {
+          "code": "313230",
+          "name": "Thesis",
+          "credits": 4
+        },
+        {
+          "code": "313232",
+          "name": "Thesis Defense/Thesis Viva",
+          "credits": 2
+        },
+        {
+          "code": "313234",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Life & Earth Science"
     },
     "masters-final|2013-2014|history|1": {
@@ -13985,12 +14486,58 @@
       "department": "History",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311501",
+          "name": "Historiography and Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "311503",
+          "name": "History of Europe and America since 1919",
+          "credits": 4
+        },
+        {
+          "code": "311505",
+          "name": "Nationalism and National Movements in 19th and 20th Century of South Asia",
+          "credits": 4
+        },
+        {
+          "code": "311507",
+          "name": "Cultural, Social and Economic Aspects of Bengal (Selected topics)",
+          "credits": 4
+        },
+        {
+          "code": "311509",
+          "name": "History of Bangladesh Since 1972",
+          "credits": 4
+        },
+        {
+          "code": "311511",
+          "name": "History of South Asia Since 1947 (Excluding Bangladesh)",
+          "credits": 4
+        },
+        {
+          "code": "311513",
+          "name": "International Law",
+          "credits": 4
+        },
+        {
+          "code": "311514",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311516",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Arts"
     },
     "masters-final|2013-2014|islamic history and culture|1": {
@@ -13999,12 +14546,98 @@
       "department": "Islamic History and Culture",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311601",
+          "name": "Social and Economic History of Islam upto 1258 AD",
+          "credits": 4
+        },
+        {
+          "code": "311603",
+          "name": "Social, Cultural and Economic History of Bengal (1200-1765 AD)",
+          "credits": 4
+        },
+        {
+          "code": "311605",
+          "name": "Socio-cultural and Economic History of Muslim India (712-1765)",
+          "credits": 4
+        },
+        {
+          "code": "311607",
+          "name": "History of Turkey, Iran and Afghanistan",
+          "credits": 4
+        },
+        {
+          "code": "311609",
+          "name": "Modern Egypt and the Arab States in North Africa",
+          "credits": 4
+        },
+        {
+          "code": "311611",
+          "name": "History of the Arab States in West Asia",
+          "credits": 4
+        },
+        {
+          "code": "311613",
+          "name": "History of the Muslims in South Asia (1765-1971)",
+          "credits": 4
+        },
+        {
+          "code": "311615",
+          "name": "Development of Muslim Law and Jurisprudence",
+          "credits": 4
+        },
+        {
+          "code": "311617",
+          "name": "History of Muslim Philosophy and Political Thoughts",
+          "credits": 4
+        },
+        {
+          "code": "311619",
+          "name": "Socio- cultural and Economic History of South Asia (1765-1971)",
+          "credits": 4
+        },
+        {
+          "code": "311621",
+          "name": "Development of Regional Muslim Historiography (Khilafat and Sultanat)",
+          "credits": 4
+        },
+        {
+          "code": "311623",
+          "name": "History of Muslim Architecture in West Asia (upto 1258)",
+          "credits": 4
+        },
+        {
+          "code": "311625",
+          "name": "History of Muslim Architecture in South Asia",
+          "credits": 4
+        },
+        {
+          "code": "311627",
+          "name": "History of Muslim Painting and Minor Arts",
+          "credits": 4
+        },
+        {
+          "code": "311629",
+          "name": "History of Muslim Architecture in West Asia, Europ and Africa (13th -18th Century)",
+          "credits": 4
+        },
+        {
+          "code": "311630",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311632",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Arts"
     },
     "masters-final|2013-2014|islamic studies|1": {
@@ -14013,12 +14646,58 @@
       "department": "Islamic Studies",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311801",
+          "name": "Study of al Tafsir",
+          "credits": 4
+        },
+        {
+          "code": "311803",
+          "name": "Study of al-Hadith",
+          "credits": 4
+        },
+        {
+          "code": "311805",
+          "name": "Study of al-Hadith",
+          "credits": 4
+        },
+        {
+          "code": "311807",
+          "name": "Da'wah in the Holy Quran and Sunnah",
+          "credits": 4
+        },
+        {
+          "code": "311809",
+          "name": "Evolution and Philosophy of Religion and Comparative Religion",
+          "credits": 4
+        },
+        {
+          "code": "311811",
+          "name": "Scientific Indications in the Holy Quran and Hadith",
+          "credits": 4
+        },
+        {
+          "code": "311813",
+          "name": "History of Islam (Umayyad and Abbasid Period)",
+          "credits": 4
+        },
+        {
+          "code": "311814",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311816",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Arts"
     },
     "masters-final|2013-2014|management|1": {
@@ -14027,12 +14706,58 @@
       "department": "Management",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312601",
+          "name": "Management Thought",
+          "credits": 4
+        },
+        {
+          "code": "312603",
+          "name": "International Business",
+          "credits": 4
+        },
+        {
+          "code": "312605",
+          "name": "Business Research",
+          "credits": 4
+        },
+        {
+          "code": "312607",
+          "name": "Strategic Management",
+          "credits": 4
+        },
+        {
+          "code": "312609",
+          "name": "Management Information System",
+          "credits": 4
+        },
+        {
+          "code": "312611",
+          "name": "Training and Development",
+          "credits": 4
+        },
+        {
+          "code": "312613",
+          "name": "Compensation Management",
+          "credits": 4
+        },
+        {
+          "code": "312614",
+          "name": "Term paper",
+          "credits": 2
+        },
+        {
+          "code": "312616",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Business Administration"
     },
     "masters-final|2013-2014|marketing|1": {
@@ -14041,12 +14766,58 @@
       "department": "Marketing",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312301",
+          "name": "Marketing Management",
+          "credits": 4
+        },
+        {
+          "code": "312303",
+          "name": "Strategic Marketing",
+          "credits": 4
+        },
+        {
+          "code": "312305",
+          "name": "Services Marketing",
+          "credits": 4
+        },
+        {
+          "code": "312307",
+          "name": "Global Marketing",
+          "credits": 4
+        },
+        {
+          "code": "312309",
+          "name": "Marketing for Non-Profit Organisations",
+          "credits": 4
+        },
+        {
+          "code": "312311",
+          "name": "Business Marketing",
+          "credits": 4
+        },
+        {
+          "code": "312313",
+          "name": "Advanced Marketing Research",
+          "credits": 4
+        },
+        {
+          "code": "312314",
+          "name": "Term paper",
+          "credits": 2
+        },
+        {
+          "code": "312316",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Business Administration"
     },
     "masters-final|2013-2014|mathematics|1": {
@@ -14055,12 +14826,83 @@
       "department": "Mathematics",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313701",
+          "name": "Advanced Number Theory",
+          "credits": 4
+        },
+        {
+          "code": "313703",
+          "name": "Theory of Groups",
+          "credits": 4
+        },
+        {
+          "code": "313705",
+          "name": "Theory of Rings and Modules",
+          "credits": 4
+        },
+        {
+          "code": "313707",
+          "name": "Lattice Theory",
+          "credits": 4
+        },
+        {
+          "code": "313709",
+          "name": "Fluid Dynamics",
+          "credits": 4
+        },
+        {
+          "code": "313711",
+          "name": "Quantum Mechanics",
+          "credits": 4
+        },
+        {
+          "code": "313713",
+          "name": "Theory of Relativity",
+          "credits": 4
+        },
+        {
+          "code": "313715",
+          "name": "Differential and Integral Equations",
+          "credits": 4
+        },
+        {
+          "code": "313717",
+          "name": "Operations Research",
+          "credits": 4
+        },
+        {
+          "code": "313719",
+          "name": "Mathematical Hydrology",
+          "credits": 4
+        },
+        {
+          "code": "313721",
+          "name": "Geometry of Differential Manifolds",
+          "credits": 4
+        },
+        {
+          "code": "313723",
+          "name": "Dynamical Systems",
+          "credits": 4
+        },
+        {
+          "code": "313724",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313726",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Science"
     },
     "masters-final|2013-2014|philosophy|1": {
@@ -14069,12 +14911,98 @@
       "department": "Philosophy",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311701",
+          "name": "Philosophy of Language",
+          "credits": 4
+        },
+        {
+          "code": "311703",
+          "name": "Phenomenology and Existentialism",
+          "credits": 4
+        },
+        {
+          "code": "311705",
+          "name": "Philosophy of Bertrand Russell and G.E. Moore",
+          "credits": 4
+        },
+        {
+          "code": "311707",
+          "name": "Pragmatism and Humanism",
+          "credits": 4
+        },
+        {
+          "code": "311709",
+          "name": "Epistemology and Metaphysics",
+          "credits": 4
+        },
+        {
+          "code": "311711",
+          "name": "Philosophical Logic",
+          "credits": 4
+        },
+        {
+          "code": "311713",
+          "name": "Philosophy of Al-Ghazali and Ibn Rushd",
+          "credits": 4
+        },
+        {
+          "code": "311715",
+          "name": "Sufism",
+          "credits": 4
+        },
+        {
+          "code": "311717",
+          "name": "Contemporary Muslim Thought",
+          "credits": 4
+        },
+        {
+          "code": "311719",
+          "name": "Buddhist Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "311721",
+          "name": "Vedanta Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "311723",
+          "name": "Contemporary Indian Thought",
+          "credits": 4
+        },
+        {
+          "code": "311725",
+          "name": "Philosophy of the Bangalees (Modern and Contemporary)",
+          "credits": 4
+        },
+        {
+          "code": "311727",
+          "name": "Comparative Religion",
+          "credits": 4
+        },
+        {
+          "code": "311729",
+          "name": "Contemporary Political Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "311730",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311732",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Arts"
     },
     "masters-final|2013-2014|physics|1": {
@@ -14083,12 +15011,83 @@
       "department": "Physics",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312701",
+          "name": "Nuclear Physics",
+          "credits": 4
+        },
+        {
+          "code": "312703",
+          "name": "Solid State Physics",
+          "credits": 4
+        },
+        {
+          "code": "312705",
+          "name": "Electronics",
+          "credits": 4
+        },
+        {
+          "code": "312707",
+          "name": "Health Physics",
+          "credits": 4
+        },
+        {
+          "code": "312709",
+          "name": "Medical Physics",
+          "credits": 4
+        },
+        {
+          "code": "312711",
+          "name": "Geophysics",
+          "credits": 4
+        },
+        {
+          "code": "312713",
+          "name": "Reactor Physics",
+          "credits": 4
+        },
+        {
+          "code": "312715",
+          "name": "Solar Energy",
+          "credits": 4
+        },
+        {
+          "code": "312717",
+          "name": "Material Science",
+          "credits": 4
+        },
+        {
+          "code": "312719",
+          "name": "Modern Field Theory",
+          "credits": 4
+        },
+        {
+          "code": "312720",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "312722",
+          "name": "Viva-Voce (Practical)",
+          "credits": 2
+        },
+        {
+          "code": "312724",
+          "name": "Thesis",
+          "credits": 6
+        },
+        {
+          "code": "312726",
+          "name": "Viva Voce (Thesis)",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Science"
     },
     "masters-final|2013-2014|political science|1": {
@@ -14097,12 +15096,58 @@
       "department": "Political Science",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311901",
+          "name": "Recent Political Thought",
+          "credits": 4
+        },
+        {
+          "code": "311903",
+          "name": "Social Change and Political Development",
+          "credits": 4
+        },
+        {
+          "code": "311905",
+          "name": "Bangladesh Politics: Issues and Trends",
+          "credits": 4
+        },
+        {
+          "code": "311907",
+          "name": "Problems of Governance",
+          "credits": 4
+        },
+        {
+          "code": "311909",
+          "name": "Security Studies",
+          "credits": 4
+        },
+        {
+          "code": "311911",
+          "name": "Party Politics in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "311913",
+          "name": "Geopolitics and Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "311914",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311916",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Social Science"
     },
     "masters-final|2013-2014|psychology|1": {
@@ -14111,12 +15156,73 @@
       "department": "Psychology",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313401",
+          "name": "Positive Psychology",
+          "credits": 4
+        },
+        {
+          "code": "313403",
+          "name": "Environmental Psychology",
+          "credits": 4
+        },
+        {
+          "code": "313405",
+          "name": "Qualitative and Quantitative Research Methods",
+          "credits": 4
+        },
+        {
+          "code": "313407",
+          "name": "Health Psychology",
+          "credits": 4
+        },
+        {
+          "code": "313409",
+          "name": "Fundamentals of School Psychology",
+          "credits": 4
+        },
+        {
+          "code": "313411",
+          "name": "Assessment, Prevention & Intervention",
+          "credits": 4
+        },
+        {
+          "code": "313413",
+          "name": "Counseling, Collaboration & Consultation Group-B: I-O Psychology",
+          "credits": 4
+        },
+        {
+          "code": "313415",
+          "name": "Organizational Behavior",
+          "credits": 4
+        },
+        {
+          "code": "313417",
+          "name": "Human Resource Development & Management",
+          "credits": 4
+        },
+        {
+          "code": "313419",
+          "name": "Human Factors Engineering",
+          "credits": 4
+        },
+        {
+          "code": "313420",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313422",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Social Science"
     },
     "masters-final|2013-2014|social work|1": {
@@ -14125,12 +15231,53 @@
       "department": "Social Work",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312101",
+          "name": "Social Administration",
+          "credits": 4
+        },
+        {
+          "code": "312103",
+          "name": "Advanced Social Research and Statistics",
+          "credits": 4
+        },
+        {
+          "code": "312105",
+          "name": "Industrial Relations and Labour Laws",
+          "credits": 4
+        },
+        {
+          "code": "312107",
+          "name": "Correction and Correctional Services",
+          "credits": 4
+        },
+        {
+          "code": "312109",
+          "name": "Women and Family Welfare",
+          "credits": 4
+        },
+        {
+          "code": "312111",
+          "name": "Welfare for the Child Youth and Older Persons",
+          "credits": 4
+        },
+        {
+          "code": "312113",
+          "name": "Guidance and Counseling in Social Work",
+          "credits": 4
+        },
+        {
+          "code": "312114",
+          "name": "Field Practicum & Viva-Voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Social Science"
     },
     "masters-final|2013-2014|sociology|1": {
@@ -14139,12 +15286,58 @@
       "department": "Sociology",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312001",
+          "name": "Contemporary Sociological Theory",
+          "credits": 4
+        },
+        {
+          "code": "312003",
+          "name": "Marxist Sociology",
+          "credits": 4
+        },
+        {
+          "code": "312005",
+          "name": "Sociology of Development and Underdevelopment",
+          "credits": 4
+        },
+        {
+          "code": "312007",
+          "name": "Sociology of Minorities",
+          "credits": 4
+        },
+        {
+          "code": "312009",
+          "name": "Population, Politics and Development",
+          "credits": 4
+        },
+        {
+          "code": "312011",
+          "name": "Sociology of Poverty",
+          "credits": 4
+        },
+        {
+          "code": "312013",
+          "name": "Comparative Social Structure",
+          "credits": 4
+        },
+        {
+          "code": "312014",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "312016",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Social Science"
     },
     "masters-final|2013-2014|statistics|1": {
@@ -14153,12 +15346,68 @@
       "department": "Statistics",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313601",
+          "name": "Applied Multivariate Analysis",
+          "credits": 4
+        },
+        {
+          "code": "313603",
+          "name": "Advance Theory of Inference",
+          "credits": 4
+        },
+        {
+          "code": "313605",
+          "name": "Design and Analysis of Experiments",
+          "credits": 4
+        },
+        {
+          "code": "313607",
+          "name": "Sampling Methods & Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "313609",
+          "name": "Econometrics",
+          "credits": 4
+        },
+        {
+          "code": "313611",
+          "name": "Statistical Quality Control and Operations Research",
+          "credits": 4
+        },
+        {
+          "code": "313613",
+          "name": "Demography & Population Studies",
+          "credits": 4
+        },
+        {
+          "code": "313615",
+          "name": "Stochastic Process",
+          "credits": 4
+        },
+        {
+          "code": "313617",
+          "name": "Bio-statistics",
+          "credits": 4
+        },
+        {
+          "code": "313618",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313620",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Science"
     },
     "masters-final|2013-2014|zoology|1": {
@@ -14167,12 +15416,168 @@
       "department": "Zoology",
       "year": 1,
       "yearLabel": "Final Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313101",
+          "name": "Advance Biology",
+          "credits": 4
+        },
+        {
+          "code": "313103",
+          "name": "Wildlife Ecology",
+          "credits": 4
+        },
+        {
+          "code": "313105",
+          "name": "Herpetology (Amphibia and Reptile)",
+          "credits": 4
+        },
+        {
+          "code": "313107",
+          "name": "Ornithology",
+          "credits": 4
+        },
+        {
+          "code": "313109",
+          "name": "Mammalology",
+          "credits": 4
+        },
+        {
+          "code": "313111",
+          "name": "Wildlife Management",
+          "credits": 4
+        },
+        {
+          "code": "313113",
+          "name": "Wildlife Economy and Conservation Biology",
+          "credits": 4
+        },
+        {
+          "code": "313114",
+          "name": "Thesis/Theory",
+          "credits": 6
+        },
+        {
+          "code": "313116",
+          "name": "Viva-Voce",
+          "credits": 2
+        },
+        {
+          "code": "313118",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313120",
+          "name": "Viva-Voce (Field record and practical note book)",
+          "credits": 2
+        },
+        {
+          "code": "313115",
+          "name": "Fish Taxonomy, Fish Physiology and Ichthyology",
+          "credits": 4
+        },
+        {
+          "code": "313117",
+          "name": "Fish Biology, Aquaculture Nutrition and Population Dynamics",
+          "credits": 4
+        },
+        {
+          "code": "313119",
+          "name": "Fish Ecology, Fish Limnology and Oceanography",
+          "credits": 4
+        },
+        {
+          "code": "313121",
+          "name": "Aquaculture and Fisheries Technology & Harvesting",
+          "credits": 4
+        },
+        {
+          "code": "313123",
+          "name": "Fish Processing & Handling, Fisheries Resources & Management and Extension, Economics, Rural Sociology, Marketing & Cooperation",
+          "credits": 4
+        },
+        {
+          "code": "313125",
+          "name": "Fish Genetics and Fish Pathology & Parasitology",
+          "credits": 4
+        },
+        {
+          "code": "313122",
+          "name": "Thesis/Theory",
+          "credits": 6
+        },
+        {
+          "code": "313124",
+          "name": "Viva-Voce",
+          "credits": 2
+        },
+        {
+          "code": "313126",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313128",
+          "name": "Viva-Voce (Field record and practical note book)",
+          "credits": 2
+        },
+        {
+          "code": "313127",
+          "name": "Insect Morphology and Insect Taxonomy",
+          "credits": 4
+        },
+        {
+          "code": "313129",
+          "name": "Insect Physiology and Insect Embryology",
+          "credits": 4
+        },
+        {
+          "code": "313131",
+          "name": "Insect Ecology and Insect Behavior",
+          "credits": 4
+        },
+        {
+          "code": "313133",
+          "name": "Medical Entomology and Veterinary Entomology",
+          "credits": 4
+        },
+        {
+          "code": "313135",
+          "name": "Toxicology, Agricultural and Forest Entomology and Pest Management",
+          "credits": 4
+        },
+        {
+          "code": "313137",
+          "name": "Insect Genetics and Molecular Biology",
+          "credits": 4
+        },
+        {
+          "code": "313130",
+          "name": "Thesis/Theory",
+          "credits": 6
+        },
+        {
+          "code": "313132",
+          "name": "Viva-Voce",
+          "credits": 2
+        },
+        {
+          "code": "313134",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313136",
+          "name": "Viva-Voce (Field record and practical note book)",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|environment science|1": {
@@ -16845,14 +18250,694 @@
       ],
       "verificationNote": "The official syllabus lists Paper-I, Functional English, 100 marks and 4 credits for first-year BA/BSc/BBS/BSS Pass students. The PDF gives no numeric course code.",
       "departmentCategory": "Arts"
+    },
+    "masters-final|2013-2014|arabic|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Arabic",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311201",
+          "name": "Classical Prose",
+          "credits": 4
+        },
+        {
+          "code": "311203",
+          "name": "Classical Poetry",
+          "credits": 4
+        },
+        {
+          "code": "311205",
+          "name": "Modern Prose",
+          "credits": 4
+        },
+        {
+          "code": "311207",
+          "name": "Modern Poetry",
+          "credits": 4
+        },
+        {
+          "code": "311209",
+          "name": "History of Middle East",
+          "credits": 4
+        },
+        {
+          "code": "311211",
+          "name": "History of Islamic Civilization",
+          "credits": 4
+        },
+        {
+          "code": "311213",
+          "name": "Arabic Calligraphy",
+          "credits": 4
+        },
+        {
+          "code": "311214",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311216",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Arts"
+    },
+    "masters-final|2013-2014|library and information science|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Library and Information Science",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313801",
+          "name": "Organization of Knowledge (Advanced Classification-Theory)",
+          "credits": 4
+        },
+        {
+          "code": "313803",
+          "name": "Organization of Knowledge (Advanced Cataloguing-Theory)",
+          "credits": 4
+        },
+        {
+          "code": "313805",
+          "name": "Library Software Packages: Design and Application",
+          "credits": 4
+        },
+        {
+          "code": "313807",
+          "name": "Information Uses and Their Needs",
+          "credits": 4
+        },
+        {
+          "code": "313809",
+          "name": "Library Systems and Services (Public Library System)",
+          "credits": 4
+        },
+        {
+          "code": "313811",
+          "name": "Library Systems and Services (Academic Library System)",
+          "credits": 4
+        },
+        {
+          "code": "313813",
+          "name": "Library Systems and Services (Special Types of Library: Research & Technical Library System)",
+          "credits": 4
+        },
+        {
+          "code": "313815",
+          "name": "Library Systems and Services (National Library System)",
+          "credits": 4
+        },
+        {
+          "code": "313802",
+          "name": "Organization of Knowledge (Advanced Classification-Practical)",
+          "credits": 2
+        },
+        {
+          "code": "313804",
+          "name": "Organization of Knowledge (Advanced Cataloguing-Practical)",
+          "credits": 2
+        },
+        {
+          "code": "313806",
+          "name": "Library Software Packages: Design and Application-Practical",
+          "credits": 2
+        },
+        {
+          "code": "313808",
+          "name": "Internship in Different Types of Libraries",
+          "credits": 2
+        },
+        {
+          "code": "313810",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "313812",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Library & Information Science"
+    },
+    "masters-final|2013-2014|pali|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Pali",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311401",
+          "name": "Theravada Buddhist Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "311403",
+          "name": "Mahayana Buddhist Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "311405",
+          "name": "Buddhist Art, Archaeology and Iconography",
+          "credits": 4
+        },
+        {
+          "code": "311407",
+          "name": "Pali Atthakatha Literature",
+          "credits": 4
+        },
+        {
+          "code": "311409",
+          "name": "History of Buddhist: India and Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "311411",
+          "name": "Pali Creative Writing",
+          "credits": 4
+        },
+        {
+          "code": "311413",
+          "name": "Buddhism in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "311414",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311416",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Arts"
+    },
+    "masters-final|2013-2014|sanskrit|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Sanskrit",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "311301",
+          "name": "Ancient Sanskrit Epic",
+          "credits": 4
+        },
+        {
+          "code": "311303",
+          "name": "Sanskrit Drama",
+          "credits": 4
+        },
+        {
+          "code": "311305",
+          "name": "Sanskrit Poetry and Prose",
+          "credits": 4
+        },
+        {
+          "code": "311307",
+          "name": "Sanskrit Grammar",
+          "credits": 4
+        },
+        {
+          "code": "311309",
+          "name": "Indian Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "311311",
+          "name": "Sanskrit Rhetoric and Dramaturgy",
+          "credits": 4
+        },
+        {
+          "code": "311313",
+          "name": "Puranic Literature",
+          "credits": 4
+        },
+        {
+          "code": "311315",
+          "name": "Essay and Translation",
+          "credits": 4
+        },
+        {
+          "code": "311316",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "311318",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Arts"
+    },
+    "masters-final|2013-2014|biochemistry and molecular biology|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Biochemistry and Molecular Biology",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "312901",
+          "name": "Advanced Molecular Biology",
+          "credits": 4
+        },
+        {
+          "code": "312903",
+          "name": "Biochemical, Molecular & Immunodiagnostics",
+          "credits": 4
+        },
+        {
+          "code": "312905",
+          "name": "Agricultural & Environmental Biochemistry",
+          "credits": 4
+        },
+        {
+          "code": "312907",
+          "name": "Biochemistry of Drugs",
+          "credits": 4
+        },
+        {
+          "code": "312909",
+          "name": "Advanced Nutrition & Nutritional Biochemistry",
+          "credits": 4
+        },
+        {
+          "code": "312911",
+          "name": "Food Processing, Preservation & Biotechnology",
+          "credits": 4
+        },
+        {
+          "code": "312913",
+          "name": "Biochemical Techniques & Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "312914",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "312916",
+          "name": "Viva-Voce",
+          "credits": 2
+        },
+        {
+          "code": "312918",
+          "name": "Thesis",
+          "credits": 6
+        },
+        {
+          "code": "312920",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Science"
+    },
+    "masters-final|2013-2014|computer science|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Computer Science",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "610201",
+          "name": "Advanced Algorithms",
+          "credits": 4
+        },
+        {
+          "code": "610203",
+          "name": "Network Routing and Switching",
+          "credits": 4
+        },
+        {
+          "code": "610205",
+          "name": "Mobile and Sensor Networking",
+          "credits": 4
+        },
+        {
+          "code": "610207",
+          "name": "VLSI Layout Algorithm",
+          "credits": 4
+        },
+        {
+          "code": "610209",
+          "name": "Web Application Engineering",
+          "credits": 4
+        },
+        {
+          "code": "610211",
+          "name": "Image Processing",
+          "credits": 4
+        },
+        {
+          "code": "610213",
+          "name": "Advanced Database",
+          "credits": 4
+        },
+        {
+          "code": "610115",
+          "name": "Advanced Computer Graphics",
+          "credits": 4
+        },
+        {
+          "code": "610117",
+          "name": "Machine Learning and Data mining",
+          "credits": 4
+        },
+        {
+          "code": "610119",
+          "name": "Information Security",
+          "credits": 4
+        },
+        {
+          "code": "610121",
+          "name": "Optical Fiber Communications",
+          "credits": 4
+        },
+        {
+          "code": "610123",
+          "name": "Advanced Logic Design",
+          "credits": 4
+        },
+        {
+          "code": "610125",
+          "name": "Graph Theory",
+          "credits": 4
+        },
+        {
+          "code": "610126",
+          "name": "Project",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Science"
+    },
+    "masters-final|2013-2014|environmental science|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Environmental Science",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "314401",
+          "name": "Concepts of Environmental Sciences",
+          "credits": 4
+        },
+        {
+          "code": "314403",
+          "name": "Climate Change: Impacts, Adaptation and Mitigation",
+          "credits": 4
+        },
+        {
+          "code": "314405",
+          "name": "Natural Resources Management",
+          "credits": 4
+        },
+        {
+          "code": "314407",
+          "name": "Industrial Waste Treatment",
+          "credits": 4
+        },
+        {
+          "code": "314409",
+          "name": "Ecosystem Sustainability of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "314411",
+          "name": "Disaster Management in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "314413",
+          "name": "Integrated Environmental Assessment (IEA)",
+          "credits": 4
+        },
+        {
+          "code": "314414",
+          "name": "Practical and Project work",
+          "credits": 6
+        },
+        {
+          "code": "314416",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Science"
+    },
+    "masters-final|2013-2014|home economics|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Home Economics",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313501",
+          "name": "Clinical and Therapeutic Nutrition",
+          "credits": 4
+        },
+        {
+          "code": "313503",
+          "name": "Appropriate Technology for Better Living",
+          "credits": 4
+        },
+        {
+          "code": "313505",
+          "name": "Theories of Child Development",
+          "credits": 4
+        },
+        {
+          "code": "313507",
+          "name": "Clothing Construction and Fashion Marketing",
+          "credits": 4
+        },
+        {
+          "code": "313509",
+          "name": "Creative Art and Essence of Design",
+          "credits": 4
+        },
+        {
+          "code": "313511",
+          "name": "Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "313513",
+          "name": "Nutritional Problem and Epidemiology",
+          "credits": 4
+        },
+        {
+          "code": "313514",
+          "name": "Practical",
+          "credits": 6
+        },
+        {
+          "code": "313516",
+          "name": "Viva-voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Life & Earth Science"
+    },
+    "masters-final|2013-2014|soil science|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Soil Science",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "313301",
+          "name": "Analytical Techniques and Experimental Design",
+          "credits": 4
+        },
+        {
+          "code": "313303",
+          "name": "Advanced Soil Physics",
+          "credits": 4
+        },
+        {
+          "code": "313305",
+          "name": "Advanced Soil Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "313307",
+          "name": "Soil Classification and Soils of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "313309",
+          "name": "Coastal and Wetland Soil Management",
+          "credits": 4
+        },
+        {
+          "code": "313311",
+          "name": "Environmental Quality and Impact Assessment",
+          "credits": 4
+        },
+        {
+          "code": "313313",
+          "name": "Soil Carbon Dynamics and Soil Technology",
+          "credits": 4
+        },
+        {
+          "code": "313314",
+          "name": "Practical and Seminar/Project",
+          "credits": 6
+        },
+        {
+          "code": "313316",
+          "name": "Viva -Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Science"
+    },
+    "masters-final|2013-2014|anthropology|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "masters-final",
+      "department": "Anthropology",
+      "year": 1,
+      "yearLabel": "Final Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-archive",
+      "sourceLabel": "National University Masters Final syllabus archive, session 2013–2014 (uploaded ZIP)",
+      "sourceUrl": "https://www.nu.ac.bd/uploads/2018/01/2-Masters-Final-2013-14pub_date_14122015.zip",
+      "courses": [
+        {
+          "code": "314001",
+          "name": "Contemporary Theoretical Trends in Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "314003",
+          "name": "Perspective in Applied Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "314005",
+          "name": "Migration and Diaspora",
+          "credits": 4
+        },
+        {
+          "code": "314007",
+          "name": "Environment, Society and Culture",
+          "credits": 4
+        },
+        {
+          "code": "314009",
+          "name": "Indigenous Knowledge System",
+          "credits": 4
+        },
+        {
+          "code": "314011",
+          "name": "Visual Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "314013",
+          "name": "Body and Reproductive Health",
+          "credits": 4
+        },
+        {
+          "code": "314015",
+          "name": "Applied Research",
+          "credits": 4
+        },
+        {
+          "code": "314017",
+          "name": "Anthropology and Public Health",
+          "credits": 4
+        },
+        {
+          "code": "314019",
+          "name": "Globalization",
+          "credits": 4
+        },
+        {
+          "code": "314020",
+          "name": "Term Paper",
+          "credits": 2
+        },
+        {
+          "code": "314022",
+          "name": "Viva-Voce",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
+      "departmentCategory": "Social Science"
     }
   },
   "coverage": {
     "status": "partial",
     "departmentOptionsGenerated": true,
-    "combinationsListed": 591,
-    "verifiedCourseLists": 232,
-    "note": "Catalogue includes Honours 2013-2014 years 1-4 and Degree Pass 2013-2014 subject/year course lists extracted from uploaded Word syllabi. Compulsory-subject distribution documents and subjects with ambiguous or missing tables need manual verification. Remove unselected elective alternatives before calculating.",
+    "combinationsListed": 601,
+    "verifiedCourseLists": 264,
+    "note": "Catalogue includes verified Honours 2013–2014 courses, Degree Pass 2013–2014 courses, and 32 Masters Final 2013–2014 subject course lists transcribed from the official NU archive. Masters Final entries include listed electives and alternate thesis/practical tracks; select only the papers applicable to the student. Overall syllabus coverage remains partial because other syllabus documents and programme distributions still need verification.",
     "sourceLinksUpdated": true
   }
 }
