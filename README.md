@@ -9,14 +9,14 @@ A lightweight, mobile-friendly GPA and CGPA calculator for students of National 
 - Calculate GPA or CGPA using course credits and grade points.
 - Add, edit, or remove courses manually.
 - Choose a degree type, department, academic year, and syllabus version.
-- Load available verified course lists from the syllabus catalogue.
+- Load course lists where catalogue data is available, and enter courses manually where it is not.
 - View the NU grading scale and the weighted-average formula.
 - Use the calculator on mobile or desktop.
 
 ## How to use
 
-1. Select your degree type, department, academic year, and syllabus version.
-2. Review any automatically loaded courses. You can add, edit, or remove courses to match your own marksheet.
+1. Select a degree type. For catalogue-backed programmes, choose an available department, academic year, and syllabus version.
+2. Review loaded courses, or add subjects manually when a course list is unavailable.
 3. Enter each course's credit and grade.
 4. Select **Calculate GPA / CGPA** to view the result.
 
