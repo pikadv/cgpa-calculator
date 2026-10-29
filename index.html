@@ -5,6 +5,258 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#123b35" />
   <meta name="description" content="A flexible National University Bangladesh GPA and CGPA calculator for any department. Add your own courses, credits, and grades." />
+  <link rel="stylesheet" href="./style.css" /> html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#123b35" />
+  <meta name="description" content="A flexible National University Bangladesh GPA and CGPA calculator for any department. Add your own courses, credits, and grades." />
+  <style>
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  color-scheme: light;
+  --ink: #172a27;
+  --muted: #64736f;
+  --line: #e0e8e5;
+  --paper: #ffffff;
+  --page: #f3f7f5;
+  --green: #176b55;
+  --green-dark: #104b3d;
+  --soft-green: #eaf5f0;
+  --danger: #b42318;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+.app { max-width: 900px; margin: 0 auto; padding: 24px 20px 32px; }
+.hero {
+  text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #123b35, #176b55);
+  padding: 42px 24px 38px;
+  border-radius: 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 32px rgba(18, 59, 53, .12);
+}
+.eyebrow { font-size: 11px; font-weight: 800; letter-spacing: .18em; opacity: .75; margin: 0 0 12px; }
+h1 { font-size: clamp(30px, 5vw, 43px); line-height: 1.12; margin: 0; letter-spacing: -.045em; }
+.subtitle { max-width: 580px; margin: 14px auto 0; color: #e0eee9; font-size: 15px; }
+.panel, .result-card { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; padding: 24px; margin-bottom: 18px; }
+h2 { margin: 0 0 8px; font-size: 19px; letter-spacing: -.02em; }
+p { margin-top: 0; }
+.intro > p { color: var(--muted); font-size: 14px; margin-bottom: 22px; }
+.field-label { display: block; font-weight: 700; font-size: 13px; margin-bottom: 7px; }
+.optional { color: var(--muted); font-weight: 400; }
+#department, .course-row input, .course-row select {
+  width: 100%; min-width: 0; border: 1px solid #d8e2de; background: #fff; color: var(--ink);
+  border-radius: 9px; padding: 11px 10px; outline: none; transition: border-color .15s, box-shadow .15s;
+}
+#department:focus, .course-row input:focus, .course-row select:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(23,107,85,.12); }
+.section-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+.section-heading p { margin: 0; }
+.muted { color: var(--muted); font-size: 13px; }
+.actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.button { border: 1px solid transparent; border-radius: 9px; padding: 10px 14px; font-size: 13px; font-weight: 700; white-space: nowrap; }
+.button-light { color: var(--green-dark); border-color: #cbded6; background: #fff; }
+.button-light:hover { background: var(--soft-green); }
+.button-primary { background: var(--green); color: white; padding: 13px 20px; }
+.button-primary:hover { background: var(--green-dark); }
+.button-text { background: transparent; color: var(--muted); }
+.course-header, .course-row { display: grid; grid-template-columns: minmax(0, 1fr) 100px minmax(135px, 155px) 34px; gap: 10px; align-items: center; }
+.course-header { padding: 0 0 8px; color: var(--muted); text-transform: uppercase; font-size: 10px; font-weight: 800; letter-spacing: .08em; }
+.course-row { padding: 10px 0; border-top: 1px solid #edf1ef; }
+.course-row input, .course-row select { font-size: 13px; padding: 10px 9px; }
+.course-row [data-visible-credit] { text-align: center; }
+.delete-button { border: 0; background: #fff0ee; color: var(--danger); font-size: 23px; line-height: 1; border-radius: 8px; width: 32px; height: 36px; }
+.delete-button:hover { background: #ffe0dc; }
+.form-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border-top: 1px solid var(--line); margin-top: 18px; padding-top: 20px; }
+.error { color: var(--danger); background: #fff1f0; padding: 11px 13px; border-radius: 8px; font-size: 13px; margin: 14px 0 0; }
+.results-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 12px; }
+.result-card { margin: 0; padding: 20px; min-width: 0; }
+.result-main { background: var(--soft-green); border-color: #d4e9df; }
+.result-label { color: var(--muted); font-size: 12px; font-weight: 700; margin: 0 0 8px; }
+.big-result { color: var(--green-dark); font-size: 42px; font-weight: 800; line-height: 1.1; letter-spacing: -.04em; margin: 0 0 10px; }
+.result-message { color: #4b655d; font-size: 12px; margin: 0; }
+.metric { font-size: 25px; font-weight: 800; letter-spacing: -.03em; margin: 0; }
+.grade-scale { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin: 18px 0; }
+.grade-scale span { background: #f5f8f6; border: 1px solid var(--line); padding: 10px; border-radius: 9px; display: flex; justify-content: space-between; gap: 5px; font-size: 12px; }
+.grade-scale b { color: var(--green-dark); }
+.note { color: var(--muted); font-size: 12px; margin: 12px 0 0; }
+footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 12px 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+[hidden] { display: none !important; }
+@media (max-width: 700px) {
+  .app { padding: 12px 12px 24px; }
+  .hero { padding: 32px 16px; border-radius: 16px; }
+  .panel { padding: 18px 14px; }
+  .section-heading { flex-direction: column; }
+  .actions { width: 100%; }
+  .actions .button { flex: 1; }
+  .course-header { display: none; }
+  .course-row { grid-template-columns: minmax(0, 1fr) 76px 116px 30px; gap: 6px; }
+  .course-row input, .course-row select { font-size: 12px; padding: 10px 6px; }
+  .delete-button { width: 29px; }
+  .results-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .result-main { grid-column: 1 / -1; }
+  .grade-scale { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 390px) {
+  .course-row { grid-template-columns: minmax(0, 1fr) 60px 104px 26px; gap: 4px; }
+  .course-row input, .course-row select { padding: 9px 4px; }
+  .delete-button { width: 26px; }
+}
+  
+.selection-grid { display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:12px; margin-top:18px; }
+.selection-grid input, .selection-grid select { width:100%; border:1px solid #d8e2de; background:#fff; color:var(--ink); border-radius:9px; padding:11px 10px; outline:none; }
+.selection-grid input:focus, .selection-grid select:focus { border-color:var(--green); box-shadow:0 0 0 3px rgba(23,107,85,.12); }
+.selection-status { font-size:12px; color:var(--muted); margin:10px 0 0 !important; }
+@media (max-width:520px) { .selection-grid { grid-template-columns:1fr; } }
+</style>
+
+  <title>NU CGPA Calculator | National University Bangladesh</title>
+</head>
+<body>
+  <main class="app" id="cgpa-calculator">
+    <header class="hero">
+      <p class="eyebrow">STUDENT TOOL · BANGLADESH</p>
+      <h1>NU CGPA Calculator</h1>
+      <p class="subtitle">For National University Bangladesh — any department, programme, or course list.</p>
+    </header>
+
+    <section class="panel intro">
+      <h2>Calculate your GPA or CGPA</h2>
+      <p>Add the courses from your own syllabus or marksheet, enter each course's credit and grade, then calculate. Different departments and syllabus years can have different course lists, so courses are editable rather than locked to one department.</p>
+      <div class="selection-grid">
+        <div>
+          <label class="field-label" for="programme">Programme</label>
+          <select id="programme">
+            <option value="honours">Honours</option>
+            <option value="pass">Degree Pass</option>
+            <option value="masters-preliminary">Masters Preliminary</option>
+            <option value="masters-final">Masters Final</option>
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="department">Search department</label>
+          <input id="department" type="search" list="department-options" placeholder="Type a department, e.g. English" autocomplete="off" />
+          <datalist id="department-options"></datalist>
+        </div>
+        <div>
+          <label class="field-label" for="academic-year">Academic year</label>
+          <select id="academic-year"></select>
+        </div>
+        <div>
+          <label class="field-label" for="syllabus-version">Syllabus version</label>
+          <select id="syllabus-version"></select>
+        </div>
+      </div>
+      <p id="selection-status" class="selection-status" aria-live="polite">Choose a department and year to load the available subject list below. You can still add or edit courses manually.</p>
+    </section>
+
+    <form id="form-container" novalidate>
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <h2>Your courses</h2>
+            <p class="muted">Use the credit value printed in your syllabus or marksheet.</p>
+          </div>
+          <div class="actions">
+            <button type="button" class="button button-light" id="add-one">+ Add course</button>
+          </div>
+        </div>
+        <div class="course-header" aria-hidden="true">
+          <span>Course / subject</span><span>Credits</span><span>Grade</span><span></span>
+        </div>
+        <div id="subjects-container" class="courses" aria-live="polite"></div>
+        <template id="subject-template">
+          <div class="course-row" data-subject>
+            <label class="sr-only">Course or subject name
+              <input data-subject-name type="text" placeholder="e.g. Accounting" />
+            </label>
+            <input data-visible-name type="text" placeholder="Course / subject name" aria-label="Course or subject name" />
+            <label class="sr-only">Course credits
+              <input data-subject-credit type="number" min="0.1" max="30" step="0.1" value="3" />
+            </label>
+            <input data-visible-credit type="number" min="0.1" max="30" step="0.1" value="3" aria-label="Course credits" />
+            <select data-subject-grade aria-label="Course grade">
+              <option value="">Select grade</option>
+              <option value="4">A+ · 4.00</option>
+              <option value="3.75">A · 3.75</option>
+              <option value="3.5">A− · 3.50</option>
+              <option value="3.25">B+ · 3.25</option>
+              <option value="3">B · 3.00</option>
+              <option value="2.75">B− · 2.75</option>
+              <option value="2.5">C+ · 2.50</option>
+              <option value="2.25">C · 2.25</option>
+              <option value="2">D · 2.00</option>
+              <option value="0">F · 0.00</option>
+            </select>
+            <button type="button" data-delete-button class="delete-button" aria-label="Remove course" title="Remove course">×</button>
+          </div>
+        </template>
+        <div class="form-actions">
+          <button type="submit" class="button button-primary">Calculate GPA / CGPA</button>
+          <button type="button" class="button button-text" id="reset">Clear all</button>
+        </div>
+        <p class="error" id="error-message" role="alert" hidden></p>
+      </section>
+    </form>
+
+    <section class="results-grid" aria-live="polite">
+      <article class="result-card result-main">
+        <p class="result-label">Calculated GPA / CGPA</p>
+        <p id="grade" class="big-result">—</p>
+        <p id="result" class="result-message">Add your course grades to get started.</p>
+      </article>
+      <article class="result-card">
+        <p class="result-label">Total graded credits</p>
+        <p id="total-credits" class="metric">0</p>
+      </article>
+      <article class="result-card">
+        <p class="result-label">Quality points</p>
+        <p id="quality-points" class="metric">0.00</p>
+      </article>
+      <article class="result-card">
+        <p class="result-label">Courses included</p>
+        <p id="course-count" class="metric">0</p>
+      </article>
+    </section>
+
+    <section class="panel grading">
+      <h2>NU grading scale</h2>
+      <div class="grade-scale">
+        <span>A+ <b>4.00</b></span><span>A <b>3.75</b></span><span>A− <b>3.50</b></span>
+        <span>B+ <b>3.25</b></span><span>B <b>3.00</b></span><span>B− <b>2.75</b></span>
+        <span>C+ <b>2.50</b></span><span>C <b>2.25</b></span><span>D <b>2.00</b></span><span>F <b>0.00</b></span>
+      </div>
+      <p class="note"><strong>Formula:</strong> Σ (grade point × course credit) ÷ Σ graded course credits. Unselected courses are ignored; an F counts as 0 grade points for its entered credits.</p>
+      <p class="note">This is an unofficial estimate. It accepts courses from any department because you enter the course names and credits yourself; it does not automatically load every syllabus. NU rules can vary by programme and syllabus year, especially for failed, improved, non-credit, practical, and viva courses. Follow the rules on your own syllabus and confirm official results with National University.</p>
+    </section>
+    <footer>Made for NU students · Check your syllabus for the correct course credits and rules.</footer>
+  </main>
+  <script src="./script.js" defer></script>html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#123b35" />
+  <meta name="description" content="A flexible National University Bangladesh GPA and CGPA calculator for any department. Add your own courses, credits, and grades." />
+  <link rel="stylesheet" href="./style.css" /> html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#123b35" />
+  <meta name="description" content="A flexible National University Bangladesh GPA and CGPA calculator for any department. Add your own courses, credits, and grades." />
   <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
