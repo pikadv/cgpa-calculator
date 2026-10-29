@@ -379,7 +379,20 @@
         : entry?.optionGroups?.length
           ? ` Select ${entry.optionGroups[0].selectionLimit} non-major packages above; currently ${selectedOptionGroups.size} selected.`
           : "";
-      selectionStatus.textContent = `Loaded ${list.length} course entries for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry?.sourceLabel || "syllabus catalogue"}. ${entry?.verificationNote || "Check the official syllabus before calculating."}${packagePrompt}`;
+      const statusItems = [
+        `${list.length} course entries loaded`,
+        `${programmeLabel} · ${department}`,
+        `${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}`
+      ];
+      if (packagePrompt.trim()) statusItems.push(packagePrompt.trim());
+      const statusList = document.createElement("ul");
+      statusList.className = "selection-status-list";
+      statusItems.forEach(item => {
+        const listItem = document.createElement("li");
+        listItem.textContent = item;
+        statusList.appendChild(listItem);
+      });
+      selectionStatus.replaceChildren(statusList);
     } else {
       selectionStatus.textContent = `Department listed for ${programmeLabel}, but no course list has been extracted for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Add subjects manually; no courses or credits have been invented.`;
     }

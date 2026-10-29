@@ -104,6 +104,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
 .selection-grid input, .selection-grid select { width:100%; border:1px solid #d8e2de; background:#fff; color:var(--ink); border-radius:9px; padding:11px 10px; outline:none; }
 .selection-grid input:focus, .selection-grid select:focus { border-color:var(--green); box-shadow:0 0 0 3px rgba(23,107,85,.12); }
 .selection-status { font-size:12px; color:var(--muted); margin:10px 0 0 !important; }
+.selection-status-list { margin:0; padding-left:18px; display:grid; gap:3px; }
 @media (max-width:520px) { .selection-grid { grid-template-columns:1fr; } }
 
 .add-course-actions { display: flex; justify-content: flex-start; margin-top: 12px; }
