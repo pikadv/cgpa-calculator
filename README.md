@@ -2,7 +2,7 @@
 
 A lightweight, mobile-friendly GPA and CGPA calculator for students of National University Bangladesh.
 
-**Live site:** https://pikadv.app
+**Live site:** https://pikadv.app/cgpa-calculator
 
 ## Features
 
