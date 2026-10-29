@@ -75,7 +75,8 @@
         "Soil Science",
         "Statistics",
         "Zoology",
-        "Environment Science"
+        "Environment Science",
+        "Bachelor of Sports"
       ],
       "departmentGroups": {
         "Business Administration": [
@@ -119,7 +120,8 @@
         "Other / Interdisciplinary": [
           "Music",
           "Pali",
-          "Public Administration"
+          "Public Administration",
+          "Bachelor of Sports"
         ]
       }
     },
@@ -870,11 +872,52 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Arabic catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/arabic",
+      "courses": [
+        {
+          "code": "211201",
+          "name": "Al- Quran & Al-Hadith",
+          "credits": 4
+        },
+        {
+          "code": "211203",
+          "name": "History of Arabic Literature (500-750 AD)",
+          "credits": 4
+        },
+        {
+          "code": "211205",
+          "name": "Communicative Arabic-I",
+          "credits": 4
+        },
+        {
+          "code": "211207",
+          "name": "Arabic Grammar (Sarf)",
+          "credits": 4
+        },
+        {
+          "code": "211209",
+          "name": "Islamic Ideology-I",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Arabic course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|arabic|2": {
@@ -884,11 +927,48 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Arabic catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/arabic",
+      "courses": [
+        {
+          "code": "221201",
+          "name": "Classical Poetry",
+          "credits": 4
+        },
+        {
+          "code": "221203",
+          "name": "Communicative Arabic-2",
+          "credits": 4
+        },
+        {
+          "code": "221205",
+          "name": "Arabic Grammar (Nahu)",
+          "credits": 4
+        },
+        {
+          "code": "221207",
+          "name": "History of Arabic Literature(750-1258 A.D)",
+          "credits": 4
+        },
+        {
+          "code": "221209",
+          "name": "Islamic Ideology-2",
+          "credits": 4
+        },
+        {
+          "code": "221909",
+          "name": "Political Organization and Political System of UK and USA",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Arabic course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|arabic|3": {
@@ -898,11 +978,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Arabic catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/arabic",
+      "courses": [
+        {
+          "code": "231201",
+          "name": "Classical Prose",
+          "credits": 4
+        },
+        {
+          "code": "231203",
+          "name": "Modern Prose",
+          "credits": 4
+        },
+        {
+          "code": "231205",
+          "name": "Communicative Arabic-III",
+          "credits": 4
+        },
+        {
+          "code": "231207",
+          "name": "History of Arabic Literature (1258-1798 AD.)",
+          "credits": 4
+        },
+        {
+          "code": "231209",
+          "name": "‘Ilmul Balagah and ‘Ilmul Arud",
+          "credits": 4
+        },
+        {
+          "code": "231211",
+          "name": "History of Islam (570-750 AD.)",
+          "credits": 4
+        },
+        {
+          "code": "231213",
+          "name": "Arabic Philology and Arabic Literary Criticism (Theoretical)",
+          "credits": 4
+        },
+        {
+          "code": "231215",
+          "name": "Muslim philosophy-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Arabic course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|arabic|4": {
@@ -912,11 +1033,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Arabic catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/arabic",
+      "courses": [
+        {
+          "code": "241201",
+          "name": "Modern poetry",
+          "credits": 4
+        },
+        {
+          "code": "241203",
+          "name": "History of Arabic Literature (1789-Till now)",
+          "credits": 4
+        },
+        {
+          "code": "241205",
+          "name": "Arabic Literary Criticism",
+          "credits": 4
+        },
+        {
+          "code": "241207",
+          "name": "Modern prose (Novel and Drama)",
+          "credits": 4
+        },
+        {
+          "code": "241209",
+          "name": "`Ilmul Kalam",
+          "credits": 4
+        },
+        {
+          "code": "241211",
+          "name": "Communicative Arabic-IV",
+          "credits": 4
+        },
+        {
+          "code": "241213",
+          "name": "History of Islam (750-1258AD)",
+          "credits": 4
+        },
+        {
+          "code": "241215",
+          "name": "Studies of Arabic in Bengal",
+          "credits": 4
+        },
+        {
+          "code": "241217",
+          "name": "Muslim Philosophy-2",
+          "credits": 4
+        },
+        {
+          "code": "241218",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Arabic course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|bangla|1": {
@@ -926,11 +1098,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bangla catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/bangla",
+      "courses": [
+        {
+          "code": "211001",
+          "name": "History and Culture of Bangladesh and Bengalees (From Ancients to 2000 AD)",
+          "credits": 4
+        },
+        {
+          "code": "211003",
+          "name": "History of Bangla Language and Functional Bangla",
+          "credits": 4
+        },
+        {
+          "code": "211005",
+          "name": "Bangla Poetry-1",
+          "credits": 4
+        },
+        {
+          "code": "211007",
+          "name": "Bangla Novel-1",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bangla course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|bangla|2": {
@@ -940,11 +1148,38 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bangla catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/bangla",
+      "courses": [
+        {
+          "code": "221001",
+          "name": "History of Bengali Literature -1 (Ancients and Medieval)",
+          "credits": 4
+        },
+        {
+          "code": "221003",
+          "name": "Poetry of Medieval Age",
+          "credits": 4
+        },
+        {
+          "code": "221005",
+          "name": "Bengali Poetry -2",
+          "credits": 4
+        },
+        {
+          "code": "221007",
+          "name": "Bengali Drama -1",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bangla course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|bangla|3": {
@@ -954,11 +1189,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bangla catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/bangla",
+      "courses": [
+        {
+          "code": "231001",
+          "name": "History of Bangla Literature-II, First part of Modern Age (1801-1947)",
+          "credits": 4
+        },
+        {
+          "code": "231003",
+          "name": "Poetry of Ancient and Medieval Age",
+          "credits": 4
+        },
+        {
+          "code": "231005",
+          "name": "Bangla Short Story-I",
+          "credits": 4
+        },
+        {
+          "code": "231007",
+          "name": "Theory of Folklor and Bangla Folk Literature",
+          "credits": 4
+        },
+        {
+          "code": "231009",
+          "name": "Literary forms, Literary principles (Theory Rasa), Ornamentation, Rhythm",
+          "credits": 4
+        },
+        {
+          "code": "231011",
+          "name": "Bangla Prose-I",
+          "credits": 4
+        },
+        {
+          "code": "231013",
+          "name": "Bangla Comedy and Literature of Traveling",
+          "credits": 4
+        },
+        {
+          "code": "231015",
+          "name": "Bangla Novel-2",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bangla course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|bangla|4": {
@@ -968,11 +1244,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bangla catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/bangla",
+      "courses": [
+        {
+          "code": "241001",
+          "name": "History of Bangla Literature-3 (Development of Bangladeshi Literature Since 1947 to 2000)",
+          "credits": 4
+        },
+        {
+          "code": "241003",
+          "name": "Bangla Novel-3",
+          "credits": 4
+        },
+        {
+          "code": "241005",
+          "name": "Western Literary Theories and Methods of Literary Criticism",
+          "credits": 4
+        },
+        {
+          "code": "241007",
+          "name": "Bangla Drama-2",
+          "credits": 4
+        },
+        {
+          "code": "241009",
+          "name": "Classical Literature (Translated)",
+          "credits": 4
+        },
+        {
+          "code": "241011",
+          "name": "Bangla Short-Stories-2",
+          "credits": 4
+        },
+        {
+          "code": "241013",
+          "name": "Bangla Poetry-3",
+          "credits": 4
+        },
+        {
+          "code": "241015",
+          "name": "Phonetics and Linguistics",
+          "credits": 4
+        },
+        {
+          "code": "241017",
+          "name": "Literature on Bangladesh Liberation War",
+          "credits": 4
+        },
+        {
+          "code": "241018",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bangla course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|computer science and engineering|1": {
@@ -1262,10 +1589,11 @@
       "programme": "honours",
       "department": "English",
       "year": 1,
-      "sourceLabel": "NU official English Honours 1st Year syllabus PDF",
-      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BA_Honours/English_First_Year_Pub_Date_12112025.pdf",
-      "verified": true,
-      "verificationNote": "Course codes, titles, and credit values checked against the official NU PDF. Code 211009 is one elective choice among the listed alternatives, not three separate courses.",
+      "yearLabel": "1st Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) English catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/english",
       "courses": [
         {
           "code": "211101",
@@ -1284,12 +1612,7 @@
         },
         {
           "code": "211107",
-          "name": "Introduction to Prose: Fiction and Non-Fiction",
-          "credits": 4
-        },
-        {
-          "code": "211009",
-          "name": "Optional course (choose one: Bangla Language and Literature, Introducing Sociology, or Introduction to Political Science)",
+          "name": "Introduction to Prose: Fiction and Non- Fiction:",
           "credits": 4
         },
         {
@@ -1308,6 +1631,7 @@
           "credits": 1
         }
       ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) English course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|english|2": {
@@ -1317,11 +1641,38 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) English catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/english",
+      "courses": [
+        {
+          "code": "221101",
+          "name": "Introduction to Drama",
+          "credits": 4
+        },
+        {
+          "code": "221103",
+          "name": "Romantic Poetry",
+          "credits": 4
+        },
+        {
+          "code": "221105",
+          "name": "Advanced Reading and Writing",
+          "credits": 4
+        },
+        {
+          "code": "221107",
+          "name": "History of English Literature",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) English course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|english|3": {
@@ -1331,11 +1682,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) English catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/english",
+      "courses": [
+        {
+          "code": "231101",
+          "name": "Elizabethan and Jacobean Drama",
+          "credits": 4
+        },
+        {
+          "code": "231103",
+          "name": "16th and 17th Century Poetry",
+          "credits": 4
+        },
+        {
+          "code": "231105",
+          "name": "17th and 18th Century Non-Fictional Prose",
+          "credits": 4
+        },
+        {
+          "code": "231107",
+          "name": "Restoration and Eighteenth Century Fiction",
+          "credits": 4
+        },
+        {
+          "code": "231109",
+          "name": "Restoration and Eighteenth Century Poetry and Drama",
+          "credits": 4
+        },
+        {
+          "code": "231111",
+          "name": "Victorian Poetry",
+          "credits": 4
+        },
+        {
+          "code": "231113",
+          "name": "Introduction to Literary Criticism (Up to Romantic Period)",
+          "credits": 4
+        },
+        {
+          "code": "231115",
+          "name": "Introduction to Linguistics",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) English course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|english|4": {
@@ -1345,11 +1737,57 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) English catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/english",
+      "courses": [
+        {
+          "code": "241101",
+          "name": "Nineteenth Century Novel",
+          "credits": 4
+        },
+        {
+          "code": "241103",
+          "name": "Twentieth Century Poetry",
+          "credits": 4
+        },
+        {
+          "code": "241105",
+          "name": "Modern Drama",
+          "credits": 4
+        },
+        {
+          "code": "241107",
+          "name": "Twentieth Century Novel",
+          "credits": 4
+        },
+        {
+          "code": "241109",
+          "name": "American Poetry",
+          "credits": 4
+        },
+        {
+          "code": "241111",
+          "name": "American Literature: Fiction and Drama",
+          "credits": 4
+        },
+        {
+          "code": "241113",
+          "name": "Classics in Translation",
+          "credits": 4
+        },
+        {
+          "code": "241115",
+          "name": "Literary Criticism (From Victorian to Modern Age)",
+          "credits": 4
+        },
+        {
+          "code": "241120",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) English course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|finance and banking|1": {
@@ -1414,34 +1852,29 @@
       "department": "History",
       "year": 1,
       "yearLabel": "1st Year",
-      "sourceLabel": "NU official History Honours First-Year Course and Marks Distribution PDF",
-      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BA_Honours/History_First_Year_Pub_Date_12112025.pdf",
-      "verified": true,
-      "verificationNote": "Course codes, titles, and credits checked against the official NU PDF. The source lists elective alternatives; the elective is represented as one 4-credit optional course so the calculator does not count alternatives as separate courses.",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) History catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/history",
       "courses": [
         {
           "code": "211503",
-          "name": "Introduction to History and Historiography",
+          "name": "Introduction to History",
           "credits": 4
         },
         {
           "code": "211505",
-          "name": "History of Bengal (from earliest time to 1204)",
+          "name": "History of Bengal (from earliest times to 1204)",
           "credits": 4
         },
         {
           "code": "211507",
-          "name": "History of South Asia up to 1526 (Selected Topics)",
+          "name": "History of South Asia upto 1526",
           "credits": 4
         },
         {
           "code": "211509",
-          "name": "Political and Cultural History of Islam up to 1258",
-          "credits": 4
-        },
-        {
-          "code": "211009",
-          "name": "Optional course (choose the applicable elective from the official syllabus)",
+          "name": "Political and Cultural History of Islam upto 1258",
           "credits": 4
         },
         {
@@ -1459,7 +1892,9 @@
           "name": "Lab: Information and Communication Technology",
           "credits": 1
         }
-      ]
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) History course table for 2024-2025.",
+      "departmentCategory": "Arts"
     },
     "honours|2024-2025|history|2": {
       "syllabusVersion": "2024-2025",
@@ -1468,11 +1903,38 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU History Honours Second Year syllabus PDF (2024–2025); course rows not yet transcribed",
-      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/honours-second-year-2024%E2%80%932025/Second-Year-Syllabus_History_Session-2024%E2%80%932025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) History catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/history",
+      "courses": [
+        {
+          "code": "221501",
+          "name": "History of South Asia, 1526-1757",
+          "credits": 4
+        },
+        {
+          "code": "221503",
+          "name": "History of Bengal, 1204-1765",
+          "credits": 4
+        },
+        {
+          "code": "221505",
+          "name": "History of Ancient Civilization",
+          "credits": 4
+        },
+        {
+          "code": "221507",
+          "name": "History of Medieval Civilization",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) History course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|history|3": {
@@ -1482,11 +1944,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) History catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/history",
+      "courses": [
+        {
+          "code": "231501",
+          "name": "History of Bengal, 1765-1905",
+          "credits": 4
+        },
+        {
+          "code": "231503",
+          "name": "History of South Asia, 1757-1857",
+          "credits": 4
+        },
+        {
+          "code": "231505",
+          "name": "History of West Asia, 1560 hrs.-1914",
+          "credits": 4
+        },
+        {
+          "code": "231507",
+          "name": "History of United States, 1776-1860 hrs.",
+          "credits": 4
+        },
+        {
+          "code": "231509",
+          "name": "History of England, 1485 to 1945",
+          "credits": 4
+        },
+        {
+          "code": "231511",
+          "name": "History of Africa Since Colonial Period",
+          "credits": 4
+        },
+        {
+          "code": "231513",
+          "name": "History of Europe, 1453-1815",
+          "credits": 4
+        },
+        {
+          "code": "231515",
+          "name": "Far East and South-East Asia in Modern Times",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) History course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|history|4": {
@@ -1496,11 +1999,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) History catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/history",
+      "courses": [
+        {
+          "code": "241501",
+          "name": "History of South Asia 1857-1947",
+          "credits": 4
+        },
+        {
+          "code": "241503",
+          "name": "History of Bengal 1905-1947",
+          "credits": 4
+        },
+        {
+          "code": "241505",
+          "name": "Constitutional History of India under British Colonial Rule 1773-1947",
+          "credits": 4
+        },
+        {
+          "code": "241507",
+          "name": "West Asia in Modern Times upto 1945",
+          "credits": 4
+        },
+        {
+          "code": "241509",
+          "name": "History of Russia and Soviet Union upto 1945",
+          "credits": 4
+        },
+        {
+          "code": "241511",
+          "name": "History of United States 1861-1945",
+          "credits": 4
+        },
+        {
+          "code": "241513",
+          "name": "History of Europe 1815-1939",
+          "credits": 4
+        },
+        {
+          "code": "241515",
+          "name": "Bangladesh: National Culture and Heritage",
+          "credits": 4
+        },
+        {
+          "code": "241517",
+          "name": "History of Resistance Movement and Subalterns (Selected Topics)",
+          "credits": 4
+        },
+        {
+          "code": "241518",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) History course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic history and culture|1": {
@@ -1510,11 +2064,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic History and Culture catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-history-culture",
+      "courses": [
+        {
+          "code": "211601",
+          "name": "History of the Muslims (570-750, Prophet Muhammad (sm), Khulafa-i-Rashidun and the Umayyads)",
+          "credits": 4
+        },
+        {
+          "code": "211603",
+          "name": "History of The Muslims (750-1258, The Abbasids and the Regional Dynasties)",
+          "credits": 4
+        },
+        {
+          "code": "211605",
+          "name": "History of The Muslims in Spain (710-1492)",
+          "credits": 4
+        },
+        {
+          "code": "211607",
+          "name": "History of The Muslim Rule in Syria, Egypt and North Africa (Fatimids, Ayyubids and Mamluks)",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic History and Culture course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic history and culture|2": {
@@ -1524,11 +2114,38 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic History and Culture catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-history-culture",
+      "courses": [
+        {
+          "code": "221601",
+          "name": "History of the Muslims in India (upto 1526)",
+          "credits": 4
+        },
+        {
+          "code": "221603",
+          "name": "History of the Muslims in India (1526-1858)",
+          "credits": 4
+        },
+        {
+          "code": "221605",
+          "name": "History of Ancient Bengal (upto 1204)",
+          "credits": 4
+        },
+        {
+          "code": "221607",
+          "name": "History of Muslim rule in Bengal (1204 -1757)",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic History and Culture course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic history and culture|3": {
@@ -1538,11 +2155,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic History and Culture catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-history-culture",
+      "courses": [
+        {
+          "code": "231601",
+          "name": "History of the Muslims in Persia and Central Asia (13th – 18th century)",
+          "credits": 4
+        },
+        {
+          "code": "231603",
+          "name": "History of the Ottomans (upto 1924)",
+          "credits": 4
+        },
+        {
+          "code": "231605",
+          "name": "History of Bengal (1757-1947)",
+          "credits": 4
+        },
+        {
+          "code": "231607",
+          "name": "History of Modern Europe (Since 1789)",
+          "credits": 4
+        },
+        {
+          "code": "231609",
+          "name": "Muslim Minorities in the Contemporary World",
+          "credits": 4
+        },
+        {
+          "code": "231611",
+          "name": "History of Muslim Administration (570-1258)",
+          "credits": 4
+        },
+        {
+          "code": "231613",
+          "name": "History of World Civilizations",
+          "credits": 4
+        },
+        {
+          "code": "231615",
+          "name": "Development of Religious Principles, Institutions, Literature and Science in Islam.",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic History and Culture course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic history and culture|4": {
@@ -1552,11 +2210,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic History and Culture catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-history-culture",
+      "courses": [
+        {
+          "code": "241601",
+          "name": "Muslim Historiography (Khilafat; Sultanat and Mughal India)",
+          "credits": 4
+        },
+        {
+          "code": "241603",
+          "name": "Development of Philosophy and Sects in Islam",
+          "credits": 4
+        },
+        {
+          "code": "241605",
+          "name": "Development of Muslim Art and Painting",
+          "credits": 4
+        },
+        {
+          "code": "241607",
+          "name": "Development of Muslim Architecture and Archeology",
+          "credits": 4
+        },
+        {
+          "code": "241609",
+          "name": "History of Muslim Administration in India (Sultanat and Mughal)",
+          "credits": 4
+        },
+        {
+          "code": "241611",
+          "name": "Economic History of Islam",
+          "credits": 4
+        },
+        {
+          "code": "241613",
+          "name": "History of the Muslims of Southeast Asia (upto 1824)",
+          "credits": 4
+        },
+        {
+          "code": "241615",
+          "name": "History of the Modern Muslim States",
+          "credits": 4
+        },
+        {
+          "code": "241617",
+          "name": "Political History of Bangladesh since 1971",
+          "credits": 4
+        },
+        {
+          "code": "241618",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic History and Culture course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic studies|1": {
@@ -1566,11 +2275,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic Studies catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-studies",
+      "courses": [
+        {
+          "code": "211801",
+          "name": "Quranic Studies",
+          "credits": 4
+        },
+        {
+          "code": "211803",
+          "name": "Introduction to Islam",
+          "credits": 4
+        },
+        {
+          "code": "211805",
+          "name": "Introduction to Islamic Dawah",
+          "credits": 4
+        },
+        {
+          "code": "211807",
+          "name": "Al-Kalam",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic Studies course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic studies|2": {
@@ -1580,11 +2325,38 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic Studies catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-studies",
+      "courses": [
+        {
+          "code": "221801",
+          "name": "Introductory Knowledge of Quran",
+          "credits": 4
+        },
+        {
+          "code": "221803",
+          "name": "Study of Al-Hadith",
+          "credits": 4
+        },
+        {
+          "code": "221805",
+          "name": "Al-Sirat al-Nabawiyya",
+          "credits": 4
+        },
+        {
+          "code": "221807",
+          "name": "Social System and Family Welfare in Islam",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic Studies course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic studies|3": {
@@ -1594,11 +2366,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic Studies catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-studies",
+      "courses": [
+        {
+          "code": "231801",
+          "name": "Study of al-Tafsir",
+          "credits": 4
+        },
+        {
+          "code": "231803",
+          "name": "Principles and History of Tafsir Literature",
+          "credits": 4
+        },
+        {
+          "code": "231805",
+          "name": "Muslim Philosophy and Philosophers",
+          "credits": 4
+        },
+        {
+          "code": "231807",
+          "name": "Sufism and some Prominent Sufis and their Contribution",
+          "credits": 4
+        },
+        {
+          "code": "231809",
+          "name": "Economic System in Islam",
+          "credits": 4
+        },
+        {
+          "code": "231811",
+          "name": "Study of Islamic Law, Personal Law and Law of Inheritance in Islam",
+          "credits": 4
+        },
+        {
+          "code": "231813",
+          "name": "Ethics and Values in Islam",
+          "credits": 4
+        },
+        {
+          "code": "231815",
+          "name": "History of Muslim World",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic Studies course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|islamic studies|4": {
@@ -1608,11 +2421,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Islamic Studies catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/islamic-studies",
+      "courses": [
+        {
+          "code": "241801",
+          "name": "Sayings of the Holy Prophet (SM.) In the Practical Life",
+          "credits": 4
+        },
+        {
+          "code": "241803",
+          "name": "Principles and History of Hadith Literature",
+          "credits": 4
+        },
+        {
+          "code": "241805",
+          "name": "Principles and History of Islamic Jurisprudence",
+          "credits": 4
+        },
+        {
+          "code": "241807",
+          "name": "Political System in Islam",
+          "credits": 4
+        },
+        {
+          "code": "241809",
+          "name": "Study of Major Religions of the World",
+          "credits": 4
+        },
+        {
+          "code": "241811",
+          "name": "Banking and Insurance in Islam",
+          "credits": 4
+        },
+        {
+          "code": "241813",
+          "name": "Muslims’ Contribution to Science & Technology",
+          "credits": 4
+        },
+        {
+          "code": "241815",
+          "name": "Islamic Civilization",
+          "credits": 4
+        },
+        {
+          "code": "241817",
+          "name": "Human Rights in Islam",
+          "credits": 4
+        },
+        {
+          "code": "241818",
+          "name": "Viva-Voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Islamic Studies course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|library and information science|1": {
@@ -1622,12 +2486,48 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Library & Information Science"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Library and Information Science catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/library-information-science",
+      "courses": [
+        {
+          "code": "213801",
+          "name": "Foundations of Library and Information Science",
+          "credits": 4
+        },
+        {
+          "code": "213803",
+          "name": "Basics of Classification and Cataloguing",
+          "credits": 4
+        },
+        {
+          "code": "213805",
+          "name": "Introduction to Computer and Communication Technologies",
+          "credits": 4
+        },
+        {
+          "code": "213807",
+          "name": "Management of Library and Information Centre",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Library and Information Science course table for 2024-2025.",
+      "departmentCategory": "Arts"
     },
     "honours|2024-2025|library and information science|2": {
       "syllabusVersion": "2024-2025",
@@ -1636,12 +2536,39 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Library & Information Science"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Library and Information Science catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/library-information-science",
+      "courses": [
+        {
+          "code": "223801",
+          "name": "Records and Archives Management",
+          "credits": 4
+        },
+        {
+          "code": "223803",
+          "name": "Information Sources and Services",
+          "credits": 4
+        },
+        {
+          "code": "223805",
+          "name": "Information Resources Development",
+          "credits": 4
+        },
+        {
+          "code": "223807",
+          "name": "Information Resource Sharing",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Library and Information Science course table for 2024-2025.",
+      "departmentCategory": "Arts"
     },
     "honours|2024-2025|library and information science|3": {
       "syllabusVersion": "2024-2025",
@@ -1650,12 +2577,53 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Library & Information Science"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Library and Information Science catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/library-information-science",
+      "courses": [
+        {
+          "code": "233801",
+          "name": "Information Networking and Resource Sharing",
+          "credits": 4
+        },
+        {
+          "code": "233803",
+          "name": "Database Design and Application",
+          "credits": 4
+        },
+        {
+          "code": "233805",
+          "name": "Documentation",
+          "credits": 4
+        },
+        {
+          "code": "233807",
+          "name": "International and Comparative Librarianship",
+          "credits": 4
+        },
+        {
+          "code": "233809",
+          "name": "Research Methodology and User Studies",
+          "credits": 4
+        },
+        {
+          "code": "233811",
+          "name": "Automation of Library and Information Centres",
+          "credits": 4
+        },
+        {
+          "code": "233813",
+          "name": "Indexing and Abstracting",
+          "credits": 4
+        },
+        {
+          "code": "233815",
+          "name": "Information and Communication",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Library and Information Science course table for 2024-2025.",
+      "departmentCategory": "Arts"
     },
     "honours|2024-2025|library and information science|4": {
       "syllabusVersion": "2024-2025",
@@ -1664,12 +2632,68 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Library & Information Science"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Library and Information Science catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/library-information-science",
+      "courses": [
+        {
+          "code": "243801",
+          "name": "Organization of Knowledge (Classification Theory)",
+          "credits": 4
+        },
+        {
+          "code": "243803",
+          "name": "Organization of Knowledge (Cataloguing Theory)",
+          "credits": 4
+        },
+        {
+          "code": "243805",
+          "name": "Systems Analysis and Design",
+          "credits": 4
+        },
+        {
+          "code": "243807",
+          "name": "New Technologies Current Trends in Information Systems",
+          "credits": 4
+        },
+        {
+          "code": "243809",
+          "name": "Information Production Marketing and Public Relation",
+          "credits": 4
+        },
+        {
+          "code": "243811",
+          "name": "Information Retrieval Techniques",
+          "credits": 4
+        },
+        {
+          "code": "243813",
+          "name": "Advanced Bibliography",
+          "credits": 4
+        },
+        {
+          "code": "243814",
+          "name": "Organization of Knowledge (Classification Practical)",
+          "credits": 3
+        },
+        {
+          "code": "243816",
+          "name": "Organization of Knowledge (Cataloguing Practical)",
+          "credits": 3
+        },
+        {
+          "code": "243820",
+          "name": "Computer Applications in Libraries (Practical)",
+          "credits": 2
+        },
+        {
+          "code": "243822",
+          "name": "Viva Voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Library and Information Science course table for 2024-2025.",
+      "departmentCategory": "Arts"
     },
     "honours|2024-2025|management|1": {
       "syllabusVersion": "2024-2025",
@@ -2168,12 +3192,48 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Music catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/music",
+      "courses": [
+        {
+          "code": "213501",
+          "name": "History of Indian Classical Music",
+          "credits": 4
+        },
+        {
+          "code": "213503",
+          "name": "Fundamentals of Music Theory",
+          "credits": 4
+        },
+        {
+          "code": "213505",
+          "name": "Practical: Raga Studies-I",
+          "credits": 4
+        },
+        {
+          "code": "213507",
+          "name": "Practical: Folk Songs of Bangladesh-I",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Music course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
     },
     "honours|2024-2025|music|2": {
       "syllabusVersion": "2024-2025",
@@ -2182,12 +3242,39 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Music catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/music",
+      "courses": [
+        {
+          "code": "223501",
+          "name": "History of Bengali Music",
+          "credits": 4
+        },
+        {
+          "code": "223503",
+          "name": "Science of Music and Acoustics",
+          "credits": 4
+        },
+        {
+          "code": "223505",
+          "name": "Practical: Raga Studies-II",
+          "credits": 4
+        },
+        {
+          "code": "223507",
+          "name": "Practical: Rabindra Sangeet-I",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Music course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
     },
     "honours|2024-2025|music|3": {
       "syllabusVersion": "2024-2025",
@@ -2196,12 +3283,53 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Music catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/music",
+      "courses": [
+        {
+          "code": "233501",
+          "name": "Aesthetics of Music",
+          "credits": 4
+        },
+        {
+          "code": "233503",
+          "name": "Music of the World",
+          "credits": 4
+        },
+        {
+          "code": "233505",
+          "name": "Practical: Nazrul Sangeet-I",
+          "credits": 4
+        },
+        {
+          "code": "233507",
+          "name": "Practical: Instrumental Music (Tabla/Sitar)",
+          "credits": 4
+        },
+        {
+          "code": "233509",
+          "name": "Practical: Raga Studies-III",
+          "credits": 4
+        },
+        {
+          "code": "233511",
+          "name": "Practical: Rabindra Sangeet-II",
+          "credits": 4
+        },
+        {
+          "code": "233513",
+          "name": "Practical: Folk Songs-II",
+          "credits": 4
+        },
+        {
+          "code": "233515",
+          "name": "Stage Performance-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Music course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
     },
     "honours|2024-2025|music|4": {
       "syllabusVersion": "2024-2025",
@@ -2210,12 +3338,63 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Music catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/music",
+      "courses": [
+        {
+          "code": "243501",
+          "name": "Advanced Theory of Indian Music",
+          "credits": 4
+        },
+        {
+          "code": "243503",
+          "name": "Modern Bengali Songs",
+          "credits": 4
+        },
+        {
+          "code": "243505",
+          "name": "Music Direction and Composition",
+          "credits": 4
+        },
+        {
+          "code": "243507",
+          "name": "Practical: Advanced Raga Studies",
+          "credits": 4
+        },
+        {
+          "code": "243509",
+          "name": "Practical: Nazrul Sangeet-II",
+          "credits": 4
+        },
+        {
+          "code": "243511",
+          "name": "Practical: Specialized Instrument",
+          "credits": 4
+        },
+        {
+          "code": "243513",
+          "name": "Practical: Choral Music",
+          "credits": 4
+        },
+        {
+          "code": "243515",
+          "name": "Stage Performance-II",
+          "credits": 4
+        },
+        {
+          "code": "243517",
+          "name": "Research Project in Music",
+          "credits": 4
+        },
+        {
+          "code": "243518",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Music course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
     },
     "honours|2024-2025|pali|1": {
       "syllabusVersion": "2024-2025",
@@ -2280,11 +3459,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Philosophy catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/philosophy",
+      "courses": [
+        {
+          "code": "211701",
+          "name": "Problems of Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "211703",
+          "name": "History of Western Philosophy : Ancient and Medieval",
+          "credits": 4
+        },
+        {
+          "code": "211705",
+          "name": "General Ethics",
+          "credits": 4
+        },
+        {
+          "code": "211707",
+          "name": "Psychology",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Philosophy course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|philosophy|2": {
@@ -2294,11 +3509,38 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Philosophy catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/philosophy",
+      "courses": [
+        {
+          "code": "221701",
+          "name": "History of Western Philosophy: Modern",
+          "credits": 4
+        },
+        {
+          "code": "221703",
+          "name": "Muslim Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "221705",
+          "name": "Indian Philosophy: Atheistic School",
+          "credits": 4
+        },
+        {
+          "code": "221707",
+          "name": "General Logic",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Philosophy course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|philosophy|3": {
@@ -2308,11 +3550,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Philosophy catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/philosophy",
+      "courses": [
+        {
+          "code": "231701",
+          "name": "Ancient Philosophical Classics : Plato and Aristotle",
+          "credits": 4
+        },
+        {
+          "code": "231703",
+          "name": "Modern Philosophical Classics : Hume and Kant",
+          "credits": 4
+        },
+        {
+          "code": "231705",
+          "name": "Symbolic Logic",
+          "credits": 4
+        },
+        {
+          "code": "231707",
+          "name": "Moral Philosophy of Immanuel Kant and J.S. Nill",
+          "credits": 4
+        },
+        {
+          "code": "231709",
+          "name": "Philosophy of the Bangalees : Ancient and Medieval",
+          "credits": 4
+        },
+        {
+          "code": "231711",
+          "name": "Muslim Philosophers",
+          "credits": 4
+        },
+        {
+          "code": "231713",
+          "name": "Indian Philosophy : Theistic School",
+          "credits": 4
+        },
+        {
+          "code": "231715",
+          "name": "Philosophy of Education",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Philosophy course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|philosophy|4": {
@@ -2322,11 +3605,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Philosophy catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/philosophy",
+      "courses": [
+        {
+          "code": "241701",
+          "name": "Contemporary Western Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "241703",
+          "name": "Marxist Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "241705",
+          "name": "Aesthetics",
+          "credits": 4
+        },
+        {
+          "code": "241707",
+          "name": "Political Philosophy: Ancient and Medieval",
+          "credits": 4
+        },
+        {
+          "code": "241709",
+          "name": "Philosophy of the Bangalees: Modern and Contemporary",
+          "credits": 4
+        },
+        {
+          "code": "241711",
+          "name": "Philosophy of Mind",
+          "credits": 4
+        },
+        {
+          "code": "241713",
+          "name": "Social Philosophers",
+          "credits": 4
+        },
+        {
+          "code": "241715",
+          "name": "Meta Ethics",
+          "credits": 4
+        },
+        {
+          "code": "241717",
+          "name": "Philosophy of Religion",
+          "credits": 4
+        },
+        {
+          "code": "241718",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Philosophy course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|political science|1": {
@@ -2613,11 +3947,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Sanskrit catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sanskrit",
+      "courses": [
+        {
+          "code": "211301",
+          "name": "Sanskrit Language -I",
+          "credits": 4
+        },
+        {
+          "code": "211303",
+          "name": "History of Vedic Literature",
+          "credits": 4
+        },
+        {
+          "code": "211305",
+          "name": "History of Sanskrit Literature",
+          "credits": 4
+        },
+        {
+          "code": "211307",
+          "name": "Sanskrit Story Literature",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Sanskrit course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|sanskrit|2": {
@@ -2627,11 +3997,38 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Sanskrit catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sanskrit",
+      "courses": [
+        {
+          "code": "221301",
+          "name": "Sanskrit Language-2",
+          "credits": 4
+        },
+        {
+          "code": "221303",
+          "name": "Sanskrit Poetry",
+          "credits": 4
+        },
+        {
+          "code": "221305",
+          "name": "Sanskrit Prose",
+          "credits": 4
+        },
+        {
+          "code": "221307",
+          "name": "Sanskrit Poetics",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Sanskrit course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|sanskrit|3": {
@@ -2641,11 +4038,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Sanskrit catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sanskrit",
+      "courses": [
+        {
+          "code": "231301",
+          "name": "Sanskrit Grammar-I",
+          "credits": 4
+        },
+        {
+          "code": "231303",
+          "name": "Vedic Literature and Grammar",
+          "credits": 4
+        },
+        {
+          "code": "231305",
+          "name": "Sanskrit Drama (Kalidasa and Pre-Kalidasa)",
+          "credits": 4
+        },
+        {
+          "code": "231307",
+          "name": "Vedic and Sanskrit Prosody",
+          "credits": 4
+        },
+        {
+          "code": "231309",
+          "name": "Linguistics and Sanskrit Philology",
+          "credits": 4
+        },
+        {
+          "code": "231311",
+          "name": "Indian Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "231313",
+          "name": "Ancient Indian History and Culture",
+          "credits": 4
+        },
+        {
+          "code": "231315",
+          "name": "Manuscript Studies",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Sanskrit course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|sanskrit|4": {
@@ -2655,11 +4093,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Sanskrit catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sanskrit",
+      "courses": [
+        {
+          "code": "241301",
+          "name": "Sanskrit Grammar-2",
+          "credits": 4
+        },
+        {
+          "code": "241303",
+          "name": "Sanskrit Epic",
+          "credits": 4
+        },
+        {
+          "code": "241305",
+          "name": "Purana and Philosophical Poem",
+          "credits": 4
+        },
+        {
+          "code": "241307",
+          "name": "Post-Kalidasa Sanskrit Drama",
+          "credits": 4
+        },
+        {
+          "code": "241309",
+          "name": "Sanskrit Ethical Poem",
+          "credits": 4
+        },
+        {
+          "code": "241311",
+          "name": "Sanskrit Historical Poem",
+          "credits": 4
+        },
+        {
+          "code": "241313",
+          "name": "Ancient Indian Politics",
+          "credits": 4
+        },
+        {
+          "code": "241315",
+          "name": "Archaeology of Bengal",
+          "credits": 4
+        },
+        {
+          "code": "241317",
+          "name": "Essay, Composition and Translation",
+          "credits": 4
+        },
+        {
+          "code": "241318",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Sanskrit course table for 2024-2025.",
       "departmentCategory": "Arts"
     },
     "honours|2024-2025|social work|1": {
@@ -22910,6 +24399,217 @@
         }
       ],
       "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Psychology B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA."
+    },
+    "honours|2024-2025|bachelor of sports|1": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Bachelor of Sports",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bachelor of Sports catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sports",
+      "courses": [
+        {
+          "code": "213601",
+          "name": "Foundations of Physical Education and Sports",
+          "credits": 4
+        },
+        {
+          "code": "213603",
+          "name": "Anatomy and Physiology in Sports",
+          "credits": 4
+        },
+        {
+          "code": "213605",
+          "name": "Rules of Games and Sports-I",
+          "credits": 4
+        },
+        {
+          "code": "213607",
+          "name": "Practical: Athletics and Gymnastics",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bachelor of Sports course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
+    },
+    "honours|2024-2025|bachelor of sports|2": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Bachelor of Sports",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bachelor of Sports catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sports",
+      "courses": [
+        {
+          "code": "223601",
+          "name": "Sports Psychology",
+          "credits": 4
+        },
+        {
+          "code": "223603",
+          "name": "Health Education and First Aid",
+          "credits": 4
+        },
+        {
+          "code": "223605",
+          "name": "Rules of Games and Sports-II",
+          "credits": 4
+        },
+        {
+          "code": "223607",
+          "name": "Practical: Major Games (Football, Cricket)",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bachelor of Sports course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
+    },
+    "honours|2024-2025|bachelor of sports|3": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Bachelor of Sports",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bachelor of Sports catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sports",
+      "courses": [
+        {
+          "code": "233601",
+          "name": "Sports Sociology",
+          "credits": 4
+        },
+        {
+          "code": "233603",
+          "name": "Kinesiology and Biomechanics",
+          "credits": 4
+        },
+        {
+          "code": "233605",
+          "name": "Sports Training and Conditioning",
+          "credits": 4
+        },
+        {
+          "code": "233607",
+          "name": "Officiating and Coaching-I",
+          "credits": 4
+        },
+        {
+          "code": "233609",
+          "name": "Practical: Court Games (Volleyball, Basketball)",
+          "credits": 4
+        },
+        {
+          "code": "233611",
+          "name": "Practical: Racket Sports (Badminton, Tennis)",
+          "credits": 4
+        },
+        {
+          "code": "233613",
+          "name": "Practical: Swimming and Water Sports",
+          "credits": 4
+        },
+        {
+          "code": "233615",
+          "name": "Sports Event Management",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bachelor of Sports course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
+    },
+    "honours|2024-2025|bachelor of sports|4": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Bachelor of Sports",
+      "year": 4,
+      "yearLabel": "4th Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Honours) Bachelor of Sports catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/ba-honours/2024-2025/sports",
+      "courses": [
+        {
+          "code": "243601",
+          "name": "Sports Medicine and Rehabilitation",
+          "credits": 4
+        },
+        {
+          "code": "243603",
+          "name": "Test, Measurement and Evaluation in Sports",
+          "credits": 4
+        },
+        {
+          "code": "243605",
+          "name": "Sports Nutrition and Fitness",
+          "credits": 4
+        },
+        {
+          "code": "243607",
+          "name": "Officiating and Coaching-II",
+          "credits": 4
+        },
+        {
+          "code": "243609",
+          "name": "Practical: Advanced Coaching (Selected Sport)",
+          "credits": 4
+        },
+        {
+          "code": "243611",
+          "name": "Practical: Yoga and Fitness Training",
+          "credits": 4
+        },
+        {
+          "code": "243613",
+          "name": "Adapted Physical Education",
+          "credits": 4
+        },
+        {
+          "code": "243615",
+          "name": "Organization and Administration in Sports",
+          "credits": 4
+        },
+        {
+          "code": "243617",
+          "name": "Research Project in Sports Science",
+          "credits": 4
+        },
+        {
+          "code": "243618",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the workers.dev B.A. (Honours) Bachelor of Sports course table for 2024-2025.",
+      "departmentCategory": "Other / Interdisciplinary"
     }
   },
   "coverage": {
