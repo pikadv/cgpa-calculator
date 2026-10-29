@@ -16825,13 +16825,33 @@
       ],
       "verificationNote": "The course code and 4-credit value are legible; the title is represented using the document's subject heading because the course-title row uses legacy Bangla font encoding. Confirm exact title from the original.",
       "departmentCategory": "Degree Pass"
+    },
+    "pass|2025-2026-degree|english (compulsory)|1": {
+      "syllabusVersion": "2025-2026-degree",
+      "programme": "pass",
+      "department": "English (Compulsory)",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-official-nu-pdf",
+      "sourceLabel": "National University, Syllabus of Functional English (Compulsory), Degree Pass programs, session 2025–2026",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Degree_Syllabus_New/Compulsory_English_Syllabus_for_Degree._Corrected_2025%E2%80%932026.pdf",
+      "courses": [
+        {
+          "code": "Paper-I",
+          "name": "Functional English",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "The official syllabus lists Paper-I, Functional English, 100 marks and 4 credits for first-year BA/BSc/BBS/BSS Pass students. The PDF gives no numeric course code.",
+      "departmentCategory": "Arts"
     }
   },
   "coverage": {
     "status": "partial",
     "departmentOptionsGenerated": true,
     "combinationsListed": 591,
-    "verifiedCourseLists": 231,
+    "verifiedCourseLists": 232,
     "note": "Catalogue includes Honours 2013-2014 years 1-4 and Degree Pass 2013-2014 subject/year course lists extracted from uploaded Word syllabi. Compulsory-subject distribution documents and subjects with ambiguous or missing tables need manual verification. Remove unselected elective alternatives before calculating.",
     "sourceLinksUpdated": true
   }
