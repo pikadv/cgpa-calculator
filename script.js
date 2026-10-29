@@ -16,8 +16,14 @@
   const totalCreditsOutput = document.getElementById("total-credits");
   const courseCountOutput = document.getElementById("course-count");
 
-  function fillSelect(select, options) {
+  function fillSelect(select, options, placeholder) {
     select.replaceChildren();
+    if (placeholder) {
+      const prompt = document.createElement("option");
+      prompt.value = "";
+      prompt.textContent = placeholder;
+      select.appendChild(prompt);
+    }
     options.forEach(item => {
       const option = document.createElement("option");
       option.value = String(item.value);
@@ -86,26 +92,23 @@
 
     departmentInput.value = departments.includes(previousDepartment) ? previousDepartment : "";
     const entries = usableEntries(programme, departmentInput.value);
-    const selectedEntry = entries.find(entry =>
-      entry.syllabusVersion === previousVersion && String(entry.year) === previousYear
-    ) || entries[0];
-    const selectedVersion = selectedEntry?.syllabusVersion || "";
-    const selectedYear = selectedEntry ? String(selectedEntry.year) : "";
-    const matchingYears = new Set(entries
-      .filter(entry => entry.syllabusVersion === selectedVersion)
-      .map(entry => String(entry.year)));
+    const yearEntries = previousVersion
+      ? entries.filter(entry => entry.syllabusVersion === previousVersion)
+      : entries;
+    const matchingYears = new Set(yearEntries.map(entry => String(entry.year)));
     const yearOptions = availableOptions(config.yearOptions, matchingYears);
-    fillSelect(yearSelect, yearOptions);
+    fillSelect(yearSelect, yearOptions, "Choose a year");
     yearSelect.value = yearOptions.some(option => String(option.value) === previousYear)
-      ? previousYear : selectedYear;
+      ? previousYear : "";
 
-    const matchingVersions = new Set(entries
-      .filter(entry => String(entry.year) === yearSelect.value)
-      .map(entry => entry.syllabusVersion));
+    const versionEntries = yearSelect.value
+      ? entries.filter(entry => String(entry.year) === yearSelect.value)
+      : entries;
+    const matchingVersions = new Set(versionEntries.map(entry => entry.syllabusVersion));
     const versionOptions = availableOptions(config.syllabusVersions, matchingVersions);
-    fillSelect(syllabusSelect, versionOptions);
+    fillSelect(syllabusSelect, versionOptions, "Choose syllabus");
     syllabusSelect.value = versionOptions.some(option => String(option.value) === previousVersion)
-      ? previousVersion : selectedVersion;
+      ? previousVersion : "";
 
     courses.replaceChildren();
     resetResults();
@@ -122,27 +125,24 @@
     const oldYear = yearSelect.value;
     const oldVersion = syllabusSelect.value;
     const entries = usableEntries(programme, department);
-    const selectedEntry = entries.find(entry =>
-      entry.syllabusVersion === oldVersion && String(entry.year) === oldYear
-    ) || entries[0];
-    const selectedVersion = selectedEntry?.syllabusVersion || "";
-    const selectedYear = selectedEntry ? String(selectedEntry.year) : "";
 
-    const matchingYears = new Set(entries
-      .filter(entry => entry.syllabusVersion === selectedVersion)
-      .map(entry => String(entry.year)));
+    const yearEntries = oldVersion
+      ? entries.filter(entry => entry.syllabusVersion === oldVersion)
+      : entries;
+    const matchingYears = new Set(yearEntries.map(entry => String(entry.year)));
     const yearOptions = availableOptions(config.yearOptions, matchingYears);
-    fillSelect(yearSelect, yearOptions);
+    fillSelect(yearSelect, yearOptions, "Choose a year");
     yearSelect.value = yearOptions.some(option => String(option.value) === oldYear)
-      ? oldYear : selectedYear;
+      ? oldYear : "";
 
-    const matchingVersions = new Set(entries
-      .filter(entry => String(entry.year) === yearSelect.value)
-      .map(entry => entry.syllabusVersion));
+    const versionEntries = yearSelect.value
+      ? entries.filter(entry => String(entry.year) === yearSelect.value)
+      : entries;
+    const matchingVersions = new Set(versionEntries.map(entry => entry.syllabusVersion));
     const versionOptions = availableOptions(config.syllabusVersions, matchingVersions);
-    fillSelect(syllabusSelect, versionOptions);
+    fillSelect(syllabusSelect, versionOptions, "Choose syllabus");
     syllabusSelect.value = versionOptions.some(option => String(option.value) === oldVersion)
-      ? oldVersion : selectedVersion;
+      ? oldVersion : "";
   }
 
   // The course catalogue lives in syllabus.json so it can be updated without editing the UI.
@@ -229,6 +229,12 @@
     resetResults();
     if (!department) {
       selectionStatus.textContent = `Choose a department for ${programmeLabel}, then choose the academic year and syllabus version.`;
+      return;
+    }
+    if (!year || !version) {
+      selectionStatus.textContent = !year
+        ? "Choose an academic year to continue. You can still add courses manually."
+        : "Choose a syllabus version to continue. You can still add courses manually.";
       return;
     }
     selectionStatus.textContent = "Loading the syllabus catalogue…";
