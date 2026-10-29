@@ -50,7 +50,6 @@
         "Biochemistry and Molecular Biology",
         "Botany",
         "Chemistry",
-        "Computer Science and Engineering",
         "Economics",
         "English",
         "Finance and Banking",
@@ -97,33 +96,30 @@
           "Sanskrit"
         ],
         "Science": [
-          "Zoology",
-          "Physics",
-          "Botany",
           "Biochemistry and Molecular Biology",
+          "Botany",
           "Chemistry",
-          "Environment Science",
           "Geography and Environment",
           "Home Economics",
           "Mathematics",
+          "Physics",
+          "Psychology",
           "Soil Science",
           "Statistics",
-          "Psychology"
+          "Zoology",
+          "Environment Science"
         ],
         "Social Science": [
           "Anthropology",
           "Economics",
-          "Sociology",
           "Political Science",
-          "Social Work"
+          "Social Work",
+          "Sociology"
         ],
-        "Life & Earth Science": [],
-        "Library & Information Science": [],
         "Other / Interdisciplinary": [
-          "Computer Science and Engineering",
-          "Public Administration",
           "Music",
-          "Pali"
+          "Pali",
+          "Public Administration"
         ]
       }
     },
@@ -183,39 +179,35 @@
       ],
       "departmentGroups": {
         "Business Administration": [
-          "Finance and Banking",
-          "Marketing",
+          "Accounting",
           "Management",
-          "Accounting"
+          "Marketing",
+          "Finance and Banking"
         ],
         "Arts": [
-          "English",
-          "Bangla",
-          "Philosophy",
-          "Islamic Studies",
+          "History",
           "Islamic History and Culture",
-          "History"
-        ],
-        "Social Science": [
-          "Psychology",
-          "Social Work",
-          "Sociology",
-          "Political Science",
-          "Economics"
-        ],
-        "Life & Earth Science": [
-          "Geography and Environment"
-        ],
-        "Library & Information Science": [
+          "Islamic Studies",
+          "Philosophy",
+          "Bangla",
+          "English",
           "Library and Information Science"
         ],
-        "Other / Interdisciplinary": [
-          "Bachelor of Science (BSc)",
-          "Bachelor of Business Studies (BBS)",
-          "Bachelor of Social Science (BSS)",
-          "Bachelor of Arts (BA)"
-        ],
         "Science": [
+          "Geography and Environment",
+          "Psychology"
+        ],
+        "Social Science": [
+          "Economics",
+          "Political Science",
+          "Sociology",
+          "Social Work"
+        ],
+        "Other / Interdisciplinary": [
+          "Bachelor of Arts (BA)",
+          "Bachelor of Social Science (BSS)",
+          "Bachelor of Business Studies (BBS)",
+          "Bachelor of Science (BSc)",
           "Computer Science"
         ]
       }
@@ -280,21 +272,20 @@
         "Science": [
           "Botany",
           "Chemistry",
+          "Geography and Environment",
           "Mathematics",
           "Physics",
+          "Psychology",
           "Statistics",
           "Zoology"
         ],
         "Social Science": [
           "Economics",
           "Political Science",
-          "Psychology",
           "Social Work",
           "Sociology"
         ],
-        "Life & Earth Science": [
-          "Geography and Environment"
-        ]
+        "Other / Interdisciplinary": []
       }
     },
     "masters-final": {
@@ -364,35 +355,33 @@
           "Islamic Studies",
           "Philosophy",
           "Arabic",
-          "Pali",
+          "Library and Information Science",
           "Sanskrit"
         ],
         "Science": [
           "Botany",
           "Chemistry",
+          "Geography and Environment",
           "Mathematics",
           "Physics",
+          "Psychology",
           "Statistics",
           "Zoology",
           "Biochemistry and Molecular Biology",
-          "Computer Science",
           "Environmental Science",
+          "Home Economics",
           "Soil Science"
         ],
         "Social Science": [
           "Economics",
           "Political Science",
-          "Psychology",
           "Social Work",
           "Sociology",
           "Anthropology"
         ],
-        "Life & Earth Science": [
-          "Geography and Environment",
-          "Home Economics"
-        ],
-        "Library & Information Science": [
-          "Library and Information Science"
+        "Other / Interdisciplinary": [
+          "Pali",
+          "Computer Science"
         ]
       }
     }
