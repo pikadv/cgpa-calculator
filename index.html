@@ -130,11 +130,6 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
       <p>Add the courses from your own syllabus or marksheet, enter each course's credit and grade, then calculate. Different departments and syllabus years can have different course lists, so courses are editable rather than locked to one department.</p>
       <div class="selection-grid">
         <div>
-          <label class="field-label" for="department">Search department</label>
-          <input id="department" type="search" list="department-options" placeholder="Type a department, e.g. English" autocomplete="off" />
-          <datalist id="department-options"></datalist>
-        </div>
-        <div>
           <label class="field-label" for="programme">Programme</label>
           <select id="programme">
             <option value="honours">Honours</option>
@@ -142,6 +137,11 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
             <option value="masters-preliminary">Masters Preliminary</option>
             <option value="masters-final">Masters Final</option>
           </select>
+        </div>
+        <div>
+          <label class="field-label" for="department">Search department</label>
+          <input id="department" type="search" list="department-options" placeholder="Type a department, e.g. English" autocomplete="off" />
+          <datalist id="department-options"></datalist>
         </div>
         <div>
           <label class="field-label" for="syllabus-version">Syllabus version</label>
