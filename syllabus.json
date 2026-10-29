@@ -639,11 +639,52 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Anthropology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/anthropology",
+      "courses": [
+        {
+          "code": "214001",
+          "name": "Introduction to Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "214003",
+          "name": "Kinship",
+          "credits": 4
+        },
+        {
+          "code": "214005",
+          "name": "Introduction to Biological Anthropology and Archaeology",
+          "credits": 4
+        },
+        {
+          "code": "214007",
+          "name": "Other Cultures",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Anthropology catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|anthropology|2": {
@@ -653,11 +694,53 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Anthropology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/anthropology",
+      "courses": [
+        {
+          "code": "224001",
+          "name": "Early Anthropological Theory",
+          "credits": 4
+        },
+        {
+          "code": "224003",
+          "name": "Research Methodology-I",
+          "credits": 4
+        },
+        {
+          "code": "224005",
+          "name": "Economic Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "224007",
+          "name": "European Social History and Culture",
+          "credits": 4
+        },
+        {
+          "code": "222209",
+          "name": "Bangladesh Economy",
+          "credits": 4
+        },
+        {
+          "code": "222009",
+          "name": "Sociology of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "222115",
+          "name": "Bangladesh Society and Culture",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Anthropology catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|anthropology|3": {
@@ -667,11 +750,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Anthropology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/anthropology",
+      "courses": [
+        {
+          "code": "234001",
+          "name": "Anthropological Theory-II",
+          "credits": 4
+        },
+        {
+          "code": "234003",
+          "name": "Political Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "234005",
+          "name": "Peasant Society",
+          "credits": 4
+        },
+        {
+          "code": "234007",
+          "name": "Religion and Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "234009",
+          "name": "Environmental Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "234011",
+          "name": "Gender Issues",
+          "credits": 4
+        },
+        {
+          "code": "234013",
+          "name": "Ethnic Identity and Nationalism",
+          "credits": 4
+        },
+        {
+          "code": "234015",
+          "name": "Reading Ethnographic Texts",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Anthropology catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|anthropology|4": {
@@ -681,11 +805,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Anthropology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/anthropology",
+      "courses": [
+        {
+          "code": "244001",
+          "name": "Contemporary Anthropological Theory",
+          "credits": 4
+        },
+        {
+          "code": "244003",
+          "name": "Research Methods-II",
+          "credits": 4
+        },
+        {
+          "code": "244005",
+          "name": "Anthropology of Development",
+          "credits": 4
+        },
+        {
+          "code": "244007",
+          "name": "Medical Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "244009",
+          "name": "Urban Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "244011",
+          "name": "South Asian Society and Culture",
+          "credits": 4
+        },
+        {
+          "code": "244013",
+          "name": "Language, Society and Culture",
+          "credits": 4
+        },
+        {
+          "code": "244015",
+          "name": "Social Inequality",
+          "credits": 4
+        },
+        {
+          "code": "244017",
+          "name": "Emerging Issues in Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "244018",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Anthropology catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|arabic|1": {
@@ -863,11 +1038,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Economics catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/economics",
+      "courses": [
+        {
+          "code": "212201",
+          "name": "Basic Microeconomics",
+          "credits": 4
+        },
+        {
+          "code": "212203",
+          "name": "Basic Macroeconomics",
+          "credits": 4
+        },
+        {
+          "code": "212205",
+          "name": "Basic Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "212207",
+          "name": "Basic Statistics",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Economics catalogue for 2024–2025; 33 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|economics|2": {
@@ -877,11 +1088,43 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Economics catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/economics",
+      "courses": [
+        {
+          "code": "222201",
+          "name": "Intermediate Microeconomics",
+          "credits": 4
+        },
+        {
+          "code": "222203",
+          "name": "Mathematical Economics",
+          "credits": 4
+        },
+        {
+          "code": "222205",
+          "name": "Introduction to Business (In English/Bengali)",
+          "credits": 4
+        },
+        {
+          "code": "222207",
+          "name": "Computer and Information Technology",
+          "credits": 4
+        },
+        {
+          "code": "221909",
+          "name": "Political Organization and Political System of UK and USA",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Economics catalogue for 2024–2025; 33 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|economics|3": {
@@ -891,11 +1134,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Economics catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/economics",
+      "courses": [
+        {
+          "code": "232201",
+          "name": "Intermediate Macroeconomics",
+          "credits": 4
+        },
+        {
+          "code": "232203",
+          "name": "Statistics for Economics",
+          "credits": 4
+        },
+        {
+          "code": "232205",
+          "name": "Studies on Bangladesh Economy",
+          "credits": 4
+        },
+        {
+          "code": "232207",
+          "name": "Development of Economics",
+          "credits": 4
+        },
+        {
+          "code": "232209",
+          "name": "International Economics-I",
+          "credits": 4
+        },
+        {
+          "code": "232211",
+          "name": "Public Finance",
+          "credits": 4
+        },
+        {
+          "code": "232213",
+          "name": "Urban Economics",
+          "credits": 4
+        },
+        {
+          "code": "232215",
+          "name": "Agricultural and Rural Economics",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Economics catalogue for 2024–2025; 33 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|economics|4": {
@@ -905,11 +1189,72 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Economics catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/economics",
+      "courses": [
+        {
+          "code": "242201",
+          "name": "Money, Banking and Finance",
+          "credits": 4
+        },
+        {
+          "code": "242203",
+          "name": "International Economics-II",
+          "credits": 4
+        },
+        {
+          "code": "242205",
+          "name": "Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "242207",
+          "name": "Industrial Economics",
+          "credits": 4
+        },
+        {
+          "code": "242209",
+          "name": "Environmental and Resource Economics",
+          "credits": 4
+        },
+        {
+          "code": "242211",
+          "name": "Population and Health Economics",
+          "credits": 4
+        },
+        {
+          "code": "242213",
+          "name": "Economic Thought",
+          "credits": 4
+        },
+        {
+          "code": "242215",
+          "name": "Econometrics",
+          "credits": 4
+        },
+        {
+          "code": "242217",
+          "name": "Economic Systems and Development Patterns",
+          "credits": 4
+        },
+        {
+          "code": "242219",
+          "name": "Economics of Planning",
+          "credits": 4
+        },
+        {
+          "code": "242221",
+          "name": "Islamic Economics",
+          "credits": 4
+        },
+        {
+          "code": "242222",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Economics catalogue for 2024–2025; 33 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|english|1": {
@@ -1991,11 +2336,52 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Political Science catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/political-science",
+      "courses": [
+        {
+          "code": "211901",
+          "name": "Political Institutions and Organizations",
+          "credits": 4
+        },
+        {
+          "code": "211903",
+          "name": "Western Political Thought",
+          "credits": 4
+        },
+        {
+          "code": "211905",
+          "name": "Major Foreign Governments: UK, USA & France",
+          "credits": 4
+        },
+        {
+          "code": "211907",
+          "name": "Introduction to Public Administration",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Political Science catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|political science|2": {
@@ -2005,11 +2391,43 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Political Science catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/political-science",
+      "courses": [
+        {
+          "code": "221901",
+          "name": "Political and Constitutional Development in British India (1757 to 1947)",
+          "credits": 4
+        },
+        {
+          "code": "221903",
+          "name": "Political Economy of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "221905",
+          "name": "Women in Politics and Development",
+          "credits": 4
+        },
+        {
+          "code": "221907",
+          "name": "Oriental Political Thought",
+          "credits": 4
+        },
+        {
+          "code": "222209",
+          "name": "Bangladesh Economy",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Political Science catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|political science|3": {
@@ -2019,11 +2437,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Political Science catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/political-science",
+      "courses": [
+        {
+          "code": "231901",
+          "name": "Political and Constitutional Development in Bangladesh (1971 to date)",
+          "credits": 4
+        },
+        {
+          "code": "231903",
+          "name": "Fundamentals of International Politics",
+          "credits": 4
+        },
+        {
+          "code": "231905",
+          "name": "Government and Politics in South Asia: India, Pakistan, Nepal and SriLanka",
+          "credits": 4
+        },
+        {
+          "code": "231907",
+          "name": "Approaches to the Study of Politics",
+          "credits": 4
+        },
+        {
+          "code": "231909",
+          "name": "Introduction to Peace and Conflict Studies",
+          "credits": 4
+        },
+        {
+          "code": "231911",
+          "name": "Public Administration in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "231913",
+          "name": "Research Methodology and Statistics",
+          "credits": 4
+        },
+        {
+          "code": "231915",
+          "name": "Political Sociology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Political Science catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|political science|4": {
@@ -2033,11 +2492,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Political Science catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/political-science",
+      "courses": [
+        {
+          "code": "241901",
+          "name": "Political Theories: Changes and Continuities",
+          "credits": 4
+        },
+        {
+          "code": "241903",
+          "name": "Local Government and Rural Development in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "241905",
+          "name": "Introduction to Public Policy",
+          "credits": 4
+        },
+        {
+          "code": "241907",
+          "name": "Government and Politics in East Asia: China, Japan and South Korea",
+          "credits": 4
+        },
+        {
+          "code": "241909",
+          "name": "Environment and Development",
+          "credits": 4
+        },
+        {
+          "code": "241911",
+          "name": "Foreign Relations of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "241913",
+          "name": "Legislative Process in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "241915",
+          "name": "Globalization, Regionalism and International Financial Institutions",
+          "credits": 4
+        },
+        {
+          "code": "241917",
+          "name": "Modern Political Thought",
+          "credits": 4
+        },
+        {
+          "code": "241918",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Political Science catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|public administration|1": {
@@ -2159,11 +2669,52 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Social Work catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/social-work",
+      "courses": [
+        {
+          "code": "212101",
+          "name": "Introduction to Social Work",
+          "credits": 4
+        },
+        {
+          "code": "212103",
+          "name": "Bangladesh Studies: History, Culture And Heritage",
+          "credits": 4
+        },
+        {
+          "code": "212105",
+          "name": "History and Philosophy of Social Work",
+          "credits": 4
+        },
+        {
+          "code": "212107",
+          "name": "Human Psychology and Social Work",
+          "credits": 4
+        },
+        {
+          "code": "212109",
+          "name": "Economics and Development",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Social Work catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|social work|2": {
@@ -2173,11 +2724,53 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Social Work catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/social-work",
+      "courses": [
+        {
+          "code": "222101",
+          "name": "Human Biology: Growth and Development",
+          "credits": 4
+        },
+        {
+          "code": "222103",
+          "name": "Social Policy and Planning",
+          "credits": 4
+        },
+        {
+          "code": "222105",
+          "name": "Social Problems Analysis",
+          "credits": 4
+        },
+        {
+          "code": "222107",
+          "name": "Introduction to Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "222109",
+          "name": "Computer and Information Technology",
+          "credits": 4
+        },
+        {
+          "code": "222111",
+          "name": "Introduction to Sociology",
+          "credits": 4
+        },
+        {
+          "code": "222113",
+          "name": "Bangladesh Economy",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Social Work catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|social work|3": {
@@ -2187,11 +2780,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Social Work catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/social-work",
+      "courses": [
+        {
+          "code": "232101",
+          "name": "Social Work Methods: Case work and Group work",
+          "credits": 4
+        },
+        {
+          "code": "232103",
+          "name": "Theories in Social Work Practice",
+          "credits": 4
+        },
+        {
+          "code": "232105",
+          "name": "Voluntarism and NGOs in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "232107",
+          "name": "Working with the Poor: Policy and Practice",
+          "credits": 4
+        },
+        {
+          "code": "232109",
+          "name": "Project Planning and Management",
+          "credits": 4
+        },
+        {
+          "code": "232111",
+          "name": "Population Issues, Policy Planning and Services",
+          "credits": 4
+        },
+        {
+          "code": "232113",
+          "name": "Human Rights, Social Justice and Social Work",
+          "credits": 4
+        },
+        {
+          "code": "232115",
+          "name": "Crime and Society",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Social Work catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|social work|4": {
@@ -2201,11 +2835,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Social Work catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/social-work",
+      "courses": [
+        {
+          "code": "242101",
+          "name": "Rural and Urban Community Development",
+          "credits": 4
+        },
+        {
+          "code": "242103",
+          "name": "Climate Change: Issues and Disaster Management",
+          "credits": 4
+        },
+        {
+          "code": "242105",
+          "name": "Human Resource Management",
+          "credits": 4
+        },
+        {
+          "code": "242107",
+          "name": "Social Research and Statistics",
+          "credits": 4
+        },
+        {
+          "code": "242109",
+          "name": "Social Services in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "242111",
+          "name": "Social Work and Globalization",
+          "credits": 4
+        },
+        {
+          "code": "242113",
+          "name": "Public Health and Social Work",
+          "credits": 4
+        },
+        {
+          "code": "242115",
+          "name": "Social Action, Social Legislation and Social Work",
+          "credits": 4
+        },
+        {
+          "code": "242117",
+          "name": "Field Work Education",
+          "credits": 4
+        },
+        {
+          "code": "242118",
+          "name": "Field Practicum+Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Social Work catalogue for 2024–2025; 34 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|sociology|1": {
@@ -2215,11 +2900,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Sociology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/sociology",
+      "courses": [
+        {
+          "code": "212001",
+          "name": "Introductory Sociology",
+          "credits": 4
+        },
+        {
+          "code": "212003",
+          "name": "Social History & World Civilization",
+          "credits": 4
+        },
+        {
+          "code": "212005",
+          "name": "Political Sociology",
+          "credits": 4
+        },
+        {
+          "code": "212007",
+          "name": "Social Problems",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Sociology catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|sociology|2": {
@@ -2229,11 +2950,48 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Sociology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/sociology",
+      "courses": [
+        {
+          "code": "222001",
+          "name": "Introductory Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "222003",
+          "name": "Classical Social Thought",
+          "credits": 4
+        },
+        {
+          "code": "222005",
+          "name": "Social Statistics",
+          "credits": 4
+        },
+        {
+          "code": "222007",
+          "name": "Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "221909",
+          "name": "Political Organization And Political System Of UK And USA",
+          "credits": 4
+        },
+        {
+          "code": "222209",
+          "name": "Bangladesh Economy",
+          "credits": 4
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Sociology catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|sociology|3": {
@@ -2243,11 +3001,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Sociology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/sociology",
+      "courses": [
+        {
+          "code": "232001",
+          "name": "Classical Sociological Theory",
+          "credits": 4
+        },
+        {
+          "code": "232003",
+          "name": "Rural Sociology",
+          "credits": 4
+        },
+        {
+          "code": "232005",
+          "name": "Sociology of Religion",
+          "credits": 4
+        },
+        {
+          "code": "232007",
+          "name": "Social Inequality",
+          "credits": 4
+        },
+        {
+          "code": "232009",
+          "name": "Societies and Communities",
+          "credits": 4
+        },
+        {
+          "code": "232011",
+          "name": "Social Structure of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "232013",
+          "name": "Urban Sociology",
+          "credits": 4
+        },
+        {
+          "code": "232015",
+          "name": "Social Psychology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Sociology catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|sociology|4": {
@@ -2257,11 +3056,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev B.S.S. (Honours) Sociology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bss-honours/2024-2025/sociology",
+      "courses": [
+        {
+          "code": "242001",
+          "name": "Gender, Society and Development",
+          "credits": 4
+        },
+        {
+          "code": "242003",
+          "name": "Sociology of Development",
+          "credits": 4
+        },
+        {
+          "code": "242005",
+          "name": "Social Demography",
+          "credits": 4
+        },
+        {
+          "code": "242007",
+          "name": "Sociology of Environment",
+          "credits": 4
+        },
+        {
+          "code": "242009",
+          "name": "Sociology of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "242011",
+          "name": "Social Change",
+          "credits": 4
+        },
+        {
+          "code": "242013",
+          "name": "Deviance and Crime",
+          "credits": 4
+        },
+        {
+          "code": "242015",
+          "name": "Industrial Sociology",
+          "credits": 4
+        },
+        {
+          "code": "242017",
+          "name": "Peasant Society",
+          "credits": 4
+        },
+        {
+          "code": "242018",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the workers.dev B.S.S. (Honours) Sociology catalogue for 2024–2025; 32 year-specific rows were represented across all four years.",
       "departmentCategory": "Social Science"
     },
     "honours|2013-2014|accounting|1": {
