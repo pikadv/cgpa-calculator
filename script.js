@@ -8,6 +8,7 @@
   const programmeSelect = document.getElementById("programme");
   
   const selectionStatus = document.getElementById("selection-status");
+  const optionSelection = document.getElementById("catalogue-option-selection");
   const addOne = document.getElementById("add-one");
   const reset = document.getElementById("reset");
   const error = document.getElementById("error-message");
@@ -15,6 +16,9 @@
   const grade = document.getElementById("grade");
   const totalCreditsOutput = document.getElementById("total-credits");
   const courseCountOutput = document.getElementById("course-count");
+  const selectedOptionGroupsByEntry = new Map();
+  let activeOptionEntry = null;
+  let activeOptionEntryKey = "";
 
   function fillSelect(select, options, placeholder) {
     select.replaceChildren();
@@ -218,6 +222,54 @@
     courses.appendChild(fragment);
     renumberCourses();
   }
+  function renderOptionSelection(entry, key) {
+    optionSelection.replaceChildren();
+    const optionGroups = entry && entry.optionGroups;
+    if (!Array.isArray(optionGroups) || !optionGroups.length) {
+      optionSelection.hidden = true;
+      return new Set();
+    }
+
+    const group = optionGroups[0];
+    const options = Array.isArray(group.options) ? group.options : [];
+    const limit = Math.max(1, Math.min(Number(group.selectionLimit) || 1, options.length));
+    let selected = new Set(selectedOptionGroupsByEntry.get(key) || []);
+    selected = new Set([...selected].filter(id => options.some(option => option.id === id)).slice(0, limit));
+    selectedOptionGroupsByEntry.set(key, [...selected]);
+
+    optionSelection.hidden = false;
+    const heading = document.createElement("h2");
+    heading.textContent = group.label || "Choose your non-major subjects";
+    const instructions = document.createElement("p");
+    instructions.className = "muted";
+    instructions.textContent = `Select ${limit} non-major packages. Only selected package courses are included in the course list and GPA.`;
+    const count = document.createElement("p");
+    count.className = "option-selection-count";
+    count.textContent = `${selected.size}/${limit} selected`;
+    const buttons = document.createElement("div");
+    buttons.className = "option-package-grid";
+
+    options.forEach(option => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "option-package-button" + (selected.has(option.id) ? " is-selected" : "");
+      button.textContent = (selected.has(option.id) ? "✓ " : "") + option.label;
+      button.setAttribute("aria-pressed", String(selected.has(option.id)));
+      button.disabled = !selected.has(option.id) && selected.size >= limit;
+      button.addEventListener("click", () => {
+        const updated = new Set(selectedOptionGroupsByEntry.get(key) || []);
+        if (updated.has(option.id)) updated.delete(option.id);
+        else if (updated.size < limit) updated.add(option.id);
+        selectedOptionGroupsByEntry.set(key, [...updated]);
+        loadSelectedSyllabus();
+      });
+      buttons.appendChild(button);
+    });
+
+    optionSelection.append(heading, instructions, count, buttons);
+    return selected;
+  }
+
   async function loadSelectedSyllabus() {
     clearError();
     const department = departmentInput.value.trim();
@@ -229,6 +281,10 @@
     const versionLabel = syllabusSelect.options[syllabusSelect.selectedIndex]?.text || version;
     courses.replaceChildren();
     resetResults();
+    optionSelection.replaceChildren();
+    optionSelection.hidden = true;
+    activeOptionEntry = null;
+    activeOptionEntryKey = "";
     if (!department) {
       selectionStatus.textContent = `Choose a department for ${programmeLabel}, then choose the academic year and syllabus version.`;
       return;
@@ -248,7 +304,12 @@
     const normalizedDepartment = department.toLowerCase().replace(/\s+/g, " ").trim();
     const key = programme + "|" + version + "|" + normalizedDepartment + "|" + year;
     const entry = syllabus[key];
-    let list = entry && Array.isArray(entry.courses) ? entry.courses.slice() : [];
+    activeOptionEntry = entry || null;
+    activeOptionEntryKey = key;
+    const selectedOptionGroups = renderOptionSelection(entry, key);
+    let list = entry && Array.isArray(entry.courses)
+      ? entry.courses.filter(course => !course.optionGroup || selectedOptionGroups.has(course.optionGroup))
+      : [];
     const artsDepartments = (programmeConfig?.departmentGroups?.Arts || []).map(name =>
       name.toLowerCase().replace(/\s+/g, " ").trim()
     );
@@ -273,7 +334,10 @@
     }
     if (list.length) {
       list.forEach(course => addCourse(course));
-      selectionStatus.textContent = `Loaded ${list.length} course entries for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry?.sourceLabel || "syllabus catalogue"}. ${entry?.verificationNote || "Check the official syllabus before calculating."}`;
+      const packagePrompt = entry?.optionGroups?.length
+        ? ` Select ${entry.optionGroups[0].selectionLimit} non-major packages above; currently ${selectedOptionGroups.size} selected.`
+        : "";
+      selectionStatus.textContent = `Loaded ${list.length} course entries for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry?.sourceLabel || "syllabus catalogue"}. ${entry?.verificationNote || "Check the official syllabus before calculating."}${packagePrompt}`;
     } else {
       selectionStatus.textContent = `Department listed for ${programmeLabel}, but no course list has been extracted for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Add subjects manually; no courses or credits have been invented.`;
     }
@@ -300,6 +364,15 @@
   form.addEventListener("submit", event => {
     event.preventDefault();
     clearError();
+    if (activeOptionEntry?.optionGroups?.length) {
+      const group = activeOptionEntry.optionGroups[0];
+      const required = Number(group.selectionLimit) || 1;
+      const selected = selectedOptionGroupsByEntry.get(activeOptionEntryKey) || [];
+      if (selected.length !== required) {
+        error.textContent = `Choose exactly ${required} non-major packages before calculating this syllabus year.`;
+        error.hidden = false; return;
+      }
+    }
     const rows = [...courses.querySelectorAll("[data-subject]")];
     const entered = rows.filter(row => row.querySelector("[data-subject-grade]").value !== "");
     if (!entered.length) {

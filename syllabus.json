@@ -18467,6 +18467,127 @@
       ],
       "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 10 courses and 40 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
       "departmentCategory": "Business Administration"
+    },
+    "honours|2024-2025|mathematics|1": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Mathematics",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": false,
+      "status": "transcribed-from-user-provided-reference-page",
+      "sourceLabel": "NU CGPA Calculator Mathematics first-year catalogue (2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bsc-honours/2024-2025/mathematics/first_year",
+      "courses": [
+        {
+          "code": "213701",
+          "name": "Fundamentals of Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "213703",
+          "name": "Fundamentals of Calculus",
+          "credits": 4
+        },
+        {
+          "code": "213705",
+          "name": "Linear Algebra and Analytic Geometry",
+          "credits": 4
+        },
+        {
+          "code": "213706",
+          "name": "Math Lab-Practical I (Mathematica)",
+          "credits": 4
+        },
+        {
+          "code": "212707",
+          "name": "Physics I (Mechanics, Properties of Matter, Waves and Optics)",
+          "credits": 4,
+          "optionGroup": "physics"
+        },
+        {
+          "code": "212709",
+          "name": "Physics-II (Heat, Thermodynamics, and Radiation)",
+          "credits": 2,
+          "optionGroup": "physics"
+        },
+        {
+          "code": "213607",
+          "name": "Fundamentals of Statistics",
+          "credits": 4,
+          "optionGroup": "statistics"
+        },
+        {
+          "code": "213610",
+          "name": "Lab-1: Fundamentals of Statistics",
+          "credits": 2,
+          "optionGroup": "statistics"
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics",
+          "credits": 4,
+          "optionGroup": "economics"
+        },
+        {
+          "code": "212211",
+          "name": "Bangladesh Agricultural Economics",
+          "credits": 2,
+          "optionGroup": "economics"
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I",
+          "credits": 4,
+          "optionGroup": "chemistry"
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical",
+          "credits": 2,
+          "optionGroup": "chemistry"
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "optionGroups": [
+        {
+          "label": "Choose your non-major subjects",
+          "selectionLimit": 2,
+          "options": [
+            {
+              "id": "physics",
+              "label": "Physics"
+            },
+            {
+              "id": "statistics",
+              "label": "Statistics"
+            },
+            {
+              "id": "economics",
+              "label": "Economics"
+            },
+            {
+              "id": "chemistry",
+              "label": "Chemistry"
+            }
+          ]
+        }
+      ],
+      "verificationNote": "Course codes, titles, credits, and the two-of-four non-major packages were transcribed from the nucgpa.com Mathematics first-year page and the user's selected-package course lists. Selecting any two packages yields 11 courses and 36 credits; all four packages are available to choose from."
     }
   },
   "coverage": {

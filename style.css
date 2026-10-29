@@ -111,3 +111,19 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
 /* Keep a visible gap between the result cards and the grading scale on all screen sizes. */
 .results-grid { margin-bottom: 24px; }
 .grading { margin-top: 0; }
+
+
+/* Selectable elective/non-major course packages in syllabus entries. */
+.option-selection h2 { margin-bottom: 6px; }
+.option-selection > p { margin-bottom: 12px; }
+.option-selection-count { color: var(--green-dark); font-size: 13px; font-weight: 800; }
+.option-package-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.option-package-button {
+  border: 1px solid #d8e2de; border-radius: 10px; padding: 11px 12px;
+  background: #fff; color: var(--ink); font-weight: 700; text-align: center;
+}
+.option-package-button:hover:not(:disabled) { border-color: var(--green); background: var(--soft-green); }
+.option-package-button.is-selected { color: #fff; border-color: var(--green); background: var(--green); }
+.option-package-button:disabled:not(.is-selected) { cursor: not-allowed; opacity: .55; }
+.option-package-button:focus-visible { outline: 3px solid rgba(23,107,85,.25); outline-offset: 2px; }
+@media (max-width: 520px) { .option-package-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
