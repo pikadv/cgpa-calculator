@@ -246,8 +246,10 @@
     );
     if (artsDepartments.includes(normalizedDepartment)) {
       const sharedCourseKeys = {
-        "2013-2014|1": [
-          "pass|2013-2014|english (compulsory)|2",
+        "2013-2014|2": [
+          "pass|2013-2014|english (compulsory)|2"
+        ],
+        "2013-2014|3": [
           "pass|2013-2014|bangla national language (compulsory)|3"
         ],
         "2025-2026-degree|1": [
