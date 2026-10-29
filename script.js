@@ -26,10 +26,43 @@
     });
   }
 
+  function usableEntries(programme, department, year, version) {
+    const normalizedDepartment = department?.toLowerCase().replace(/\\s+/g, " ").trim();
+    return Object.entries(syllabus).filter(([key, entry]) => {
+      if (!entry || !Array.isArray(entry.courses) || entry.courses.length === 0) return false;
+      const [entryProgramme, entryVersion, entryDepartment, entryYear] = key.split("|");
+      return entryProgramme === programme
+        && (!version || entryVersion === version)
+        && (!normalizedDepartment || entryDepartment === normalizedDepartment)
+        && (!year || entryYear === String(year));
+    }).map(([, entry]) => entry);
+  }
+
+  function availableOptions(options, values) {
+    const allowed = new Set(values);
+    return (options || []).filter(option => allowed.has(String(option.value)));
+  }
+
   function configureProgrammeOptions() {
-    const config = catalogue.programmes && catalogue.programmes[programmeSelect.value];
+    const programme = programmeSelect.value;
+    const config = catalogue.programmes && catalogue.programmes[programme];
     if (!config) return;
-    departments = config.departments || [];
+
+    const previousDepartment = departmentInput.value;
+    const previousYear = yearSelect.value;
+    const previousVersion = syllabusSelect.value;
+
+    const matchingDepartments = new Set(Object.keys(syllabus).flatMap(key => {
+      const [entryProgramme, entryVersion, entryDepartment, entryYear] = key.split("|");
+      const entry = syllabus[key];
+      return entryProgramme === programme && entry && Array.isArray(entry.courses) && entry.courses.length
+        ? [entryDepartment]
+        : [];
+    }));
+    departments = (config.departments || []).filter(name =>
+      matchingDepartments.has(name.toLowerCase().replace(/\\s+/g, " ").trim())
+    );
+
     departmentInput.replaceChildren();
     const prompt = document.createElement("option");
     prompt.value = "";
@@ -38,7 +71,7 @@
     const categoryOrder = ["Business Administration", "Arts", "Science", "Social Science", "Life & Earth Science", "Library & Information Science", "Other / Interdisciplinary"];
     const grouped = config.departmentGroups || {};
     categoryOrder.forEach(category => {
-      const names = grouped[category] || [];
+      const names = (grouped[category] || []).filter(name => departments.includes(name));
       if (!names.length) return;
       const group = document.createElement("optgroup");
       group.label = category;
@@ -50,12 +83,47 @@
       });
       departmentInput.appendChild(group);
     });
-    fillSelect(yearSelect, config.yearOptions || []);
-    fillSelect(syllabusSelect, config.syllabusVersions || []);
-    departmentInput.value = "";
+
+    const department = departments.includes(previousDepartment) ? previousDepartment : "";
+    departmentInput.value = department;
+    const matchingYears = new Set(usableEntries(programme, department, null, previousVersion).map(entry => String(entry.year)));
+    const yearOptions = availableOptions(config.yearOptions, matchingYears);
+    fillSelect(yearSelect, yearOptions);
+    yearSelect.value = yearOptions.some(option => String(option.value) === previousYear)
+      ? previousYear : String(yearOptions[0]?.value || "");
+
+    const matchingVersions = new Set(usableEntries(programme, department, yearSelect.value, null).map(entry => entry.syllabusVersion));
+    const versionOptions = availableOptions(config.syllabusVersions, matchingVersions);
+    fillSelect(syllabusSelect, versionOptions);
+    syllabusSelect.value = versionOptions.some(option => String(option.value) === previousVersion)
+      ? previousVersion : String(versionOptions[0]?.value || "");
+
     courses.replaceChildren();
     resetResults();
-    selectionStatus.textContent = `Choose a department for ${config.label}, then select the syllabus version. Only available course lists will auto-load; other departments remain available for manual entry.`;
+    selectionStatus.textContent = departments.length
+      ? `Choose a department for ${config.label}, then select an available academic year and syllabus version. You can add courses manually at any time.`
+      : `No usable course lists are available for ${config.label} yet. You can still add courses manually.`;
+  }
+
+  function refreshDependentOptions() {
+    const programme = programmeSelect.value;
+    const config = catalogue.programmes && catalogue.programmes[programme];
+    if (!config) return;
+    const department = departmentInput.value;
+    const oldYear = yearSelect.value;
+    const oldVersion = syllabusSelect.value;
+
+    const matchingYears = new Set(usableEntries(programme, department, null, oldVersion).map(entry => String(entry.year)));
+    const yearOptions = availableOptions(config.yearOptions, matchingYears);
+    fillSelect(yearSelect, yearOptions);
+    yearSelect.value = yearOptions.some(option => String(option.value) === oldYear)
+      ? oldYear : String(yearOptions[0]?.value || "");
+
+    const matchingVersions = new Set(usableEntries(programme, department, yearSelect.value, null).map(entry => entry.syllabusVersion));
+    const versionOptions = availableOptions(config.syllabusVersions, matchingVersions);
+    fillSelect(syllabusSelect, versionOptions);
+    syllabusSelect.value = versionOptions.some(option => String(option.value) === oldVersion)
+      ? oldVersion : String(versionOptions[0]?.value || "");
   }
 
   // The course catalogue lives in syllabus.json so it can be updated without editing the UI.
@@ -164,8 +232,14 @@
 
   // Selector order: programme -> department -> academic year -> syllabus version -> subjects.
   programmeSelect.addEventListener("change", configureProgrammeOptions);
-  departmentInput.addEventListener("change", loadSelectedSyllabus);
-  yearSelect.addEventListener("change", loadSelectedSyllabus);
+  departmentInput.addEventListener("change", () => {
+    refreshDependentOptions();
+    loadSelectedSyllabus();
+  });
+  yearSelect.addEventListener("change", () => {
+    refreshDependentOptions();
+    loadSelectedSyllabus();
+  });
   syllabusSelect.addEventListener("change", loadSelectedSyllabus);
 
   addOne.addEventListener("click", () => addCourse());
