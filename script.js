@@ -233,8 +233,66 @@
     optionSelection.replaceChildren();
     const optionGroups = entry && entry.optionGroups;
     if (!Array.isArray(optionGroups) || !optionGroups.length) {
-      optionSelection.hidden = true;
-      return new Set();
+      optionSelection.hidden = true; return new Set();
+    }
+    optionSelection.hidden = false;
+    const heading = document.createElement("h2");
+    heading.textContent = entry.optionSelectionTitle || "Choose your non-major subjects";
+    const instructions = document.createElement("p");
+    instructions.className = "muted";
+    instructions.textContent = entry.optionSelectionInstructions || "Only the selected packages are included in the course list and GPA.";
+    optionSelection.append(heading, instructions);
+
+    if (entry.optionSelectionMode === "one-of-groups") {
+      const prior = selectedOptionGroupsByEntry.get(key);
+      const state = prior && !Array.isArray(prior) && typeof prior === "object" ? prior : { groupId: "", optionIds: [] };
+      const activeGroup = optionGroups.find(group => group.id === state.groupId);
+      const allowed = new Set((activeGroup?.options || []).map(option => option.id));
+      state.optionIds = Array.isArray(state.optionIds) ? state.optionIds.filter(id => allowed.has(id)) : [];
+      if (!activeGroup) { state.groupId = ""; state.optionIds = []; }
+      selectedOptionGroupsByEntry.set(key, state);
+
+      optionGroups.forEach(group => {
+        const options = Array.isArray(group.options) ? group.options : [];
+        const limit = Math.max(1, Math.min(Number(group.selectionLimit) || 1, options.length));
+        const isActive = state.groupId === group.id;
+        const section = document.createElement("section");
+        section.className = "option-group-section" + (isActive ? " is-active" : "");
+        const groupHeading = document.createElement("h3");
+        groupHeading.className = "option-group-heading";
+        groupHeading.textContent = group.label || "Choose a group";
+        const status = document.createElement("p");
+        status.className = "option-group-status";
+        status.textContent = isActive
+          ? `Choose ${limit} from this group · ${state.optionIds.length}/${limit} selected`
+          : `Choose ${limit} from this group`;
+        const buttons = document.createElement("div");
+        buttons.className = "option-package-grid";
+        options.forEach(option => {
+          const selected = isActive && state.optionIds.includes(option.id);
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "option-package-button" + (selected ? " is-selected" : "");
+          button.textContent = (selected ? "✓ " : "") + option.label;
+          button.setAttribute("aria-pressed", String(selected));
+          button.disabled = isActive && !selected && state.optionIds.length >= limit;
+          button.addEventListener("click", () => {
+            const current = selectedOptionGroupsByEntry.get(key);
+            const next = current?.groupId === group.id
+              ? { groupId: group.id, optionIds: [...current.optionIds] }
+              : { groupId: group.id, optionIds: [] };
+            const index = next.optionIds.indexOf(option.id);
+            if (index >= 0) next.optionIds.splice(index, 1);
+            else if (next.optionIds.length < limit) next.optionIds.push(option.id);
+            selectedOptionGroupsByEntry.set(key, next);
+            loadSelectedSyllabus();
+          });
+          buttons.appendChild(button);
+        });
+        section.append(groupHeading, status, buttons);
+        optionSelection.appendChild(section);
+      });
+      return new Set(activeGroup ? state.optionIds : []);
     }
 
     const group = optionGroups[0];
@@ -243,19 +301,11 @@
     let selected = new Set(selectedOptionGroupsByEntry.get(key) || []);
     selected = new Set([...selected].filter(id => options.some(option => option.id === id)).slice(0, limit));
     selectedOptionGroupsByEntry.set(key, [...selected]);
-
-    optionSelection.hidden = false;
-    const heading = document.createElement("h2");
-    heading.textContent = group.label || "Choose your non-major subjects";
-    const instructions = document.createElement("p");
-    instructions.className = "muted";
-    instructions.textContent = `Select ${limit} non-major packages. Only selected package courses are included in the course list and GPA.`;
     const count = document.createElement("p");
     count.className = "option-selection-count";
     count.textContent = `${selected.size}/${limit} selected`;
     const buttons = document.createElement("div");
     buttons.className = "option-package-grid";
-
     options.forEach(option => {
       const button = document.createElement("button");
       button.type = "button";
@@ -272,8 +322,7 @@
       });
       buttons.appendChild(button);
     });
-
-    optionSelection.append(heading, instructions, count, buttons);
+    optionSelection.append(count, buttons);
     return selected;
   }
 
@@ -341,9 +390,17 @@
     }
     if (list.length) {
       list.forEach(course => addCourse(course));
-      const packagePrompt = entry?.optionGroups?.length
-        ? ` Select ${entry.optionGroups[0].selectionLimit} non-major packages above; currently ${selectedOptionGroups.size} selected.`
-        : "";
+      const groupState = selectedOptionGroupsByEntry.get(key);
+      const activeGroup = entry?.optionSelectionMode === "one-of-groups"
+        ? entry.optionGroups.find(group => group.id === groupState?.groupId)
+        : null;
+      const packagePrompt = entry?.optionSelectionMode === "one-of-groups"
+        ? (activeGroup
+          ? ` Selected ${groupState.optionIds.length}/${activeGroup.selectionLimit} from ${activeGroup.label}.`
+          : " Choose one group above and select its required packages.")
+        : entry?.optionGroups?.length
+          ? ` Select ${entry.optionGroups[0].selectionLimit} non-major packages above; currently ${selectedOptionGroups.size} selected.`
+          : "";
       selectionStatus.textContent = `Loaded ${list.length} course entries for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry?.sourceLabel || "syllabus catalogue"}. ${entry?.verificationNote || "Check the official syllabus before calculating."}${packagePrompt}`;
     } else {
       selectionStatus.textContent = `Department listed for ${programmeLabel}, but no course list has been extracted for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Add subjects manually; no courses or credits have been invented.`;
@@ -371,7 +428,16 @@
   form.addEventListener("submit", event => {
     event.preventDefault();
     clearError();
-    if (activeOptionEntry?.optionGroups?.length) {
+    if (activeOptionEntry?.optionSelectionMode === "one-of-groups") {
+      const state = selectedOptionGroupsByEntry.get(activeOptionEntryKey);
+      const group = activeOptionEntry.optionGroups.find(item => item.id === state?.groupId);
+      const required = Number(group?.selectionLimit) || 0;
+      const selected = Array.isArray(state?.optionIds) ? state.optionIds : [];
+      if (!group || selected.length !== required) {
+        error.textContent = "Choose one group and select the required number of non-major packages before calculating.";
+        error.hidden = false; return;
+      }
+    } else if (activeOptionEntry?.optionGroups?.length) {
       const group = activeOptionEntry.optionGroups[0];
       const required = Number(group.selectionLimit) || 1;
       const selected = selectedOptionGroupsByEntry.get(activeOptionEntryKey) || [];

@@ -20408,22 +20408,26 @@
         {
           "code": "212807",
           "name": "Chemistry-I",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "chemistry"
         },
         {
           "code": "212808",
           "name": "Chemistry-I Practical",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "chemistry"
         },
         {
           "code": "213709",
           "name": "Fundamentals of Mathematics",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "mathematics"
         },
         {
           "code": "213711",
           "name": "Calculus-I",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "mathematics"
         },
         {
           "code": "219901",
@@ -20439,9 +20443,144 @@
           "code": "219904",
           "name": "Lab: Information and Communication Technology",
           "credits": 1
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I",
+          "credits": 4,
+          "optionGroup": "botany"
+        },
+        {
+          "code": "213008",
+          "name": "Botany-I Practical",
+          "credits": 2,
+          "optionGroup": "botany"
+        },
+        {
+          "code": "212707",
+          "name": "Physics-I (Mechanics, Properties of Matter, Waves & Optics)",
+          "credits": 4,
+          "optionGroup": "physics"
+        },
+        {
+          "code": "212709",
+          "name": "Physics-II (Heat, Thermodynamics and Radiation)",
+          "credits": 2,
+          "optionGroup": "physics"
+        },
+        {
+          "code": "213607",
+          "name": "Introduction to Statistics",
+          "credits": 4,
+          "optionGroup": "statistics"
+        },
+        {
+          "code": "213608",
+          "name": "Statistics Practical-I",
+          "credits": 2,
+          "optionGroup": "statistics"
+        },
+        {
+          "code": "212001",
+          "name": "Introductory Sociology",
+          "credits": 4,
+          "optionGroup": "sociology"
+        },
+        {
+          "code": "212101",
+          "name": "Introduction to Social Work",
+          "credits": 4,
+          "optionGroup": "social-work"
+        },
+        {
+          "code": "211901",
+          "name": "Political Institutions and Organizations",
+          "credits": 4,
+          "optionGroup": "political-science"
+        },
+        {
+          "code": "214001",
+          "name": "Introduction to Anthropology",
+          "credits": 4,
+          "optionGroup": "anthropology"
+        },
+        {
+          "code": "212201",
+          "name": "Basic Microeconomics",
+          "credits": 4,
+          "optionGroup": "economics"
         }
       ],
-      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Geography and Environment B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA."
+      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Geography and Environment B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA. Allied package rows were sourced from matching workers.dev B.Sc. and B.S.S. subject catalogues and assigned by subject and academic year; check the NU syllabus if an allied paper differs at your college.",
+      "optionSelectionMode": "one-of-groups",
+      "optionSelectionTitle": "Choose your non-major subjects",
+      "optionSelectionInstructions": "Choose from either Group A or Group B. Only the selected packages are included in the course list and GPA.",
+      "optionGroups": [
+        {
+          "id": "science-allied",
+          "label": "Group A: Science allied sets · choose 2",
+          "selectionLimit": 2,
+          "options": [
+            {
+              "id": "chemistry",
+              "label": "Chemistry"
+            },
+            {
+              "id": "mathematics",
+              "label": "Mathematics"
+            },
+            {
+              "id": "botany",
+              "label": "Botany"
+            },
+            {
+              "id": "physics",
+              "label": "Physics"
+            },
+            {
+              "id": "statistics",
+              "label": "Statistics"
+            }
+          ]
+        },
+        {
+          "id": "social-allied",
+          "label": "Group B: Social science allied courses · choose 3",
+          "selectionLimit": 3,
+          "options": [
+            {
+              "id": "sociology",
+              "label": "Sociology"
+            },
+            {
+              "id": "social-work",
+              "label": "Social Work"
+            },
+            {
+              "id": "political-science",
+              "label": "Political Science"
+            },
+            {
+              "id": "anthropology",
+              "label": "Anthropology"
+            },
+            {
+              "id": "economics",
+              "label": "Economics"
+            }
+          ]
+        }
+      ],
+      "alliedCourseSources": [
+        "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/mathematics",
+        "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/zoology",
+        "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/botany",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/sociology",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/social-work",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/political-science",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/anthropology",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/economics"
+      ]
     },
     "honours|2024-2025|geography and environment|2": {
       "syllabusVersion": "2024-2025",
@@ -20477,31 +20616,164 @@
         {
           "code": "222807",
           "name": "General Chemistry-II",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "chemistry"
         },
         {
           "code": "222809",
           "name": "Environmental Chemistry",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "chemistry"
         },
         {
           "code": "223707",
           "name": "Calculus-II",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "mathematics"
         },
         {
           "code": "223708",
           "name": "Math Lab (Practical)",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "mathematics"
         },
         {
           "code": "221109",
           "name": "English (Compulsory)",
           "credits": 0,
           "nonCredit": true
+        },
+        {
+          "code": "223007",
+          "name": "Botany-II",
+          "credits": 4,
+          "optionGroup": "botany"
+        },
+        {
+          "code": "223008",
+          "name": "Botany Practical-II",
+          "credits": 2,
+          "optionGroup": "botany"
+        },
+        {
+          "code": "223107",
+          "name": "Zoology- II",
+          "credits": 4,
+          "optionGroup": "zoology"
+        },
+        {
+          "code": "223108",
+          "name": "Zoology Practical- II",
+          "credits": 2,
+          "optionGroup": "zoology"
+        },
+        {
+          "code": "223609",
+          "name": "Methods of Statistics",
+          "credits": 4,
+          "optionGroup": "statistics"
+        },
+        {
+          "code": "223610",
+          "name": "Statistics Practical-II",
+          "credits": 2,
+          "optionGroup": "statistics"
+        },
+        {
+          "code": "222111",
+          "name": "Introduction to Sociology",
+          "credits": 4,
+          "optionGroup": "social-set-a"
+        },
+        {
+          "code": "221901",
+          "name": "Political and Constitutional Development in British India (1757 to 1947)",
+          "credits": 4,
+          "optionGroup": "social-set-a"
+        },
+        {
+          "code": "222201",
+          "name": "Intermediate Microeconomics",
+          "credits": 4,
+          "optionGroup": "social-set-a"
+        },
+        {
+          "code": "222115",
+          "name": "Bangladesh Society and Culture",
+          "credits": 4,
+          "optionGroup": "social-set-b"
+        },
+        {
+          "code": "221901",
+          "name": "Political and Constitutional Development in British India (1757 to 1947)",
+          "credits": 4,
+          "optionGroup": "social-set-b"
+        },
+        {
+          "code": "222201",
+          "name": "Intermediate Microeconomics",
+          "credits": 4,
+          "optionGroup": "social-set-b"
         }
       ],
-      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Geography and Environment B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA."
+      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Geography and Environment B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA. Allied package rows were sourced from matching workers.dev B.Sc. and B.S.S. subject catalogues and assigned by subject and academic year; check the NU syllabus if an allied paper differs at your college.",
+      "optionSelectionMode": "one-of-groups",
+      "optionSelectionTitle": "Choose your non-major subjects",
+      "optionSelectionInstructions": "Choose from either Group A or Group B. Only the selected packages are included in the course list and GPA.",
+      "optionGroups": [
+        {
+          "id": "science-nonmajor",
+          "label": "Group A: Science non-major sets · choose 2",
+          "selectionLimit": 2,
+          "options": [
+            {
+              "id": "chemistry",
+              "label": "Chemistry"
+            },
+            {
+              "id": "mathematics",
+              "label": "Mathematics"
+            },
+            {
+              "id": "botany",
+              "label": "Botany"
+            },
+            {
+              "id": "zoology",
+              "label": "Zoology"
+            },
+            {
+              "id": "statistics",
+              "label": "Statistics"
+            }
+          ]
+        },
+        {
+          "id": "social-nonmajor",
+          "label": "Group B: Social science non-major courses · choose 1",
+          "selectionLimit": 1,
+          "options": [
+            {
+              "id": "social-set-a",
+              "label": "Sociology, Political Science and Economics"
+            },
+            {
+              "id": "social-set-b",
+              "label": "Bangladesh Society, Political Science and Economics"
+            }
+          ]
+        }
+      ],
+      "alliedCourseSources": [
+        "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/mathematics",
+        "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/zoology",
+        "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/botany",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/sociology",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/social-work",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/political-science",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/anthropology",
+        "https://app.nucgpa.workers.dev/bss-honours/2024-2025/economics"
+      ]
     },
     "honours|2024-2025|geography and environment|3": {
       "syllabusVersion": "2024-2025",

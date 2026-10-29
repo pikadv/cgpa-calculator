@@ -127,3 +127,8 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
 .option-package-button:disabled:not(.is-selected) { cursor: not-allowed; opacity: .55; }
 .option-package-button:focus-visible { outline: 3px solid rgba(23,107,85,.25); outline-offset: 2px; }
 @media (max-width: 520px) { .option-package-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.option-group-section { margin-top: 14px; }
+.option-group-section + .option-group-section { margin-top: 18px; padding-top: 14px; border-top: 1px solid #d8e2de; }
+.option-group-heading { margin: 0 0 8px; font-size: 14px; }
+.option-group-status { margin: 0 0 8px !important; color: var(--green-dark); font-size: 12px; font-weight: 800; }
+.option-group-section.is-active .option-group-heading { color: var(--green-dark); }
