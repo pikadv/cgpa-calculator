@@ -648,20 +648,21 @@
       error.textContent = "Select a grade for at least one course before calculating.";
       error.hidden = false; return;
     }
-    let totalCredits = 0, qualityPoints = 0, invalid = false;
+    let totalCredits = 0, qualityPoints = 0, invalid = false, hasFailedSubject = false;
     entered.forEach(row => {
       const credit = Number(row.querySelector("[data-visible-credit]").value);
       const selectedGrade = row.querySelector("[data-subject-grade]").value;
       if (!Number.isFinite(credit) || credit <= 0 || credit > 30 || selectedGrade === "") { invalid = true; return; }
       totalCredits += credit;
       qualityPoints += credit * Number(selectedGrade);
+      if (Number(selectedGrade) === 0) hasFailedSubject = true;
     });
     if (invalid || totalCredits <= 0) {
       error.textContent = "Enter a valid credit value (greater than 0 and no more than 30) for each course with a selected grade.";
       error.hidden = false; return;
     }
     const cgpa = qualityPoints / totalCredits;
-    grade.textContent = cgpa.toFixed(2);
+    grade.textContent = `${cgpa.toFixed(2)}${hasFailedSubject ? " (F)" : ""}`;
     totalCreditsOutput.textContent = Number(totalCredits.toFixed(2)).toString();
     courseCountOutput.textContent = String(entered.length);
     const department = departmentInput.value.trim();
