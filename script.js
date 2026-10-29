@@ -240,10 +240,24 @@
     const normalizedDepartment = department.toLowerCase().replace(/\s+/g, " ").trim();
     const key = programme + "|" + version + "|" + normalizedDepartment + "|" + year;
     const entry = syllabus[key];
-    const list = entry && entry.courses;
-    if (Array.isArray(list) && list.length) {
+    let list = entry && Array.isArray(entry.courses) ? entry.courses.slice() : [];
+    const artsDepartments = (programmeConfig?.departmentGroups?.Arts || []).map(name =>
+      name.toLowerCase().replace(/\\s+/g, " ").trim()
+    );
+    if (artsDepartments.includes(normalizedDepartment)) {
+      const sharedCourseKeys = {
+        "2013-2014|2": "pass|2013-2014|english (compulsory)|2",
+        "2013-2014|3": "pass|2013-2014|bangla national language (compulsory)|3",
+        "2025-2026-degree|1": "pass|2025-2026-degree|english (compulsory)|1"
+      };
+      const sharedEntry = syllabus[sharedCourseKeys[`${version}|${year}`]];
+      if (sharedEntry && Array.isArray(sharedEntry.courses)) {
+        list = list.concat(sharedEntry.courses);
+      }
+    }
+    if (list.length) {
       list.forEach(course => addCourse(course));
-      selectionStatus.textContent = `Loaded ${list.length} course entries for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. ${entry.verificationNote || "Check the official syllabus before calculating."}`;
+      selectionStatus.textContent = `Loaded ${list.length} course entries for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry?.sourceLabel || "syllabus catalogue"}. ${entry?.verificationNote || "Check the official syllabus before calculating."}`;
     } else {
       selectionStatus.textContent = `Department listed for ${programmeLabel}, but no course list has been extracted for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Add subjects manually; no courses or credits have been invented.`;
     }
