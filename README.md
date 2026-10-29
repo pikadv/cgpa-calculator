@@ -1,4 +1,4 @@
-# NU CGPA Calculator
+# NUBD CGPA Calculator
 
 A lightweight, mobile-friendly GPA and CGPA calculator for students of National University Bangladesh.
 
