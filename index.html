@@ -108,7 +108,107 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   .delete-button { width: 26px; }
 }
   </style>
-  <script defer>
+
+  <title>NU CGPA Calculator | National University Bangladesh</title>
+</head>
+<body>
+  <main class="app" id="cgpa-calculator">
+    <header class="hero">
+      <p class="eyebrow">STUDENT TOOL · BANGLADESH</p>
+      <h1>NU CGPA Calculator</h1>
+      <p class="subtitle">For National University Bangladesh — any department, programme, or course list.</p>
+    </header>
+
+    <section class="panel intro">
+      <h2>Calculate your GPA or CGPA</h2>
+      <p>Add the courses from your own syllabus or marksheet, enter each course's credit and grade, then calculate. Different departments and syllabus years can have different course lists, so courses are editable rather than locked to one department.</p>
+      <label class="field-label" for="department">Department / programme <span class="optional">optional</span></label>
+      <input id="department" type="text" placeholder="e.g. Accounting, English, CSE, Chemistry, BBA…" autocomplete="organization-title" />
+    </section>
+
+    <form id="form-container" novalidate>
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <h2>Your courses</h2>
+            <p class="muted">Use the credit value printed in your syllabus or marksheet.</p>
+          </div>
+          <div class="actions">
+            <button type="button" class="button button-light" id="add-one">+ Add course</button>
+            <button type="button" class="button button-light" id="add-five">+ Add 5</button>
+          </div>
+        </div>
+        <div class="course-header" aria-hidden="true">
+          <span>Course / subject</span><span>Credits</span><span>Grade</span><span></span>
+        </div>
+        <div id="subjects-container" class="courses" aria-live="polite"></div>
+        <template id="subject-template">
+          <div class="course-row" data-subject>
+            <label class="sr-only">Course or subject name
+              <input data-subject-name type="text" placeholder="e.g. Accounting" />
+            </label>
+            <input data-visible-name type="text" placeholder="Course / subject name" aria-label="Course or subject name" />
+            <label class="sr-only">Course credits
+              <input data-subject-credit type="number" min="0.1" max="30" step="0.1" value="3" />
+            </label>
+            <input data-visible-credit type="number" min="0.1" max="30" step="0.1" value="3" aria-label="Course credits" />
+            <select data-subject-grade aria-label="Course grade">
+              <option value="">Select grade</option>
+              <option value="4">A+ · 4.00</option>
+              <option value="3.75">A · 3.75</option>
+              <option value="3.5">A− · 3.50</option>
+              <option value="3.25">B+ · 3.25</option>
+              <option value="3">B · 3.00</option>
+              <option value="2.75">B− · 2.75</option>
+              <option value="2.5">C+ · 2.50</option>
+              <option value="2.25">C · 2.25</option>
+              <option value="2">D · 2.00</option>
+              <option value="0">F · 0.00</option>
+            </select>
+            <button type="button" data-delete-button class="delete-button" aria-label="Remove course" title="Remove course">×</button>
+          </div>
+        </template>
+        <div class="form-actions">
+          <button type="submit" class="button button-primary">Calculate GPA / CGPA</button>
+          <button type="button" class="button button-text" id="reset">Clear all</button>
+        </div>
+        <p class="error" id="error-message" role="alert" hidden></p>
+      </section>
+    </form>
+
+    <section class="results-grid" aria-live="polite">
+      <article class="result-card result-main">
+        <p class="result-label">Calculated GPA / CGPA</p>
+        <p id="grade" class="big-result">—</p>
+        <p id="result" class="result-message">Add your course grades to get started.</p>
+      </article>
+      <article class="result-card">
+        <p class="result-label">Total graded credits</p>
+        <p id="total-credits" class="metric">0</p>
+      </article>
+      <article class="result-card">
+        <p class="result-label">Quality points</p>
+        <p id="quality-points" class="metric">0.00</p>
+      </article>
+      <article class="result-card">
+        <p class="result-label">Courses included</p>
+        <p id="course-count" class="metric">0</p>
+      </article>
+    </section>
+
+    <section class="panel grading">
+      <h2>NU grading scale</h2>
+      <div class="grade-scale">
+        <span>A+ <b>4.00</b></span><span>A <b>3.75</b></span><span>A− <b>3.50</b></span>
+        <span>B+ <b>3.25</b></span><span>B <b>3.00</b></span><span>B− <b>2.75</b></span>
+        <span>C+ <b>2.50</b></span><span>C <b>2.25</b></span><span>D <b>2.00</b></span><span>F <b>0.00</b></span>
+      </div>
+      <p class="note"><strong>Formula:</strong> Σ (grade point × course credit) ÷ Σ graded course credits. Unselected courses are ignored; an F counts as 0 grade points for its entered credits.</p>
+      <p class="note">This is an unofficial estimate. It accepts courses from any department because you enter the course names and credits yourself; it does not automatically load every syllabus. NU rules can vary by programme and syllabus year, especially for failed, improved, non-credit, practical, and viva courses. Follow the rules on your own syllabus and confirm official results with National University.</p>
+    </section>
+    <footer>Made for NU students · Check your syllabus for the correct course credits and rules.</footer>
+  </main>
+  <script>
 (() => {
   const template = document.getElementById("subject-template");
   const courses = document.getElementById("subjects-container");
@@ -223,104 +323,5 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   addCourse();
 })();
   </script>
-  <title>NU CGPA Calculator | National University Bangladesh</title>
-</head>
-<body>
-  <main class="app" id="cgpa-calculator">
-    <header class="hero">
-      <p class="eyebrow">STUDENT TOOL · BANGLADESH</p>
-      <h1>NU CGPA Calculator</h1>
-      <p class="subtitle">For National University Bangladesh — any department, programme, or course list.</p>
-    </header>
-
-    <section class="panel intro">
-      <h2>Calculate your GPA or CGPA</h2>
-      <p>Add the courses from your own syllabus or marksheet, enter each course's credit and grade, then calculate. Different departments and syllabus years can have different course lists, so courses are editable rather than locked to one department.</p>
-      <label class="field-label" for="department">Department / programme <span class="optional">optional</span></label>
-      <input id="department" type="text" placeholder="e.g. Accounting, English, CSE, Chemistry, BBA…" autocomplete="organization-title" />
-    </section>
-
-    <form id="form-container" novalidate>
-      <section class="panel">
-        <div class="section-heading">
-          <div>
-            <h2>Your courses</h2>
-            <p class="muted">Use the credit value printed in your syllabus or marksheet.</p>
-          </div>
-          <div class="actions">
-            <button type="button" class="button button-light" id="add-one">+ Add course</button>
-            <button type="button" class="button button-light" id="add-five">+ Add 5</button>
-          </div>
-        </div>
-        <div class="course-header" aria-hidden="true">
-          <span>Course / subject</span><span>Credits</span><span>Grade</span><span></span>
-        </div>
-        <div id="subjects-container" class="courses" aria-live="polite"></div>
-        <template id="subject-template">
-          <div class="course-row" data-subject>
-            <label class="sr-only">Course or subject name
-              <input data-subject-name type="text" placeholder="e.g. Accounting" />
-            </label>
-            <input data-visible-name type="text" placeholder="Course / subject name" aria-label="Course or subject name" />
-            <label class="sr-only">Course credits
-              <input data-subject-credit type="number" min="0.1" max="30" step="0.1" value="3" />
-            </label>
-            <input data-visible-credit type="number" min="0.1" max="30" step="0.1" value="3" aria-label="Course credits" />
-            <select data-subject-grade aria-label="Course grade">
-              <option value="">Select grade</option>
-              <option value="4">A+ · 4.00</option>
-              <option value="3.75">A · 3.75</option>
-              <option value="3.5">A− · 3.50</option>
-              <option value="3.25">B+ · 3.25</option>
-              <option value="3">B · 3.00</option>
-              <option value="2.75">B− · 2.75</option>
-              <option value="2.5">C+ · 2.50</option>
-              <option value="2.25">C · 2.25</option>
-              <option value="2">D · 2.00</option>
-              <option value="0">F · 0.00</option>
-            </select>
-            <button type="button" data-delete-button class="delete-button" aria-label="Remove course" title="Remove course">×</button>
-          </div>
-        </template>
-        <div class="form-actions">
-          <button type="submit" class="button button-primary">Calculate GPA / CGPA</button>
-          <button type="button" class="button button-text" id="reset">Clear all</button>
-        </div>
-        <p class="error" id="error-message" role="alert" hidden></p>
-      </section>
-    </form>
-
-    <section class="results-grid" aria-live="polite">
-      <article class="result-card result-main">
-        <p class="result-label">Calculated GPA / CGPA</p>
-        <p id="grade" class="big-result">—</p>
-        <p id="result" class="result-message">Add your course grades to get started.</p>
-      </article>
-      <article class="result-card">
-        <p class="result-label">Total graded credits</p>
-        <p id="total-credits" class="metric">0</p>
-      </article>
-      <article class="result-card">
-        <p class="result-label">Quality points</p>
-        <p id="quality-points" class="metric">0.00</p>
-      </article>
-      <article class="result-card">
-        <p class="result-label">Courses included</p>
-        <p id="course-count" class="metric">0</p>
-      </article>
-    </section>
-
-    <section class="panel grading">
-      <h2>NU grading scale</h2>
-      <div class="grade-scale">
-        <span>A+ <b>4.00</b></span><span>A <b>3.75</b></span><span>A− <b>3.50</b></span>
-        <span>B+ <b>3.25</b></span><span>B <b>3.00</b></span><span>B− <b>2.75</b></span>
-        <span>C+ <b>2.50</b></span><span>C <b>2.25</b></span><span>D <b>2.00</b></span><span>F <b>0.00</b></span>
-      </div>
-      <p class="note"><strong>Formula:</strong> Σ (grade point × course credit) ÷ Σ graded course credits. Unselected courses are ignored; an F counts as 0 grade points for its entered credits.</p>
-      <p class="note">This is an unofficial estimate. It accepts courses from any department because you enter the course names and credits yourself; it does not automatically load every syllabus. NU rules can vary by programme and syllabus year, especially for failed, improved, non-credit, practical, and viva courses. Follow the rules on your own syllabus and confirm official results with National University.</p>
-    </section>
-    <footer>Made for NU students · Check your syllabus for the correct course credits and rules.</footer>
-  </main>
 </body>
 </html>
