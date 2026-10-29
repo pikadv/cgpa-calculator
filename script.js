@@ -294,9 +294,7 @@
   }
 
   function updateAddSemesterVisibility() {
-    const manualEntryOnly = manualEntryOnlyProgrammes.has(programmeSelect.value);
-    const filtersReady = Boolean(departmentInput.value && yearSelect.value && syllabusSelect.value);
-    addSemesterButton.hidden = !manualEntryOnly && !filtersReady;
+    addSemesterButton.hidden = false;
   }
 
   function createSemesterPanel(semesterNumber, entry = null) {
