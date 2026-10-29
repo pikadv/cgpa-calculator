@@ -653,13 +653,67 @@
       "department": "Botany",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "not-extracted",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Department/year/version combination is listed for selection, but course codes, names, and credits have not yet been transcribed and verified.",
-      "departmentCategory": "Science"
+      "sourceLabel": "NU official Botany Honours First-Year Syllabus PDF",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Botany_First_Year_Pub_Date_12112025.pdf",
+      "verified": true,
+      "verificationNote": "Transcribed from the official NU PDF's published course-and-marks table. Practical components whose titles are abbreviated in extracted table text have been labelled by their associated paper; confirm against the PDF if your college uses a revised allocation.",
+      "courses": [
+        {
+          "code": "213001",
+          "name": "Microbiology",
+          "credits": 4
+        },
+        {
+          "code": "213003",
+          "name": "Mycology",
+          "credits": 4
+        },
+        {
+          "code": "213005",
+          "name": "Phycology",
+          "credits": 4
+        },
+        {
+          "code": "213006",
+          "name": "Practical-I (Microbiology, Mycology and Phycology)",
+          "credits": 4
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "213107",
+          "name": "Zoology-I",
+          "credits": 4
+        },
+        {
+          "code": "213108",
+          "name": "Zoology Practical-I",
+          "credits": 2
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ]
     },
     "honours|2024-2025|botany|2": {
       "syllabusVersion": "2024-2025",
@@ -7898,7 +7952,7 @@
     "status": "partial",
     "departmentOptionsGenerated": true,
     "combinationsListed": 532,
-    "verifiedCourseLists": 2,
-    "note": "Department choices are grouped by category. Official syllabus PDFs are being transcribed incrementally. Only records marked verified with non-empty course arrays auto-load; alternatives are represented as one optional course where needed. Other records remain placeholders until checked against their official documents."
+    "verifiedCourseLists": 3,
+    "note": "Department choices are grouped by category. Official syllabus PDFs are being transcribed in batches. Only records marked verified with non-empty course arrays auto-load; some extracted practical-paper labels should be cross-checked against the original PDF where text extraction merges table cells. Other records remain placeholders."
   }
 }
