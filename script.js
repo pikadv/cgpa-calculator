@@ -14,7 +14,6 @@
   const result = document.getElementById("result");
   const grade = document.getElementById("grade");
   const totalCreditsOutput = document.getElementById("total-credits");
-  const qualityPointsOutput = document.getElementById("quality-points");
   const courseCountOutput = document.getElementById("course-count");
 
   function fillSelect(select, options) {
@@ -88,7 +87,6 @@
     grade.textContent = "—";
     result.textContent = "Add your course grades to get started.";
     totalCreditsOutput.textContent = "0";
-    qualityPointsOutput.textContent = "0.00";
     courseCountOutput.textContent = "0";
   }
   function renumberCourses() {
@@ -190,7 +188,6 @@
     const cgpa = qualityPoints / totalCredits;
     grade.textContent = cgpa.toFixed(2);
     totalCreditsOutput.textContent = Number(totalCredits.toFixed(2)).toString();
-    qualityPointsOutput.textContent = qualityPoints.toFixed(2);
     courseCountOutput.textContent = String(entered.length);
     const department = departmentInput.value.trim();
     result.textContent = cgpa >= 3 ? `Strong result${department ? " for " + department : ""}. This is an estimated credit-weighted GPA / CGPA.`
