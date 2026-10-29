@@ -22,6 +22,8 @@
       const prompt = document.createElement("option");
       prompt.value = "";
       prompt.textContent = placeholder;
+      prompt.defaultSelected = true;
+      prompt.selected = true;
       select.appendChild(prompt);
     }
     options.forEach(item => {
