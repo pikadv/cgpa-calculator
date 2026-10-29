@@ -12412,11 +12412,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-user-provided-screenshots",
+      "sourceLabel": "NU CGPA Calculator Degree Pass Management 2025-2026 course tables (user-provided screenshots)",
+      "sourceUrl": "https://nucgpa.com/degree-pass/2025-2026/management/first_year",
+      "courses": [
+        {
+          "code": "112601",
+          "name": "Paper-I: Introduction to Business",
+          "credits": 4
+        },
+        {
+          "code": "112603",
+          "name": "Paper-II: Fundamentals of Management",
+          "credits": 4
+        },
+        {
+          "code": "Paper-I",
+          "name": "Functional English",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from user-provided screenshots. Functional English displays “Paper-I” in the code column; kept as shown.",
       "departmentCategory": "Business Administration"
     },
     "pass|2025-2026-degree|management|2": {
@@ -12426,11 +12442,22 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-user-provided-screenshots",
+      "sourceLabel": "NU CGPA Calculator Degree Pass Management 2025-2026 course tables (user-provided screenshots)",
+      "sourceUrl": "https://nucgpa.com/degree-pass/2025-2026/management/first_year",
+      "courses": [
+        {
+          "code": "122601",
+          "name": "Paper-III: Legal Environment of Business",
+          "credits": 4
+        },
+        {
+          "code": "122603",
+          "name": "Paper-IV: Business Communication",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from user-provided screenshots. Functional English displays “Paper-I” in the code column; kept as shown.",
       "departmentCategory": "Business Administration"
     },
     "pass|2025-2026-degree|management|3": {
@@ -12440,11 +12467,22 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-user-provided-screenshots",
+      "sourceLabel": "NU CGPA Calculator Degree Pass Management 2025-2026 course tables (user-provided screenshots)",
+      "sourceUrl": "https://nucgpa.com/degree-pass/2025-2026/management/first_year",
+      "courses": [
+        {
+          "code": "132601",
+          "name": "Paper-V: Computer in Business",
+          "credits": 4
+        },
+        {
+          "code": "132603",
+          "name": "Paper-VI: Organizational Behavior",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from user-provided screenshots. Functional English displays “Paper-I” in the code column; kept as shown.",
       "departmentCategory": "Business Administration"
     },
     "pass|2025-2026-degree|marketing|1": {
