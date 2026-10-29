@@ -108,7 +108,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   .delete-button { width: 26px; }
 }
   
-.selection-grid { display:grid; grid-template-columns:minmax(0, 1fr) 150px; gap:12px; margin-top:18px; }
+.selection-grid { display:grid; grid-template-columns:minmax(0, 1.4fr) minmax(165px, 1fr) minmax(130px, .8fr); gap:12px; margin-top:18px; }
 .selection-grid input, .selection-grid select { width:100%; border:1px solid #d8e2de; background:#fff; color:var(--ink); border-radius:9px; padding:11px 10px; outline:none; }
 .selection-grid input:focus, .selection-grid select:focus { border-color:var(--green); box-shadow:0 0 0 3px rgba(23,107,85,.12); }
 .selection-status { font-size:12px; color:var(--muted); margin:10px 0 0 !important; }
@@ -133,6 +133,14 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
           <label class="field-label" for="department">Search department</label>
           <input id="department" type="search" list="department-options" placeholder="Type a department, e.g. English" autocomplete="off" />
           <datalist id="department-options"></datalist>
+        </div>
+        <div>
+          <label class="field-label" for="syllabus-version">Syllabus version</label>
+          <select id="syllabus-version">
+            <option value="2024-2025">2024–2025 (new)</option>
+            <option value="2013-2014">2013–2014 (older)</option>
+            <option value="2025-2026-degree">2025–2026 (Degree Pass)</option>
+          </select>
         </div>
         <div>
           <label class="field-label" for="academic-year">Academic year</label>
@@ -232,6 +240,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   const form = document.getElementById("form-container");
   const departmentInput = document.getElementById("department");
   const yearSelect = document.getElementById("academic-year");
+  const syllabusSelect = document.getElementById("syllabus-version");
   const departmentOptions = document.getElementById("department-options");
   const selectionStatus = document.getElementById("selection-status");
   const addOne = document.getElementById("add-one");
@@ -259,9 +268,10 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     departmentOptions.appendChild(option);
   });
 
-  // Official NU English Honours first-year course/marks distribution, published 12 Nov 2025.
+  // Course entries are keyed by syllabus version, normalized department, and year.
+  // Only include course lists that have been checked; never substitute guessed courses.
   const syllabus = {
-    "english|1": [
+    "2024-2025|english|1": [
       {code:"211101", name:"English Reading Skills", credits:4},
       {code:"211103", name:"English Writing Skills", credits:4},
       {code:"211105", name:"Introduction to Poetry", credits:4},
@@ -326,9 +336,9 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     resetResults();
     if (list) {
       list.forEach(course => addCourse(course));
-      selectionStatus.textContent = `Loaded ${list.length} courses for ${department}, ${yearSelect.options[yearSelect.selectedIndex].text}. Select a grade for each course you want included. Verify elective choices and credits against your syllabus.`;
+      selectionStatus.textContent = `Loaded ${list.length} courses for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Select grades and verify elective choices against your official syllabus.`;
     } else {
-      selectionStatus.textContent = `No verified auto-load course list is available yet for ${department}, ${yearSelect.options[yearSelect.selectedIndex].text}. Add your subjects manually below; the department/year selector is ready, and syllabus data must be added programme by programme to avoid incorrect course lists.`;
+      selectionStatus.textContent = `No verified course list is connected for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text} yet. Add subjects manually below. A syllabus version is never treated as interchangeable with another, and unknown course lists are not fabricated.`;
     }
   }
 
@@ -337,6 +347,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     if (event.key === "Enter") { event.preventDefault(); loadSelectedSyllabus(); }
   });
   yearSelect.addEventListener("change", loadSelectedSyllabus);
+  syllabusSelect.addEventListener("change", loadSelectedSyllabus);
   addOne.addEventListener("click", () => addCourse());
   reset.addEventListener("click", () => {
     courses.replaceChildren(); addCourse(); resetResults(); clearError();
@@ -376,6 +387,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   });
 
   addCourse();
+  // Reflect the selected syllabus in the course loader as soon as a department is chosen.
 })();
 </script>
 </body>
