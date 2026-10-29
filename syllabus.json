@@ -2202,11 +2202,57 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/marketing/first_year",
+      "courses": [
+        {
+          "code": "212301",
+          "name": "Principles of Marketing",
+          "credits": 4
+        },
+        {
+          "code": "212303",
+          "name": "Business Environment and Sustainability",
+          "credits": 4
+        },
+        {
+          "code": "212305",
+          "name": "Introduction to Business",
+          "credits": 4
+        },
+        {
+          "code": "212307",
+          "name": "Business Communication (In English)",
+          "credits": 4
+        },
+        {
+          "code": "212309",
+          "name": "Business Mathematics (In English)",
+          "credits": 4
+        },
+        {
+          "code": "212311",
+          "name": "Microeconomics",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 9 courses and 32 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
       "departmentCategory": "Business Administration"
     },
     "honours|2024-2025|marketing|2": {
@@ -2216,11 +2262,62 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/marketing/second_year",
+      "courses": [
+        {
+          "code": "222301",
+          "name": "Business Communication (In English)",
+          "credits": 4
+        },
+        {
+          "code": "222303",
+          "name": "Fundamentals of Finance",
+          "credits": 4
+        },
+        {
+          "code": "222305",
+          "name": "Business Statistics-I (In English)",
+          "credits": 4
+        },
+        {
+          "code": "222307",
+          "name": "Business Mathmetics",
+          "credits": 4
+        },
+        {
+          "code": "222309",
+          "name": "Insurance and Risk Management",
+          "credits": 4
+        },
+        {
+          "code": "222311",
+          "name": "Micro Economics",
+          "credits": 4
+        },
+        {
+          "code": "222313",
+          "name": "Agricultural Marketing",
+          "credits": 4
+        },
+        {
+          "code": "000000",
+          "name": "Applied ICT",
+          "credits": 3
+        },
+        {
+          "code": "000000",
+          "name": "Lab: Applied ICT",
+          "credits": 1
+        },
+        {
+          "code": "Paper-I",
+          "name": "Functional English",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 10 courses and 36 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
       "departmentCategory": "Business Administration"
     },
     "honours|2024-2025|marketing|3": {
@@ -2230,11 +2327,52 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/marketing/third_year",
+      "courses": [
+        {
+          "code": "232301",
+          "name": "Principles of Marketing-II",
+          "credits": 4
+        },
+        {
+          "code": "232303",
+          "name": "Organizational Behavior",
+          "credits": 4
+        },
+        {
+          "code": "232305",
+          "name": "Financial Management",
+          "credits": 4
+        },
+        {
+          "code": "232307",
+          "name": "Business Statistics-II (In English)",
+          "credits": 4
+        },
+        {
+          "code": "232309",
+          "name": "Advertising & Promotion",
+          "credits": 4
+        },
+        {
+          "code": "232311",
+          "name": "Legal Aspects of Marketing",
+          "credits": 4
+        },
+        {
+          "code": "232313",
+          "name": "Macro Economics",
+          "credits": 4
+        },
+        {
+          "code": "232315",
+          "name": "Taxation in Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 8 courses and 32 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
       "departmentCategory": "Business Administration"
     },
     "honours|2024-2025|marketing|4": {
@@ -2244,11 +2382,62 @@
       "year": 4,
       "yearLabel": "4th Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/marketing/fourth_year",
+      "courses": [
+        {
+          "code": "242301",
+          "name": "Marketing Management",
+          "credits": 4
+        },
+        {
+          "code": "242303",
+          "name": "Human Resource Management",
+          "credits": 4
+        },
+        {
+          "code": "242305",
+          "name": "International Business",
+          "credits": 4
+        },
+        {
+          "code": "242307",
+          "name": "Consumer Behavior",
+          "credits": 4
+        },
+        {
+          "code": "242309",
+          "name": "Sales Management",
+          "credits": 4
+        },
+        {
+          "code": "242311",
+          "name": "Brand Management",
+          "credits": 4
+        },
+        {
+          "code": "242313",
+          "name": "Entrepreneurship Development",
+          "credits": 4
+        },
+        {
+          "code": "242315",
+          "name": "Bangladesh Economics",
+          "credits": 4
+        },
+        {
+          "code": "242317",
+          "name": "Marketing Research",
+          "credits": 4
+        },
+        {
+          "code": "242318",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 10 courses and 40 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
       "departmentCategory": "Business Administration"
     },
     "honours|2024-2025|mathematics|1": {
@@ -19260,6 +19449,251 @@
       ],
       "verificationNote": "Course choices and tracks follow the official syllabus tables. Where the source lists elective groups, alternative papers, or thesis/practical tracks, all listed options are included; select only the papers and track applicable to the student before calculating.",
       "departmentCategory": "Social Science"
+    },
+    "honours|2024-2025|finance-banking|1": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Finance and Banking",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": false,
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/finance-banking/first_year",
+      "courses": [
+        {
+          "code": "212401",
+          "name": "Principles of Finance (In English)",
+          "credits": 4
+        },
+        {
+          "code": "212403",
+          "name": "Introduction to Business",
+          "credits": 4
+        },
+        {
+          "code": "212405",
+          "name": "Business Communication (In English)",
+          "credits": 4
+        },
+        {
+          "code": "212407",
+          "name": "Principles of Accounting (In English)",
+          "credits": 4
+        },
+        {
+          "code": "212409",
+          "name": "Business Mathematics (In English)",
+          "credits": 4
+        },
+        {
+          "code": "212411",
+          "name": "Microeconomics",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 9 courses and 32 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
+      "departmentCategory": "Business Administration"
+    },
+    "honours|2024-2025|finance-banking|2": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Finance and Banking",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": false,
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/finance-banking/second_year",
+      "courses": [
+        {
+          "code": "222401",
+          "name": "Business Statistics (In English)",
+          "credits": 4
+        },
+        {
+          "code": "222403",
+          "name": "Macro Economics",
+          "credits": 4
+        },
+        {
+          "code": "222405",
+          "name": "Business Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "222407",
+          "name": "Law and Practices of Banking and Insurance",
+          "credits": 4
+        },
+        {
+          "code": "222409",
+          "name": "Computer and Information Technology",
+          "credits": 4
+        },
+        {
+          "code": "222411",
+          "name": "Legal Aspects of Business",
+          "credits": 4
+        },
+        {
+          "code": "222413",
+          "name": "Business Communication and Report Writing (In English)",
+          "credits": 4
+        },
+        {
+          "code": "000000",
+          "name": "Applied ICT",
+          "credits": 3
+        },
+        {
+          "code": "000000",
+          "name": "Lab: Applied ICT",
+          "credits": 1
+        },
+        {
+          "code": "Paper-I",
+          "name": "Functional English",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 10 courses and 36 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
+      "departmentCategory": "Business Administration"
+    },
+    "honours|2024-2025|finance-banking|3": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Finance and Banking",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": false,
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/finance-banking/third_year",
+      "courses": [
+        {
+          "code": "232401",
+          "name": "Portfolio Management",
+          "credits": 4
+        },
+        {
+          "code": "232403",
+          "name": "Financial Analysis & Control",
+          "credits": 4
+        },
+        {
+          "code": "232405",
+          "name": "Entrepreneurship",
+          "credits": 4
+        },
+        {
+          "code": "232407",
+          "name": "Management Accounting",
+          "credits": 4
+        },
+        {
+          "code": "232409",
+          "name": "Auditing",
+          "credits": 4
+        },
+        {
+          "code": "232411",
+          "name": "Islamic Banking",
+          "credits": 4
+        },
+        {
+          "code": "232413",
+          "name": "Marketing of Financial Service",
+          "credits": 4
+        },
+        {
+          "code": "232415",
+          "name": "Financial Management",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 8 courses and 32 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
+      "departmentCategory": "Business Administration"
+    },
+    "honours|2024-2025|finance-banking|4": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Finance and Banking",
+      "year": 4,
+      "yearLabel": "4th Year",
+      "verified": false,
+      "status": "transcribed-from-reference-site",
+      "sourceLabel": "NU CGPA Calculator course catalogue (BBA Honours, 2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bba-honours/2024-2025/finance-banking/fourth_year",
+      "courses": [
+        {
+          "code": "242401",
+          "name": "International Trade and Finance",
+          "credits": 4
+        },
+        {
+          "code": "242403",
+          "name": "Public Finance and Taxation",
+          "credits": 4
+        },
+        {
+          "code": "242405",
+          "name": "Financial Market and Institutions",
+          "credits": 4
+        },
+        {
+          "code": "242407",
+          "name": "Comparative Financial System",
+          "credits": 4
+        },
+        {
+          "code": "242409",
+          "name": "Human Resource Management",
+          "credits": 4
+        },
+        {
+          "code": "242411",
+          "name": "Business Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "242413",
+          "name": "SME and Micro Finance",
+          "credits": 4
+        },
+        {
+          "code": "242415",
+          "name": "E-Banking & E-Commerce",
+          "credits": 4
+        },
+        {
+          "code": "242417",
+          "name": "Central Banking",
+          "credits": 4
+        },
+        {
+          "code": "242418",
+          "name": "Viva-Voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the linked reference catalogue. Listed total: 10 courses and 40 credits. Not independently verified against the official NU PDF; check official syllabus before relying on this list.",
+      "departmentCategory": "Business Administration"
     }
   },
   "coverage": {
