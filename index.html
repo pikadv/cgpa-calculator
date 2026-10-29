@@ -325,17 +325,19 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     clearError();
     const department = departmentInput.value.trim();
     const year = yearSelect.value;
+    const version = syllabusSelect.value;
+    const versionLabel = syllabusSelect.options[syllabusSelect.selectedIndex].text;
+    // Clear the previous list whenever any selector changes, so stale courses
+    // from another department/year/version are never left on screen.
+    courses.replaceChildren();
+    resetResults();
     if (!department) {
-      selectionStatus.textContent = "Choose a department and year to load an available subject list. You can also add courses manually.";
+      selectionStatus.textContent = "Choose a department, syllabus version, and academic year to load an available subject list. You can also add courses manually.";
       return;
     }
     const normalizedDepartment = department.toLowerCase().replace(/\s+/g, " ").trim();
-    const version = syllabusSelect.value;
     const key = version + "|" + normalizedDepartment + "|" + year;
     const list = syllabus[key];
-    const versionLabel = syllabusSelect.options[syllabusSelect.selectedIndex].text;
-    courses.replaceChildren();
-    resetResults();
     if (list) {
       list.forEach(course => addCourse(course));
       selectionStatus.textContent = `Loaded ${list.length} courses for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Select grades and verify elective choices against your official syllabus.`;
@@ -344,7 +346,13 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     }
   }
 
+  // Datalist choices and typed department names both trigger the loader.
   departmentInput.addEventListener("change", loadSelectedSyllabus);
+  departmentInput.addEventListener("input", () => {
+    const normalized = departmentInput.value.trim().toLowerCase();
+    const match = departments.some(name => name.toLowerCase() === normalized);
+    if (match) loadSelectedSyllabus();
+  });
   departmentInput.addEventListener("keydown", event => {
     if (event.key === "Enter") { event.preventDefault(); loadSelectedSyllabus(); }
   });
@@ -352,8 +360,8 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   syllabusSelect.addEventListener("change", loadSelectedSyllabus);
   addOne.addEventListener("click", () => addCourse());
   reset.addEventListener("click", () => {
-    courses.replaceChildren(); addCourse(); resetResults(); clearError();
-    selectionStatus.textContent = "Courses cleared. Choose a department and year to load an available list, or add courses manually.";
+    courses.replaceChildren(); resetResults(); clearError();
+    selectionStatus.textContent = "Courses cleared. Choose a department, syllabus version, and academic year to load an available list, or add courses manually.";
   });
 
   form.addEventListener("submit", event => {
@@ -388,8 +396,8 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
       : "Your estimated GPA / CGPA is shown above. Check your programme's pass and improvement rules.";
   });
 
-  addCourse();
-  // Reflect the selected syllabus in the course loader as soon as a department is chosen.
+  // Start with an empty course list. Courses appear only after syllabus selection
+  // or when the user explicitly presses “Add course”.
 })();
 </script>
 </body>
