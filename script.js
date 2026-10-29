@@ -114,7 +114,7 @@
     const gradeSelect = row.querySelector("[data-subject-grade]");
     const remove = row.querySelector("[data-delete-button]");
     name.value = course.name || "";
-    credit.value = course.credits || "3";
+    credit.value = course.credits ?? "4";
     if (course.code) {
       name.value = course.code + " — " + course.name;
       name.title = "Course code: " + course.code;
