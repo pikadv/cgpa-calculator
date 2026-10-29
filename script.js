@@ -128,7 +128,7 @@
       selectionStatus.textContent = "The syllabus catalogue could not be loaded. You can still add subjects manually.";
       return;
     }
-    const normalizedDepartment = department.toLowerCase().replace(/\\s+/g, " ").trim();
+    const normalizedDepartment = department.toLowerCase().replace(/\s+/g, " ").trim();
     const key = programme + "|" + version + "|" + normalizedDepartment + "|" + year;
     const entry = syllabus[key];
     const list = entry && entry.courses;
