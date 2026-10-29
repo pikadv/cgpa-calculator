@@ -18693,12 +18693,158 @@
         }
       ],
       "verificationNote": "The 2024–2025 Mathematics page states that students choose any two non-major packages and lists 11 required courses / 36 credits from 13 listed options / 42 credits. Package titles, codes and credits were supplied by the user; the current page's compulsory course list and totals were used for the 2024–2025 common-course structure."
+    },
+    "honours|2024-2025|mathematics|3": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Mathematics",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": false,
+      "status": "transcribed-from-main-reference-site-and-user-supplied-course-list",
+      "sourceLabel": "NU CGPA Calculator Mathematics third-year catalogue (2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bsc-honours/2024-2025/mathematics/third_year",
+      "courses": [
+        {
+          "code": "233701",
+          "name": "Abstract Algebra",
+          "credits": 4
+        },
+        {
+          "code": "233703",
+          "name": "Real Analysis",
+          "credits": 4
+        },
+        {
+          "code": "233705",
+          "name": "Numerical Analysis",
+          "credits": 4
+        },
+        {
+          "code": "233707",
+          "name": "Complex Analysis",
+          "credits": 4
+        },
+        {
+          "code": "233709",
+          "name": "Differential Geometry",
+          "credits": 4
+        },
+        {
+          "code": "233711",
+          "name": "Mechanics",
+          "credits": 4
+        },
+        {
+          "code": "233713",
+          "name": "Linear Programming",
+          "credits": 4
+        },
+        {
+          "code": "233714",
+          "name": "Math Lab (Practical)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "The main nucgpa.com Mathematics third-year page lists 8 core courses and 32 credits and has no non-major selector. No option groups are defined for this year."
+    },
+    "honours|2024-2025|mathematics|4": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Mathematics",
+      "year": 4,
+      "yearLabel": "4th Year",
+      "verified": false,
+      "status": "transcribed-from-main-reference-site-and-user-supplied-course-list",
+      "sourceLabel": "NU CGPA Calculator Mathematics fourth-year catalogue (2024–2025)",
+      "sourceUrl": "https://nucgpa.com/bsc-honours/2024-2025/mathematics/fourth_year",
+      "courses": [
+        {
+          "code": "243701",
+          "name": "Theory of Numbers",
+          "credits": 4
+        },
+        {
+          "code": "243703",
+          "name": "Topology & Functional Analysis",
+          "credits": 4
+        },
+        {
+          "code": "243705",
+          "name": "Methods of Applied Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "243707",
+          "name": "Tensor Analysis",
+          "credits": 4
+        },
+        {
+          "code": "243709",
+          "name": "Partial Differential Equations",
+          "credits": 4
+        },
+        {
+          "code": "243711",
+          "name": "Hydrodynamics",
+          "credits": 4
+        },
+        {
+          "code": "243713",
+          "name": "Discrete Mathematics",
+          "credits": 4,
+          "optionGroup": "discrete-mathematics"
+        },
+        {
+          "code": "243715",
+          "name": "Astronomy",
+          "credits": 4,
+          "optionGroup": "astronomy"
+        },
+        {
+          "code": "243717",
+          "name": "Mathematical Modeling in Biology",
+          "credits": 4,
+          "optionGroup": "mathematical-modeling"
+        },
+        {
+          "code": "243718",
+          "name": "Math Lab (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "243720",
+          "name": "Viva-Voce (Comprehensive)",
+          "credits": 4
+        }
+      ],
+      "optionGroups": [
+        {
+          "label": "Choose your non-major subjects",
+          "selectionLimit": 2,
+          "options": [
+            {
+              "id": "discrete-mathematics",
+              "label": "Discrete Mathematics"
+            },
+            {
+              "id": "astronomy",
+              "label": "Astronomy"
+            },
+            {
+              "id": "mathematical-modeling",
+              "label": "Mathematical Modeling in Biology"
+            }
+          ]
+        }
+      ],
+      "verificationNote": "The main nucgpa.com Mathematics fourth-year page lists the three selectable subjects and their course codes and credits. Only the two selected options are included in the loaded course list. The source page's headline says 11 courses / 44 credits when counting all 11 listed rows, but its selector requires choosing two of the three options, resulting in 10 active courses / 40 credits from the rows provided."
     }
   },
   "coverage": {
     "status": "partial",
     "departmentOptionsGenerated": true,
-    "combinationsListed": 602,
+    "combinationsListed": 604,
     "verifiedCourseLists": 264,
     "note": "Catalogue includes verified Honours 2013–2014 courses, Degree Pass 2013–2014 courses, and 32 Masters Final 2013–2014 subject course lists transcribed from the official NU archive. Masters Final entries include listed electives and alternate thesis/practical tracks; select only the papers applicable to the student. Overall syllabus coverage remains partial because other syllabus documents and programme distributions still need verification.",
     "sourceLinksUpdated": true
