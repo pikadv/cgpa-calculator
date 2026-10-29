@@ -879,7 +879,7 @@
       "sourceLabel": "NU official English Honours 1st Year syllabus PDF",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BA_Honours/English_First_Year_Pub_Date_12112025.pdf",
       "verified": true,
-      "verificationNote": "Course codes, names, and credit values transcribed from the official syllabus document; elective choice should be checked against the PDF.",
+      "verificationNote": "Course codes, titles, and credit values checked against the official NU PDF. Code 211009 is one elective choice among the listed alternatives, not three separate courses.",
       "courses": [
         {
           "code": "211101",
@@ -903,7 +903,7 @@
         },
         {
           "code": "211009",
-          "name": "Optional course (choose the course code/title listed on your syllabus)",
+          "name": "Optional course (choose one: Bangla Language and Literature, Introducing Sociology, or Introduction to Political Science)",
           "credits": 4
         },
         {
@@ -1140,13 +1140,52 @@
       "department": "History",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "not-extracted",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Department/year/version combination is listed for selection, but course codes, names, and credits have not yet been transcribed and verified.",
-      "departmentCategory": "Arts"
+      "sourceLabel": "NU official History Honours First-Year Course and Marks Distribution PDF",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BA_Honours/History_First_Year_Pub_Date_12112025.pdf",
+      "verified": true,
+      "verificationNote": "Course codes, titles, and credits checked against the official NU PDF. The source lists elective alternatives; the elective is represented as one 4-credit optional course so the calculator does not count alternatives as separate courses.",
+      "courses": [
+        {
+          "code": "211503",
+          "name": "Introduction to History and Historiography",
+          "credits": 4
+        },
+        {
+          "code": "211505",
+          "name": "History of Bengal (from earliest time to 1204)",
+          "credits": 4
+        },
+        {
+          "code": "211507",
+          "name": "History of South Asia up to 1526 (Selected Topics)",
+          "credits": 4
+        },
+        {
+          "code": "211509",
+          "name": "Political and Cultural History of Islam up to 1258",
+          "credits": 4
+        },
+        {
+          "code": "211009",
+          "name": "Optional course (choose the applicable elective from the official syllabus)",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ]
     },
     "honours|2024-2025|history|2": {
       "syllabusVersion": "2024-2025",
@@ -7859,7 +7898,7 @@
     "status": "partial",
     "departmentOptionsGenerated": true,
     "combinationsListed": 532,
-    "verifiedCourseLists": 1,
-    "note": "Department choices are grouped by category. 532 programme/year/version combinations are listed; only records marked verified with non-empty course arrays auto-load. Other entries remain placeholders until their official PDF course codes, titles, and credits are transcribed."
+    "verifiedCourseLists": 2,
+    "note": "Department choices are grouped by category. Official syllabus PDFs are being transcribed incrementally. Only records marked verified with non-empty course arrays auto-load; alternatives are represented as one optional course where needed. Other records remain placeholders until checked against their official documents."
   }
 }
