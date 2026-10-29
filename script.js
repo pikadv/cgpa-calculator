@@ -194,6 +194,3 @@
   // Start with no course rows. The JSON catalogue configures year/version choices
   // for the default programme when it finishes loading.
 })();
-</script>
-</body>
-</html
