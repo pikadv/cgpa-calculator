@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#123b35" />
   <meta name="description" content="A flexible National University Bangladesh GPA and CGPA calculator for any department. Add your own courses, credits, and grades." />
-  <link rel="stylesheet" href="./style.css?v=4" />
+  <link rel="stylesheet" href="./style.css?v=5" />
 
   <title>NU CGPA Calculator | National University Bangladesh</title>
 </head>
@@ -53,14 +53,14 @@
             <h2>Your courses</h2>
             <p class="muted">Use the credit value printed in your syllabus or marksheet.</p>
           </div>
-          <div class="actions">
-            <button type="button" class="button button-light" id="add-one">+ Add course</button>
-          </div>
         </div>
         <div class="course-header" aria-hidden="true">
           <span>Course / subject</span><span>Credits</span><span>Grade</span><span></span>
         </div>
         <div id="subjects-container" class="courses" aria-live="polite"></div>
+        <div class="add-course-actions">
+          <button type="button" class="button button-light" id="add-one">+ Add course</button>
+        </div>
         <template id="subject-template">
           <div class="course-row" data-subject>
             <label class="sr-only">Course or subject name
@@ -127,6 +127,6 @@
     </section>
     <footer>Made for NU students · Check your syllabus for the correct course credits and rules.</footer>
   </main>
-  <script src="./script.js?v=4" defer></script>
+  <script src="./script.js?v=5" defer></script>
 </body>
 </html>
