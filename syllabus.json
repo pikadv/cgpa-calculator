@@ -21619,17 +21619,20 @@
         {
           "code": "243611",
           "name": "Econometrics",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "econometrics"
         },
         {
           "code": "243613",
           "name": "Operational Research and Research Methodology",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "operationalResearch"
         },
         {
           "code": "243615",
           "name": "Epidemiology & Biostatistics",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "epidemiology"
         },
         {
           "code": "243616",
@@ -21644,17 +21647,20 @@
         {
           "code": "243620",
           "name": "Lab: 11 Econometrics",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "econometrics"
         },
         {
           "code": "243622",
           "name": "Lab: 12 Operational Research & Demography",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "operationalResearch"
         },
         {
           "code": "243624",
           "name": "Lab: 13 Epidemiology & Biostatistics",
-          "credits": 2
+          "credits": 2,
+          "optionGroup": "epidemiology"
         },
         {
           "code": "243626",
@@ -21662,7 +21668,27 @@
           "credits": 4
         }
       ],
-      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Statistics B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA."
+      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Statistics B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA. Choose two of the three non-major packages. Each package includes its course and matching lab.",
+      "optionGroups": [
+        {
+          "label": "Choose your non-major subjects",
+          "selectionLimit": 2,
+          "options": [
+            {
+              "id": "econometrics",
+              "label": "Econometrics with Lab 11"
+            },
+            {
+              "id": "operationalResearch",
+              "label": "Operational Research and Research Methodology with Lab 12"
+            },
+            {
+              "id": "epidemiology",
+              "label": "Epidemiology and Biostatistics with Lab 13"
+            }
+          ]
+        }
+      ]
     },
     "honours|2024-2025|psychology|1": {
       "syllabusVersion": "2024-2025",
@@ -21704,9 +21730,79 @@
           "code": "219904",
           "name": "Lab: Information and Communication Technology",
           "credits": 1
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology",
+          "credits": 4,
+          "optionGroup": "sociology"
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work",
+          "credits": 4,
+          "optionGroup": "social-work"
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory",
+          "credits": 4,
+          "optionGroup": "political-science"
+        },
+        {
+          "code": "211709",
+          "name": "Introduction to Philosophy",
+          "credits": 4,
+          "optionGroup": "philosophy"
+        },
+        {
+          "code": "213207",
+          "name": "Introduction to Geography and Environment",
+          "credits": 4,
+          "optionGroup": "geography"
+        },
+        {
+          "code": "213105",
+          "name": "Zoology – I",
+          "credits": 4,
+          "optionGroup": "zoology"
         }
       ],
-      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Psychology B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA."
+      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Psychology B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA. Three non-major options must be selected. The non-major course packages were taken from the linked Psychology syllabus reference because workers.dev does not list those selectable rows; the existing workers.dev core courses were retained.",
+      "optionGroups": [
+        {
+          "label": "Choose your non-major subjects",
+          "selectionLimit": 3,
+          "options": [
+            {
+              "id": "sociology",
+              "label": "Sociology"
+            },
+            {
+              "id": "social-work",
+              "label": "Social Work"
+            },
+            {
+              "id": "political-science",
+              "label": "Political Science"
+            },
+            {
+              "id": "philosophy",
+              "label": "Philosophy"
+            },
+            {
+              "id": "geography",
+              "label": "Geography and Environment"
+            },
+            {
+              "id": "zoology",
+              "label": "Zoology"
+            }
+          ]
+        }
+      ],
+      "selectorCourseSourceLabel": "NU Psychology syllabus reference, 2024–2025",
+      "selectorCourseSourceUrl": "https://nu-cgpa.vercel.app/syllabus-2024-2025/psychology/"
     },
     "honours|2024-2025|psychology|2": {
       "syllabusVersion": "2024-2025",
@@ -21744,9 +21840,119 @@
           "name": "English (Compulsory)",
           "credits": 0,
           "nonCredit": true
+        },
+        {
+          "code": "222009",
+          "name": "Sociology of Bangladesh",
+          "credits": 4,
+          "optionGroup": "sociology"
+        },
+        {
+          "code": "222115",
+          "name": "Bangladesh Society and Culture",
+          "credits": 4,
+          "optionGroup": "bangladesh-society"
+        },
+        {
+          "code": "221909",
+          "name": "Political Organization and Political System of UK and USA",
+          "credits": 4,
+          "optionGroup": "political-science"
+        },
+        {
+          "code": "221709",
+          "name": "Bangladesh Philosophy",
+          "credits": 4,
+          "optionGroup": "philosophy"
+        },
+        {
+          "code": "222209",
+          "name": "Bangladesh Economy",
+          "credits": 4,
+          "optionGroup": "economics"
+        },
+        {
+          "code": "223707",
+          "name": "Calculus-II",
+          "credits": 4,
+          "optionGroup": "mathematics"
+        },
+        {
+          "code": "223609",
+          "name": "Methods of Statistics",
+          "credits": 4,
+          "optionGroup": "statistics"
+        },
+        {
+          "code": "223107",
+          "name": "Zoology-II",
+          "credits": 4,
+          "optionGroup": "zoology"
+        },
+        {
+          "code": "223201",
+          "name": "Geomorphology",
+          "credits": 4,
+          "optionGroup": "geography"
+        },
+        {
+          "code": "225021",
+          "name": "Structured Programming Language",
+          "credits": 4,
+          "optionGroup": "structured-programming"
         }
       ],
-      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Psychology B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA."
+      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Psychology B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA. Three non-major options must be selected. The non-major course packages were taken from the linked Psychology syllabus reference because workers.dev does not list those selectable rows; the existing workers.dev core courses were retained.",
+      "optionGroups": [
+        {
+          "label": "Choose your non-major subjects",
+          "selectionLimit": 3,
+          "options": [
+            {
+              "id": "sociology",
+              "label": "Sociology"
+            },
+            {
+              "id": "bangladesh-society",
+              "label": "Bangladesh Society and Culture"
+            },
+            {
+              "id": "political-science",
+              "label": "Political Science"
+            },
+            {
+              "id": "philosophy",
+              "label": "Philosophy"
+            },
+            {
+              "id": "economics",
+              "label": "Economics"
+            },
+            {
+              "id": "mathematics",
+              "label": "Mathematics"
+            },
+            {
+              "id": "statistics",
+              "label": "Statistics"
+            },
+            {
+              "id": "zoology",
+              "label": "Zoology"
+            },
+            {
+              "id": "geography",
+              "label": "Geography and Environment"
+            },
+            {
+              "id": "structured-programming",
+              "label": "Structured Programming Language"
+            }
+          ]
+        }
+      ],
+      "selectorCourseSourceLabel": "NU Psychology syllabus reference, 2024–2025",
+      "selectorCourseSourceUrl": "https://nu-cgpa.vercel.app/syllabus-2024-2025/psychology/"
     },
     "honours|2024-2025|psychology|3": {
       "syllabusVersion": "2024-2025",
