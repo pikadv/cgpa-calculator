@@ -179,7 +179,9 @@
         "Finance and Banking",
         "Computer Science",
         "Psychology",
-        "English (Elective)"
+        "English (Elective)",
+        "English (Compulsory)",
+        "Bangla National Language (Compulsory)"
       ],
       "departmentGroups": {
         "Business Administration": [
@@ -195,7 +197,9 @@
           "Philosophy",
           "Bangla",
           "English",
-          "English (Elective)"
+          "English (Elective)",
+          "English (Compulsory)",
+          "Bangla National Language (Compulsory)"
         ],
         "Social Science": [
           "Economics",
@@ -16724,6 +16728,102 @@
         }
       ],
       "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|english (compulsory)|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "English (Compulsory)",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English.doc and B.A. Pass Course, Marks Distribution & Compulsory Subject.doc)",
+      "sourceUrl": "",
+      "courses": [],
+      "verificationNote": "The document explicitly identifies course 121101 as English (Compulsory), 4 credits. Included in 2nd year based on its course code. Check programme-specific applicability against the original distribution document.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|english (compulsory)|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "English (Compulsory)",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English.doc and B.A. Pass Course, Marks Distribution & Compulsory Subject.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "The document explicitly identifies course 121101 as English (Compulsory), 4 credits. Included in 2nd year based on its course code. Check programme-specific applicability against the original distribution document.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|english (compulsory)|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "English (Compulsory)",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English.doc and B.A. Pass Course, Marks Distribution & Compulsory Subject.doc)",
+      "sourceUrl": "",
+      "courses": [],
+      "verificationNote": "The document explicitly identifies course 121101 as English (Compulsory), 4 credits. Included in 2nd year based on its course code. Check programme-specific applicability against the original distribution document.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|bangla national language (compulsory)|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Bangla National Language (Compulsory)",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Bangla National Language.doc and B.A. Pass Course, Marks Distribution & Compulsory Subject.doc)",
+      "sourceUrl": "",
+      "courses": [],
+      "verificationNote": "The course code and 4-credit value are legible; the title is represented using the document's subject heading because the course-title row uses legacy Bangla font encoding. Confirm exact title from the original.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|bangla national language (compulsory)|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Bangla National Language (Compulsory)",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Bangla National Language.doc and B.A. Pass Course, Marks Distribution & Compulsory Subject.doc)",
+      "sourceUrl": "",
+      "courses": [],
+      "verificationNote": "The course code and 4-credit value are legible; the title is represented using the document's subject heading because the course-title row uses legacy Bangla font encoding. Confirm exact title from the original.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|bangla national language (compulsory)|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Bangla National Language (Compulsory)",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Bangla National Language.doc and B.A. Pass Course, Marks Distribution & Compulsory Subject.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131001",
+          "name": "Bangla National Language (Compulsory)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "The course code and 4-credit value are legible; the title is represented using the document's subject heading because the course-title row uses legacy Bangla font encoding. Confirm exact title from the original.",
       "departmentCategory": "Degree Pass"
     }
   },
