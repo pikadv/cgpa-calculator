@@ -108,7 +108,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   .delete-button { width: 26px; }
 }
   
-.selection-grid { display:grid; grid-template-columns:minmax(0, 1.4fr) minmax(165px, 1fr) minmax(130px, .8fr); gap:12px; margin-top:18px; }
+.selection-grid { display:grid; grid-template-columns:minmax(0, 1.4fr) repeat(3, minmax(125px, 1fr)); gap:12px; margin-top:18px; }
 .selection-grid input, .selection-grid select { width:100%; border:1px solid #d8e2de; background:#fff; color:var(--ink); border-radius:9px; padding:11px 10px; outline:none; }
 .selection-grid input:focus, .selection-grid select:focus { border-color:var(--green); box-shadow:0 0 0 3px rgba(23,107,85,.12); }
 .selection-status { font-size:12px; color:var(--muted); margin:10px 0 0 !important; }
@@ -133,6 +133,15 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
           <label class="field-label" for="department">Search department</label>
           <input id="department" type="search" list="department-options" placeholder="Type a department, e.g. English" autocomplete="off" />
           <datalist id="department-options"></datalist>
+        </div>
+        <div>
+          <label class="field-label" for="programme">Programme</label>
+          <select id="programme">
+            <option value="honours">Honours</option>
+            <option value="pass">Degree Pass</option>
+            <option value="masters-preliminary">Masters Preliminary</option>
+            <option value="masters-final">Masters Final</option>
+          </select>
         </div>
         <div>
           <label class="field-label" for="syllabus-version">Syllabus version</label>
@@ -241,6 +250,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   const departmentInput = document.getElementById("department");
   const yearSelect = document.getElementById("academic-year");
   const syllabusSelect = document.getElementById("syllabus-version");
+  const programmeSelect = document.getElementById("programme");
   const departmentOptions = document.getElementById("department-options");
   const selectionStatus = document.getElementById("selection-status");
   const addOne = document.getElementById("add-one");
@@ -331,11 +341,13 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     const department = departmentInput.value.trim();
     const year = yearSelect.value;
     const version = syllabusSelect.value;
+    const programme = programmeSelect.value;
+    const programmeLabel = programmeSelect.options[programmeSelect.selectedIndex].text;
     const versionLabel = syllabusSelect.options[syllabusSelect.selectedIndex].text;
     courses.replaceChildren();
     resetResults();
     if (!department) {
-      selectionStatus.textContent = "Choose a department, syllabus version, and academic year to load an available subject list. You can also add courses manually.";
+      selectionStatus.textContent = "Choose a programme, department, syllabus version, and academic year to load an available subject list. You can also add courses manually.";
       return;
     }
     selectionStatus.textContent = "Loading the syllabus catalogue…";
@@ -346,13 +358,14 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     }
     const normalizedDepartment = department.toLowerCase().replace(/\\s+/g, " ").trim();
     const key = version + "|" + normalizedDepartment + "|" + year;
-    const entry = syllabus[key];
+    const programmeKey = version + "|" + programme + "|" + normalizedDepartment + "|" + year;
+    const entry = syllabus[programmeKey] || syllabus[key];
     const list = entry && entry.courses;
     if (Array.isArray(list) && list.length) {
       list.forEach(course => addCourse(course));
-      selectionStatus.textContent = `Loaded ${list.length} courses for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. Verify elective choices against your official syllabus.`;
+      selectionStatus.textContent = `Loaded ${list.length} courses for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. Verify elective choices against your official syllabus.`;
     } else {
-      selectionStatus.textContent = `No verified course list is connected for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text} yet. Add subjects manually below. Unknown course lists are not fabricated.`;
+      selectionStatus.textContent = `No verified course list is connected for ${programmeLabel} · ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text} yet. Add subjects manually below. Unknown course lists are not fabricated.`;
     }
   }
 
@@ -368,6 +381,26 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   });
   yearSelect.addEventListener("change", loadSelectedSyllabus);
   syllabusSelect.addEventListener("change", loadSelectedSyllabus);
+  programmeSelect.addEventListener("change", () => {
+    // Pass and Masters programmes do not use Honours year labels.
+    const yearOptions = programmeSelect.value === "pass"
+      ? [["1", "1st Year"], ["2", "2nd Year"], ["3", "3rd Year"]]
+      : programmeSelect.value === "masters-preliminary"
+        ? [["1", "Preliminary"], ["2", "Preliminary (if applicable)"]]
+        : programmeSelect.value === "masters-final"
+          ? [["1", "Final Year"]]
+          : [["1", "1st Year"], ["2", "2nd Year"], ["3", "3rd Year"], ["4", "4th Year"]];
+    const previousYear = yearSelect.value;
+    yearSelect.replaceChildren();
+    yearOptions.forEach(([value, label]) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = label;
+      yearSelect.appendChild(option);
+    });
+    if (yearOptions.some(([value]) => value === previousYear)) yearSelect.value = previousYear;
+    loadSelectedSyllabus();
+  });
   addOne.addEventListener("click", () => addCourse());
   reset.addEventListener("click", () => {
     courses.replaceChildren(); resetResults(); clearError();
