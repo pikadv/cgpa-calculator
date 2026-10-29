@@ -2832,12 +2832,43 @@
       "department": "Accounting",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212501",
+          "name": "Principles of Accounting",
+          "credits": 4
+        },
+        {
+          "code": "212503",
+          "name": "Principles of Finance",
+          "credits": 4
+        },
+        {
+          "code": "212505",
+          "name": "Principles of Marketing",
+          "credits": 4
+        },
+        {
+          "code": "212507",
+          "name": "Principles of Management",
+          "credits": 4
+        },
+        {
+          "code": "212509",
+          "name": "Micro Economics",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Business Administration"
     },
     "honours|2013-2014|accounting|2": {
@@ -2888,12 +2919,43 @@
       "department": "Anthropology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "214001",
+          "name": "Introduction to Anthropology",
+          "credits": 4
+        },
+        {
+          "code": "214003",
+          "name": "Kinship",
+          "credits": 4
+        },
+        {
+          "code": "214005",
+          "name": "Introduction to Biological Anthropology and Archaeology",
+          "credits": 4
+        },
+        {
+          "code": "214007",
+          "name": "Other Cultures",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Social Science"
     },
     "honours|2013-2014|anthropology|2": {
@@ -2944,12 +3006,43 @@
       "department": "Arabic",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211201",
+          "name": "Al-Qur'an & Al-Hadith",
+          "credits": 4
+        },
+        {
+          "code": "211203",
+          "name": "History of Arabic Literature (500-750 AD)",
+          "credits": 4
+        },
+        {
+          "code": "211205",
+          "name": "Communicative Arabic-I",
+          "credits": 4
+        },
+        {
+          "code": "211207",
+          "name": "Arabic Grammar (Sarf)",
+          "credits": 4
+        },
+        {
+          "code": "211209",
+          "name": "Islamic Ideology-I",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|arabic|2": {
@@ -3000,12 +3093,53 @@
       "department": "Bangla",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211001",
+          "name": "History and Culture of Bangladesh and Bengalees (From Ancients to 2000 AD)",
+          "credits": 4
+        },
+        {
+          "code": "211003",
+          "name": "History of Bangla Language and Functional Bangla",
+          "credits": 4
+        },
+        {
+          "code": "211005",
+          "name": "Bangla Poetry-1",
+          "credits": 4
+        },
+        {
+          "code": "211007",
+          "name": "Bangla Novel-1",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|bangla|2": {
@@ -3056,12 +3190,53 @@
       "department": "Biochemistry and Molecular Biology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212901",
+          "name": "Biophysical and Bioorganic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "212903",
+          "name": "Introductory Biochemistry",
+          "credits": 4
+        },
+        {
+          "code": "212904",
+          "name": "Biochemistry Practical",
+          "credits": 4
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "213105",
+          "name": "Zoology-I",
+          "credits": 4
+        },
+        {
+          "code": "213106",
+          "name": "Zoology-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|biochemistry and molecular biology|2": {
@@ -3112,12 +3287,58 @@
       "department": "Botany",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213001",
+          "name": "Microbiology",
+          "credits": 3
+        },
+        {
+          "code": "213003",
+          "name": "Mycology",
+          "credits": 3
+        },
+        {
+          "code": "213005",
+          "name": "Phycology",
+          "credits": 3
+        },
+        {
+          "code": "213006",
+          "name": "Practical-I",
+          "credits": 3
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "213105",
+          "name": "Zoology-I",
+          "credits": 4
+        },
+        {
+          "code": "213106",
+          "name": "Zoology Practical-I",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|botany|2": {
@@ -3168,12 +3389,58 @@
       "department": "Chemistry",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212801",
+          "name": "Physical Chemistry-I",
+          "credits": 3
+        },
+        {
+          "code": "212803",
+          "name": "Fundamentals of Organic Chemistry",
+          "credits": 3
+        },
+        {
+          "code": "212805",
+          "name": "Fundamentals of Inorganic Chemistry",
+          "credits": 3
+        },
+        {
+          "code": "212806",
+          "name": "Chemistry Practical: Qualitative inorganic analysis and preparations",
+          "credits": 3
+        },
+        {
+          "code": "213709",
+          "name": "Fundamentals of Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "213711",
+          "name": "Calculus-I",
+          "credits": 2
+        },
+        {
+          "code": "212707",
+          "name": "Physics-I (Mechanics, Properties of Matter, Waves and Optics)",
+          "credits": 4
+        },
+        {
+          "code": "212709",
+          "name": "Physics-II (Heat, Thermodynamics and Radiation)",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|chemistry|2": {
@@ -3224,12 +3491,78 @@
       "department": "Computer Science and Engineering",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "510201",
+          "name": "Computer Fundamentals",
+          "credits": 3
+        },
+        {
+          "code": "510203",
+          "name": "Structured Programming Language",
+          "credits": 3
+        },
+        {
+          "code": "510204",
+          "name": "Computer Programming Lab I",
+          "credits": 1.5
+        },
+        {
+          "code": "510205",
+          "name": "Physics",
+          "credits": 3
+        },
+        {
+          "code": "510207",
+          "name": "Calculus",
+          "credits": 3
+        },
+        {
+          "code": "510209",
+          "name": "English",
+          "credits": 3
+        },
+        {
+          "code": "510211",
+          "name": "Discrete Mathematics",
+          "credits": 3
+        },
+        {
+          "code": "510213",
+          "name": "Digital Systems Design",
+          "credits": 3
+        },
+        {
+          "code": "510215",
+          "name": "Electrical and Electronic Circuit",
+          "credits": 3
+        },
+        {
+          "code": "510217",
+          "name": "Linear Algebra",
+          "credits": 3
+        },
+        {
+          "code": "510219",
+          "name": "Introduction to Statistics and Probability",
+          "credits": 3
+        },
+        {
+          "code": "510220",
+          "name": "Digital Systems and VHDL Lab",
+          "credits": 1.5
+        },
+        {
+          "code": "510222",
+          "name": "Electrical and Electronic Circuit Lab",
+          "credits": 1.5
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|computer science and engineering|2": {
@@ -3280,12 +3613,48 @@
       "department": "Economics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212201",
+          "name": "Basic Microeconomics",
+          "credits": 4
+        },
+        {
+          "code": "212203",
+          "name": "Basic Macroeconomics",
+          "credits": 4
+        },
+        {
+          "code": "212205",
+          "name": "Basic Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "212207",
+          "name": "Basic Statistics",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Social Science"
     },
     "honours|2013-2014|economics|2": {
@@ -3336,12 +3705,53 @@
       "department": "English",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211101",
+          "name": "English Reading Skills",
+          "credits": 4
+        },
+        {
+          "code": "211103",
+          "name": "English Writing Skills",
+          "credits": 4
+        },
+        {
+          "code": "211105",
+          "name": "Introduction to Poetry",
+          "credits": 4
+        },
+        {
+          "code": "211107",
+          "name": "Introduction to Prose: Fiction and Non-Fiction",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|english|2": {
@@ -3392,12 +3802,43 @@
       "department": "Finance and Banking",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212401",
+          "name": "Principles of Accounting",
+          "credits": 4
+        },
+        {
+          "code": "212403",
+          "name": "Principles of Finance",
+          "credits": 4
+        },
+        {
+          "code": "212405",
+          "name": "Principles of Marketing",
+          "credits": 4
+        },
+        {
+          "code": "212407",
+          "name": "Principles of Management",
+          "credits": 4
+        },
+        {
+          "code": "212409",
+          "name": "Micro Economics",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Business Administration"
     },
     "honours|2013-2014|finance and banking|2": {
@@ -3448,12 +3889,113 @@
       "department": "Geography and Environment",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213201",
+          "name": "Introduction to Geography and Environment",
+          "credits": 3
+        },
+        {
+          "code": "213203",
+          "name": "Introduction to Physical Geography",
+          "credits": 3
+        },
+        {
+          "code": "213205",
+          "name": "Introduction to Human Geography",
+          "credits": 3
+        },
+        {
+          "code": "213206",
+          "name": "Practical-I",
+          "credits": 3
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I (Group A elective)",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry Practical (Group A elective)",
+          "credits": 2
+        },
+        {
+          "code": "213709",
+          "name": "Fundamentals of Mathematics (Group A elective)",
+          "credits": 4
+        },
+        {
+          "code": "213711",
+          "name": "Calculus-I (Group A elective)",
+          "credits": 2
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I (Group A elective)",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany-I Practical (Group A elective)",
+          "credits": 2
+        },
+        {
+          "code": "213105",
+          "name": "Zoology-I (Group A elective)",
+          "credits": 4
+        },
+        {
+          "code": "213106",
+          "name": "Zoology Practical-I (Group A elective)",
+          "credits": 2
+        },
+        {
+          "code": "213607",
+          "name": "Introduction to Statistics (Group A elective)",
+          "credits": 4
+        },
+        {
+          "code": "213608",
+          "name": "Statistics Practical-I (Group A elective)",
+          "credits": 2
+        },
+        {
+          "code": "212009",
+          "name": "Introductory Sociology (Group B elective)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (Group B elective)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (Group B elective)",
+          "credits": 4
+        },
+        {
+          "code": "213905",
+          "name": "Introduction to Psychology (Group B elective)",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics (Group B elective)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2013-2014|geography and environment|2": {
@@ -3504,12 +4046,58 @@
       "department": "Home Economics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213501",
+          "name": "Philosophy and Purpose of Home Management",
+          "credits": 3
+        },
+        {
+          "code": "213503",
+          "name": "Maternal-Child Health and Early Childhood Education",
+          "credits": 3
+        },
+        {
+          "code": "213505",
+          "name": "Applied Art and Textile",
+          "credits": 3
+        },
+        {
+          "code": "213506",
+          "name": "Home Economics Practical",
+          "credits": 3
+        },
+        {
+          "code": "213507",
+          "name": "Introduction to Human Physiology",
+          "credits": 4
+        },
+        {
+          "code": "213508",
+          "name": "Human Physiology Practical",
+          "credits": 2
+        },
+        {
+          "code": "213509",
+          "name": "Elementary Biochemistry",
+          "credits": 4
+        },
+        {
+          "code": "213510",
+          "name": "Elementary Biochemistry Practical",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2013-2014|home economics|2": {
@@ -3560,12 +4148,53 @@
       "department": "History",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211503",
+          "name": "Introduction to History",
+          "credits": 4
+        },
+        {
+          "code": "211505",
+          "name": "History of Bengal (from earliest times to 1204)",
+          "credits": 4
+        },
+        {
+          "code": "211507",
+          "name": "History of South Asia upto 1526",
+          "credits": 4
+        },
+        {
+          "code": "211509",
+          "name": "Political and Cultural History of Islam upto 1258",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|history|2": {
@@ -3616,12 +4245,68 @@
       "department": "Islamic History and Culture",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211601",
+          "name": "",
+          "credits": null
+        },
+        {
+          "code": " Prophet Muhammad",
+          "name": "",
+          "credits": null
+        },
+        {
+          "code": " Khulafa-i-Rashidun and Umayyads)",
+          "name": "",
+          "credits": 4
+        },
+        {
+          "code": "211603",
+          "name": "",
+          "credits": null
+        },
+        {
+          "code": " Abbasids and Regional Dynasties)",
+          "name": "",
+          "credits": 4
+        },
+        {
+          "code": "211605",
+          "name": "History of the Muslims in Spain (710-1492)",
+          "credits": 4
+        },
+        {
+          "code": "211607",
+          "name": "Muslim Rule in Syria Egypt and North Africa (Fatimids Ayyubids Mamluks)",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|islamic history and culture|2": {
@@ -3672,12 +4357,53 @@
       "department": "Islamic Studies",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211801",
+          "name": "Quranic Studies",
+          "credits": 4
+        },
+        {
+          "code": "211803",
+          "name": "Introduction to Islam",
+          "credits": 4
+        },
+        {
+          "code": "211805",
+          "name": "Introduction to Islamic Dawah",
+          "credits": 4
+        },
+        {
+          "code": "211807",
+          "name": "Al-Kalam",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|islamic studies|2": {
@@ -3728,12 +4454,53 @@
       "department": "Library and Information Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213801",
+          "name": "Foundations of Library and Information Science",
+          "credits": 4
+        },
+        {
+          "code": "213803",
+          "name": "Basics of Classification and Cataloguing",
+          "credits": 4
+        },
+        {
+          "code": "213805",
+          "name": "Introduction to Computer and Communication Technologies",
+          "credits": 4
+        },
+        {
+          "code": "213807",
+          "name": "Management of Library and Information Centre",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Library & Information Science"
     },
     "honours|2013-2014|library and information science|2": {
@@ -3784,12 +4551,43 @@
       "department": "Management",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212601",
+          "name": "Introduction to Business",
+          "credits": 4
+        },
+        {
+          "code": "212603",
+          "name": "Principles of Management",
+          "credits": 4
+        },
+        {
+          "code": "212605",
+          "name": "Principles of Accounting",
+          "credits": 4
+        },
+        {
+          "code": "212607",
+          "name": "Principles of Marketing",
+          "credits": 4
+        },
+        {
+          "code": "212609",
+          "name": "Micro-Economics",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Business Administration"
     },
     "honours|2013-2014|management|2": {
@@ -3840,12 +4638,43 @@
       "department": "Marketing",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212301",
+          "name": "Introduction to Business",
+          "credits": 4
+        },
+        {
+          "code": "212303",
+          "name": "Principles of Marketing-I",
+          "credits": 4
+        },
+        {
+          "code": "212305",
+          "name": "Financial Accounting",
+          "credits": 4
+        },
+        {
+          "code": "212307",
+          "name": "Principles of Management",
+          "credits": 4
+        },
+        {
+          "code": "212309",
+          "name": "Introduction to Computer",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Business Administration"
     },
     "honours|2013-2014|marketing|2": {
@@ -3896,12 +4725,78 @@
       "department": "Mathematics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213701",
+          "name": "Fundamentals of Mathematics",
+          "credits": 3
+        },
+        {
+          "code": "213703",
+          "name": "Calculus-I",
+          "credits": 3
+        },
+        {
+          "code": "213705",
+          "name": "Linear Algebra",
+          "credits": 3
+        },
+        {
+          "code": "213707",
+          "name": "Analytic and Vector Geometry",
+          "credits": 3
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical (elective option)",
+          "credits": 2
+        },
+        {
+          "code": "213607",
+          "name": "Introduction to Statistics (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "213608",
+          "name": "Statistics Practical-I (elective option)",
+          "credits": 2
+        },
+        {
+          "code": "212707",
+          "name": "Physics-I (Mechanics, Properties of Matter",
+          "credits": null
+        },
+        {
+          "code": " elective option)",
+          "name": "",
+          "credits": 4
+        },
+        {
+          "code": "212709",
+          "name": "",
+          "credits": null
+        },
+        {
+          "code": " elective option)",
+          "name": "",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|mathematics|2": {
@@ -4064,12 +4959,53 @@
       "department": "Philosophy",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211701",
+          "name": "Problems of Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "211703",
+          "name": "History of Western Philosophy: Ancient and Medieval",
+          "credits": 4
+        },
+        {
+          "code": "211705",
+          "name": "General Ethics",
+          "credits": 4
+        },
+        {
+          "code": "211707",
+          "name": "Psychology",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|philosophy|2": {
@@ -4120,12 +5056,68 @@
       "department": "Physics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212701",
+          "name": "Mechanics",
+          "credits": 3
+        },
+        {
+          "code": "212703",
+          "name": "Properties of Matter Waves and Oscillations",
+          "credits": 3
+        },
+        {
+          "code": "212705",
+          "name": "Heat Thermodynamics and Radiation",
+          "credits": 3
+        },
+        {
+          "code": "212706",
+          "name": "Physics Practical-I",
+          "credits": 3
+        },
+        {
+          "code": "213709",
+          "name": "Fundamentals of Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "213711",
+          "name": "Calculus-I",
+          "credits": 2
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical (elective option)",
+          "credits": 2
+        },
+        {
+          "code": "213607",
+          "name": "Introduction to Statistics (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "213608",
+          "name": "Statistics Practical-I (elective option)",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|physics|2": {
@@ -4176,12 +5168,53 @@
       "department": "Political Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211901",
+          "name": "Political Institutions and Organizations",
+          "credits": 4
+        },
+        {
+          "code": "211903",
+          "name": "Western Political Thought",
+          "credits": 4
+        },
+        {
+          "code": "211905",
+          "name": "Major Foreign Governments: UK USA and France",
+          "credits": 4
+        },
+        {
+          "code": "211907",
+          "name": "Introduction to Public Administration",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics (elective option)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Social Science"
     },
     "honours|2013-2014|political science|2": {
@@ -4232,12 +5265,83 @@
       "department": "Psychology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213401",
+          "name": "General Psychology",
+          "credits": 4
+        },
+        {
+          "code": "213403",
+          "name": "Experimental Psychology",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "213404",
+          "name": "Practical: Experiment",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211709",
+          "name": "Introduction to Philosophy (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "213709",
+          "name": "Fundamentals of Mathematics (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "213607",
+          "name": "Introduction to Statistics (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "213105",
+          "name": "Zoology-I (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "213207",
+          "name": "Introduction to Geography and Environment (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "215021",
+          "name": "Introduction to Computer (elective option)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Social Science"
     },
     "honours|2013-2014|psychology|2": {
@@ -4344,12 +5448,53 @@
       "department": "Sanskrit",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "211301",
+          "name": "Sanskrit Language-I",
+          "credits": 4
+        },
+        {
+          "code": "211303",
+          "name": "History of Vedic Literature",
+          "credits": 4
+        },
+        {
+          "code": "211305",
+          "name": "History of Sanskrit Literature",
+          "credits": 4
+        },
+        {
+          "code": "211307",
+          "name": "Sanskrit Story Literature",
+          "credits": 4
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212111",
+          "name": "Introduction to Social Work (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Arts"
     },
     "honours|2013-2014|sanskrit|2": {
@@ -4400,12 +5545,43 @@
       "department": "Social Work",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212101",
+          "name": "Introduction to Social Work",
+          "credits": 4
+        },
+        {
+          "code": "212103",
+          "name": "Bangladesh Studies: History Culture and Heritage",
+          "credits": 4
+        },
+        {
+          "code": "212105",
+          "name": "History and Philosophy of Social Work",
+          "credits": 4
+        },
+        {
+          "code": "212107",
+          "name": "Human Psychology and Social Work",
+          "credits": 4
+        },
+        {
+          "code": "212109",
+          "name": "Economics and Development",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Social Science"
     },
     "honours|2013-2014|social work|2": {
@@ -4456,12 +5632,48 @@
       "department": "Sociology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "212001",
+          "name": "Introductory Sociology",
+          "credits": 4
+        },
+        {
+          "code": "212003",
+          "name": "Social History and World Civilization",
+          "credits": 4
+        },
+        {
+          "code": "212005",
+          "name": "Political Sociology",
+          "credits": 4
+        },
+        {
+          "code": "212007",
+          "name": "Social Problems",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Theory (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics (elective option)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Social Science"
     },
     "honours|2013-2014|sociology|2": {
@@ -4512,12 +5724,53 @@
       "department": "Soil Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213301",
+          "name": "Introductory Soils-I",
+          "credits": 4
+        },
+        {
+          "code": "213303",
+          "name": "Introductory Soils-II",
+          "credits": 4
+        },
+        {
+          "code": "213304",
+          "name": "Soil Science Practical",
+          "credits": 4
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2013-2014|soil science|2": {
@@ -4568,12 +5821,58 @@
       "department": "Statistics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213601",
+          "name": "Introductory Statistics",
+          "credits": 4
+        },
+        {
+          "code": "213603",
+          "name": "Introductory Probability and Numerical Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "213604",
+          "name": "Lab 1: Descriptive Statistics",
+          "credits": 2
+        },
+        {
+          "code": "213606",
+          "name": "Lab 2: Numerical Mathematics",
+          "credits": 2
+        },
+        {
+          "code": "213709",
+          "name": "Fundamentals of Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "213711",
+          "name": "Calculus-I",
+          "credits": 2
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics",
+          "credits": 4
+        },
+        {
+          "code": "212211",
+          "name": "Bangladesh Agricultural Economics",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|statistics|2": {
@@ -4624,12 +5923,63 @@
       "department": "Zoology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "213101",
+          "name": "Introduction to Zoology",
+          "credits": 4
+        },
+        {
+          "code": "213103",
+          "name": "Animal Diversity-I: Protozoa and Non-chordates",
+          "credits": 4
+        },
+        {
+          "code": "213104",
+          "name": "Zoology Practical-I",
+          "credits": 4
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry Practical-I (elective option)",
+          "credits": 2
+        },
+        {
+          "code": "212905",
+          "name": "Biochemistry-I (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "212906",
+          "name": "Biochemistry-I Practical (elective option)",
+          "credits": 2
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I (elective option)",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany-I Practical (elective option)",
+          "credits": 2
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
       "departmentCategory": "Science"
     },
     "honours|2013-2014|zoology|2": {
@@ -8505,14 +9855,64 @@
       ],
       "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table (page 5). The syllabus specifies any two elective options; remove the unselected elective pair before calculating GPA.",
       "departmentCategory": "Life & Earth Science"
+    },
+    "honours|2013-2014|environment science|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "honours",
+      "department": "Environment Science",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Honours First Year Syllabus, effective session 2013-2014 (user-uploaded ZIP)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "214401",
+          "name": "Introduction to Environmental Science",
+          "credits": 4
+        },
+        {
+          "code": "214403",
+          "name": "Fundamental of Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "214405",
+          "name": "Fundamental of Earth Sciences",
+          "credits": 4
+        },
+        {
+          "code": "214407",
+          "name": "Fundamental of Biological Sciences",
+          "credits": 4
+        },
+        {
+          "code": "214409",
+          "name": "Mathematics and Statistics for Environmental Sciences",
+          "credits": 4
+        },
+        {
+          "code": "214410",
+          "name": "Laboratory and Field work on Environmental Sciences",
+          "credits": 4
+        },
+        {
+          "code": "211501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-distribution table in the uploaded 2013-2014 Word document. Elective alternatives are included where indicated; remove unselected options before calculating. Some legacy table layouts may have combined or ambiguous practical allocations, so confirm against the original syllabus.",
+      "departmentCategory": "Life & Earth Science"
     }
   },
   "coverage": {
     "status": "partial",
     "departmentOptionsGenerated": true,
-    "combinationsListed": 532,
-    "verifiedCourseLists": 11,
-    "note": "Eight newly uploaded 2024–2025 Honours first-year PDFs have been transcribed into course lists. Where the official table specifies elective choices, all choices are listed and the user must remove unselected options before GPA calculation. Physics first-year PDF was not included in the uploaded files.",
+    "combinationsListed": 534,
+    "verifiedCourseLists": 42,
+    "note": "Added first-year 2013-2014 Honours course lists transcribed from the user-uploaded ZIP for 31 departments. Elective options are included where shown; remove unselected courses before calculating. Some legacy practical allocations need confirmation against the original documents.",
     "sourceLinksUpdated": true
   }
 }
