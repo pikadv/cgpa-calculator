@@ -1,6 +1,11 @@
 (() => {
   const template = document.getElementById("subject-template");
   const courses = document.getElementById("subjects-container");
+  const additionalSemesters = document.getElementById("additional-semesters");
+  const addSemesterButton = document.getElementById("add-semester");
+  const primarySemesterPanel = document.getElementById("primary-semester-panel");
+  const primarySemesterTitle = document.getElementById("primary-semester-title");
+  const primarySemesterLabel = document.getElementById("primary-semester-label");
   const form = document.getElementById("form-container");
   const departmentInput = document.getElementById("department");
   const yearSelect = document.getElementById("academic-year");
@@ -53,9 +58,7 @@
     options.forEach(item => {
       const option = document.createElement("option");
       option.value = String(item.value);
-      const value = String(item.value);
-      const showsSemester = select === yearSelect && /^\d+$/.test(value) && !/semester/i.test(item.label);
-      option.textContent = showsSemester ? `${item.label} / Semester ${value}` : item.label;
+      option.textContent = item.label;
       select.appendChild(option);
     });
   }
@@ -82,6 +85,7 @@
     const config = catalogue.programmes && catalogue.programmes[programme];
     if (!config) return;
 
+    clearAdditionalSemesters();
     const manualEntryOnly = manualEntryOnlyProgrammes.has(programme);
     setCatalogueSelectorsDisabled(manualEntryOnly);
     selectionStatus.classList.remove("selection-status-manual-note");
@@ -129,7 +133,7 @@
       : entries;
     const matchingYears = new Set(yearEntries.map(entry => String(entry.year)));
     const yearOptions = availableOptions(config.yearOptions, matchingYears);
-    fillSelect(yearSelect, yearOptions, "Choose a year / semester");
+    fillSelect(yearSelect, yearOptions, "Choose a year");
     yearSelect.value = yearOptions.some(option => String(option.value) === previousYear)
       ? previousYear : "";
 
@@ -144,11 +148,17 @@
 
     courses.replaceChildren();
     resetResults();
+    optionSelection.replaceChildren();
+    optionSelection.hidden = true;
+    activeOptionEntry = null;
+    activeOptionEntryKey = "";
+    updatePrimarySemesterHeading();
+    updateAddSemesterVisibility();
     if (manualEntryOnly) {
       showManualEntryNotice(manualEntryNotices[programme]);
     } else {
       selectionStatus.textContent = departments.length
-        ? `Choose a department for ${config.label}, then select an available year/semester and syllabus version. You can add courses manually at any time.`
+        ? `Choose a department for ${config.label}, then select an available academic year and syllabus version. You can add courses manually at any time.`
         : `No usable course lists are available for ${config.label} yet. You can still add courses manually.`;
     }
   }
@@ -168,7 +178,7 @@
       : entries;
     const matchingYears = new Set(yearEntries.map(entry => String(entry.year)));
     const yearOptions = availableOptions(config.yearOptions, matchingYears);
-    fillSelect(yearSelect, yearOptions, "Choose a year / semester");
+    fillSelect(yearSelect, yearOptions, "Choose a year");
     yearSelect.value = yearOptions.some(option => String(option.value) === oldYear)
       ? oldYear : "";
 
@@ -223,14 +233,14 @@
     totalCreditsOutput.textContent = "0";
     courseCountOutput.textContent = "0";
   }
-  function renumberCourses() {
-    [...courses.querySelectorAll("[data-subject]")].forEach((row, index) => {
+  function renumberCourses(container = courses) {
+    [...container.querySelectorAll("[data-subject]")].forEach((row, index) => {
       const name = row.querySelector("[data-visible-name]");
       name.placeholder = `Course / subject ${index + 1}`;
       name.setAttribute("aria-label", `Course / subject ${index + 1}`);
     });
   }
-  function addCourse(course = {}) {
+  function addCourse(course = {}, container = courses) {
     const fragment = template.content.cloneNode(true);
     const row = fragment.querySelector("[data-subject]");
     const name = row.querySelector("[data-visible-name]");
@@ -251,28 +261,172 @@
       name.title = "Course code: " + course.code;
     }
     remove.addEventListener("click", () => {
-      row.remove(); renumberCourses(); clearError();
+      row.remove(); renumberCourses(container); clearError();
     });
     [name, credit, gradeSelect].forEach(input => {
       input.addEventListener("input", clearError);
       input.addEventListener("change", clearError);
     });
-    courses.appendChild(fragment);
-    renumberCourses();
+    container.appendChild(fragment);
+    renumberCourses(container);
   }
-  function renderOptionSelection(entry, key) {
-    optionSelection.replaceChildren();
+
+  function clearAdditionalSemesters() {
+    additionalSemesters.replaceChildren();
+  }
+
+  function updatePrimarySemesterHeading() {
+    const year = yearSelect.value;
+    const numericYear = Number(year);
+    const semesterNumber = Number.isFinite(numericYear) && numericYear > 0 ? numericYear : 1;
+    primarySemesterPanel.dataset.semester = String(semesterNumber);
+    primarySemesterPanel.dataset.year = year || "";
+    if (year) {
+      primarySemesterTitle.textContent = `Semester ${semesterNumber}`;
+      primarySemesterLabel.textContent = yearSelect.options[yearSelect.selectedIndex]?.text || "";
+    } else if (manualEntryOnlyProgrammes.has(programmeSelect.value)) {
+      primarySemesterTitle.textContent = "Semester 1";
+      primarySemesterLabel.textContent = "Add the courses for this semester manually.";
+    } else {
+      primarySemesterTitle.textContent = "Your courses";
+      primarySemesterLabel.textContent = "Choose filters above to load courses for this academic year.";
+    }
+  }
+
+  function updateAddSemesterVisibility() {
+    const manualEntryOnly = manualEntryOnlyProgrammes.has(programmeSelect.value);
+    const filtersReady = Boolean(departmentInput.value && yearSelect.value && syllabusSelect.value);
+    addSemesterButton.hidden = !manualEntryOnly && !filtersReady;
+  }
+
+  function createSemesterPanel(semesterNumber, entry = null) {
+    const panel = document.createElement("section");
+    panel.className = "semester-panel";
+    panel.dataset.semesterCard = "";
+    panel.dataset.semester = String(semesterNumber);
+
+    const heading = document.createElement("div");
+    heading.className = "section-heading";
+    const headingCopy = document.createElement("div");
+    const title = document.createElement("h2");
+    title.textContent = `Semester ${semesterNumber}`;
+    const description = document.createElement("p");
+    description.className = "muted semester-description";
+    description.textContent = entry
+      ? `Courses for ${entry.yearLabel || `Year ${entry.year}`}`
+      : "No catalogue list for this semester. Add the courses manually.";
+    headingCopy.append(title, description);
+
+    const remove = document.createElement("button");
+    remove.type = "button";
+    remove.className = "button button-text remove-semester";
+    remove.textContent = "Remove semester";
+    remove.setAttribute("aria-label", `Remove semester ${semesterNumber}`);
+    remove.addEventListener("click", () => panel.remove());
+    heading.append(headingCopy, remove);
+
+    const options = document.createElement("section");
+    options.className = "option-selection semester-option-selection";
+    options.setAttribute("aria-live", "polite");
+    options.hidden = true;
+
+    const header = document.createElement("div");
+    header.className = "course-header";
+    header.setAttribute("aria-hidden", "true");
+    ["Course / subject", "Credits", "Grade", ""].forEach(label => {
+      const cell = document.createElement("span");
+      cell.textContent = label;
+      header.appendChild(cell);
+    });
+
+    const container = document.createElement("div");
+    container.className = "courses";
+    container.dataset.semesterCourses = "";
+    container.setAttribute("aria-live", "polite");
+
+    const actions = document.createElement("div");
+    actions.className = "add-course-actions";
+    const add = document.createElement("button");
+    add.type = "button";
+    add.className = "button button-light";
+    add.textContent = "+ Add course";
+    add.addEventListener("click", () => addCourse({}, container));
+    actions.appendChild(add);
+
+    const programme = programmeSelect.value;
+    const department = departmentInput.value.toLowerCase().replace(/\s+/g, " ").trim();
+    const version = syllabusSelect.value;
+    panel.dataset.entryKey = entry
+      ? `${programme}|${version}|${department}|${entry.year}`
+      : "";
+
+    panel.append(heading, options, header, container, actions);
+    return panel;
+  }
+
+  function loadAdditionalSemester(panel) {
+    const key = panel.dataset.entryKey;
+    const entry = key ? syllabus[key] : null;
+    const optionContainer = panel.querySelector(".semester-option-selection");
+    const container = panel.querySelector("[data-semester-courses]");
+    const description = panel.querySelector(".semester-description");
+    container.replaceChildren();
+
+    if (!entry || !Array.isArray(entry.courses) || !entry.courses.length) {
+      optionContainer.replaceChildren();
+      optionContainer.hidden = true;
+      return;
+    }
+
+    const selectedOptions = renderOptionSelection(
+      entry,
+      key,
+      optionContainer,
+      () => loadAdditionalSemester(panel)
+    );
+    const list = entry.courses.filter(course =>
+      !course.optionGroup || selectedOptions.has(course.optionGroup)
+    );
+    list.forEach(course => addCourse(course, container));
+    description.textContent = `Courses for ${entry.yearLabel || `Year ${entry.year}`} · ${list.length} entries`;
+  }
+
+  function addSemester() {
+    const existing = [
+      primarySemesterPanel,
+      ...additionalSemesters.querySelectorAll("[data-semester-card]")
+    ];
+    const semesterNumber = Math.max(0, ...existing.map(panel => Number(panel.dataset.semester) || 0)) + 1;
+    const programme = programmeSelect.value;
+    const department = departmentInput.value;
+    const version = syllabusSelect.value;
+    let entry = null;
+
+    if (!manualEntryOnlyProgrammes.has(programme) && department && version) {
+      const normalizedDepartment = department.toLowerCase().replace(/\s+/g, " ").trim();
+      const key = `${programme}|${version}|${normalizedDepartment}|${semesterNumber}`;
+      const candidate = syllabus[key];
+      if (candidate && Array.isArray(candidate.courses) && candidate.courses.length) entry = candidate;
+    }
+
+    const panel = createSemesterPanel(semesterNumber, entry);
+    additionalSemesters.appendChild(panel);
+    if (entry) loadAdditionalSemester(panel);
+  }
+
+  function renderOptionSelection(entry, key, target = optionSelection, onSelectionChange = loadSelectedSyllabus) {
+    target.replaceChildren();
     const optionGroups = entry && entry.optionGroups;
     if (!Array.isArray(optionGroups) || !optionGroups.length) {
-      optionSelection.hidden = true; return new Set();
+      target.hidden = true; return new Set();
     }
-    optionSelection.hidden = false;
+    target.hidden = false;
     const heading = document.createElement("h2");
     heading.textContent = entry.optionSelectionTitle || "Choose your non-major subjects";
     const instructions = document.createElement("p");
     instructions.className = "muted";
     instructions.textContent = entry.optionSelectionInstructions || "Only the selected packages are included in the course list and GPA.";
-    optionSelection.append(heading, instructions);
+    target.append(heading, instructions);
 
     if (entry.optionSelectionMode === "one-of-groups") {
       const prior = selectedOptionGroupsByEntry.get(key);
@@ -316,12 +470,12 @@
             if (index >= 0) next.optionIds.splice(index, 1);
             else if (next.optionIds.length < limit) next.optionIds.push(option.id);
             selectedOptionGroupsByEntry.set(key, next);
-            loadSelectedSyllabus();
+            onSelectionChange();
           });
           buttons.appendChild(button);
         });
         section.append(groupHeading, status, buttons);
-        optionSelection.appendChild(section);
+        target.appendChild(section);
       });
       return new Set(activeGroup ? state.optionIds : []);
     }
@@ -349,16 +503,18 @@
         if (updated.has(option.id)) updated.delete(option.id);
         else if (updated.size < limit) updated.add(option.id);
         selectedOptionGroupsByEntry.set(key, [...updated]);
-        loadSelectedSyllabus();
+        onSelectionChange();
       });
       buttons.appendChild(button);
     });
-    optionSelection.append(count, buttons);
+    target.append(count, buttons);
     return selected;
   }
 
   async function loadSelectedSyllabus() {
     clearError();
+    updatePrimarySemesterHeading();
+    updateAddSemesterVisibility();
     const department = departmentInput.value.trim();
     const year = yearSelect.value;
     const version = syllabusSelect.value;
@@ -373,12 +529,12 @@
     activeOptionEntry = null;
     activeOptionEntryKey = "";
     if (!department) {
-      selectionStatus.textContent = `Choose a department for ${programmeLabel}, then choose the year/semester and syllabus version.`;
+      selectionStatus.textContent = `Choose a department for ${programmeLabel}, then choose the academic year and syllabus version.`;
       return;
     }
     if (!year || !version) {
       selectionStatus.textContent = !year
-        ? "Choose a year/semester to continue. You can still add courses manually."
+        ? "Choose an academic year to continue. You can still add courses manually."
         : "Choose a syllabus version to continue. You can still add courses manually.";
       return;
     }
@@ -429,46 +585,66 @@
     }
   }
 
-  // Selector order: programme -> department -> year/semester -> syllabus version -> subjects.
+  // Selector order: programme -> department -> academic year -> syllabus version -> subjects.
   programmeSelect.addEventListener("change", configureProgrammeOptions);
   departmentInput.addEventListener("change", () => {
+    clearAdditionalSemesters();
     refreshDependentOptions();
     loadSelectedSyllabus();
   });
   yearSelect.addEventListener("change", () => {
+    clearAdditionalSemesters();
     refreshDependentOptions();
     loadSelectedSyllabus();
   });
-  syllabusSelect.addEventListener("change", loadSelectedSyllabus);
+  syllabusSelect.addEventListener("change", () => {
+    clearAdditionalSemesters();
+    loadSelectedSyllabus();
+  });
 
   addOne.addEventListener("click", () => addCourse());
+  addSemesterButton.addEventListener("click", addSemester);
   reset.addEventListener("click", () => {
-    courses.replaceChildren(); resetResults(); clearError();
-    selectionStatus.textContent = "Courses cleared. Choose a department, syllabus version, and year/semester to load an available list, or add courses manually.";
+    courses.replaceChildren();
+    clearAdditionalSemesters();
+    resetResults();
+    clearError();
+    updatePrimarySemesterHeading();
+    updateAddSemesterVisibility();
+    selectionStatus.textContent = "Courses cleared. Choose a department, syllabus version, and academic year to load an available list, or add courses manually.";
   });
 
   form.addEventListener("submit", event => {
     event.preventDefault();
     clearError();
-    if (activeOptionEntry?.optionSelectionMode === "one-of-groups") {
-      const state = selectedOptionGroupsByEntry.get(activeOptionEntryKey);
-      const group = activeOptionEntry.optionGroups.find(item => item.id === state?.groupId);
-      const required = Number(group?.selectionLimit) || 0;
-      const selected = Array.isArray(state?.optionIds) ? state.optionIds : [];
-      if (!group || selected.length !== required) {
-        error.textContent = "Choose one group and select the required number of non-major packages before calculating.";
-        error.hidden = false; return;
-      }
-    } else if (activeOptionEntry?.optionGroups?.length) {
-      const group = activeOptionEntry.optionGroups[0];
-      const required = Number(group.selectionLimit) || 1;
-      const selected = selectedOptionGroupsByEntry.get(activeOptionEntryKey) || [];
-      if (selected.length !== required) {
-        error.textContent = `Choose exactly ${required} non-major packages before calculating this syllabus year.`;
-        error.hidden = false; return;
+    const semesterEntries = [
+      { entry: activeOptionEntry, key: activeOptionEntryKey },
+      ...[...additionalSemesters.querySelectorAll("[data-semester-card]")].map(panel => ({
+        entry: panel.dataset.entryKey ? syllabus[panel.dataset.entryKey] : null,
+        key: panel.dataset.entryKey
+      }))
+    ];
+    for (const { entry, key } of semesterEntries) {
+      if (entry?.optionSelectionMode === "one-of-groups") {
+        const state = selectedOptionGroupsByEntry.get(key);
+        const group = entry.optionGroups.find(item => item.id === state?.groupId);
+        const required = Number(group?.selectionLimit) || 0;
+        const selected = Array.isArray(state?.optionIds) ? state.optionIds : [];
+        if (!group || selected.length !== required) {
+          error.textContent = "Choose one group and select the required number of non-major packages in each semester.";
+          error.hidden = false; return;
+        }
+      } else if (entry?.optionGroups?.length) {
+        const group = entry.optionGroups[0];
+        const required = Number(group.selectionLimit) || 1;
+        const selected = selectedOptionGroupsByEntry.get(key) || [];
+        if (selected.length !== required) {
+          error.textContent = `Choose exactly ${required} non-major packages for each semester.`;
+          error.hidden = false; return;
+        }
       }
     }
-    const rows = [...courses.querySelectorAll("[data-subject]")];
+    const rows = [...form.querySelectorAll("[data-subject]")];
     const entered = rows.filter(row => row.querySelector("[data-subject-grade]").value !== "");
     if (!entered.length) {
       error.textContent = "Select a grade for at least one course before calculating.";

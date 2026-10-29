@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#123b35" />
   <meta name="description" content="A flexible National University Bangladesh GPA and CGPA calculator for any department. Add your own courses, credits, and grades." />
-  <link rel="stylesheet" href="./style.css?v=11" />
+  <link rel="stylesheet" href="./style.css?v=12" />
 
   <title>NU CGPA Calculator | National University Bangladesh</title>
 </head>
@@ -35,7 +35,7 @@
           <select id="department" aria-label="Department"><option value="">Choose a department</option></select>
         </div>
         <div>
-          <label class="field-label" for="academic-year">Year / Semester</label>
+          <label class="field-label" for="academic-year">Academic year</label>
           <select id="academic-year"></select>
         </div>
         <div>
@@ -48,11 +48,12 @@
 
     <form id="form-container" novalidate>
       <section id="catalogue-option-selection" class="panel option-selection" aria-live="polite" hidden></section>
-      <section class="panel">
+      <section id="primary-semester-panel" class="panel">
         <div class="section-heading">
           <div>
-            <h2>Your courses</h2>
+            <h2 id="primary-semester-title">Your courses</h2>
             <p class="muted">Use the credit value printed in your syllabus or marksheet.</p>
+            <p id="primary-semester-label" class="muted"></p>
           </div>
         </div>
         <div class="course-header" aria-hidden="true">
@@ -61,6 +62,10 @@
         <div id="subjects-container" class="courses" aria-live="polite"></div>
         <div class="add-course-actions">
           <button type="button" class="button button-light" id="add-one">+ Add course</button>
+        </div>
+        <div id="additional-semesters"></div>
+        <div class="add-semester-actions">
+          <button type="button" class="button button-light" id="add-semester" hidden>+ Add semester</button>
         </div>
         <template id="subject-template">
           <div class="course-row" data-subject>
@@ -124,6 +129,6 @@
     </section>
     <footer>Made for NU students · Check your syllabus for the correct course credits and rules.</footer>
   </main>
-  <script src="./script.js?v=13" defer></script>
+  <script src="./script.js?v=14" defer></script>
 </body>
 </html>
