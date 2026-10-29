@@ -153,7 +153,6 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
           </div>
           <div class="actions">
             <button type="button" class="button button-light" id="add-one">+ Add course</button>
-            <button type="button" class="button button-light" id="add-five">+ Add 5</button>
           </div>
         </div>
         <div class="course-header" aria-hidden="true">
@@ -236,7 +235,6 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   const departmentOptions = document.getElementById("department-options");
   const selectionStatus = document.getElementById("selection-status");
   const addOne = document.getElementById("add-one");
-  const addFive = document.getElementById("add-five");
   const reset = document.getElementById("reset");
   const error = document.getElementById("error-message");
   const result = document.getElementById("result");
@@ -340,7 +338,6 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
   });
   yearSelect.addEventListener("change", loadSelectedSyllabus);
   addOne.addEventListener("click", () => addCourse());
-  addFive.addEventListener("click", () => { for (let i = 0; i < 5; i++) addCourse(); });
   reset.addEventListener("click", () => {
     courses.replaceChildren(); addCourse(); resetResults(); clearError();
     selectionStatus.textContent = "Courses cleared. Choose a department and year to load an available list, or add courses manually.";
