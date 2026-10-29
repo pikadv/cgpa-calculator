@@ -74,7 +74,8 @@
         "Sociology",
         "Soil Science",
         "Statistics",
-        "Zoology"
+        "Zoology",
+        "Environment Science"
       ],
       "departmentGroups": {
         "Business Administration": [
@@ -117,7 +118,8 @@
         "Life & Earth Science": [
           "Geography and Environment",
           "Home Economics",
-          "Soil Science"
+          "Soil Science",
+          "Environment Science"
         ],
         "Library & Information Science": [
           "Library and Information Science"
@@ -599,10 +601,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
+      "sourceLabel": "Official NU Biochemistry and Molecular Biology Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Biochemistry_and_Molecular_Biology_First_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|biochemistry and molecular biology|2": {
@@ -765,10 +767,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
+      "sourceLabel": "Official NU Chemistry Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Chemistry_First_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|chemistry|2": {
@@ -1084,10 +1086,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
+      "sourceLabel": "Official NU Geography and Environment Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Geography_and_Environment_First_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2024-2025|geography and environment|2": {
@@ -1140,10 +1142,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
+      "sourceLabel": "Official NU Home Economics Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Home_Economics_First_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2024-2025|home economics|2": {
@@ -1571,10 +1573,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
+      "sourceLabel": "Official NU Mathematics Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Mathematics_Frist_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|mathematics|2": {
@@ -1795,10 +1797,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Science-Honours.php",
+      "sourceLabel": "Official NU Physics Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Physics_First_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|physics|2": {
@@ -1907,10 +1909,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
+      "sourceLabel": "Official NU Psychology Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Psychology_First_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|psychology|2": {
@@ -2187,10 +2189,10 @@
       "yearLabel": "1st Year",
       "verified": false,
       "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
+      "sourceLabel": "Official NU Soil Science Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Soil_Science_First_Year_Pub_Date_12112025.pdf",
       "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2024-2025|soil science|2": {
@@ -7946,6 +7948,20 @@
       "courses": [],
       "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
       "departmentCategory": "Science"
+    },
+    "honours|2024-2025|environment science|1": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Environment Science",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": false,
+      "status": "pdf-not-yet-transcribed",
+      "sourceLabel": "Official NU Environment Science Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Environment_Science_First_Year_Pub_Date_12112025.pdf",
+      "courses": [],
+      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "departmentCategory": "Life & Earth Science"
     }
   },
   "coverage": {
@@ -7953,7 +7969,7 @@
     "departmentOptionsGenerated": true,
     "combinationsListed": 532,
     "verifiedCourseLists": 3,
-    "note": "Official category archive links are assigned to all placeholder records. Only 3 course lists have been transcribed into the catalogue so far; the rest are explicitly marked not yet transcribed and will not auto-load.",
+    "note": "Official PDF links added for additional 2024–2025 Honours first-year science and life/earth-science syllabuses. Course lists remain partial until PDF tables are transcribed and verified.",
     "sourceLinksUpdated": true
   }
 }
