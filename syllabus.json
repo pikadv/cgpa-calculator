@@ -11768,13 +11768,24 @@
       "department": "Accounting",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Accounting.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112501",
+          "name": "Principles of Accounting",
+          "credits": 4
+        },
+        {
+          "code": "112503",
+          "name": "Auditing",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|accounting|2": {
       "syllabusVersion": "2013-2014",
@@ -11782,13 +11793,24 @@
       "department": "Accounting",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Accounting.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122501",
+          "name": "Intermediate Accounting",
+          "credits": 4
+        },
+        {
+          "code": "122503",
+          "name": "Taxation in Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|accounting|3": {
       "syllabusVersion": "2013-2014",
@@ -11796,13 +11818,24 @@
       "department": "Accounting",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Accounting.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132501",
+          "name": "Advanced Accounting",
+          "credits": 4
+        },
+        {
+          "code": "132503",
+          "name": "Cost Accounting",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|economics|1": {
       "syllabusVersion": "2013-2014",
@@ -11810,13 +11843,24 @@
       "department": "Economics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112201",
+          "name": "Microeconomics",
+          "credits": 4
+        },
+        {
+          "code": "112203",
+          "name": "Bangladesh Economy",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|economics|2": {
       "syllabusVersion": "2013-2014",
@@ -11824,13 +11868,24 @@
       "department": "Economics",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122201",
+          "name": "Macroeconomics",
+          "credits": 4
+        },
+        {
+          "code": "122203",
+          "name": "Money, Banking, International Trade and Public Finance",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|economics|3": {
       "syllabusVersion": "2013-2014",
@@ -11838,13 +11893,24 @@
       "department": "Economics",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132201",
+          "name": "Elementary Mathematics for Economics and Basic Statistics Demography",
+          "credits": 4
+        },
+        {
+          "code": "132205",
+          "name": "History of Economic Thought",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|political science|1": {
       "syllabusVersion": "2013-2014",
@@ -11852,13 +11918,24 @@
       "department": "Political Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Political Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111901",
+          "name": "Political Theory",
+          "credits": 4
+        },
+        {
+          "code": "111903",
+          "name": "Political Organization and The Political System of UK and USA",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|political science|2": {
       "syllabusVersion": "2013-2014",
@@ -11866,13 +11943,24 @@
       "department": "Political Science",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Political Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121901",
+          "name": "Government and Politics of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "121903",
+          "name": "Political Economy of Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|political science|3": {
       "syllabusVersion": "2013-2014",
@@ -11880,13 +11968,24 @@
       "department": "Political Science",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Political Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131901",
+          "name": "Local Government and Rural Politics in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "131903",
+          "name": "Women and Politics",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|sociology|1": {
       "syllabusVersion": "2013-2014",
@@ -11894,13 +11993,24 @@
       "department": "Sociology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Sociology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112001",
+          "name": "Introductory Sociology",
+          "credits": 4
+        },
+        {
+          "code": "112003",
+          "name": "Social History & Anthropology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|sociology|2": {
       "syllabusVersion": "2013-2014",
@@ -11908,13 +12018,24 @@
       "department": "Sociology",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Sociology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122001",
+          "name": "Classical Social Thought",
+          "credits": 4
+        },
+        {
+          "code": "122003",
+          "name": "Social Psychology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|sociology|3": {
       "syllabusVersion": "2013-2014",
@@ -11922,13 +12043,54 @@
       "department": "Sociology",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Sociology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132001",
+          "name": "Sociology of Environment",
+          "credits": 4
+        },
+        {
+          "code": "132003",
+          "name": "Sociology of Bangladesh Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Introductory Sociology Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "112003",
+          "name": "Social History & Anthropology Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "122001",
+          "name": "Classical Social Thought Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "122003",
+          "name": "Social Psychology Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "132001",
+          "name": "Sociology of Environment Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "132003",
+          "name": "Sociology of Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|social work|1": {
       "syllabusVersion": "2013-2014",
@@ -11936,13 +12098,24 @@
       "department": "Social Work",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Social Work.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112101",
+          "name": "History and Philosophy of Social Work",
+          "credits": 4
+        },
+        {
+          "code": "112103",
+          "name": "Needs and Social Problems of Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|social work|2": {
       "syllabusVersion": "2013-2014",
@@ -11950,13 +12123,24 @@
       "department": "Social Work",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Social Work.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122101",
+          "name": "Social Policy, Planning and Social Welfare Services in Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "122103",
+          "name": "Methods of Social Work",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|social work|3": {
       "syllabusVersion": "2013-2014",
@@ -11964,13 +12148,24 @@
       "department": "Social Work",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Social Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Social-Science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Social Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Social Work.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132101",
+          "name": "Social Research and Statistics",
+          "credits": 4
+        },
+        {
+          "code": "132103",
+          "name": "Field Work Education",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|history|1": {
       "syllabusVersion": "2013-2014",
@@ -11978,13 +12173,24 @@
       "department": "History",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111503",
+          "name": "History of Bengal (from ancient times to 1204 AD)",
+          "credits": 4
+        },
+        {
+          "code": "111505",
+          "name": "History of South Asia (1526-1765)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|history|2": {
       "syllabusVersion": "2013-2014",
@@ -11992,13 +12198,24 @@
       "department": "History",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121501",
+          "name": "History of Bengal (1204-1765)",
+          "credits": 4
+        },
+        {
+          "code": "121503",
+          "name": "History of South Asia (1765-1947)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|history|3": {
       "syllabusVersion": "2013-2014",
@@ -12006,13 +12223,24 @@
       "department": "History",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131501",
+          "name": "History of Europe (1453-1789)",
+          "credits": 4
+        },
+        {
+          "code": "131503",
+          "name": "History of Islam upto 1258 (Excluding South Asia & Spain)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic history and culture|1": {
       "syllabusVersion": "2013-2014",
@@ -12020,13 +12248,24 @@
       "department": "Islamic History and Culture",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111601",
+          "name": "Political and Cultural History of Islam (upto 750 A.D)",
+          "credits": 4
+        },
+        {
+          "code": "111603",
+          "name": "Political and Cultural History of Islam (750-1258 A.D)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic history and culture|2": {
       "syllabusVersion": "2013-2014",
@@ -12034,13 +12273,24 @@
       "department": "Islamic History and Culture",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121601",
+          "name": "History of the Muslims in India (712-1526 A.D)",
+          "credits": 4
+        },
+        {
+          "code": "121603",
+          "name": "History of the Muslims in India (1526-1858 A.D)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic history and culture|3": {
       "syllabusVersion": "2013-2014",
@@ -12048,13 +12298,24 @@
       "department": "Islamic History and Culture",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131601",
+          "name": "History of Modern Europe (1789-1945 A.D)",
+          "credits": 4
+        },
+        {
+          "code": "131603",
+          "name": "History of the Middle East (1258-1800 A. D)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic studies|1": {
       "syllabusVersion": "2013-2014",
@@ -12062,13 +12323,24 @@
       "department": "Islamic Studies",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111801",
+          "name": "Quranic Studies",
+          "credits": 4
+        },
+        {
+          "code": "111803",
+          "name": "Al-Kalam",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic studies|2": {
       "syllabusVersion": "2013-2014",
@@ -12076,13 +12348,24 @@
       "department": "Islamic Studies",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121801",
+          "name": "Study of Al-Hadith",
+          "credits": 4
+        },
+        {
+          "code": "121803",
+          "name": "Study of Al-Fiqh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic studies|3": {
       "syllabusVersion": "2013-2014",
@@ -12090,13 +12373,24 @@
       "department": "Islamic Studies",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131801",
+          "name": "Social and Political System in Islam",
+          "credits": 4
+        },
+        {
+          "code": "131803",
+          "name": "A) Economic System and Banking in Islam B) Arabic Literature C) Islamic Civilization",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|philosophy|1": {
       "syllabusVersion": "2013-2014",
@@ -12104,13 +12398,24 @@
       "department": "Philosophy",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111701",
+          "name": "Problems of Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "111703",
+          "name": "Ethics",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|philosophy|2": {
       "syllabusVersion": "2013-2014",
@@ -12118,13 +12423,24 @@
       "department": "Philosophy",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121701",
+          "name": "Muslim Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "121703",
+          "name": "Indian Philosophy",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|philosophy|3": {
       "syllabusVersion": "2013-2014",
@@ -12132,13 +12448,24 @@
       "department": "Philosophy",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131701",
+          "name": "Bangladesh Philosophy",
+          "credits": 4
+        },
+        {
+          "code": "131703",
+          "name": "General Logic",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|bangla|1": {
       "syllabusVersion": "2013-2014",
@@ -12230,13 +12557,24 @@
       "department": "Geography and Environment",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Life & Earth Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Geography and Environment.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113201",
+          "name": "Physical Geography & Environment",
+          "credits": 4
+        },
+        {
+          "code": "113203",
+          "name": "Economic Geography",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|geography and environment|2": {
       "syllabusVersion": "2013-2014",
@@ -12244,13 +12582,24 @@
       "department": "Geography and Environment",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Life & Earth Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Geography and Environment.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123201",
+          "name": "Population and Cultural Geography",
+          "credits": 4
+        },
+        {
+          "code": "123203",
+          "name": "Geography of Bangladesh",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|geography and environment|3": {
       "syllabusVersion": "2013-2014",
@@ -12258,13 +12607,29 @@
       "department": "Geography and Environment",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Life & Earth Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Life-Earth-science-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Life & Earth Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Geography and Environment.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133201",
+          "name": "Regional Geography of South Asia (Excluding Bangladesh)",
+          "credits": 4
+        },
+        {
+          "code": "133203",
+          "name": "Geography of Human Settlements",
+          "credits": 4
+        },
+        {
+          "code": "133204",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|library and information science|1": {
       "syllabusVersion": "2013-2014",
@@ -12272,13 +12637,24 @@
       "department": "Library and Information Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Library & Information Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113801",
+          "name": "Basics of Library & Information Science",
+          "credits": 4
+        },
+        {
+          "code": "113803",
+          "name": "Documentation and Information Retrieval",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|library and information science|2": {
       "syllabusVersion": "2013-2014",
@@ -12286,13 +12662,24 @@
       "department": "Library and Information Science",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Library & Information Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123801",
+          "name": "Library Management",
+          "credits": 4
+        },
+        {
+          "code": "123803",
+          "name": "Application of ICT in Libraries & Information centres",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|library and information science|3": {
       "syllabusVersion": "2013-2014",
@@ -12300,13 +12687,24 @@
       "department": "Library and Information Science",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Library & Information Science"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133801",
+          "name": "Organization of Knowledge-Cataloguing and Classification (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "133802",
+          "name": "Practical Organization of Knowledge Cataloguing & Classification Application of ICT in Libraries & Viva",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|management|1": {
       "syllabusVersion": "2013-2014",
@@ -12314,13 +12712,24 @@
       "department": "Management",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Managment.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112601",
+          "name": "Introduction to Business",
+          "credits": 4
+        },
+        {
+          "code": "112603",
+          "name": "Fundamentals of Management",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|management|2": {
       "syllabusVersion": "2013-2014",
@@ -12328,13 +12737,24 @@
       "department": "Management",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Managment.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122601",
+          "name": "Legal Environment of Business",
+          "credits": 4
+        },
+        {
+          "code": "122603",
+          "name": "Business Communication",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|management|3": {
       "syllabusVersion": "2013-2014",
@@ -12342,13 +12762,24 @@
       "department": "Management",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Managment.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132601",
+          "name": "Computer in Business",
+          "credits": 4
+        },
+        {
+          "code": "132603",
+          "name": "Organizational Behavior",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|marketing|1": {
       "syllabusVersion": "2013-2014",
@@ -12356,13 +12787,24 @@
       "department": "Marketing",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Marketing.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112301",
+          "name": "Principles of Marketing",
+          "credits": 4
+        },
+        {
+          "code": "112303",
+          "name": "Export-Import Management",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|marketing|2": {
       "syllabusVersion": "2013-2014",
@@ -12370,13 +12812,24 @@
       "department": "Marketing",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Marketing.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122301",
+          "name": "Marketing Promotion",
+          "credits": 4
+        },
+        {
+          "code": "122303",
+          "name": "Marketing Management",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|marketing|3": {
       "syllabusVersion": "2013-2014",
@@ -12384,13 +12837,24 @@
       "department": "Marketing",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Marketing.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132301",
+          "name": "Legal Aspects of Marketing",
+          "credits": 4
+        },
+        {
+          "code": "132303",
+          "name": "Agricultural Marketing",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|finance and banking|1": {
       "syllabusVersion": "2013-2014",
@@ -12398,13 +12862,24 @@
       "department": "Finance and Banking",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Finance & Banking.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112401",
+          "name": "Principles of Finance",
+          "credits": 4
+        },
+        {
+          "code": "112403",
+          "name": "Law and Practices of Banking and Insurance",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|finance and banking|2": {
       "syllabusVersion": "2013-2014",
@@ -12412,13 +12887,24 @@
       "department": "Finance and Banking",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Finance & Banking.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122401",
+          "name": "Public Finance & Taxation",
+          "credits": 4
+        },
+        {
+          "code": "122403",
+          "name": "Financial Markets & Fundamentals of Investment",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|finance and banking|3": {
       "syllabusVersion": "2013-2014",
@@ -12426,13 +12912,24 @@
       "department": "Finance and Banking",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Business Administration syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Business-Studies-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Business Administration"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Finance & Banking.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132401",
+          "name": "International Trade &  Finance",
+          "credits": 4
+        },
+        {
+          "code": "132403",
+          "name": "E-Banking and E-Commerce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     },
     "masters-preliminary|2016-2017|accounting|1": {
       "syllabusVersion": "2016-2017",
@@ -13965,14 +14462,2034 @@
       ],
       "verificationNote": "Course rows were transcribed from the course-distribution table in the uploaded Word document. Some table titles wrap across lines, and elective alternatives or practical-course allocations may require checking against the original file. Confirm all course codes, full titles, and credits before calculating; remove elective courses not taken.",
       "departmentCategory": "Life & Earth Science"
+    },
+    "pass|2013-2014|arabic|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Arabic",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Arabic.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111201",
+          "name": "Arabic Prose",
+          "credits": 4
+        },
+        {
+          "code": "111203",
+          "name": "History  of  Arabic Literature-I (500 - 1258 AD)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|arabic|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Arabic",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Arabic.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121201",
+          "name": "Arabic Poetry",
+          "credits": 4
+        },
+        {
+          "code": "121203",
+          "name": "History of Arabic Literature-II (1259 – at to Now)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|arabic|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Arabic",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Arabic.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131201",
+          "name": "Arabic Grammar, Translation, Composition and Essay/Letter writing",
+          "credits": 4
+        },
+        {
+          "code": "131203",
+          "name": "Islamic Ideology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|b. music|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "B. Music",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (B. Music.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "114501",
+          "name": "Theoretical",
+          "credits": 4
+        },
+        {
+          "code": "114502",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|b. music|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "B. Music",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (B. Music.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "124501",
+          "name": "Theoretical",
+          "credits": 4
+        },
+        {
+          "code": "124502",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|b. music|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "B. Music",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (B. Music.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "134501",
+          "name": "Theoretical",
+          "credits": 4
+        },
+        {
+          "code": "134502",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|drama and media studies|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Drama and Media Studies",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Drama and Media Studies.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "115101",
+          "name": "Bangla Drama",
+          "credits": 4
+        },
+        {
+          "code": "115102",
+          "name": "Acting Practices and Play Production",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|drama and media studies|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Drama and Media Studies",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Drama and Media Studies.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "125101",
+          "name": "Western Drama",
+          "credits": 4
+        },
+        {
+          "code": "125103",
+          "name": "Journalism and Mass Media",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|drama and media studies|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Drama and Media Studies",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Drama and Media Studies.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "135101",
+          "name": "Radio and Television Production Studies",
+          "credits": 4
+        },
+        {
+          "code": "135102",
+          "name": "News and Media Production",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|pali|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Pali",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Pali.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111401",
+          "name": "Pali Prose and Translation",
+          "credits": 4
+        },
+        {
+          "code": "111403",
+          "name": "Pali Poetry and Translation",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|pali|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Pali",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Pali.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121401",
+          "name": "Pali, Pakrit, Sanskrit Grammar and Translation",
+          "credits": 4
+        },
+        {
+          "code": "121403",
+          "name": "History of Buddhism",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|pali|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Pali",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Pali.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131401",
+          "name": "Basic Teachings of Buddha",
+          "credits": 4
+        },
+        {
+          "code": "131403",
+          "name": "Pali Commentary (Atthakatha) Literature",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|sanskrit|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Sanskrit",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Sanskrit.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111301",
+          "name": "History of Sanskrit Literature",
+          "credits": 4
+        },
+        {
+          "code": "111303",
+          "name": "Sanskrit Drama",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|sanskrit|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Sanskrit",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Sanskrit.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121301",
+          "name": "Sanskrit Poetry and Prose",
+          "credits": 4
+        },
+        {
+          "code": "121303",
+          "name": "Sanskrit Grammar, Composition and Translation",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|sanskrit|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Sanskrit",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Sanskrit.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131301",
+          "name": "Sanskrit Story Literature",
+          "credits": 4
+        },
+        {
+          "code": "131303",
+          "name": "Sanskrit Poetics and Prosody",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|b. sports|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "B. Sports",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (B. Sports.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "114601",
+          "name": "Science of Sports Training",
+          "credits": 4
+        },
+        {
+          "code": "114603",
+          "name": "Exercise Physiology & Sports Biomechanics",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|b. sports|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "B. Sports",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (B. Sports.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "124601",
+          "name": "Sports Psychology",
+          "credits": 4
+        },
+        {
+          "code": "124603",
+          "name": "Sports Nutrition, Care & Prevention of Sports Injuries & Sports Management",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|b. sports|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "B. Sports",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (B. Sports.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "134601",
+          "name": "Sport/Game (Hokey) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134602",
+          "name": "Sport/Game (Hokey) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134603",
+          "name": "Sport/Game (Cricket) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134604",
+          "name": "Sport/Game (Cricket) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134605",
+          "name": "Sport/Game (Football) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134606",
+          "name": "Sport/Game (Football) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134607",
+          "name": "Sport/Game (Basketball) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134608",
+          "name": "Sport/Game (Basketball) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134609",
+          "name": "Sport/Game (Tennis) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134610",
+          "name": "Sport/Game (Tennis) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134611",
+          "name": "Sport/Game (Boxing) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134612",
+          "name": "Sport/Game (Boxing) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134613",
+          "name": "Sport/Game (Shooting) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134614",
+          "name": "Sport/Game (Shooting) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134615",
+          "name": "Sport/Game (Gymnastics) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134616",
+          "name": "Sport/Game (Gymnastics) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134617",
+          "name": "Sport/Game (Swimming) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134618",
+          "name": "Sport/Game (Swimming) (Practical)",
+          "credits": 4
+        },
+        {
+          "code": "134619",
+          "name": "Sport/Game (Track and Field) (Theory)",
+          "credits": 4
+        },
+        {
+          "code": "134620",
+          "name": "Sport/Game (Track and Field) (Practical) Total=",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|biochemistry and molecular biology|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Biochemistry and Molecular Biology",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Biochemistry and Molecular Biology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112901",
+          "name": "Physical and Organic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "112903",
+          "name": "Biomolecules",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|biochemistry and molecular biology|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Biochemistry and Molecular Biology",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Biochemistry and Molecular Biology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122901",
+          "name": "Metabolism",
+          "credits": 4
+        },
+        {
+          "code": "122903",
+          "name": "Microbiology and Molecular Biology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|biochemistry and molecular biology|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Biochemistry and Molecular Biology",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Biochemistry and Molecular Biology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132901",
+          "name": "Human Physiology & Endrocrinology",
+          "credits": 4
+        },
+        {
+          "code": "132903",
+          "name": "Clinical Biochemistry",
+          "credits": 4
+        },
+        {
+          "code": "132904",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|botany|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Botany",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Botany.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113001",
+          "name": "Microbiology, Physiology, Mycology",
+          "credits": 4
+        },
+        {
+          "code": "113003",
+          "name": "Higher Cryptogams, Gymnosperms, Plant Pathology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|botany|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Botany",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Botany.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123001",
+          "name": "Angiosperms, Economic Botany, Anatomy, Embryology, Paleobotany",
+          "credits": 4
+        },
+        {
+          "code": "123003",
+          "name": "Biodiversity, Conservation, Ecology, Environmental science & Cytology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|botany|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Botany",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Botany.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133001",
+          "name": "Plant Physiology, Phytochemistry Agronomy and Horticulture",
+          "credits": 4
+        },
+        {
+          "code": "133003",
+          "name": "Genetics, plant Breading, Evolution, Biotechnology and Biostatistics.",
+          "credits": 4
+        },
+        {
+          "code": "133004",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|chemistry|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Chemistry",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Chemistry.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112801",
+          "name": "Physical Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "112803",
+          "name": "Organic Chemistry",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|chemistry|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Chemistry",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Chemistry.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122801",
+          "name": "Inorganic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "122803",
+          "name": "Synthetic Organic Polymers",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|chemistry|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Chemistry",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Chemistry.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132801",
+          "name": "Industrial Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "132803",
+          "name": "Analytical Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "132804",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|home economics|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Home Economics",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Home Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113501",
+          "name": "Home Management and Housing",
+          "credits": 4
+        },
+        {
+          "code": "113503",
+          "name": "Child Development and Family Relations",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|home economics|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Home Economics",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Home Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123501",
+          "name": "Food and Nutrition and Institutional Food Management",
+          "credits": 4
+        },
+        {
+          "code": "123503",
+          "name": "Clothing, Textile and Applied Art",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|home economics|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Home Economics",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Home Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133501",
+          "name": "Textile Weaving and Design of Art",
+          "credits": 4
+        },
+        {
+          "code": "133503",
+          "name": "Food Science and Technology",
+          "credits": 4
+        },
+        {
+          "code": "133504",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|madar bux home economics|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Madar Bux Home Economics",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Madar Bux Home Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "116001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116011",
+          "name": "100",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|madar bux home economics|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Madar Bux Home Economics",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Madar Bux Home Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "126001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126011",
+          "name": "100",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|madar bux home economics|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Madar Bux Home Economics",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Madar Bux Home Economics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "136001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136012",
+          "name": "100 700 Marks",
+          "credits": 4
+        },
+        {
+          "code": "136005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136014",
+          "name": "100 700 Marks",
+          "credits": 4
+        },
+        {
+          "code": "136009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136011",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136016",
+          "name": "100 700 Marks",
+          "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116011",
+          "name": "100 700 Marks",
+          "credits": 4
+        },
+        {
+          "code": "121001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126011",
+          "name": "100 700 Marks",
+          "credits": 4
+        },
+        {
+          "code": "131101",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136011",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136012",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136014",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136016",
+          "name": "100 1000 Marks",
+          "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "116011",
+          "name": "100 700 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks",
+          "credits": 4
+        },
+        {
+          "code": "121001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "126011",
+          "name": "100 700 Credits : 4 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks",
+          "credits": 4
+        },
+        {
+          "code": "131101",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136001",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136003",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136005",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136007",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136009",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136011",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "136012",
+          "name": "100 800 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100 Marks: 100",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|marine engineering|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Marine Engineering",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Marine Engineering.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "124801",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124803",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124805",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124807",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124809",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124811",
+          "name": "100 700 Marks",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|marine engineering|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Marine Engineering",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Marine Engineering.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121101",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134801",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134803",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134805",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134807",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134809",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134811",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134812",
+          "name": "50",
+          "credits": 2
+        },
+        {
+          "code": "134814",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134816",
+          "name": "50",
+          "credits": 2
+        },
+        {
+          "code": "134818",
+          "name": "50",
+          "credits": 2
+        },
+        {
+          "code": "134820",
+          "name": "50",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|marine fisheries|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Marine Fisheries",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Marine Fisheries.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "124701",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124703",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124705",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124707",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124709",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124711",
+          "name": "100 700 Marks",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|marine fisheries|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Marine Fisheries",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Marine Fisheries.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121101",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134701",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134703",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134705",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134707",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134709",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134711",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134712",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134714",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134716",
+          "name": "100 1000",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|mathematics|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Mathematics",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Mathematics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113701",
+          "name": "Fundamentals of Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "113703",
+          "name": "Coordinate Geometry and Vector Analysis",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|mathematics|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Mathematics",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Mathematics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123701",
+          "name": "Calculus",
+          "credits": 4
+        },
+        {
+          "code": "123703",
+          "name": "Linear Algebra",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|mathematics|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Mathematics",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Mathematics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133701",
+          "name": "Computer Programming and Numerical Analysis",
+          "credits": 4
+        },
+        {
+          "code": "133703",
+          "name": "Ordinary Differential Equations",
+          "credits": 4
+        },
+        {
+          "code": "133704",
+          "name": "Math Lab",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|nautical|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Nautical",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Nautical.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "124901",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124903",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124905",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124906",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124907",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "124909",
+          "name": "100 700 Marks",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|nautical|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Nautical",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Nautical.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121101",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134901",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134902",
+          "name": "50",
+          "credits": 2
+        },
+        {
+          "code": "134903",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134904",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134905",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134906",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134907",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134908",
+          "name": "50",
+          "credits": 2
+        },
+        {
+          "code": "134909",
+          "name": "100",
+          "credits": 4
+        },
+        {
+          "code": "134910",
+          "name": "100",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|physics|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Physics",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Physics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "112701",
+          "name": "Mathematical Methods, Waves and Optics",
+          "credits": 4
+        },
+        {
+          "code": "112703",
+          "name": "Mechanics, Properties of Matter and Relativity",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|physics|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Physics",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Physics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "122701",
+          "name": "Thermodynamics and Statistical Mechanics",
+          "credits": 4
+        },
+        {
+          "code": "122703",
+          "name": "Electromagnetism and Basic Electonics",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|physics|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Physics",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Physics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "132701",
+          "name": "Atomic Physics and Quantum Mechanics",
+          "credits": 4
+        },
+        {
+          "code": "132703",
+          "name": "Nuclear Physics and Solid State Physics",
+          "credits": 4
+        },
+        {
+          "code": "132704",
+          "name": "Physics Practical Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "112701",
+          "name": "Mathematical Methods, Waves and Optics Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "112703",
+          "name": "Mechanics, Properties of Matter and Relativity Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "122701",
+          "name": "Thermodynamics and Statistical Mechanics Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "122703",
+          "name": "Electromagnetism and Basic Electonics Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "132701",
+          "name": "Atomic Physics and Quantum Mechanics Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "132703",
+          "name": "Nuclear Physics and Solid State Physics Paper Title",
+          "credits": 4
+        },
+        {
+          "code": "132704",
+          "name": "Physics Practical 2×35=70 15 15 100",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|soil science|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Soil Science",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Soil Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113301",
+          "name": "Pedology and Soil Physics",
+          "credits": 4
+        },
+        {
+          "code": "113303",
+          "name": "Soil Microbiology and Plant Biochemistry",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|soil science|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Soil Science",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Soil Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123301",
+          "name": "Soil Chemistry and Soil Pollution",
+          "credits": 4
+        },
+        {
+          "code": "123303",
+          "name": "Soil Fertility and Fertilizers",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|soil science|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Soil Science",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Soil Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133301",
+          "name": "Soil Management and Soil Conservation",
+          "credits": 4
+        },
+        {
+          "code": "133303",
+          "name": "Soil Survey and Crops of Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "133304",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|statistics|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Statistics",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Statistics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113601",
+          "name": "Descriptive Statistics",
+          "credits": 4
+        },
+        {
+          "code": "113603",
+          "name": "Probability and Probability Distributions",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|statistics|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Statistics",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Statistics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123601",
+          "name": "Methods of Statistics",
+          "credits": 4
+        },
+        {
+          "code": "123603",
+          "name": "Numerical Mathematics & Linear Algebra",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|statistics|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Statistics",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Statistics.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133601",
+          "name": "Applied Statistics-I",
+          "credits": 4
+        },
+        {
+          "code": "133603",
+          "name": "Applied Statistics-II",
+          "credits": 4
+        },
+        {
+          "code": "133604",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|zoology|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Zoology",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Zoology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113101",
+          "name": "Nonchordate",
+          "credits": 4
+        },
+        {
+          "code": "113103",
+          "name": "Chordata",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|zoology|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Zoology",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Zoology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123101",
+          "name": "Cytology & Histology, Ecology and Molecular biology.",
+          "credits": 4
+        },
+        {
+          "code": "123103",
+          "name": "Embryology, Physiology, Animal adaptation, Evolution, Palaeontology and Zoogeography",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|zoology|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Zoology",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Zoology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133101",
+          "name": "Ethology and Animal Genetics",
+          "credits": 4
+        },
+        {
+          "code": "133103",
+          "name": "Economic Zoology and Systematics",
+          "credits": 4
+        },
+        {
+          "code": "133104",
+          "name": "Practical",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
     }
   },
   "coverage": {
     "status": "partial",
     "departmentOptionsGenerated": true,
-    "combinationsListed": 537,
-    "verifiedCourseLists": 135,
-    "note": "Catalogue includes user-uploaded 2013-2014 Honours first-year syllabi for 31 departments and second-, third-, and fourth-year course-distribution tables where files were provided (31 departments per year). Automated transcription can leave wrapped titles or elective/practical allocations needing source verification; remove unselected electives before calculating.",
+    "combinationsListed": 591,
+    "verifiedCourseLists": 231,
+    "note": "Catalogue includes Honours 2013-2014 years 1-4 and Degree Pass 2013-2014 subject/year course lists extracted from uploaded Word syllabi. Compulsory-subject distribution documents and subjects with ambiguous or missing tables need manual verification. Remove unselected elective alternatives before calculating.",
     "sourceLinksUpdated": true
   }
 }
