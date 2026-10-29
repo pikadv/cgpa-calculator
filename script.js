@@ -6,7 +6,7 @@
   const yearSelect = document.getElementById("academic-year");
   const syllabusSelect = document.getElementById("syllabus-version");
   const programmeSelect = document.getElementById("programme");
-  const departmentOptions = document.getElementById("department-options");
+  
   const selectionStatus = document.getElementById("selection-status");
   const addOne = document.getElementById("add-one");
   const reset = document.getElementById("reset");
@@ -31,11 +31,25 @@
     const config = catalogue.programmes && catalogue.programmes[programmeSelect.value];
     if (!config) return;
     departments = config.departments || [];
-    departmentOptions.replaceChildren();
-    departments.forEach(name => {
-      const option = document.createElement("option");
-      option.value = name;
-      departmentOptions.appendChild(option);
+    departmentInput.replaceChildren();
+    const prompt = document.createElement("option");
+    prompt.value = "";
+    prompt.textContent = "Choose a department";
+    departmentInput.appendChild(prompt);
+    const categoryOrder = ["Business Administration", "Arts", "Science", "Social Science", "Life & Earth Science", "Library & Information Science", "Other / Interdisciplinary"];
+    const grouped = config.departmentGroups || {};
+    categoryOrder.forEach(category => {
+      const names = grouped[category] || [];
+      if (!names.length) return;
+      const group = document.createElement("optgroup");
+      group.label = category;
+      names.slice().sort((a, b) => a.localeCompare(b)).forEach(name => {
+        const option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        group.appendChild(option);
+      });
+      departmentInput.appendChild(group);
     });
     fillSelect(yearSelect, config.yearOptions || []);
     fillSelect(syllabusSelect, config.syllabusVersions || []);
@@ -143,13 +157,6 @@
   // Selector order: programme -> department -> academic year -> syllabus version -> subjects.
   programmeSelect.addEventListener("change", configureProgrammeOptions);
   departmentInput.addEventListener("change", loadSelectedSyllabus);
-  departmentInput.addEventListener("input", () => {
-    const normalized = departmentInput.value.trim().toLowerCase();
-    if (departments.some(name => name.toLowerCase() === normalized)) loadSelectedSyllabus();
-  });
-  departmentInput.addEventListener("keydown", event => {
-    if (event.key === "Enter") { event.preventDefault(); loadSelectedSyllabus(); }
-  });
   yearSelect.addEventListener("change", loadSelectedSyllabus);
   syllabusSelect.addEventListener("change", loadSelectedSyllabus);
 
