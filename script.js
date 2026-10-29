@@ -1,115 +1,113 @@
-// template from dom
-const subjectTemplate = document.getElementById("subject-template")
+(() => {
+  const template = document.getElementById("subject-template");
+  const courses = document.getElementById("subjects-container");
+  const form = document.getElementById("form-container");
+  const addOne = document.getElementById("add-one");
+  const addFive = document.getElementById("add-five");
+  const reset = document.getElementById("reset");
+  const error = document.getElementById("error-message");
+  const result = document.getElementById("result");
+  const grade = document.getElementById("grade");
+  const totalCreditsOutput = document.getElementById("total-credits");
+  const qualityPointsOutput = document.getElementById("quality-points");
+  const courseCountOutput = document.getElementById("course-count");
 
-// dom grabs
-const subjectsContainer = document.querySelector("[data-subjects-container]")
-const calculatedGrade = document.querySelector("[data-calculated-grade]")
-const calculatedResult = document.querySelector("[data-calculated-result]")
-const dataForm = document.querySelector("[data-form]")
-
-// buttons
-const addOne = document.querySelector("[data-add-one]")
-const addFive = document.querySelector("[data-add-five]")
-const calculateButton = document.querySelector("[data-calculate-button]")
-
-addEventListener("click", () => {
-  const totalSubjects = document.querySelectorAll("[data-subject]")
-  if (totalSubjects.length < 1) {
-    calculateButton.classList.add("hidden")
-  } else {
-    calculateButton.classList.remove("hidden")
-  }
-})
-
-addOne.addEventListener("click", (e) => {
-  e.preventDefault()
-  addSubjects(1)
-})
-
-addFive.addEventListener("click", (e) => {
-  e.preventDefault()
-  addSubjects(5)
-})
-
-function addSubjects(subjectNumber) {
-  for (i = 0; i < subjectNumber; i++) {
-    const subjectItem = subjectTemplate.content.cloneNode(true)
-    const subject = subjectItem.querySelector("[data-subject]")
-    const subjectName = subjectItem.querySelector("[data-subject-name]")
-    const deleteButton = subjectItem.querySelector("[data-delete-button]")
-    subjectName.placeholder = `Subject ${subjectsContainer.children.length + 1}`
-    subjectsContainer.appendChild(subject)
-    deleteButton.addEventListener("click", () => {
-      subject.remove()
-    })
-  }
-}
-
-dataForm.addEventListener("submit", (e) => {
-  e.preventDefault()
-  const subjectGrades = document.querySelectorAll("[data-subject-grade]")
-
-  let totalGrade = 0
-  let result = ""
-  let passed = true
-  let overFour = false
-
-  getGrade()
-  let CGPA = totalGrade / subjectGrades.length
-  if (isNaN(CGPA)) return
-
-  getResult()
-  if (overFour) {
-    calculatedGrade.textContent = "eh?"
-  } else {
-    calculatedGrade.textContent = CGPA.toFixed(2)
-  }
-  
-  calculatedResult.textContent = result
-
-  function getGrade() {
-    subjectGrades.forEach((grade) => {
-      if (grade.value == "A+" || grade.value == "a+") {
-        totalGrade += 4.0
-      } else if (grade.value == "A" || grade.value == "a") {
-        totalGrade += 3.75
-      } else if (grade.value == "A-" || grade.value == "a-") {
-        totalGrade += 3.5
-      } else if (grade.value == "B+" || grade.value == "b+") {
-        totalGrade += 3.25
-      } else if (grade.value == "B" || grade.value == "b") {
-        totalGrade += 3.0
-      } else if (grade.value == "B-" || grade.value == "b-") {
-        totalGrade += 2.75
-      } else if (grade.value == "C+" || grade.value == "c+") {
-        totalGrade += 2.5
-      } else if (grade.value == "C" || grade.value == "c") {
-        totalGrade += 2.25
-      } else if (grade.value == "D" || grade.value == "d") {
-        totalGrade += 2.0
-      } else if (grade.value == "F" || grade.value == "f") {
-        totalGrade += 0.0
-        passed = false
-      } else if (grade.value > 4) {
-        overFour = true
-      } else {
-        totalGrade += parseFloat(grade.value)
-      }
-    })
+  function addCourse() {
+    const fragment = template.content.cloneNode(true);
+    const row = fragment.querySelector("[data-subject]");
+    const name = row.querySelector("[data-visible-name]");
+    const credit = row.querySelector("[data-visible-credit]");
+    const gradeSelect = row.querySelector("[data-subject-grade]");
+    const remove = row.querySelector("[data-delete-button]");
+    name.value = "";
+    credit.value = "3";
+    remove.addEventListener("click", () => {
+      row.remove();
+      renumberCourses();
+      clearError();
+    });
+    [name, credit, gradeSelect].forEach((input) => {
+      input.addEventListener("input", clearError);
+      input.addEventListener("change", clearError);
+    });
+    courses.appendChild(fragment);
+    renumberCourses();
   }
 
-  function getResult() {
-    if (overFour)
-      return (result = `How are you getting GPA over 4 in National University breh?`)
+  function renumberCourses() {
+    [...courses.querySelectorAll("[data-subject]")].forEach((row, index) => {
+      const name = row.querySelector("[data-visible-name]");
+      name.placeholder = `Course / subject ${index + 1}`;
+      name.setAttribute("aria-label", `Course / subject ${index + 1}`);
+    });
+  }
 
-    if (CGPA >= 3.0 && passed) {
-      result = "Wooohoo!! 1st Class!!"
-    } else if (CGPA >= 2.25 && passed) {
-      result = "You passed! 2nd Class!"
-    } else if (CGPA >= 2.0 && passed) {
-      result = "You did it! You passed with 3rd Class."
-    } else {
-      result = "Sorry :( you Failed."
+  function clearError() {
+    error.hidden = true;
+    error.textContent = "";
+  }
+
+  addOne.addEventListener("click", addCourse);
+  addFive.addEventListener("click", () => {
+    for (let i = 0; i < 5; i++) addCourse();
+  });
+
+  reset.addEventListener("click", () => {
+    courses.replaceChildren();
+    addCourse();
+    grade.textContent = "—";
+    result.textContent = "Add your course grades to get started.";
+    totalCreditsOutput.textContent = "0";
+    qualityPointsOutput.textContent = "0.00";
+    courseCountOutput.textContent = "0";
+    clearError();
+  });
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    clearError();
+
+    const rows = [...courses.querySelectorAll("[data-subject]")];
+    const entered = rows.filter((row) => row.querySelector("[data-subject-grade]").value !== "");
+    if (entered.length === 0) {
+      error.textContent = "Select a grade for at least one course before calculating.";
+      error.hidden = false;
+      return;
     }
-  }
-})
+
+    let totalCredits = 0;
+    let qualityPoints = 0;
+    let invalid = false;
+
+    entered.forEach((row) => {
+      const credit = Number(row.querySelector("[data-visible-credit]").value);
+      const selectedGrade = row.querySelector("[data-subject-grade]").value;
+      if (!Number.isFinite(credit) || credit <= 0 || credit > 30 || selectedGrade === "") {
+        invalid = true;
+        return;
+      }
+      totalCredits += credit;
+      qualityPoints += credit * Number(selectedGrade);
+    });
+
+    if (invalid || totalCredits <= 0) {
+      error.textContent = "Please enter a valid credit value (greater than 0 and no more than 30) for every course with a selected grade.";
+      error.hidden = false;
+      return;
+    }
+
+    const cgpa = qualityPoints / totalCredits;
+    grade.textContent = cgpa.toFixed(2);
+    totalCreditsOutput.textContent = Number(totalCredits.toFixed(2)).toString();
+    qualityPointsOutput.textContent = qualityPoints.toFixed(2);
+    courseCountOutput.textContent = String(entered.length);
+
+    const department = document.getElementById("department").value.trim();
+    const label = department ? ` for ${department}` : "";
+    result.textContent = cgpa >= 3 ? `Strong result${label}. This is an estimated credit-weighted GPA / CGPA.`
+      : cgpa >= 2 ? `Your estimated GPA / CGPA${label} is shown above. Check your programme's promotion rules.`
+      : `Your estimated GPA / CGPA${label} is shown above. Check your programme's pass and improvement rules.`;
+  });
+
+  addCourse();
+})();
