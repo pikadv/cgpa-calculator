@@ -366,28 +366,6 @@
     let list = entry && Array.isArray(entry.courses)
       ? entry.courses.filter(course => !course.optionGroup || selectedOptionGroups.has(course.optionGroup))
       : [];
-    const artsDepartments = (programmeConfig?.departmentGroups?.Arts || []).map(name =>
-      name.toLowerCase().replace(/\s+/g, " ").trim()
-    );
-    if (artsDepartments.includes(normalizedDepartment)) {
-      const sharedCourseKeys = {
-        "2013-2014|2": [
-          "pass|2013-2014|english (compulsory)|2"
-        ],
-        "2013-2014|3": [
-          "pass|2013-2014|bangla national language (compulsory)|3"
-        ],
-        "2025-2026-degree|1": [
-          "pass|2025-2026-degree|english (compulsory)|1"
-        ]
-      };
-      (sharedCourseKeys[`${version}|${year}`] || []).forEach(sharedKey => {
-        const sharedEntry = syllabus[sharedKey];
-        if (sharedEntry && Array.isArray(sharedEntry.courses)) {
-          list = list.concat(sharedEntry.courses);
-        }
-      });
-    }
     if (list.length) {
       list.forEach(course => addCourse(course));
       const groupState = selectedOptionGroupsByEntry.get(key);
