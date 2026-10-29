@@ -176,7 +176,10 @@
         "Library and Information Science",
         "Management",
         "Marketing",
-        "Finance and Banking"
+        "Finance and Banking",
+        "Computer Science",
+        "Psychology",
+        "English (Elective)"
       ],
       "departmentGroups": {
         "Business Administration": [
@@ -191,13 +194,15 @@
           "Islamic Studies",
           "Philosophy",
           "Bangla",
-          "English"
+          "English",
+          "English (Elective)"
         ],
         "Social Science": [
           "Economics",
           "Political Science",
           "Sociology",
-          "Social Work"
+          "Social Work",
+          "Psychology"
         ],
         "Life & Earth Science": [
           "Geography and Environment"
@@ -210,6 +215,9 @@
           "Bachelor of Social Science (BSS)",
           "Bachelor of Business Studies (BBS)",
           "Bachelor of Science (BSc)"
+        ],
+        "Science": [
+          "Computer Science"
         ]
       }
     },
@@ -16481,6 +16489,241 @@
         }
       ],
       "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|computer science|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Computer Science",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Computer Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "115001",
+          "name": "Computer Fundamental and Programming Language",
+          "credits": 4
+        },
+        {
+          "code": "115003",
+          "name": "Data Structure and Algorithms",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|computer science|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Computer Science",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Computer Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "125001",
+          "name": "Database Management System and Information System Design",
+          "credits": 4
+        },
+        {
+          "code": "125003",
+          "name": "Data Communication and Computer Network",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|computer science|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Computer Science",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Computer Science.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "135001",
+          "name": "E-Commerce and Web Engineering",
+          "credits": 4
+        },
+        {
+          "code": "135003",
+          "name": "Operating System and Multimedia",
+          "credits": 4
+        },
+        {
+          "code": "135004",
+          "name": "Practical: Programming Language Lab; Data Structure and Algorithms Lab; Database Management System Lab; Data Communication and Networking Lab",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|psychology|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Psychology",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Psychology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "113401",
+          "name": "General Psychology",
+          "credits": 4
+        },
+        {
+          "code": "113403",
+          "name": "Experimental Psychology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|psychology|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Psychology",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Psychology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "123401",
+          "name": "Developmental Psychology",
+          "credits": 4
+        },
+        {
+          "code": "123403",
+          "name": "Social Psychology",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|psychology|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "Psychology",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Psychology.doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "133401",
+          "name": "Industrial Psychology",
+          "credits": 4
+        },
+        {
+          "code": "133403",
+          "name": "Measurement & Statistics in Psychology",
+          "credits": 4
+        },
+        {
+          "code": "133404",
+          "name": "Practical (4 experiments + 2 tests)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|english (elective)|1": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "English (Elective)",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111101",
+          "name": "Poetry",
+          "credits": 4
+        },
+        {
+          "code": "111103",
+          "name": "Drama",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|english (elective)|2": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "English (Elective)",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121105",
+          "name": "Non-Fiction Prose",
+          "credits": 4
+        },
+        {
+          "code": "121107",
+          "name": "Short Story",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
+    },
+    "pass|2013-2014|english (elective)|3": {
+      "syllabusVersion": "2013-2014",
+      "programme": "pass",
+      "department": "English (Elective)",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131101",
+          "name": "Novel",
+          "credits": 4
+        },
+        {
+          "code": "131103",
+          "name": "Literary Criticism and Literary Theory",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
       "departmentCategory": "Degree Pass"
     }
   },
