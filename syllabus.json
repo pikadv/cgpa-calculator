@@ -20138,12 +20138,14 @@
         {
           "code": "214403",
           "name": "Fundamental of Chemistry",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "chemistry"
         },
         {
           "code": "214405",
           "name": "Fundamental of Earth Sciences",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "geography-environment"
         },
         {
           "code": "214407",
@@ -20153,7 +20155,8 @@
         {
           "code": "214409",
           "name": "Mathematics and Statistics for Environmental Sciences",
-          "credits": 4
+          "credits": 4,
+          "optionGroup": "statistics"
         },
         {
           "code": "214410",
@@ -20176,7 +20179,27 @@
           "credits": 1
         }
       ],
-      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Environment Science B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA."
+      "verificationNote": "Course codes, titles, and credits transcribed from the workers.dev Environment Science B.Sc. (Honours) catalogue for 2024–2025. Non-credit papers are retained for reference and excluded from GPA. Non-major selection: choose two of Chemistry, Geography and Environment, and Statistics; only selected packages count toward GPA.",
+      "optionGroups": [
+        {
+          "label": "Choose your non-major subjects",
+          "selectionLimit": 2,
+          "options": [
+            {
+              "id": "chemistry",
+              "label": "Chemistry"
+            },
+            {
+              "id": "geography-environment",
+              "label": "Geography and Environment"
+            },
+            {
+              "id": "statistics",
+              "label": "Statistics"
+            }
+          ]
+        }
+      ]
     },
     "honours|2024-2025|environment science|2": {
       "syllabusVersion": "2024-2025",
