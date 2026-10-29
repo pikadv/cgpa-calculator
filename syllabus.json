@@ -18839,12 +18839,274 @@
         }
       ],
       "verificationNote": "The main nucgpa.com Mathematics fourth-year page lists the three selectable subjects and their course codes and credits. Only the two selected options are included in the loaded course list. The source page's headline says 11 courses / 44 credits when counting all 11 listed rows, but its selector requires choosing two of the three options, resulting in 10 active courses / 40 credits from the rows provided."
+    },
+    "honours|2024-2025|zoology|1": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Zoology",
+      "year": 1,
+      "yearLabel": "1st Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev Zoology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/zoology",
+      "courses": [
+        {
+          "code": "213101",
+          "name": "Introduction to Zoology",
+          "credits": 4
+        },
+        {
+          "code": "213103",
+          "name": "Animal diversity-1: Protozoa and Non-chordates",
+          "credits": 4
+        },
+        {
+          "code": "213104",
+          "name": "Zoology Practical-I",
+          "credits": 4
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry Practical-I",
+          "credits": 2
+        },
+        {
+          "code": "212905",
+          "name": "Biochemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212906",
+          "name": "Biochemistry-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the user-selected workers.dev Zoology catalogue (2024–2025)."
+    },
+    "honours|2024-2025|zoology|2": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Zoology",
+      "year": 2,
+      "yearLabel": "2nd Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev Zoology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/zoology",
+      "courses": [
+        {
+          "code": "223101",
+          "name": "Animal Diversity –II: Lower chordates and Chordates",
+          "credits": 4
+        },
+        {
+          "code": "223103",
+          "name": "Comparative Anatomy: Protozoa, Non-chordates, and Chordates",
+          "credits": 4
+        },
+        {
+          "code": "223105",
+          "name": "Environmental Biology",
+          "credits": 4
+        },
+        {
+          "code": "223106",
+          "name": "Zoology Practical -II",
+          "credits": 4
+        },
+        {
+          "code": "223007",
+          "name": "Botany-II",
+          "credits": 4
+        },
+        {
+          "code": "223008",
+          "name": "Botany Practical-II",
+          "credits": 2
+        },
+        {
+          "code": "222807",
+          "name": "General Chemistry-II",
+          "credits": 4
+        },
+        {
+          "code": "222809",
+          "name": "Environmental Chemistry",
+          "credits": 2
+        },
+        {
+          "code": "222909",
+          "name": "Biochemistry-II",
+          "credits": 4
+        },
+        {
+          "code": "222910",
+          "name": "Biochemistry Practical –II",
+          "credits": 2
+        },
+        {
+          "code": "221109",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        }
+      ],
+      "verificationNote": "Course rows follow the user-selected workers.dev source. English (Compulsory) is shown as non-credit and excluded from GPA totals."
+    },
+    "honours|2024-2025|zoology|3": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Zoology",
+      "year": 3,
+      "yearLabel": "3rd Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev Zoology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/zoology",
+      "courses": [
+        {
+          "code": "233101",
+          "name": "Evolution, Palaeontology and Zoogeography",
+          "credits": 4
+        },
+        {
+          "code": "233103",
+          "name": "Ecology",
+          "credits": 4
+        },
+        {
+          "code": "233105",
+          "name": "Genetics and Animal Breeding",
+          "credits": 4
+        },
+        {
+          "code": "233107",
+          "name": "Developmental Biology and Ethology",
+          "credits": 4
+        },
+        {
+          "code": "233109",
+          "name": "Human Physiology",
+          "credits": 4
+        },
+        {
+          "code": "233111",
+          "name": "Systematics, Demography and Family Planning",
+          "credits": 4
+        },
+        {
+          "code": "233113",
+          "name": "Cell and Molecular Biology",
+          "credits": 4
+        },
+        {
+          "code": "233114",
+          "name": "Zoology Practical-III",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the user-selected workers.dev Zoology catalogue (2024–2025)."
+    },
+    "honours|2024-2025|zoology|4": {
+      "syllabusVersion": "2024-2025",
+      "programme": "honours",
+      "department": "Zoology",
+      "year": 4,
+      "yearLabel": "4th Year",
+      "verified": false,
+      "status": "transcribed-from-worker-reference-site",
+      "sourceLabel": "NU CGPA Calculator workers.dev Zoology catalogue (2024–2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/bsc-honours/2024-2025/zoology",
+      "courses": [
+        {
+          "code": "243101",
+          "name": "Applied and Economic Zoology",
+          "credits": 4
+        },
+        {
+          "code": "243103",
+          "name": "Genetic Engineering and Biotechnology",
+          "credits": 4
+        },
+        {
+          "code": "243105",
+          "name": "Biostatistics and Research Methodology",
+          "credits": 4
+        },
+        {
+          "code": "243107",
+          "name": "Microbiology and Radiation Biology",
+          "credits": 4
+        },
+        {
+          "code": "243109",
+          "name": "Parasitology",
+          "credits": 4
+        },
+        {
+          "code": "243111",
+          "name": "Entomology",
+          "credits": 4
+        },
+        {
+          "code": "243113",
+          "name": "Fisheries Biology",
+          "credits": 4
+        },
+        {
+          "code": "243115",
+          "name": "Wildlife Biology",
+          "credits": 4
+        },
+        {
+          "code": "243116",
+          "name": "Zoology Practical-IV",
+          "credits": 4
+        },
+        {
+          "code": "243118",
+          "name": "Viva-voce",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course rows transcribed from the user-selected workers.dev Zoology catalogue (2024–2025)."
     }
   },
   "coverage": {
     "status": "partial",
     "departmentOptionsGenerated": true,
-    "combinationsListed": 604,
+    "combinationsListed": 608,
     "verifiedCourseLists": 264,
     "note": "Catalogue includes verified Honours 2013–2014 courses, Degree Pass 2013–2014 courses, and 32 Masters Final 2013–2014 subject course lists transcribed from the official NU archive. Masters Final entries include listed electives and alternate thesis/practical tracks; select only the papers applicable to the student. Overall syllabus coverage remains partial because other syllabus documents and programme distributions still need verification.",
     "sourceLinksUpdated": true

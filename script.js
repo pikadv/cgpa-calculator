@@ -206,10 +206,17 @@
     const credit = row.querySelector("[data-visible-credit]");
     const gradeSelect = row.querySelector("[data-subject-grade]");
     const remove = row.querySelector("[data-delete-button]");
-    name.value = course.name || "";
-    credit.value = course.credits ?? "4";
+    const displayName = course.nonCredit ? (course.name || "") + " (non-credit)" : (course.name || "");
+    name.value = displayName;
+    credit.value = course.nonCredit ? "0" : (course.credits ?? "4");
+    if (course.nonCredit) {
+      credit.disabled = true;
+      gradeSelect.disabled = true;
+      credit.setAttribute("aria-label", "Non-credit course");
+      gradeSelect.setAttribute("aria-label", "Non-credit course, not included in GPA");
+    }
     if (course.code) {
-      name.value = course.code + " — " + course.name;
+      name.value = course.code + " — " + displayName;
       name.title = "Course code: " + course.code;
     }
     remove.addEventListener("click", () => {
