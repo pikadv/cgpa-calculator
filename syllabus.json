@@ -599,12 +599,68 @@
       "department": "Biochemistry and Molecular Biology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Biochemistry and Molecular Biology Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Biochemistry and Molecular Biology Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Biochemistry_and_Molecular_Biology_First_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "212901",
+          "name": "Introductory Biochemistry",
+          "credits": 4
+        },
+        {
+          "code": "212903",
+          "name": "Biophysical Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "212905",
+          "name": "Bioorganic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "212906",
+          "name": "Biochemistry Lab-I",
+          "credits": 4
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany Lab-I",
+          "credits": 2
+        },
+        {
+          "code": "213107",
+          "name": "Zoology-I",
+          "credits": 4
+        },
+        {
+          "code": "213108",
+          "name": "Zoology Lab-I",
+          "credits": 2
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table. Optional choices are retained in the loaded list where the source specifies electives; remove any unselected options before calculating GPA.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|biochemistry and molecular biology|2": {
@@ -765,12 +821,68 @@
       "department": "Chemistry",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Chemistry Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Chemistry Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Chemistry_First_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "212801",
+          "name": "Physical Chemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212803",
+          "name": "Fundamentals of Organic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "212805",
+          "name": "Fundamentals of Inorganic Chemistry",
+          "credits": 4
+        },
+        {
+          "code": "212806",
+          "name": "Chemistry Practical-I/II (qualitative inorganic analysis; inorganic purification, salt preparations and elementary crystal chemistry)",
+          "credits": 4
+        },
+        {
+          "code": "213709",
+          "name": "Foundations of Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "213711",
+          "name": "Calculus-I",
+          "credits": 2
+        },
+        {
+          "code": "212707",
+          "name": "Physics-I (Mechanics, Properties of Matter, Waves and Optics)",
+          "credits": 4
+        },
+        {
+          "code": "212709",
+          "name": "Physics-II (Heat, Thermodynamics and Radiation)",
+          "credits": 2
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table (page 5). The two practical components share code 212806 in the source table and are represented together as 4 credits; confirm local grading treatment if the practical components are graded separately.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|chemistry|2": {
@@ -1084,12 +1196,123 @@
       "department": "Geography and Environment",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Geography and Environment Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Geography and Environment Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Geography_and_Environment_First_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "213201",
+          "name": "Introduction to Geography and Environment",
+          "credits": 4
+        },
+        {
+          "code": "213203",
+          "name": "Introduction to Physical Geography and Environment",
+          "credits": 4
+        },
+        {
+          "code": "213205",
+          "name": "Introduction to Human Geography and Environment",
+          "credits": 4
+        },
+        {
+          "code": "213206",
+          "name": "Practical-I",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I (Group A option)",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical (Group A option)",
+          "credits": 2
+        },
+        {
+          "code": "213709",
+          "name": "Foundations of Mathematics (Group A option)",
+          "credits": 4
+        },
+        {
+          "code": "213711",
+          "name": "Calculus-I (Group A option)",
+          "credits": 2
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I (Group A option)",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany Practical-I (Group A option)",
+          "credits": 2
+        },
+        {
+          "code": "213107",
+          "name": "Zoology-I (Group A option)",
+          "credits": 4
+        },
+        {
+          "code": "213108",
+          "name": "Zoology Practical-I (Group A option)",
+          "credits": 2
+        },
+        {
+          "code": "213607",
+          "name": "Fundamentals of Statistics (Group A option)",
+          "credits": 4
+        },
+        {
+          "code": "213610",
+          "name": "Lab-I: Fundamentals of Statistics (Group A option)",
+          "credits": 2
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology (Group B option)",
+          "credits": 4
+        },
+        {
+          "code": "212109",
+          "name": "Introduction to Social Work (Group B option)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Science (Group B option)",
+          "credits": 4
+        },
+        {
+          "code": "213407",
+          "name": "Basic Psychology (Group B option)",
+          "credits": 4
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics (Group B option)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table (page 5). The syllabus specifies either Group A (any two options) or Group B (any three options); remove the unselected group/options before calculating GPA.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2024-2025|geography and environment|2": {
@@ -1140,12 +1363,68 @@
       "department": "Home Economics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Home Economics Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Home Economics Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Home_Economics_First_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "213501",
+          "name": "Basic Nutrition and Nutrition in the Life Cycle",
+          "credits": 4
+        },
+        {
+          "code": "213503",
+          "name": "Philosophy of Management and Entrepreneurship",
+          "credits": 4
+        },
+        {
+          "code": "213505",
+          "name": "Maternal and Child Health",
+          "credits": 4
+        },
+        {
+          "code": "213506",
+          "name": "Practical",
+          "credits": 4
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "213407",
+          "name": "Basic Psychology",
+          "credits": 4
+        },
+        {
+          "code": "213408",
+          "name": "Practical (Basic Psychology)",
+          "credits": 2
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table. Optional choices are retained in the loaded list where the source specifies electives; remove any unselected options before calculating GPA.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2024-2025|home economics|2": {
@@ -1571,12 +1850,88 @@
       "department": "Mathematics",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Mathematics Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Mathematics Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Mathematics_Frist_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "213701",
+          "name": "Fundamentals of Mathematics",
+          "credits": 4
+        },
+        {
+          "code": "213703",
+          "name": "Fundamentals of Calculus",
+          "credits": 4
+        },
+        {
+          "code": "213705",
+          "name": "Linear Algebra and Analytic Geometry",
+          "credits": 4
+        },
+        {
+          "code": "213706",
+          "name": "Math Lab-Practical I (Mathematica)",
+          "credits": 4
+        },
+        {
+          "code": "212707",
+          "name": "Physics-I (Mechanics, Properties of Matter, Waves and Optics) — optional",
+          "credits": 4
+        },
+        {
+          "code": "212709",
+          "name": "Physics-II (Heat, Thermodynamics and Radiation) — optional",
+          "credits": 2
+        },
+        {
+          "code": "213607",
+          "name": "Fundamentals of Statistics — optional",
+          "credits": 4
+        },
+        {
+          "code": "213610",
+          "name": "Lab-1: Fundamentals of Statistics — optional",
+          "credits": 2
+        },
+        {
+          "code": "212209",
+          "name": "Principles of Economics — optional",
+          "credits": 4
+        },
+        {
+          "code": "212211",
+          "name": "Bangladesh Agricultural Economics — optional",
+          "credits": 2
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I — optional",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical — optional",
+          "credits": 2
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table (page 4). The syllabus says choose any two optional subject combinations. Remove unselected options (including their paired lab/practical courses where applicable) before calculating GPA.",
       "departmentCategory": "Science"
     },
     "honours|2024-2025|mathematics|2": {
@@ -1907,12 +2262,78 @@
       "department": "Psychology",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Psychology Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Psychology Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Psychology_First_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "213401",
+          "name": "Introduction to Psychology",
+          "credits": 4
+        },
+        {
+          "code": "213403",
+          "name": "Experimental Psychology",
+          "credits": 4
+        },
+        {
+          "code": "213405",
+          "name": "Statistics in Psychology I",
+          "credits": 4
+        },
+        {
+          "code": "213406",
+          "name": "Practical: Introduction to Psychology",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        },
+        {
+          "code": "212009",
+          "name": "Introducing Sociology — optional elective (choose three electives)",
+          "credits": 4
+        },
+        {
+          "code": "212109",
+          "name": "Introduction to Social Work — optional elective (choose three electives)",
+          "credits": 4
+        },
+        {
+          "code": "211909",
+          "name": "Introduction to Political Science — optional elective (choose three electives)",
+          "credits": 4
+        },
+        {
+          "code": "211709",
+          "name": "Introduction to Philosophy — optional elective (choose three electives)",
+          "credits": 4
+        },
+        {
+          "code": "213207",
+          "name": "Introduction to Geography and Environment — optional elective (choose three electives)",
+          "credits": 4
+        },
+        {
+          "code": "213107",
+          "name": "Zoology-I — optional elective (choose three electives)",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table (page 5). The syllabus says choose any three of the six optional electives. Remove the three electives not taken before calculating GPA.",
       "departmentCategory": "Social Science"
     },
     "honours|2024-2025|psychology|2": {
@@ -2187,12 +2608,68 @@
       "department": "Soil Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Soil Science Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Soil Science Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Soil_Science_First_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "213301",
+          "name": "Introductory Soils-I",
+          "credits": 4
+        },
+        {
+          "code": "213303",
+          "name": "Introductory Soils-II",
+          "credits": 4
+        },
+        {
+          "code": "213305",
+          "name": "Introduction to Environmental Science",
+          "credits": 4
+        },
+        {
+          "code": "213306",
+          "name": "Soil Science Practical",
+          "credits": 4
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "213007",
+          "name": "Botany-I",
+          "credits": 4
+        },
+        {
+          "code": "213008",
+          "name": "Botany-I Practical",
+          "credits": 2
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table. Optional choices are retained in the loaded list where the source specifies electives; remove any unselected options before calculating GPA.",
       "departmentCategory": "Life & Earth Science"
     },
     "honours|2024-2025|soil science|2": {
@@ -7955,12 +8432,78 @@
       "department": "Environment Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Environment Science Honours First Year syllabus PDF (published 12 November 2025); course rows not yet transcribed",
+      "verified": true,
+      "status": "transcribed-from-official-pdf",
+      "sourceLabel": "Official NU Environment Science Honours First Year syllabus (2024–2025)",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BSc_Honours/Environment_Science_First_Year_Pub_Date_12112025.pdf",
-      "courses": [],
-      "verificationNote": "Official PDF URL identified. Course names, codes, and credits still need to be transcribed and checked before this syllabus can auto-load; do not treat as verified.",
+      "courses": [
+        {
+          "code": "214401",
+          "name": "Introduction to Environmental Science",
+          "credits": 4
+        },
+        {
+          "code": "214403",
+          "name": "Fundamental of Earth Sciences",
+          "credits": 4
+        },
+        {
+          "code": "214405",
+          "name": "Fundamental of Biotic Environment",
+          "credits": 4
+        },
+        {
+          "code": "214406",
+          "name": "Laboratory and Field Work on Environmental Sciences-I",
+          "credits": 4
+        },
+        {
+          "code": "219901",
+          "name": "History of Bangladesh: Language, Culture and Identity",
+          "credits": 4
+        },
+        {
+          "code": "219903",
+          "name": "Information and Communication Technology",
+          "credits": 3
+        },
+        {
+          "code": "219904",
+          "name": "Lab: Information and Communication Technology",
+          "credits": 1
+        },
+        {
+          "code": "212807",
+          "name": "Chemistry-I (optional group A)",
+          "credits": 4
+        },
+        {
+          "code": "212808",
+          "name": "Chemistry-I Practical (optional group A)",
+          "credits": 2
+        },
+        {
+          "code": "213207",
+          "name": "Introduction to Geography and Environment (optional group A)",
+          "credits": 4
+        },
+        {
+          "code": "213208",
+          "name": "Geography and Environment Practical-I (optional group A)",
+          "credits": 2
+        },
+        {
+          "code": "213607",
+          "name": "Fundamentals of Statistics (optional group A)",
+          "credits": 4
+        },
+        {
+          "code": "213610",
+          "name": "Lab-I: Fundamentals of Statistics (optional group A)",
+          "credits": 2
+        }
+      ],
+      "verificationNote": "Course codes, titles and credits transcribed from the official PDF course distribution table (page 5). The syllabus specifies any two elective options; remove the unselected elective pair before calculating GPA.",
       "departmentCategory": "Life & Earth Science"
     }
   },
@@ -7968,8 +8511,8 @@
     "status": "partial",
     "departmentOptionsGenerated": true,
     "combinationsListed": 532,
-    "verifiedCourseLists": 3,
-    "note": "Official PDF links added for additional 2024–2025 Honours first-year science and life/earth-science syllabuses. Course lists remain partial until PDF tables are transcribed and verified.",
+    "verifiedCourseLists": 11,
+    "note": "Eight newly uploaded 2024–2025 Honours first-year PDFs have been transcribed into course lists. Where the official table specifies elective choices, all choices are listed and the user must remove unselected options before GPA calculation. Physics first-year PDF was not included in the uploaded files.",
     "sourceLinksUpdated": true
   }
 }
