@@ -321,7 +321,7 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
       selectionStatus.textContent = "Choose a department and year to load an available subject list. You can also add courses manually.";
       return;
     }
-    const key = department.toLowerCase().replace(/\\s+/g, " ").trim() + "|" + year;
+    const key = department.toLowerCase().replace(/\s+/g, " ").trim() + "|" + year;
     const exactKey = department.toLowerCase().trim() + "|" + year;
     const list = syllabus[key] || syllabus[exactKey];
     courses.replaceChildren();
