@@ -1,17 +1,230 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-10-29",
-  "description": "NU Bangladesh syllabus catalogue. Entries are keyed as syllabusVersion|normalized department|academic year. Only entries with a source and reviewed course rows should be treated as verified.",
+  "description": "Programme and department catalogue for NU Bangladesh. Department options are collected from NU syllabus archives and NU online lecture listings. A department being listed does not mean its course data has been transcribed.",
+  "sourceDirectories": [
+    "https://www.nu.ac.bd/syllabus.php",
+    "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
+    "https://www.nu.ac.bd/preliminary-to-masters.php",
+    "https://onlinelecture.nu.ac.bd/"
+  ],
+  "programmes": {
+    "honours": {
+      "label": "Honours",
+      "yearOptions": [
+        {
+          "value": "1",
+          "label": "1st Year"
+        },
+        {
+          "value": "2",
+          "label": "2nd Year"
+        },
+        {
+          "value": "3",
+          "label": "3rd Year"
+        },
+        {
+          "value": "4",
+          "label": "4th Year"
+        }
+      ],
+      "syllabusVersions": [
+        {
+          "value": "2024-2025",
+          "label": "2024–2025 (new syllabus archive)"
+        },
+        {
+          "value": "2013-2014",
+          "label": "2013–2014 (older syllabus)"
+        }
+      ],
+      "departments": [
+        "Accounting",
+        "Anthropology",
+        "Arabic",
+        "Bangla",
+        "Biochemistry and Molecular Biology",
+        "Botany",
+        "Chemistry",
+        "Computer Science and Engineering",
+        "Economics",
+        "English",
+        "Finance and Banking",
+        "Geography and Environment",
+        "Home Economics",
+        "History",
+        "Islamic History and Culture",
+        "Islamic Studies",
+        "Library and Information Science",
+        "Management",
+        "Marketing",
+        "Mathematics",
+        "Music",
+        "Pali",
+        "Philosophy",
+        "Physics",
+        "Political Science",
+        "Psychology",
+        "Public Administration",
+        "Sanskrit",
+        "Social Work",
+        "Sociology",
+        "Soil Science",
+        "Statistics",
+        "Zoology"
+      ]
+    },
+    "pass": {
+      "label": "Degree Pass",
+      "yearOptions": [
+        {
+          "value": "1",
+          "label": "1st Year"
+        },
+        {
+          "value": "2",
+          "label": "2nd Year"
+        },
+        {
+          "value": "3",
+          "label": "3rd Year"
+        }
+      ],
+      "syllabusVersions": [
+        {
+          "value": "2025-2026-degree",
+          "label": "2025–2026 (Degree Pass)"
+        },
+        {
+          "value": "2024-2025",
+          "label": "2024–2025"
+        },
+        {
+          "value": "2013-2014",
+          "label": "2013–2014 (older syllabus)"
+        }
+      ],
+      "departments": [
+        "Bachelor of Arts (BA)",
+        "Bachelor of Social Science (BSS)",
+        "Bachelor of Business Studies (BBS)",
+        "Bachelor of Science (BSc)",
+        "Accounting",
+        "Economics",
+        "Political Science",
+        "Sociology",
+        "Social Work",
+        "History",
+        "Islamic History and Culture",
+        "Islamic Studies",
+        "Philosophy",
+        "Bangla",
+        "English",
+        "Geography and Environment",
+        "Library and Information Science",
+        "Management",
+        "Marketing",
+        "Finance and Banking"
+      ]
+    },
+    "masters-preliminary": {
+      "label": "Masters Preliminary",
+      "yearOptions": [
+        {
+          "value": "1",
+          "label": "Preliminary"
+        }
+      ],
+      "syllabusVersions": [
+        {
+          "value": "2016-2017",
+          "label": "2016–2017 (official preliminary syllabus)"
+        },
+        {
+          "value": "2013-2014",
+          "label": "2013–2014 (older syllabus archive)"
+        }
+      ],
+      "departments": [
+        "Accounting",
+        "Bangla",
+        "Botany",
+        "Chemistry",
+        "Economics",
+        "English",
+        "Finance and Banking",
+        "Geography and Environment",
+        "History",
+        "Islamic History and Culture",
+        "Islamic Studies",
+        "Management",
+        "Marketing",
+        "Mathematics",
+        "Philosophy",
+        "Physics",
+        "Political Science",
+        "Psychology",
+        "Social Work",
+        "Sociology",
+        "Statistics",
+        "Zoology"
+      ]
+    },
+    "masters-final": {
+      "label": "Masters Final",
+      "yearOptions": [
+        {
+          "value": "1",
+          "label": "Final Year"
+        }
+      ],
+      "syllabusVersions": [
+        {
+          "value": "2016-2017",
+          "label": "2016–2017 (Masters syllabus archive)"
+        },
+        {
+          "value": "2013-2014",
+          "label": "2013–2014 (older syllabus archive)"
+        }
+      ],
+      "departments": [
+        "Accounting",
+        "Bangla",
+        "Botany",
+        "Chemistry",
+        "Economics",
+        "English",
+        "Finance and Banking",
+        "Geography and Environment",
+        "History",
+        "Islamic History and Culture",
+        "Islamic Studies",
+        "Management",
+        "Marketing",
+        "Mathematics",
+        "Philosophy",
+        "Physics",
+        "Political Science",
+        "Psychology",
+        "Social Work",
+        "Sociology",
+        "Statistics",
+        "Zoology"
+      ]
+    }
+  },
   "syllabuses": {
-    "2024-2025|english|1": {
+    "honours|2024-2025|english|1": {
       "syllabusVersion": "2024-2025",
-      "programme": "Honours",
+      "programme": "honours",
       "department": "English",
       "year": 1,
       "sourceLabel": "NU official English Honours 1st Year syllabus PDF",
       "sourceUrl": "https://www.nu.ac.bd/Syllabus/Syllabus_Honours/BA_Honours/English_First_Year_Pub_Date_12112025.pdf",
       "verified": true,
-      "verificationNote": "Course codes, names, and credit values transcribed from the official syllabus listing; check elective choice against the PDF.",
+      "verificationNote": "Course codes, names, and credit values transcribed from the official syllabus document; elective choice should be checked against the PDF.",
       "courses": [
         {
           "code": "211101",
@@ -57,7 +270,8 @@
     }
   },
   "coverage": {
-    "status": "partial",
-    "note": "This initial catalogue is not yet a complete scrape of all NU syllabus documents. Add only course lists extracted from source documents and checked for accuracy."
+    "status": "catalogued_departments_courses_partial",
+    "departmentListsComplete": false,
+    "note": "Programme-level department options are seeded from NU archive and online lecture listings but have not all been individually verified against current admission offerings. Only syllabus entries marked verified and containing courses are auto-loaded; other departments remain selectable but require course-data extraction."
   }
 }
