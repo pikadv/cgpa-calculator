@@ -268,20 +268,25 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     departmentOptions.appendChild(option);
   });
 
-  // Course entries are keyed by syllabus version, normalized department, and year.
-  // Only include course lists that have been checked; never substitute guessed courses.
-  const syllabus = {
-    "2024-2025|english|1": [
-      {code:"211101", name:"English Reading Skills", credits:4},
-      {code:"211103", name:"English Writing Skills", credits:4},
-      {code:"211105", name:"Introduction to Poetry", credits:4},
-      {code:"211107", name:"Introduction to Prose: Fiction and Non-Fiction", credits:4},
-      {code:"211009", name:"Bangla Language and Literature OR Introducing Sociology OR Introduction to Political Science (choose the option on your syllabus)", credits:4},
-      {code:"219901", name:"History of Bangladesh: Language, Culture and Identity", credits:4},
-      {code:"219903", name:"Information and Communication Technology", credits:3},
-      {code:"219904", name:"Lab: Information and Communication Technology", credits:1}
-    ]
-  };
+  // The course catalogue lives in syllabus.json so it can be updated without editing the UI.
+  // The JSON is loaded once from the same GitHub Pages origin.
+  let syllabus = {};
+  let syllabusLoadError = false;
+  const syllabusReady = fetch("./syllabus.json", { cache: "no-cache" })
+    .then(response => {
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    })
+    .then(data => {
+      syllabus = data.syllabuses || {};
+      return true;
+    })
+    .catch(err => {
+      syllabusLoadError = true;
+      console.error("Could not load syllabus.json", err);
+      selectionStatus.textContent = "The syllabus catalogue could not be loaded. You can still add courses manually.";
+      return false;
+    });
 
   function clearError() { error.hidden = true; error.textContent = ""; }
   function resetResults() {
@@ -321,28 +326,33 @@ footer { text-align: center; color: var(--muted); font-size: 11px; padding: 6px 
     courses.appendChild(fragment);
     renumberCourses();
   }
-  function loadSelectedSyllabus() {
+  async function loadSelectedSyllabus() {
     clearError();
     const department = departmentInput.value.trim();
     const year = yearSelect.value;
     const version = syllabusSelect.value;
     const versionLabel = syllabusSelect.options[syllabusSelect.selectedIndex].text;
-    // Clear the previous list whenever any selector changes, so stale courses
-    // from another department/year/version are never left on screen.
     courses.replaceChildren();
     resetResults();
     if (!department) {
       selectionStatus.textContent = "Choose a department, syllabus version, and academic year to load an available subject list. You can also add courses manually.";
       return;
     }
-    const normalizedDepartment = department.toLowerCase().replace(/\s+/g, " ").trim();
+    selectionStatus.textContent = "Loading the syllabus catalogue…";
+    const ready = await syllabusReady;
+    if (!ready || syllabusLoadError) {
+      selectionStatus.textContent = "The syllabus catalogue could not be loaded. You can still add subjects manually.";
+      return;
+    }
+    const normalizedDepartment = department.toLowerCase().replace(/\\s+/g, " ").trim();
     const key = version + "|" + normalizedDepartment + "|" + year;
-    const list = syllabus[key];
-    if (list) {
+    const entry = syllabus[key];
+    const list = entry && entry.courses;
+    if (Array.isArray(list) && list.length) {
       list.forEach(course => addCourse(course));
-      selectionStatus.textContent = `Loaded ${list.length} courses for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Select grades and verify elective choices against your official syllabus.`;
+      selectionStatus.textContent = `Loaded ${list.length} courses for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text}. Source: ${entry.sourceLabel || "syllabus catalogue"}. Verify elective choices against your official syllabus.`;
     } else {
-      selectionStatus.textContent = `No verified course list is connected for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text} yet. Add subjects manually below. A syllabus version is never treated as interchangeable with another, and unknown course lists are not fabricated.`;
+      selectionStatus.textContent = `No verified course list is connected for ${department} · ${versionLabel} · ${yearSelect.options[yearSelect.selectedIndex].text} yet. Add subjects manually below. Unknown course lists are not fabricated.`;
     }
   }
 
