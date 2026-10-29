@@ -120,7 +120,10 @@
     resetResults();
     selectionStatus.textContent = departments.length
       ? `Choose a department for ${config.label}, then select an available academic year and syllabus version. You can add courses manually at any time.`
-      : `No usable course lists are available for ${config.label} yet. You can still add courses manually.`;
+      : ({
+        pass: "I couldn't find a complete course list for Degree Pass. Please add your subjects manually.",
+        "masters-preliminary": "I couldn't find a complete course list for Masters Preliminary. Please add your subjects manually."
+      }[programme] || `No usable course lists are available for ${config.label} yet. You can still add courses manually.`);
   }
 
   function refreshDependentOptions() {

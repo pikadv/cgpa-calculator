@@ -221,6 +221,20 @@
           "Computer Science"
         ]
       }
+    },
+    "pass": {
+      "label": "Degree Pass",
+      "yearOptions": [],
+      "syllabusVersions": [],
+      "departments": [],
+      "departmentGroups": {}
+    },
+    "masters-preliminary": {
+      "label": "Masters Preliminary",
+      "yearOptions": [],
+      "syllabusVersions": [],
+      "departments": [],
+      "departmentGroups": {}
     }
   },
   "syllabuses": {
