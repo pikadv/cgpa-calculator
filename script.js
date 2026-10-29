@@ -53,7 +53,9 @@
     options.forEach(item => {
       const option = document.createElement("option");
       option.value = String(item.value);
-      option.textContent = item.label;
+      const value = String(item.value);
+      const showsSemester = select === yearSelect && /^\d+$/.test(value) && !/semester/i.test(item.label);
+      option.textContent = showsSemester ? `${item.label} / Semester ${value}` : item.label;
       select.appendChild(option);
     });
   }
@@ -127,7 +129,7 @@
       : entries;
     const matchingYears = new Set(yearEntries.map(entry => String(entry.year)));
     const yearOptions = availableOptions(config.yearOptions, matchingYears);
-    fillSelect(yearSelect, yearOptions, "Choose a year");
+    fillSelect(yearSelect, yearOptions, "Choose a year / semester");
     yearSelect.value = yearOptions.some(option => String(option.value) === previousYear)
       ? previousYear : "";
 
@@ -146,7 +148,7 @@
       showManualEntryNotice(manualEntryNotices[programme]);
     } else {
       selectionStatus.textContent = departments.length
-        ? `Choose a department for ${config.label}, then select an available academic year and syllabus version. You can add courses manually at any time.`
+        ? `Choose a department for ${config.label}, then select an available year/semester and syllabus version. You can add courses manually at any time.`
         : `No usable course lists are available for ${config.label} yet. You can still add courses manually.`;
     }
   }
@@ -166,7 +168,7 @@
       : entries;
     const matchingYears = new Set(yearEntries.map(entry => String(entry.year)));
     const yearOptions = availableOptions(config.yearOptions, matchingYears);
-    fillSelect(yearSelect, yearOptions, "Choose a year");
+    fillSelect(yearSelect, yearOptions, "Choose a year / semester");
     yearSelect.value = yearOptions.some(option => String(option.value) === oldYear)
       ? oldYear : "";
 
@@ -371,12 +373,12 @@
     activeOptionEntry = null;
     activeOptionEntryKey = "";
     if (!department) {
-      selectionStatus.textContent = `Choose a department for ${programmeLabel}, then choose the academic year and syllabus version.`;
+      selectionStatus.textContent = `Choose a department for ${programmeLabel}, then choose the year/semester and syllabus version.`;
       return;
     }
     if (!year || !version) {
       selectionStatus.textContent = !year
-        ? "Choose an academic year to continue. You can still add courses manually."
+        ? "Choose a year/semester to continue. You can still add courses manually."
         : "Choose a syllabus version to continue. You can still add courses manually.";
       return;
     }
@@ -427,7 +429,7 @@
     }
   }
 
-  // Selector order: programme -> department -> academic year -> syllabus version -> subjects.
+  // Selector order: programme -> department -> year/semester -> syllabus version -> subjects.
   programmeSelect.addEventListener("change", configureProgrammeOptions);
   departmentInput.addEventListener("change", () => {
     refreshDependentOptions();
@@ -442,7 +444,7 @@
   addOne.addEventListener("click", () => addCourse());
   reset.addEventListener("click", () => {
     courses.replaceChildren(); resetResults(); clearError();
-    selectionStatus.textContent = "Courses cleared. Choose a department, syllabus version, and academic year to load an available list, or add courses manually.";
+    selectionStatus.textContent = "Courses cleared. Choose a department, syllabus version, and year/semester to load an available list, or add courses manually.";
   });
 
   form.addEventListener("submit", event => {
