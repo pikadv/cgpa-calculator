@@ -20,6 +20,26 @@
   let activeOptionEntry = null;
   let activeOptionEntryKey = "";
 
+  const manualEntryOnlyProgrammes = new Set(["pass", "masters-preliminary"]);
+  const manualEntryNotices = {
+    pass: "I couldn't find a complete course list for Degree Pass. Please add your subjects manually.",
+    "masters-preliminary": "I couldn't find a complete course list for Masters Preliminary. Please add your subjects manually."
+  };
+  function setCatalogueSelectorsDisabled(disabled) {
+    departmentInput.disabled = disabled;
+    yearSelect.disabled = disabled;
+    syllabusSelect.disabled = disabled;
+  }
+  function showManualEntryNotice(message) {
+    selectionStatus.classList.add("selection-status-manual-note");
+    const list = document.createElement("ul");
+    list.className = "selection-status-list";
+    const item = document.createElement("li");
+    item.textContent = message;
+    list.appendChild(item);
+    selectionStatus.replaceChildren(list);
+  }
+
   function fillSelect(select, options, placeholder) {
     select.replaceChildren();
     if (placeholder) {
@@ -59,6 +79,10 @@
     const programme = programmeSelect.value;
     const config = catalogue.programmes && catalogue.programmes[programme];
     if (!config) return;
+
+    const manualEntryOnly = manualEntryOnlyProgrammes.has(programme);
+    setCatalogueSelectorsDisabled(manualEntryOnly);
+    selectionStatus.classList.remove("selection-status-manual-note");
 
     const previousDepartment = departmentInput.value;
     const previousYear = yearSelect.value;
@@ -118,18 +142,20 @@
 
     courses.replaceChildren();
     resetResults();
-    selectionStatus.textContent = departments.length
-      ? `Choose a department for ${config.label}, then select an available academic year and syllabus version. You can add courses manually at any time.`
-      : ({
-        pass: "I couldn't find a complete course list for Degree Pass. Please add your subjects manually.",
-        "masters-preliminary": "I couldn't find a complete course list for Masters Preliminary. Please add your subjects manually."
-      }[programme] || `No usable course lists are available for ${config.label} yet. You can still add courses manually.`);
+    if (manualEntryOnly) {
+      showManualEntryNotice(manualEntryNotices[programme]);
+    } else {
+      selectionStatus.textContent = departments.length
+        ? `Choose a department for ${config.label}, then select an available academic year and syllabus version. You can add courses manually at any time.`
+        : `No usable course lists are available for ${config.label} yet. You can still add courses manually.`;
+    }
   }
 
   function refreshDependentOptions() {
     const programme = programmeSelect.value;
     const config = catalogue.programmes && catalogue.programmes[programme];
     if (!config) return;
+    setCatalogueSelectorsDisabled(manualEntryOnlyProgrammes.has(programme));
     const department = departmentInput.value;
     const oldYear = yearSelect.value;
     const oldVersion = syllabusSelect.value;
