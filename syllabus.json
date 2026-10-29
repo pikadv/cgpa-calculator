@@ -179,31 +179,29 @@
         "Marketing",
         "Finance and Banking",
         "Computer Science",
-        "Psychology",
-        "English"
+        "Psychology"
       ],
       "departmentGroups": {
         "Business Administration": [
-          "Accounting",
-          "Management",
+          "Finance and Banking",
           "Marketing",
-          "Finance and Banking"
+          "Management",
+          "Accounting"
         ],
         "Arts": [
-          "History",
-          "Islamic History and Culture",
-          "Islamic Studies",
-          "Philosophy",
-          "Bangla",
           "English",
-          "English"
+          "Bangla",
+          "Philosophy",
+          "Islamic Studies",
+          "Islamic History and Culture",
+          "History"
         ],
         "Social Science": [
-          "Economics",
-          "Political Science",
-          "Sociology",
+          "Psychology",
           "Social Work",
-          "Psychology"
+          "Sociology",
+          "Political Science",
+          "Economics"
         ],
         "Life & Earth Science": [
           "Geography and Environment"
@@ -212,10 +210,10 @@
           "Library and Information Science"
         ],
         "Other / Interdisciplinary": [
-          "Bachelor of Arts (BA)",
-          "Bachelor of Social Science (BSS)",
+          "Bachelor of Science (BSc)",
           "Bachelor of Business Studies (BBS)",
-          "Bachelor of Science (BSc)"
+          "Bachelor of Social Science (BSS)",
+          "Bachelor of Arts (BA)"
         ],
         "Science": [
           "Computer Science"
