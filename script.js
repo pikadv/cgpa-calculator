@@ -33,7 +33,7 @@
   }
 
   function usableEntries(programme, department, year, version) {
-    const normalizedDepartment = department?.toLowerCase().replace(/\\s+/g, " ").trim();
+    const normalizedDepartment = department?.toLowerCase().replace(/\s+/g, " ").trim();
     return Object.entries(syllabus).filter(([key, entry]) => {
       if (!entry || !Array.isArray(entry.courses) || entry.courses.length === 0) return false;
       const [entryProgramme, entryVersion, entryDepartment, entryYear] = key.split("|");
@@ -66,7 +66,7 @@
         : [];
     }));
     departments = (config.departments || []).filter(name =>
-      matchingDepartments.has(name.toLowerCase().replace(/\\s+/g, " ").trim())
+      matchingDepartments.has(name.toLowerCase().replace(/\s+/g, " ").trim())
     );
 
     departmentInput.replaceChildren();
@@ -248,7 +248,7 @@
     const entry = syllabus[key];
     let list = entry && Array.isArray(entry.courses) ? entry.courses.slice() : [];
     const artsDepartments = (programmeConfig?.departmentGroups?.Arts || []).map(name =>
-      name.toLowerCase().replace(/\\s+/g, " ").trim()
+      name.toLowerCase().replace(/\s+/g, " ").trim()
     );
     if (artsDepartments.includes(normalizedDepartment)) {
       const sharedCourseKeys = {
