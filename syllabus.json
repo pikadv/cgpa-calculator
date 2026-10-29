@@ -12538,27 +12538,11 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "transcribed-from-worker-reference-site",
-      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
-      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
-      "courses": [
-        {
-          "code": "111501",
-          "name": "History of the Emergence of Independent Bangladesh",
-          "credits": 4
-        },
-        {
-          "code": "111101",
-          "name": "English (Compulsory)",
-          "credits": 4
-        },
-        {
-          "code": "112001",
-          "name": "Sociology-I",
-          "credits": 4
-        }
-      ],
-      "verificationNote": "Course codes, titles, year placements, and credits transcribed from the workers.dev B.A. (Pass) catalogue. Elective Subject entries remain generic because the source page does not name their subject options.",
+      "status": "pdf-not-yet-transcribed",
+      "sourceLabel": "Official NU Other / Interdisciplinary syllabus archive; course rows not yet extracted",
+      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
+      "courses": [],
+      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
       "departmentCategory": "Other / Interdisciplinary"
     },
     "pass|2024-2025|bachelor of arts (ba)|2": {
@@ -12932,11 +12916,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "111101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Sociology-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2024-2025|history|2": {
@@ -12974,11 +12974,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "111101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Sociology-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2024-2025|islamic history and culture|2": {
@@ -13016,11 +13032,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "111101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Sociology-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2024-2025|islamic studies|2": {
@@ -13058,11 +13090,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "111101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Sociology-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2024-2025|philosophy|2": {
@@ -13100,11 +13148,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "111101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Sociology-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2024-2025|bangla|2": {
@@ -13142,11 +13206,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "111101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Sociology-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2024-2025|english|2": {
@@ -13226,11 +13306,27 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Library & Information Science syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2024-2025)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree-pass-course/2024-2025/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "111101",
+          "name": "English (Compulsory)",
+          "credits": 4
+        },
+        {
+          "code": "112001",
+          "name": "Sociology-I",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Library & Information Science"
     },
     "pass|2024-2025|library and information science|2": {
@@ -13394,47 +13490,11 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "transcribed-from-worker-reference-site",
-      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
-      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
-      "courses": [
-        {
-          "code": "111501",
-          "name": "History of the Emergence of Independent Bangladesh",
-          "credits": 4
-        },
-        {
-          "code": "110001",
-          "name": "Elective Subject 1 - Paper I",
-          "credits": 4
-        },
-        {
-          "code": "110002",
-          "name": "Elective Subject 1 - Paper II",
-          "credits": 4
-        },
-        {
-          "code": "110003",
-          "name": "Elective Subject 2 - Paper I",
-          "credits": 4
-        },
-        {
-          "code": "110004",
-          "name": "Elective Subject 2 - Paper II",
-          "credits": 4
-        },
-        {
-          "code": "110005",
-          "name": "Elective Subject 3 - Paper I",
-          "credits": 4
-        },
-        {
-          "code": "110006",
-          "name": "Elective Subject 3 - Paper II",
-          "credits": 4
-        }
-      ],
-      "verificationNote": "Course codes, titles, year placements, and credits transcribed from the workers.dev B.A. (Pass) catalogue. Elective Subject entries remain generic because the source page does not name their subject options.",
+      "status": "pdf-not-yet-transcribed",
+      "sourceLabel": "Official NU Other / Interdisciplinary syllabus archive; course rows not yet extracted",
+      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
+      "courses": [],
+      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
       "departmentCategory": "Other / Interdisciplinary"
     },
     "pass|2013-2014|bachelor of arts (ba)|2": {
@@ -13444,53 +13504,11 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "transcribed-from-worker-reference-site",
-      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
-      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
-      "courses": [
-        {
-          "code": "121101",
-          "name": "English (Compulsory)",
-          "credits": 0,
-          "nonCredit": true
-        },
-        {
-          "code": "120000",
-          "name": "IT / General Knowledge / Compulsory",
-          "credits": 4
-        },
-        {
-          "code": "120001",
-          "name": "Elective Subject 1 - Paper III",
-          "credits": 4
-        },
-        {
-          "code": "120002",
-          "name": "Elective Subject 1 - Paper IV",
-          "credits": 4
-        },
-        {
-          "code": "120003",
-          "name": "Elective Subject 2 - Paper III",
-          "credits": 4
-        },
-        {
-          "code": "120004",
-          "name": "Elective Subject 2 - Paper IV",
-          "credits": 4
-        },
-        {
-          "code": "120005",
-          "name": "Elective Subject 3 - Paper III",
-          "credits": 4
-        },
-        {
-          "code": "120006",
-          "name": "Elective Subject 3 - Paper IV",
-          "credits": 4
-        }
-      ],
-      "verificationNote": "Course codes, titles, year placements, and credits transcribed from the workers.dev B.A. (Pass) catalogue. Elective Subject entries remain generic because the source page does not name their subject options.",
+      "status": "pdf-not-yet-transcribed",
+      "sourceLabel": "Official NU Other / Interdisciplinary syllabus archive; course rows not yet extracted",
+      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
+      "courses": [],
+      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
       "departmentCategory": "Other / Interdisciplinary"
     },
     "pass|2013-2014|bachelor of arts (ba)|3": {
@@ -13500,47 +13518,11 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "transcribed-from-worker-reference-site",
-      "sourceLabel": "NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
-      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
-      "courses": [
-        {
-          "code": "131001",
-          "name": "Bengali National Language",
-          "credits": 4
-        },
-        {
-          "code": "130001",
-          "name": "Elective Subject 1 - Paper V",
-          "credits": 4
-        },
-        {
-          "code": "130002",
-          "name": "Elective Subject 1 - Paper VI",
-          "credits": 4
-        },
-        {
-          "code": "130003",
-          "name": "Elective Subject 2 - Paper V",
-          "credits": 4
-        },
-        {
-          "code": "130004",
-          "name": "Elective Subject 2 - Paper VI",
-          "credits": 4
-        },
-        {
-          "code": "130005",
-          "name": "Elective Subject 3 - Paper V",
-          "credits": 4
-        },
-        {
-          "code": "130006",
-          "name": "Elective Subject 3 - Paper VI",
-          "credits": 4
-        }
-      ],
-      "verificationNote": "Course codes, titles, year placements, and credits transcribed from the workers.dev B.A. (Pass) catalogue. Elective Subject entries remain generic because the source page does not name their subject options.",
+      "status": "pdf-not-yet-transcribed",
+      "sourceLabel": "Official NU Other / Interdisciplinary syllabus archive; course rows not yet extracted",
+      "sourceUrl": "https://www.nu.ac.bd/syllabus.php",
+      "courses": [],
+      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
       "departmentCategory": "Other / Interdisciplinary"
     },
     "pass|2013-2014|bachelor of social science (bss)|1": {
@@ -14080,10 +14062,10 @@
       "department": "History",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "111503",
@@ -14094,9 +14076,44 @@
           "code": "111505",
           "name": "History of South Asia (1526-1765)",
           "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "110001",
+          "name": "Elective Subject 1 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110002",
+          "name": "Elective Subject 1 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110003",
+          "name": "Elective Subject 2 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110004",
+          "name": "Elective Subject 2 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110005",
+          "name": "Elective Subject 3 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110006",
+          "name": "Elective Subject 3 - Paper II",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|history|2": {
@@ -14105,10 +14122,10 @@
       "department": "History",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "121501",
@@ -14119,9 +14136,50 @@
           "code": "121503",
           "name": "History of South Asia (1765-1947)",
           "credits": 4
+        },
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        },
+        {
+          "code": "120000",
+          "name": "IT / General Knowledge / Compulsory",
+          "credits": 4
+        },
+        {
+          "code": "120001",
+          "name": "Elective Subject 1 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120002",
+          "name": "Elective Subject 1 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120003",
+          "name": "Elective Subject 2 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120004",
+          "name": "Elective Subject 2 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120005",
+          "name": "Elective Subject 3 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120006",
+          "name": "Elective Subject 3 - Paper IV",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|history|3": {
@@ -14130,10 +14188,10 @@
       "department": "History",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (History.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "131501",
@@ -14144,9 +14202,44 @@
           "code": "131503",
           "name": "History of Islam upto 1258 (Excluding South Asia & Spain)",
           "credits": 4
+        },
+        {
+          "code": "131001",
+          "name": "Bengali National Language",
+          "credits": 4
+        },
+        {
+          "code": "130001",
+          "name": "Elective Subject 1 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130002",
+          "name": "Elective Subject 1 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130003",
+          "name": "Elective Subject 2 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130004",
+          "name": "Elective Subject 2 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130005",
+          "name": "Elective Subject 3 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130006",
+          "name": "Elective Subject 3 - Paper VI",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic history and culture|1": {
@@ -14155,10 +14248,10 @@
       "department": "Islamic History and Culture",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "111601",
@@ -14169,9 +14262,44 @@
           "code": "111603",
           "name": "Political and Cultural History of Islam (750-1258 A.D)",
           "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "110001",
+          "name": "Elective Subject 1 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110002",
+          "name": "Elective Subject 1 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110003",
+          "name": "Elective Subject 2 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110004",
+          "name": "Elective Subject 2 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110005",
+          "name": "Elective Subject 3 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110006",
+          "name": "Elective Subject 3 - Paper II",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic history and culture|2": {
@@ -14180,10 +14308,10 @@
       "department": "Islamic History and Culture",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "121601",
@@ -14194,9 +14322,50 @@
           "code": "121603",
           "name": "History of the Muslims in India (1526-1858 A.D)",
           "credits": 4
+        },
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        },
+        {
+          "code": "120000",
+          "name": "IT / General Knowledge / Compulsory",
+          "credits": 4
+        },
+        {
+          "code": "120001",
+          "name": "Elective Subject 1 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120002",
+          "name": "Elective Subject 1 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120003",
+          "name": "Elective Subject 2 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120004",
+          "name": "Elective Subject 2 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120005",
+          "name": "Elective Subject 3 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120006",
+          "name": "Elective Subject 3 - Paper IV",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic history and culture|3": {
@@ -14205,10 +14374,10 @@
       "department": "Islamic History and Culture",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic History & Culture 24.03.19.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "131601",
@@ -14219,9 +14388,44 @@
           "code": "131603",
           "name": "History of the Middle East (1258-1800 A. D)",
           "credits": 4
+        },
+        {
+          "code": "131001",
+          "name": "Bengali National Language",
+          "credits": 4
+        },
+        {
+          "code": "130001",
+          "name": "Elective Subject 1 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130002",
+          "name": "Elective Subject 1 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130003",
+          "name": "Elective Subject 2 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130004",
+          "name": "Elective Subject 2 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130005",
+          "name": "Elective Subject 3 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130006",
+          "name": "Elective Subject 3 - Paper VI",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic studies|1": {
@@ -14230,10 +14434,10 @@
       "department": "Islamic Studies",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "111801",
@@ -14244,9 +14448,44 @@
           "code": "111803",
           "name": "Al-Kalam",
           "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "110001",
+          "name": "Elective Subject 1 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110002",
+          "name": "Elective Subject 1 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110003",
+          "name": "Elective Subject 2 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110004",
+          "name": "Elective Subject 2 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110005",
+          "name": "Elective Subject 3 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110006",
+          "name": "Elective Subject 3 - Paper II",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic studies|2": {
@@ -14255,10 +14494,10 @@
       "department": "Islamic Studies",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "121801",
@@ -14269,9 +14508,50 @@
           "code": "121803",
           "name": "Study of Al-Fiqh",
           "credits": 4
+        },
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        },
+        {
+          "code": "120000",
+          "name": "IT / General Knowledge / Compulsory",
+          "credits": 4
+        },
+        {
+          "code": "120001",
+          "name": "Elective Subject 1 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120002",
+          "name": "Elective Subject 1 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120003",
+          "name": "Elective Subject 2 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120004",
+          "name": "Elective Subject 2 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120005",
+          "name": "Elective Subject 3 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120006",
+          "name": "Elective Subject 3 - Paper IV",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|islamic studies|3": {
@@ -14280,10 +14560,10 @@
       "department": "Islamic Studies",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Islamic Studies.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "131801",
@@ -14294,9 +14574,44 @@
           "code": "131803",
           "name": "A) Economic System and Banking in Islam B) Arabic Literature C) Islamic Civilization",
           "credits": 4
+        },
+        {
+          "code": "131001",
+          "name": "Bengali National Language",
+          "credits": 4
+        },
+        {
+          "code": "130001",
+          "name": "Elective Subject 1 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130002",
+          "name": "Elective Subject 1 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130003",
+          "name": "Elective Subject 2 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130004",
+          "name": "Elective Subject 2 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130005",
+          "name": "Elective Subject 3 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130006",
+          "name": "Elective Subject 3 - Paper VI",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|philosophy|1": {
@@ -14305,10 +14620,10 @@
       "department": "Philosophy",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "111701",
@@ -14319,9 +14634,44 @@
           "code": "111703",
           "name": "Ethics",
           "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "110001",
+          "name": "Elective Subject 1 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110002",
+          "name": "Elective Subject 1 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110003",
+          "name": "Elective Subject 2 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110004",
+          "name": "Elective Subject 2 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110005",
+          "name": "Elective Subject 3 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110006",
+          "name": "Elective Subject 3 - Paper II",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|philosophy|2": {
@@ -14330,10 +14680,10 @@
       "department": "Philosophy",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "121701",
@@ -14344,9 +14694,50 @@
           "code": "121703",
           "name": "Indian Philosophy",
           "credits": 4
+        },
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        },
+        {
+          "code": "120000",
+          "name": "IT / General Knowledge / Compulsory",
+          "credits": 4
+        },
+        {
+          "code": "120001",
+          "name": "Elective Subject 1 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120002",
+          "name": "Elective Subject 1 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120003",
+          "name": "Elective Subject 2 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120004",
+          "name": "Elective Subject 2 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120005",
+          "name": "Elective Subject 3 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120006",
+          "name": "Elective Subject 3 - Paper IV",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|philosophy|3": {
@@ -14355,10 +14746,10 @@
       "department": "Philosophy",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Philosophy.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "131701",
@@ -14369,9 +14760,44 @@
           "code": "131703",
           "name": "General Logic",
           "credits": 4
+        },
+        {
+          "code": "131001",
+          "name": "Bengali National Language",
+          "credits": 4
+        },
+        {
+          "code": "130001",
+          "name": "Elective Subject 1 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130002",
+          "name": "Elective Subject 1 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130003",
+          "name": "Elective Subject 2 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130004",
+          "name": "Elective Subject 2 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130005",
+          "name": "Elective Subject 3 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130006",
+          "name": "Elective Subject 3 - Paper VI",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|bangla|1": {
@@ -14381,11 +14807,47 @@
       "year": 1,
       "yearLabel": "1st Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
+      "courses": [
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "110001",
+          "name": "Elective Subject 1 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110002",
+          "name": "Elective Subject 1 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110003",
+          "name": "Elective Subject 2 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110004",
+          "name": "Elective Subject 2 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110005",
+          "name": "Elective Subject 3 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110006",
+          "name": "Elective Subject 3 - Paper II",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2013-2014|bangla|2": {
@@ -14395,11 +14857,53 @@
       "year": 2,
       "yearLabel": "2nd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
+      "courses": [
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        },
+        {
+          "code": "120000",
+          "name": "IT / General Knowledge / Compulsory",
+          "credits": 4
+        },
+        {
+          "code": "120001",
+          "name": "Elective Subject 1 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120002",
+          "name": "Elective Subject 1 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120003",
+          "name": "Elective Subject 2 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120004",
+          "name": "Elective Subject 2 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120005",
+          "name": "Elective Subject 3 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120006",
+          "name": "Elective Subject 3 - Paper IV",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2013-2014|bangla|3": {
@@ -14409,11 +14913,47 @@
       "year": 3,
       "yearLabel": "3rd Year",
       "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted; NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
+      "courses": [
+        {
+          "code": "131001",
+          "name": "Bengali National Language",
+          "credits": 4
+        },
+        {
+          "code": "130001",
+          "name": "Elective Subject 1 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130002",
+          "name": "Elective Subject 1 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130003",
+          "name": "Elective Subject 2 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130004",
+          "name": "Elective Subject 2 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130005",
+          "name": "Elective Subject 3 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130006",
+          "name": "Elective Subject 3 - Paper VI",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Arts"
     },
     "pass|2013-2014|english|1": {
@@ -14422,10 +14962,10 @@
       "department": "English",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "111101",
@@ -14436,9 +14976,44 @@
           "code": "111103",
           "name": "Drama",
           "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "110001",
+          "name": "Elective Subject 1 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110002",
+          "name": "Elective Subject 1 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110003",
+          "name": "Elective Subject 2 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110004",
+          "name": "Elective Subject 2 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110005",
+          "name": "Elective Subject 3 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110006",
+          "name": "Elective Subject 3 - Paper II",
+          "credits": 4
         }
       ],
-      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|english|2": {
@@ -14447,10 +15022,10 @@
       "department": "English",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "121105",
@@ -14461,9 +15036,50 @@
           "code": "121107",
           "name": "Short Story",
           "credits": 4
+        },
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        },
+        {
+          "code": "120000",
+          "name": "IT / General Knowledge / Compulsory",
+          "credits": 4
+        },
+        {
+          "code": "120001",
+          "name": "Elective Subject 1 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120002",
+          "name": "Elective Subject 1 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120003",
+          "name": "Elective Subject 2 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120004",
+          "name": "Elective Subject 2 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120005",
+          "name": "Elective Subject 3 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120006",
+          "name": "Elective Subject 3 - Paper IV",
+          "credits": 4
         }
       ],
-      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|english|3": {
@@ -14472,10 +15088,10 @@
       "department": "English",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "131101",
@@ -14486,9 +15102,44 @@
           "code": "131103",
           "name": "Literary Criticism and Literary Theory",
           "credits": 4
+        },
+        {
+          "code": "131001",
+          "name": "Bengali National Language",
+          "credits": 4
+        },
+        {
+          "code": "130001",
+          "name": "Elective Subject 1 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130002",
+          "name": "Elective Subject 1 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130003",
+          "name": "Elective Subject 2 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130004",
+          "name": "Elective Subject 2 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130005",
+          "name": "Elective Subject 3 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130006",
+          "name": "Elective Subject 3 - Paper VI",
+          "credits": 4
         }
       ],
-      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|geography and environment|1": {
@@ -14577,10 +15228,10 @@
       "department": "Library and Information Science",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "113801",
@@ -14591,9 +15242,44 @@
           "code": "113803",
           "name": "Documentation and Information Retrieval",
           "credits": 4
+        },
+        {
+          "code": "111501",
+          "name": "History of the Emergence of Independent Bangladesh",
+          "credits": 4
+        },
+        {
+          "code": "110001",
+          "name": "Elective Subject 1 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110002",
+          "name": "Elective Subject 1 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110003",
+          "name": "Elective Subject 2 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110004",
+          "name": "Elective Subject 2 - Paper II",
+          "credits": 4
+        },
+        {
+          "code": "110005",
+          "name": "Elective Subject 3 - Paper I",
+          "credits": 4
+        },
+        {
+          "code": "110006",
+          "name": "Elective Subject 3 - Paper II",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|library and information science|2": {
@@ -14602,10 +15288,10 @@
       "department": "Library and Information Science",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "123801",
@@ -14616,9 +15302,50 @@
           "code": "123803",
           "name": "Application of ICT in Libraries & Information centres",
           "credits": 4
+        },
+        {
+          "code": "121101",
+          "name": "English (Compulsory)",
+          "credits": 0,
+          "nonCredit": true
+        },
+        {
+          "code": "120000",
+          "name": "IT / General Knowledge / Compulsory",
+          "credits": 4
+        },
+        {
+          "code": "120001",
+          "name": "Elective Subject 1 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120002",
+          "name": "Elective Subject 1 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120003",
+          "name": "Elective Subject 2 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120004",
+          "name": "Elective Subject 2 - Paper IV",
+          "credits": 4
+        },
+        {
+          "code": "120005",
+          "name": "Elective Subject 3 - Paper III",
+          "credits": 4
+        },
+        {
+          "code": "120006",
+          "name": "Elective Subject 3 - Paper IV",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|library and information science|3": {
@@ -14627,10 +15354,10 @@
       "department": "Library and Information Science",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc)",
-      "sourceUrl": "",
+      "verified": false,
+      "status": "merged-worker-reference-catalogue",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (Library and Information Science.doc); NU CGPA Calculator workers.dev B.A. (Pass) catalogue (2013-2014)",
+      "sourceUrl": "https://app.nucgpa.workers.dev/degree/2013-2014/ba-pass",
       "courses": [
         {
           "code": "133801",
@@ -14641,9 +15368,44 @@
           "code": "133802",
           "name": "Practical Organization of Knowledge Cataloguing & Classification Application of ICT in Libraries & Viva",
           "credits": 4
+        },
+        {
+          "code": "131001",
+          "name": "Bengali National Language",
+          "credits": 4
+        },
+        {
+          "code": "130001",
+          "name": "Elective Subject 1 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130002",
+          "name": "Elective Subject 1 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130003",
+          "name": "Elective Subject 2 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130004",
+          "name": "Elective Subject 2 - Paper VI",
+          "credits": 4
+        },
+        {
+          "code": "130005",
+          "name": "Elective Subject 3 - Paper V",
+          "credits": 4
+        },
+        {
+          "code": "130006",
+          "name": "Elective Subject 3 - Paper VI",
+          "credits": 4
         }
       ],
-      "verificationNote": "Transcribed from the course-content and marks-distribution table in the user-uploaded Degree Pass syllabus ZIP. Some legacy tables contain alternatives, split rows, or compulsory subjects in separate documents; verify the course list against the original syllabus and remove options not taken.",
+      "verificationNote": "Existing department-specific entries were preserved; common and generic elective papers were appended from the workers.dev B.A. (Pass) catalogue. The source does not name the elective subject options, so they remain generic.",
       "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|management|1": {
