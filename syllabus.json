@@ -180,9 +180,7 @@
         "Finance and Banking",
         "Computer Science",
         "Psychology",
-        "English (Elective)",
-        "English (Compulsory)",
-        "Bangla National Language (Compulsory)"
+        "English"
       ],
       "departmentGroups": {
         "Business Administration": [
@@ -198,9 +196,7 @@
           "Philosophy",
           "Bangla",
           "English",
-          "English (Elective)",
-          "English (Compulsory)",
-          "Bangla National Language (Compulsory)"
+          "English"
         ],
         "Social Science": [
           "Economics",
@@ -12550,13 +12546,24 @@
       "department": "English",
       "year": 1,
       "yearLabel": "1st Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "111101",
+          "name": "Poetry",
+          "credits": 4
+        },
+        {
+          "code": "111103",
+          "name": "Drama",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|english|2": {
       "syllabusVersion": "2013-2014",
@@ -12564,13 +12571,24 @@
       "department": "English",
       "year": 2,
       "yearLabel": "2nd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "121105",
+          "name": "Non-Fiction Prose",
+          "credits": 4
+        },
+        {
+          "code": "121107",
+          "name": "Short Story",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|english|3": {
       "syllabusVersion": "2013-2014",
@@ -12578,13 +12596,24 @@
       "department": "English",
       "year": 3,
       "yearLabel": "3rd Year",
-      "verified": false,
-      "status": "pdf-not-yet-transcribed",
-      "sourceLabel": "Official NU Arts syllabus archive; course rows not yet extracted",
-      "sourceUrl": "https://www.nu.ac.bd/syllabus-Bachelor-of-Arts-Honours.php",
-      "courses": [],
-      "verificationNote": "Official archive link recorded. Course names, codes, and credits are not loaded until an individual PDF's table can be transcribed; do not treat this record as verified.",
-      "departmentCategory": "Arts"
+      "verified": true,
+      "status": "transcribed-from-user-uploaded-documents",
+      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
+      "sourceUrl": "",
+      "courses": [
+        {
+          "code": "131101",
+          "name": "Novel",
+          "credits": 4
+        },
+        {
+          "code": "131103",
+          "name": "Literary Criticism and Literary Theory",
+          "credits": 4
+        }
+      ],
+      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
+      "departmentCategory": "Degree Pass"
     },
     "pass|2013-2014|geography and environment|1": {
       "syllabusVersion": "2013-2014",
@@ -18054,81 +18083,6 @@
         {
           "code": "133404",
           "name": "Practical (4 experiments + 2 tests)",
-          "credits": 4
-        }
-      ],
-      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
-      "departmentCategory": "Degree Pass"
-    },
-    "pass|2013-2014|english (elective)|1": {
-      "syllabusVersion": "2013-2014",
-      "programme": "pass",
-      "department": "English (Elective)",
-      "year": 1,
-      "yearLabel": "1st Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
-      "sourceUrl": "",
-      "courses": [
-        {
-          "code": "111101",
-          "name": "Poetry",
-          "credits": 4
-        },
-        {
-          "code": "111103",
-          "name": "Drama",
-          "credits": 4
-        }
-      ],
-      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
-      "departmentCategory": "Degree Pass"
-    },
-    "pass|2013-2014|english (elective)|2": {
-      "syllabusVersion": "2013-2014",
-      "programme": "pass",
-      "department": "English (Elective)",
-      "year": 2,
-      "yearLabel": "2nd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
-      "sourceUrl": "",
-      "courses": [
-        {
-          "code": "121105",
-          "name": "Non-Fiction Prose",
-          "credits": 4
-        },
-        {
-          "code": "121107",
-          "name": "Short Story",
-          "credits": 4
-        }
-      ],
-      "verificationNote": "Course content and marks-distribution table transcribed from the uploaded Word document. Confirm the selected papers against the original syllabus and the student's actual course combination.",
-      "departmentCategory": "Degree Pass"
-    },
-    "pass|2013-2014|english (elective)|3": {
-      "syllabusVersion": "2013-2014",
-      "programme": "pass",
-      "department": "English (Elective)",
-      "year": 3,
-      "yearLabel": "3rd Year",
-      "verified": true,
-      "status": "transcribed-from-user-uploaded-documents",
-      "sourceLabel": "National University Degree Pass syllabus, session 2013–2014 (English (Elective).doc)",
-      "sourceUrl": "",
-      "courses": [
-        {
-          "code": "131101",
-          "name": "Novel",
-          "credits": 4
-        },
-        {
-          "code": "131103",
-          "name": "Literary Criticism and Literary Theory",
           "credits": 4
         }
       ],
